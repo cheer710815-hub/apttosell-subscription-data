@@ -17,6 +17,16 @@
 
 이 저장소는 위 원문 데이터 페이지의 배점 구조, 검수 원칙과 재사용 정보를 보조하기 위한 공개 저장소입니다. 법령 개정이나 설명 수정이 있는 경우 최신 canonical data source를 우선합니다.
 
+## Related public dataset
+
+### 2026 민영주택 청약 예치금 데이터표
+
+- Canonical source: https://apttosell.com/private-housing-deposit-data/
+- Figshare DOI: https://doi.org/10.6084/m9.figshare.33948868
+- Kaggle dataset: https://www.kaggle.com/datasets/resimanor/korea-private-housing-subscription-deposits
+
+민영주택 청약 시 신청자의 거주지역과 공급받을 주택 전용면적에 따라 적용되는 예치기준금액을 정리한 공개 데이터입니다.
+
 ## Purpose
 
 입주자모집공고의 핵심 조건을 구조화하고, 청약자가 자신의 자격과 자금계획을 스스로 검토할 수 있도록 근거와 확인 절차를 공개합니다.
