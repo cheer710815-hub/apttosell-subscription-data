@@ -17,7 +17,14 @@
 
 이 저장소는 위 원문 데이터 페이지의 배점 구조, 검수 원칙과 재사용 정보를 보조하기 위한 공개 저장소입니다. 법령 개정이나 설명 수정이 있는 경우 최신 canonical data source를 우선합니다.
 
-## Related public dataset
+## Related public datasets
+
+### South Korea Housing Subscription Rules 2026
+
+- Canonical source: https://apttosell.com/housing-subscription-data/
+- Kaggle dataset: https://www.kaggle.com/datasets/resimanor/south-korea-housing-subscription-rules-2026
+
+청약 공고, 자격, 가점, 예치금, 특별공급과 자금계획 등 2026년 주택청약 규칙을 한곳에서 확인할 수 있도록 연결한 공개 데이터입니다.
 
 ### 2026 민영주택 청약 예치금 데이터표
 
