@@ -13,6 +13,7 @@
 - Zenodo DOI: https://doi.org/10.5281/zenodo.22842058
 - Zenodo concept DOI: https://doi.org/10.5281/zenodo.22842057
 - Figshare DOI: https://doi.org/10.6084/m9.figshare.33948556
+- Harvard Dataverse DOI: https://doi.org/10.7910/DVN/TSALWZ
 - Hugging Face dataset: https://huggingface.co/datasets/eunguneun/korea-housing-subscription-score-2026
 - Kaggle dataset: https://www.kaggle.com/datasets/resimanor/korea-housing-subscription-score-2026
 
