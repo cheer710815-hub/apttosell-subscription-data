@@ -16,3 +16,6 @@ identifiers:
   - type: doi
     value: "10.6084/m9.figshare.33948556"
     description: "Figshare public dataset"
+  - type: doi
+    value: "10.7910/DVN/TSALWZ"
+    description: "Harvard Dataverse version 1.0"
