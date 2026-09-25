@@ -62,6 +62,8 @@
 
 - `METHODOLOGY.md`: 공고문 분석 및 검수 절차
 - `SOURCE_POLICY.md`: 공식 출처와 링크 기준
+- `CITATION.cff`: GitHub·연구도구용 인용 메타데이터
+- `datapackage.json`: 원문 URL, DOI, 라이선스와 주제 키워드를 담은 기계판독형 데이터 패키지 메타데이터
 
 ## Data policy
 
