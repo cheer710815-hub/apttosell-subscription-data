@@ -23,6 +23,7 @@
 ## Media & citation kit
 
 - [PRESS-KIT.md](./PRESS-KIT.md)
+- [EMBED.md](./EMBED.md) — 복사해서 붙여넣을 수 있는 차트·출처 링크 코드
 
 ## Public documentation
 
