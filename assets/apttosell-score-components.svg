@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" fill="#ffffff"/>
+<text x="70" y="70" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#173149">2026 민영주택 청약가점 84점 구성</text>
+<text x="70" y="110" font-family="Arial, sans-serif" font-size="18" fill="#6d7f8e">주택공급에 관한 규칙 별표1 기준 · 총 84점</text>
+<g font-family="Arial, sans-serif">
+<text x="90" y="205" font-size="24" font-weight="700" fill="#173149">무주택기간</text>
+<rect x="300" y="170" width="640" height="52" rx="10" fill="#2f6f9f"/>
+<text x="965" y="205" font-size="25" font-weight="700" fill="#173149">32점</text>
+
+<text x="90" y="325" font-size="24" font-weight="700" fill="#173149">부양가족</text>
+<rect x="300" y="290" width="700" height="52" rx="10" fill="#3f8a6d"/>
+<text x="1025" y="325" font-size="25" font-weight="700" fill="#173149">35점</text>
+
+<text x="90" y="445" font-size="24" font-weight="700" fill="#173149">청약통장 가입기간</text>
+<rect x="300" y="410" width="340" height="52" rx="10" fill="#8a6fb3"/>
+<text x="665" y="445" font-size="25" font-weight="700" fill="#173149">17점</text>
+</g>
+<text x="70" y="565" font-family="Arial, sans-serif" font-size="16" fill="#6e7f8d">Source: https://apttosell.com/cheongyak-score-data/ · CC BY 4.0</text>
+</svg>
