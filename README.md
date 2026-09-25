@@ -12,6 +12,7 @@
 - 기준 공개본: 2026-09-18
 - Zenodo DOI: https://doi.org/10.5281/zenodo.22842058
 - Zenodo concept DOI: https://doi.org/10.5281/zenodo.22842057
+- Zenodo Community: https://zenodo.org/communities/apttosell-housing-subscription-data/
 - Figshare DOI: https://doi.org/10.6084/m9.figshare.33948556
 - Harvard Dataverse DOI: https://doi.org/10.7910/DVN/TSALWZ
 - Hugging Face dataset: https://huggingface.co/datasets/eunguneun/korea-housing-subscription-score-2026
