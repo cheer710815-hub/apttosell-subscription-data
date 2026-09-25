@@ -27,6 +27,8 @@
 
 ## Current media brief
 
+- [2026 추석 직후 9/28~10/2 청약 LIVE 브리프](./MEDIA-BRIEF-2026-09-25-POST-CHUSEOK-SUBSCRIPTIONS.md)
+- [9/28~10/2 LIVE 청약 일정 CSV](./live_subscription_schedule_2026-09-28_to_10-02.csv)
 - [2026 수도권 공공분양 의무기간 미디어 브리프](./MEDIA-BRIEF-2026-09-PUBLIC-PRESALE-OBLIGATIONS.md)
 - [공공분양 의무기간 비교 CSV](./media_public_presale_obligation_compare_2026_09.csv)
 
