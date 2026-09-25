@@ -22,6 +22,7 @@
 
 ## Public documentation
 
+- [DagsHub public repository](https://dagshub.com/cheer710815-hub/apttosell-subscription-data)
 - [GitLab public mirror](https://gitlab.com/housing-data-korea-group/apttosell-subscription-data)
 - [GitBook public documentation](https://housing-data-korea.gitbook.io/housing-data-korea-docs/apttosell-housing-subscription/)
 
