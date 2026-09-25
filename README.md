@@ -25,6 +25,11 @@
 - [PRESS-KIT.md](./PRESS-KIT.md)
 - [EMBED.md](./EMBED.md) — 복사해서 붙여넣을 수 있는 차트·출처 링크 코드
 
+## Current media brief
+
+- [2026 수도권 공공분양 의무기간 미디어 브리프](./MEDIA-BRIEF-2026-09-PUBLIC-PRESALE-OBLIGATIONS.md)
+- [공공분양 의무기간 비교 CSV](./media_public_presale_obligation_compare_2026_09.csv)
+
 ## Public documentation
 
 - [DagsHub public repository](https://dagshub.com/cheer710815-hub/apttosell-subscription-data)
