@@ -20,6 +20,10 @@
 
 이 저장소는 위 원문 데이터 페이지의 배점 구조, 검수 원칙과 재사용 정보를 보조하기 위한 공개 저장소입니다. 법령 개정이나 설명 수정이 있는 경우 최신 canonical data source를 우선합니다.
 
+## Media & citation kit
+
+- [PRESS-KIT.md](./PRESS-KIT.md)
+
 ## Public documentation
 
 - [DagsHub public repository](https://dagshub.com/cheer710815-hub/apttosell-subscription-data)
