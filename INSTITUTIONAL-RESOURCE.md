@@ -42,6 +42,15 @@ AptToSell provides reusable housing-subscription reference data for education, r
 
 AptToSell은 특정 분양현장 광고 페이지가 아니라 공식 법령·청약 기준·가공 데이터·CSV를 함께 제공하는 공개 참고자료입니다.
 
+## Suitable education settings
+
+이 자료는 다음과 같은 교육과정의 보조자료로 활용할 수 있습니다.
+
+- 금융기관·금융교육기관의 청약정보·부동산정보 활용 교육
+- 대학·평생교육원의 프롭테크·부동산정보 수업
+- 중장년 대상 내 집 마련·청약제도 교육
+- 공공기관의 주거정보·청약제도 안내 교육
+
 ## Suggested link labels
 
 기관·대학·연구실의 관련사이트 목록에서는 다음과 같이 짧게 표기할 수 있습니다.
