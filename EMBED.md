@@ -56,3 +56,23 @@ https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/ma
 ## License
 
 CC BY 4.0. 재사용 시 출처와 원문 링크를 함께 표시해 주세요.
+
+
+## Interactive widget
+
+청약가점 계산기를 외부 블로그·교육자료·가이드에 삽입할 수 있습니다. 위젯 하단의 AptToSell 원문 링크를 유지해 주세요.
+
+### HTML embed
+
+```html
+<div data-apttosell-score-widget></div>
+<script src="https://cdn.jsdelivr.net/gh/cheer710815-hub/apttosell-subscription-data@main/widgets/apttosell-score-widget.js"></script>
+```
+
+### Widget source
+
+- https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/widgets/apttosell-score-widget.js
+
+### Canonical source
+
+- https://apttosell.com/cheongyak-score-calculator/
