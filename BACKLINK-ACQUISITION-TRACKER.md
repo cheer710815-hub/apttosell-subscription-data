@@ -165,6 +165,35 @@ Why it matters:
 Constraint:
 - Submission route is email-only; do not use under current no-email outreach rule.
 
+
+
+### National Housing Data Exchange (Australia / AHDAP)
+Type: Housing-specific CKAN data exchange
+Status: WATCH
+Why it matters:
+- Dedicated housing data portal with datasets from government, industry and public sources.
+- Supports external-source records, not only locally hosted files.
+- CKAN registry exposes metadata, formats, licenses and API access.
+Fit:
+- Structural fit is strong for both repositories.
+Constraint:
+- Geographic mission is explicitly focused on Australia's housing future; Korean datasets may be outside scope.
+Priority: MEDIUM-LOW unless international submissions are confirmed.
+
+### Data Commons
+Type: Global public-data knowledge graph / API / MCP
+Status: WATCH
+Why it matters:
+- Accepts public-data contributions.
+- Contributed data becomes accessible through Data Commons tools and APIs.
+- Data Commons also provides MCP access for LLM/agent use.
+Fit:
+- Resimanor could fit only if converted into statistical variables joined to Korean places/institutions.
+- AptToSell score/deposit lookup tables are less natural because they are rule/reference tables rather than place-based macro statistics.
+Constraint:
+- Best fit is public statistical macro data licensed CC BY and joinable to existing entities such as places or institutions.
+Priority: MEDIUM for future derived regional statistics; LOW for current rule tables.
+
 ## EXCLUDED / DO NOT USE
 
 - Mass email outreach
