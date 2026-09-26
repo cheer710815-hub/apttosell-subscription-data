@@ -107,3 +107,14 @@
 ## Disclaimer
 
 본 저장소는 정보 제공을 목적으로 합니다. 청약 신청과 계약 전에는 반드시 최신 입주자모집공고, 정정공고 및 관계기관 안내를 직접 확인해야 합니다.
+
+
+## Developer access
+
+Machine-readable JSON:
+https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/housing_subscription_score_2026.json
+
+CSV:
+https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/housing_subscription_score_2026.csv
+
+Use the JSON endpoint for apps, MCP servers, agents, and web tools that need a simple structured reference for the 84-point subscription score system.
