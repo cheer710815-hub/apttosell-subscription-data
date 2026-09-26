@@ -66,7 +66,7 @@ CC BY 4.0. 재사용 시 출처와 원문 링크를 함께 표시해 주세요.
 
 ```html
 <div data-apttosell-score-widget></div>
-<script src="https://cdn.jsdelivr.net/gh/cheer710815-hub/apttosell-subscription-data@main/widgets/apttosell-score-widget.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cheer710815-hub/apttosell-subscription-data@33ae5289527cbbe3e5cf260a21419824aede1866/widgets/apttosell-score-widget.js"></script>
 ```
 
 ### Widget source
