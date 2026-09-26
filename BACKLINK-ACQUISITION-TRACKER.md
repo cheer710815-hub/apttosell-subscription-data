@@ -245,6 +245,51 @@ Fit:
 - Future regional datasets (local housing prices, supply, accessibility, regional finance indicators) could fit much better.
 Priority: LOW for current datasets / HIGH for future geospatial-regional data.
 
+
+
+### Number Cortex Financial Resources
+Type: Curated finance education / calculator resource hub
+Status: WATCH
+Why it matters:
+- Curates external financial websites, apps and calculators.
+- Includes mortgage calculators as a dedicated calculator category.
+- Public page exposes a “Suggest Resource” route.
+Best fit:
+- Resimanor housing-finance / stress-DSR data center and calculator-type resources.
+Constraint:
+- Submission form details and editorial standards need deeper verification before outreach.
+Priority: MEDIUM
+
+### PolicyMap Data Catalog
+Type: Large housing / community-development / mortgage data catalog
+Status: WATCH
+Why it matters:
+- Strong housing, affordability, mortgage and lending dataset coverage.
+- High-value research audience.
+Constraint:
+- Current catalog appears to be internally curated / licensed data; no public external-dataset submission route verified.
+Priority: LOW unless a contribution path is confirmed.
+
+### Urban Institute Data Catalog
+Type: Housing-policy / mortgage research data catalog
+Status: WATCH
+Why it matters:
+- Strong topical overlap with mortgage, housing finance and neighborhood data.
+- Research-grade catalog and citation environment.
+Constraint:
+- Appears focused on Urban Institute-produced/managed datasets; no open public submission path verified.
+Priority: LOW unless external contributions are explicitly allowed.
+
+### LucidAgent Data Catalog
+Type: Agent-oriented public data catalog
+Status: WATCH
+Why it matters:
+- Has a Real Estate category with Zillow, ACS Housing, HMDA, FHFA and HUD datasets.
+- Oriented toward data applications and agents.
+Constraint:
+- No public external dataset submission path verified.
+Priority: LOW unless contribution flow is found.
+
 ## EXCLUDED / DO NOT USE
 
 - Mass email outreach
