@@ -226,11 +226,18 @@ Constraint:
 - GitHub App issue creation returned 403 even though the repo accepts issues/PRs; manual GitHub submission is still possible.
 
 ### SchemaFinder
-Type: Unverified candidate
-Status: EXCLUDED
-Reason:
-- Public submission page and claimed dataset index could not be independently verified in follow-up checks.
-- Do not use until a verifiable live service and submission policy are confirmed.
+Type: Public dataset search/index + API + MCP
+Status: PREPARED
+Submission:
+https://schemafinder.com/submit
+Why it matters:
+- No-login public dataset submission form is verified.
+- Community submissions go live immediately with a Community badge.
+- Requires an explicit column schema, matching our structured CSVs.
+- Supports dataset discovery plus API/MCP workflows.
+Prepared file:
+- external-submissions/schemafinder.md
+Priority: VERY HIGH
 
 
 ### Awesome Urban Datasets (urban-toolkit)
