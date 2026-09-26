@@ -133,3 +133,11 @@ Use the JSON endpoint for apps, MCP servers, agents, and web tools that need a s
 ## Institutional submission kit
 
 - https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/INSTITUTIONAL-SUBMISSION-KIT.md
+
+
+## Machine-readable catalog metadata
+
+DCAT 3 JSON-LD:
+https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/dcat.jsonld
+
+This file describes the repository's public datasets and distributions using the W3C Data Catalog Vocabulary (DCAT), so data catalogs, research tools, and agents can discover the dataset metadata in a standard machine-readable form.
