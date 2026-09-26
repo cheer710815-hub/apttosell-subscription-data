@@ -297,6 +297,23 @@ Constraint:
 - No public external dataset submission path verified.
 Priority: LOW unless contribution flow is found.
 
+
+
+### GeetMark Search Hub
+Type: Vertical resource search engine / API
+Status: WATCH
+Why it matters:
+- Operates a dedicated Real Estate category.
+- Public navigation exposes a Submit Resource route.
+- Search API and item endpoints can make accepted resources discoverable programmatically, not only through a directory page.
+- No-login browsing is available.
+Best fit:
+- AptToSell calculator/data center as a Real Estate resource
+- Resimanor housing-finance/DSR data center as a Real Estate resource
+Constraint:
+- The public submission page is referenced in site navigation, but the detailed submission form and editorial criteria were not independently retrievable in follow-up verification.
+Priority: MEDIUM pending form verification.
+
 ## EXCLUDED / DO NOT USE
 
 - Mass email outreach
