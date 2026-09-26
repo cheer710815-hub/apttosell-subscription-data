@@ -54,12 +54,21 @@ Current GitHub connector cannot create forks.
 
 ### Universal Housing Dataset Catalog
 Type: Housing dataset catalog
-Status: PREPARED
-Submission method:
-External dataset submission form.
+Status: READY_TO_SUBMIT
+Verified catalog:
+https://housing.pubpub.org/datasets
+Verified submission path:
+Public Airtable dataset submission form linked directly from the catalog.
+Why it matters:
+- Community-maintained catalog of housing, homelessness and related program datasets.
+- Explicitly accepts both government and crowdsourced datasets.
+- Official page provides a direct “submit a dataset” form.
 Prepared files:
 - AptToSell: external-submissions/universal-housing-dataset-catalog.md
 - Resimanor: external-submissions/universal-housing-dataset-catalog.md
+Blocker:
+- Airtable form is interactive and its fields were not retrievable through the current connector/browser interface.
+Priority: VERY HIGH
 
 ### Korea Banking Institute
 Type: Financial education resource
@@ -120,18 +129,28 @@ AptToSell data center / Resimanor data center.
 
 ### National Housing Conference — Housing Resource Center
 Type: Curated housing resource/data-tool hub
-Status: PREPARED
-Submission path:
+Status: READY_TO_SUBMIT
+Verified submission form:
 https://hrc.nhc.org/contact-us/
+Verified fields:
+- Full Name
+- Title
+- Organization
+- Work Phone
+- Email Address
+- Suggested Resource Title
+- Suggested Resource Topic Area
+- Suggested Resource Link
+- Comments
 Why it matters:
-- Maintains thousands of curated housing-policy resources.
-- Has a dedicated Data Tools collection.
-- Existing entries include public agencies and private tools/calculators.
-- Official form accepts Suggested Resource Title, Topic Area, Link and Comments.
-Best fit:
-- Resimanor: Homeownership / Technology / Data Tools
-- AptToSell: Homeownership / Technology / Data Tools
-Priority: HIGH
+- Maintains a curated housing-policy resource center with a dedicated Data Tools type.
+- Resource entries link users to the original external source.
+- Official form explicitly accepts resource suggestions without requiring prior membership/login.
+Prepared file:
+- external-submissions/nhc-housing-resource-center.md
+Blocker:
+- Actual form submission requires submitter contact details (name/email, and optionally title/phone).
+Priority: VERY HIGH
 
 ### MorFi Open Source Housing & Mortgage Data
 Type: Mortgage and housing open-data contribution hub
