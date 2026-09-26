@@ -154,15 +154,19 @@ Priority: VERY HIGH
 
 ### MorFi Open Source Housing & Mortgage Data
 Type: Mortgage and housing open-data contribution hub
-Status: WATCH
+Status: SUBMITTED
+Submission route:
+Email to support@morfi.com
+Submitted:
+2026-09-26
 Why it matters:
 - Explicitly invites users to suggest new housing/mortgage data sources and contribute to open datasets.
 - Audience includes mortgage software developers, housing researchers and analysts.
-Best fit:
-- Resimanor stress DSR / mortgage-limit JSON and CSV
+Submission:
+- Suggested Resimanor stress DSR / mortgage-limit data center and open CSV/JSON resources.
+Next step:
+- Monitor for reply, contribution guidance, or inclusion.
 Priority: HIGH for Resimanor
-Constraint:
-- Public page confirms contribution intent, but a no-login direct submission form was not verified.
 
 ### The Real Deal — Directory of Real Estate Data Sites
 Type: Curated real-estate data-source directory
