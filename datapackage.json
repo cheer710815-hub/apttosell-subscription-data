@@ -62,5 +62,28 @@
     "gitlab_repository": "https://gitlab.com/housing-data-korea-group/apttosell-subscription-data",
     "gitbook_documentation": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/apttosell-housing-subscription/",
     "dagshub_repository": "https://dagshub.com/cheer710815-hub/apttosell-subscription-data"
-  }
+  },
+  "resources": [
+    {
+      "name": "housing_subscription_score_2026_csv",
+      "path": "housing_subscription_score_2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "2026 Korea private housing subscription score table"
+    },
+    {
+      "name": "housing_subscription_score_2026_json",
+      "path": "housing_subscription_score_2026.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "title": "2026 Korea private housing subscription score table - JSON"
+    },
+    {
+      "name": "private_housing_deposit_2026_csv",
+      "path": "private_housing_deposit_2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "2026 Korea private housing subscription deposit table"
+    }
+  ]
 }
