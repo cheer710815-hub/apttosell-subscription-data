@@ -226,25 +226,24 @@ Constraint:
 - GitHub App issue creation returned 403 even though the repo accepts issues/PRs; manual GitHub submission is still possible.
 
 ### SchemaFinder
-Type: Public dataset search/index + API + MCP
-Status: PREPARED
-Submission:
-https://schemafinder.com/submit
+Type: Unverified candidate
+Status: EXCLUDED
+Reason:
+- Public submission page and claimed dataset index could not be independently verified in follow-up checks.
+- Do not use until a verifiable live service and submission policy are confirmed.
+
+
+### Awesome Urban Datasets (urban-toolkit)
+Type: Curated public urban-dataset list
+Status: WATCH
 Why it matters:
-- 200K+ public datasets from 17+ platforms.
-- Dedicated housing domain filter.
-- Public dataset submissions go live immediately with a Community badge.
-- No-login manual submission form.
-- Search API returns source URLs, API endpoints and column schemas.
-- MCP / AI-agent workflow supported.
-Submission requirements:
-- Name, source URL, description, publisher, category, format
-- At least one column schema
-- Access type; geography/update frequency/docs/API optional
-Best fit:
-- AptToSell score CSV / deposit CSV as separate datasets
-- Resimanor income-based DSR CSV / credit-debt CSV as separate datasets
-Priority: VERY HIGH
+- Publicly maintained curated list of urban datasets.
+- Contributions are explicitly welcomed.
+- Includes property cadastre, buildings/lots, infrastructure and urban-analysis datasets.
+Fit:
+- Current AptToSell/Resimanor rule/reference tables are not a strong fit because they are not spatial urban datasets.
+- Future regional datasets (local housing prices, supply, accessibility, regional finance indicators) could fit much better.
+Priority: LOW for current datasets / HIGH for future geospatial-regional data.
 
 ## EXCLUDED / DO NOT USE
 
