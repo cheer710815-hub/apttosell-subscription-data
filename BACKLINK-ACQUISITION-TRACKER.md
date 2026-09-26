@@ -233,18 +233,17 @@ Priority: MEDIUM for future derived regional statistics; LOW for current rule ta
 
 ### Awesome Real Estate (etewiah/awesome-real-estate)
 Type: Curated global real-estate / proptech resource list
-Status: PREPARED
+Status: PR_READY
 Why it matters:
 - Actively maintained in 2026.
 - Has an explicit Asia section with South Korea already represented.
-- Includes analytics platforms, authoritative research/publications, calculators, APIs and open datasets.
-- Contribution rules explicitly allow owner submissions if affiliation is disclosed.
-- Requires evidence of usefulness beyond marketing; our GitHub repos, CSV/JSON, DOI, methodology and dated snapshots support that requirement.
-Best fit:
-- AptToSell: Asia > Authoritative Research & Publications / Analytics
-- Resimanor: Asia > Authoritative Research & Publications / Mortgage & Financing (if category added)
-Constraint:
-- Pull request required; current connector cannot create a fork.
+- Includes Authoritative Research & Publications with open housing datasets.
+- Contribution rules allow owner submissions if affiliation is disclosed.
+Prepared file:
+- external-submissions/awesome-real-estate-pr.md
+Blocker:
+- Pull request requires fork/edit flow not supported by the current GitHub connector.
+Priority: HIGH
 
 ### Awesome Real Estate APIs (happyendpointhq/awesome-real-estate-apis)
 Type: Country-by-country real-estate data source / API / dataset list
@@ -348,6 +347,18 @@ Best fit:
 Constraint:
 - The public submission page is referenced in site navigation, but the detailed submission form and editorial criteria were not independently retrievable in follow-up verification.
 Priority: MEDIUM pending form verification.
+
+### Deal-Scale Awesome Real Estate Investing
+Type: Curated real-estate investing resource list
+Status: PR_READY
+Contribution method:
+Edit README.md and submit a pull request.
+Why it matters:
+- PRs are explicitly welcomed.
+- Includes Analytics & Data Platforms, Foundational Geospatial & Data Sets, and Authoritative Research & Publications.
+Prepared file:
+- external-submissions/deal-scale-awesome-real-estate-investing-pr.md
+Priority: MEDIUM
 
 ## EXCLUDED / DO NOT USE
 
