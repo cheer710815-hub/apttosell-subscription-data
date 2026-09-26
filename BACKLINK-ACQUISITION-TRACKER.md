@@ -166,23 +166,35 @@ Constraint:
 
 ### The Real Deal — Directory of Real Estate Data Sites
 Type: Curated real-estate data-source directory
-Status: WATCH
+Status: SUBMITTED
+Submission route:
+Email to research@therealdeal.com
+Submitted:
+2026-09-26
 Why it matters:
 - Dedicated searchable directory of real-estate data sites.
-- Explicitly invites suggestions.
-Best fit:
-- AptToSell / Resimanor repositories
-Constraint:
-- Suggestion route is email-only; do not use under current no-email outreach rule.
+- Public page explicitly invites suggestions.
+Submission:
+- Suggested AptToSell housing subscription data center.
+- Suggested Resimanor housing-finance / stress-DSR data center.
+Next step:
+- Monitor for reply or directory inclusion.
 
 ### Data Is Plural
 Type: Curated dataset discovery newsletter/archive
-Status: WATCH
+Status: SUBMITTED
+Submission route:
+Email to jsvine@gmail.com
+Submitted:
+2026-09-26
 Why it matters:
-- Prefers free, bulk-downloadable, well-documented, directly linkable, fresh datasets.
-- AptToSell and Resimanor match many of the stated dataset-quality criteria.
-Constraint:
-- Submission route is email-only; do not use under current no-email outreach rule.
+- Prefers free, directly accessible, documented, downloadable datasets.
+- AptToSell and Resimanor match many of its stated dataset-quality criteria.
+Submission:
+- Suggested AptToSell housing subscription data.
+- Suggested Resimanor stress-DSR / housing-finance data.
+Next step:
+- Monitor for reply, newsletter inclusion, or archive citation.
 
 
 
