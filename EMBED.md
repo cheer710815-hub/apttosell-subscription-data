@@ -21,6 +21,34 @@ AptToSell의 청약가점 차트와 CSV를 기사·블로그·가이드에 사�
 <p>자료: <a href="https://apttosell.com/cheongyak-score-data/">AptToSell 2026 청약가점 84점 데이터표</a></p>
 ```
 
+## One-line source link
+
+### HTML
+
+```html
+<p>출처: <a href="https://apttosell.com/housing-subscription-data/" target="_blank" rel="noopener">AptToSell 청약·분양 데이터센터</a></p>
+```
+
+### Markdown
+
+```markdown
+출처: [AptToSell 청약·분양 데이터센터](https://apttosell.com/housing-subscription-data/)
+```
+
+## Suggested reuse blocks
+
+### 청약가점 계산기 링크
+
+```html
+<a href="https://apttosell.com/cheongyak-score-calculator/" target="_blank" rel="noopener">2026 청약가점 계산기</a>
+```
+
+### 청약가점 데이터 링크
+
+```html
+<a href="https://apttosell.com/cheongyak-score-data/" target="_blank" rel="noopener">2026 청약가점 84점 데이터</a>
+```
+
 ## CSV
 
 https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/housing_subscription_score_2026.csv
