@@ -114,6 +114,57 @@ AptToSell data center / Resimanor data center.
 - Korea Proptech Forum
 - Seoul Eastern Women's Development Center
 
+
+
+## Newly discovered Universal-Housing-like hubs
+
+### National Housing Conference — Housing Resource Center
+Type: Curated housing resource/data-tool hub
+Status: PREPARED
+Submission path:
+https://hrc.nhc.org/contact-us/
+Why it matters:
+- Maintains thousands of curated housing-policy resources.
+- Has a dedicated Data Tools collection.
+- Existing entries include public agencies and private tools/calculators.
+- Official form accepts Suggested Resource Title, Topic Area, Link and Comments.
+Best fit:
+- Resimanor: Homeownership / Technology / Data Tools
+- AptToSell: Homeownership / Technology / Data Tools
+Priority: HIGH
+
+### MorFi Open Source Housing & Mortgage Data
+Type: Mortgage and housing open-data contribution hub
+Status: WATCH
+Why it matters:
+- Explicitly invites users to suggest new housing/mortgage data sources and contribute to open datasets.
+- Audience includes mortgage software developers, housing researchers and analysts.
+Best fit:
+- Resimanor stress DSR / mortgage-limit JSON and CSV
+Priority: HIGH for Resimanor
+Constraint:
+- Public page confirms contribution intent, but a no-login direct submission form was not verified.
+
+### The Real Deal — Directory of Real Estate Data Sites
+Type: Curated real-estate data-source directory
+Status: WATCH
+Why it matters:
+- Dedicated searchable directory of real-estate data sites.
+- Explicitly invites suggestions.
+Best fit:
+- AptToSell / Resimanor repositories
+Constraint:
+- Suggestion route is email-only; do not use under current no-email outreach rule.
+
+### Data Is Plural
+Type: Curated dataset discovery newsletter/archive
+Status: WATCH
+Why it matters:
+- Prefers free, bulk-downloadable, well-documented, directly linkable, fresh datasets.
+- AptToSell and Resimanor match many of the stated dataset-quality criteria.
+Constraint:
+- Submission route is email-only; do not use under current no-email outreach rule.
+
 ## EXCLUDED / DO NOT USE
 
 - Mass email outreach
