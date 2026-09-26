@@ -194,6 +194,58 @@ Constraint:
 - Best fit is public statistical macro data licensed CC BY and joinable to existing entities such as places or institutions.
 Priority: MEDIUM for future derived regional statistics; LOW for current rule tables.
 
+
+
+### Awesome Real Estate (etewiah/awesome-real-estate)
+Type: Curated global real-estate / proptech resource list
+Status: PREPARED
+Why it matters:
+- Actively maintained in 2026.
+- Has an explicit Asia section with South Korea already represented.
+- Includes analytics platforms, authoritative research/publications, calculators, APIs and open datasets.
+- Contribution rules explicitly allow owner submissions if affiliation is disclosed.
+- Requires evidence of usefulness beyond marketing; our GitHub repos, CSV/JSON, DOI, methodology and dated snapshots support that requirement.
+Best fit:
+- AptToSell: Asia > Authoritative Research & Publications / Analytics
+- Resimanor: Asia > Authoritative Research & Publications / Mortgage & Financing (if category added)
+Constraint:
+- Pull request required; current connector cannot create a fork.
+
+### Awesome Real Estate APIs (happyendpointhq/awesome-real-estate-apis)
+Type: Country-by-country real-estate data source / API / dataset list
+Status: PREPARED
+Why it matters:
+- Dedicated to property data sources, government open data, APIs and bulk datasets by country.
+- Explicitly accepts additions through GitHub issues or pull requests.
+- Has a Datasets section and Asia Pacific section.
+- Free/open access status and access restrictions are part of its curation model.
+Best fit:
+- AptToSell: South Korea reference dataset (subscription score/deposit)
+- Resimanor: South Korea reference dataset (stress DSR / mortgage-limit scenarios)
+Constraint:
+- GitHub App issue creation returned 403 even though the repo accepts issues/PRs; manual GitHub submission is still possible.
+
+### SchemaFinder
+Type: Public dataset search/index + API + MCP
+Status: PREPARED
+Submission:
+https://schemafinder.com/submit
+Why it matters:
+- 200K+ public datasets from 17+ platforms.
+- Dedicated housing domain filter.
+- Public dataset submissions go live immediately with a Community badge.
+- No-login manual submission form.
+- Search API returns source URLs, API endpoints and column schemas.
+- MCP / AI-agent workflow supported.
+Submission requirements:
+- Name, source URL, description, publisher, category, format
+- At least one column schema
+- Access type; geography/update frequency/docs/API optional
+Best fit:
+- AptToSell score CSV / deposit CSV as separate datasets
+- Resimanor income-based DSR CSV / credit-debt CSV as separate datasets
+Priority: VERY HIGH
+
 ## EXCLUDED / DO NOT USE
 
 - Mass email outreach
