@@ -40,6 +40,21 @@ AptToSell, "2026 청약가점 84점 데이터표", https://apttosell.com/cheongy
 - GitLab: https://gitlab.com/housing-data-korea-group/apttosell-subscription-data
 - DagsHub: https://dagshub.com/cheer710815-hub/apttosell-subscription-data
 
+## Suggested institutional link labels
+
+- 청약가점 계산기 — https://apttosell.com/cheongyak-score-calculator/
+- 청약가점 84점 데이터 — https://apttosell.com/cheongyak-score-data/
+- 청약·분양 데이터센터 — https://apttosell.com/housing-subscription-data/
+
+기관·대학의 관련사이트 목록처럼 설명이 짧은 페이지에서는 위 명칭을 그대로 사용할 수 있습니다.
+
+## Suggested educational uses
+
+- 프롭테크·부동산정보화 수업에서 청약가점 계산 실습
+- 민영주택 청약 예치금과 가점 구조 확인
+- 공식 법령과 가공 데이터의 차이를 비교하는 데이터 리터러시 실습
+- CSV를 활용한 청약 기준표 분석
+
 ## Suggested editorial uses
 
 - 청약가점 계산기·가이드의 배점 근거
