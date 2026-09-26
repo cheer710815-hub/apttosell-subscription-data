@@ -1,0 +1,55 @@
+{
+  "name": "Korea private housing subscription score table 2026",
+  "base_date": "2026-09-18",
+  "canonical_source": "https://apttosell.com/cheongyak-score-data/",
+  "max_score": 84,
+  "categories": {
+    "homeless_period": [
+      {"condition":"no_eligible_period","score":0},
+      {"condition":"under_1_year","score":2},
+      {"condition":"1_to_2_years","score":4},
+      {"condition":"2_to_3_years","score":6},
+      {"condition":"3_to_4_years","score":8},
+      {"condition":"4_to_5_years","score":10},
+      {"condition":"5_to_6_years","score":12},
+      {"condition":"6_to_7_years","score":14},
+      {"condition":"7_to_8_years","score":16},
+      {"condition":"8_to_9_years","score":18},
+      {"condition":"9_to_10_years","score":20},
+      {"condition":"10_to_11_years","score":22},
+      {"condition":"11_to_12_years","score":24},
+      {"condition":"12_to_13_years","score":26},
+      {"condition":"13_to_14_years","score":28},
+      {"condition":"14_to_15_years","score":30},
+      {"condition":"15_years_or_more","score":32}
+    ],
+    "dependents": [
+      {"condition":"0","score":5},
+      {"condition":"1","score":10},
+      {"condition":"2","score":15},
+      {"condition":"3","score":20},
+      {"condition":"4","score":25},
+      {"condition":"5","score":30},
+      {"condition":"6_or_more","score":35}
+    ],
+    "subscription_account_period": [
+      {"condition":"under_6_months","score":1},
+      {"condition":"6_months_to_1_year","score":2},
+      {"condition":"1_to_2_years","score":3},
+      {"condition":"2_to_3_years","score":4},
+      {"condition":"3_to_4_years","score":5},
+      {"condition":"4_to_5_years","score":6},
+      {"condition":"5_to_6_years","score":7},
+      {"condition":"6_to_7_years","score":8},
+      {"condition":"7_to_8_years","score":9},
+      {"condition":"8_to_9_years","score":10},
+      {"condition":"9_to_10_years","score":11},
+      {"condition":"10_to_11_years","score":12},
+      {"condition":"11_to_12_years","score":13},
+      {"condition":"12_to_13_years","score":14},
+      {"condition":"13_to_14_years","score":15},
+      {"condition":"14_to_15_years","score":16},
+      {"condition":"15_years_or_more","score":17}
+    ]
+  }
+}
