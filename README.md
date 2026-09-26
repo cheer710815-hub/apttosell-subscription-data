@@ -118,3 +118,8 @@ CSV:
 https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/housing_subscription_score_2026.csv
 
 Use the JSON endpoint for apps, MCP servers, agents, and web tools that need a simple structured reference for the 84-point subscription score system.
+
+
+## Monthly reference snapshots
+
+- September 2026: https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/reports/2026-09-reference-snapshot.md
