@@ -408,3 +408,24 @@ Prioritize in this order:
 6. Research / journalism citation
 
 Do not create new outreach targets merely to increase the count.
+
+
+### tae0y/real-estate-mcp PR #41
+Type: Editorial open-source integration / reference-data inclusion
+Status: PR_OPEN
+PR:
+https://github.com/tae0y/real-estate-mcp/pull/41
+Issue:
+https://github.com/tae0y/real-estate-mcp/issues/40
+Opened:
+2026-09-27
+Changes:
+- Added Korea housing subscription and stress DSR reference examples under resources/
+- Linked AptToSell and Resimanor CSV/JSON datasets and methodology pages
+- Updated custom instructions and README/README-ko discovery links
+Why it matters:
+- Maintainer explicitly requested a PR.
+- If merged, links become part of an actively used Korean real-estate MCP project rather than a generic directory.
+Next step:
+- Wait for maintainer review after their stated availability window.
+Priority: VERY HIGH
