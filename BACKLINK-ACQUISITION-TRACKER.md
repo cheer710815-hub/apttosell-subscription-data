@@ -487,3 +487,23 @@ Submission route:
 Next step:
 - Use only the MK Land item for any future replacement proposal; do not claim serve.co.kr or ten.co.kr are broken.
 Priority: VERY HIGH
+
+
+### Seoul Cyber University AI Real Estate Big Data HousePalm stale-link target
+Type: .ac.kr proptech resource-page replacement
+Status: VERIFIED_TARGET
+Target page:
+https://redate.iscu.ac.kr/lab/lab04.asp
+Verified:
+2026-09-27
+Finding:
+- The AI Real Estate Big Data department's AI PropTech platform list still includes 하우스팜 at http://hauspalm.iisweb.co.kr/web/home/codding/index.php.
+- The listed legacy URL is not currently accessible through public verification.
+- Historical coverage shows HousePalm was a real-estate presale information platform in 2019.
+- Current search results for housefarm.co.kr are a gardening / home-farming brand, not the former real-estate proptech service.
+Replacement fit:
+- AptToSell provides current South Korea housing-subscription/presale reference data, calculators, CSV/JSON, methodology, and citation metadata.
+- The department already curates active real-estate data and proptech tools such as KB Real Estate, Korea Real Estate Board R-One, HF housing-finance statistics, court auction data, and public real-estate systems.
+Next step:
+- Find a public department consultation / suggestion route appropriate for resource-list maintenance; do not use admissions-only channels unless they explicitly accept department resource suggestions.
+Priority: VERY HIGH
