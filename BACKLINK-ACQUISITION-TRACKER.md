@@ -429,3 +429,22 @@ Why it matters:
 Next step:
 - Wait for maintainer review after their stated availability window.
 Priority: VERY HIGH
+
+
+### etewiah/awesome-real-estate PR #81
+Type: Curated global real-estate / proptech resource list
+Status: PR_OPEN
+PR:
+https://github.com/etewiah/awesome-real-estate/pull/81
+Opened:
+2026-09-27
+Changes:
+- Added AptToSell Korea Housing Subscription Data under Asia > Authoritative Research & Publications
+- Added Resimanor Korea Stress DSR Housing Finance Data in the same section
+Why it matters:
+- South Korea is already represented in the Asia section.
+- The section already includes CC BY 4.0 housing datasets with downloadable CSV/JSON and documented methodology.
+- Affiliation was disclosed in the PR as required by the contribution rules.
+Next step:
+- Wait for maintainer review / CI feedback.
+Priority: VERY HIGH
