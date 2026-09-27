@@ -54,21 +54,22 @@ Current GitHub connector cannot create forks.
 
 ### Universal Housing Dataset Catalog
 Type: Housing dataset catalog
-Status: READY_TO_SUBMIT
+Status: EXCLUDED_FOR_CURRENT_LICENSE
 Verified catalog:
 https://housing.pubpub.org/datasets
-Verified submission path:
-Public Airtable dataset submission form linked directly from the catalog.
-Why it matters:
-- Community-maintained catalog of housing, homelessness and related program datasets.
-- Explicitly accepts both government and crowdsourced datasets.
-- Official page provides a direct “submit a dataset” form.
-Prepared files:
-- AptToSell: external-submissions/universal-housing-dataset-catalog.md
-- Resimanor: external-submissions/universal-housing-dataset-catalog.md
-Blocker:
-- Airtable form is interactive and its fields were not retrievable through the current connector/browser interface.
-Priority: VERY HIGH
+Verified submission form:
+Public Airtable form titled "Open-Source Housing Data"
+Verified:
+2026-09-27
+Critical eligibility finding:
+- The submission form explicitly says it is for "public-domain datasets centered around housing."
+- Current AptToSell and Resimanor datasets are licensed CC BY 4.0, which is an open license but not public domain.
+Decision:
+- Do not submit either current dataset through this form.
+- Do not change the dataset license merely to obtain a backlink.
+Next step:
+- Reconsider only if the catalog later accepts openly licensed non-public-domain datasets or a genuinely public-domain derivative/resource is created for an independent reason.
+Priority: EXCLUDED
 
 ### Korea Banking Institute
 Type: Financial education resource
