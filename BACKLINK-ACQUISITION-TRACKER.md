@@ -467,3 +467,23 @@ Why it matters:
 Next step:
 - Wait for maintainer review / CI feedback.
 Priority: HIGH
+
+
+### Seoul Cyber University MK Land legacy-link target
+Type: .ac.kr academic related-sites replacement
+Status: VERIFIED_TARGET
+Target page:
+https://estate.iscu.ac.kr/real/subMenu1/sub9.asp
+Verified:
+2026-09-27
+Finding:
+- The Department of Real Estate still lists MK랜드 as a related real-estate site.
+- Current public search mainly surfaces legacy MK Land material from 1999, while a current standalone MK Land service at the listed domain could not be verified.
+- Other entries such as 부동산써브 (serve.co.kr) and 텐 (ten.co.kr) still show current operating evidence and are not treated as broken links.
+Replacement fit:
+- AptToSell housing-subscription data center provides current structured housing/subscription reference data, CSV/JSON, methodology, and citation metadata.
+Submission route:
+- Seoul Cyber University operates a public admissions board and a separate department/major consultation board, but suitability for a related-site maintenance request needs confirmation before posting.
+Next step:
+- Use only the MK Land item for any future replacement proposal; do not claim serve.co.kr or ten.co.kr are broken.
+Priority: VERY HIGH
