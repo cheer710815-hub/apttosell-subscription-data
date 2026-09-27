@@ -507,3 +507,27 @@ Replacement fit:
 Next step:
 - Find a public department consultation / suggestion route appropriate for resource-list maintenance; do not use admissions-only channels unless they explicitly accept department resource suggestions.
 Priority: VERY HIGH
+
+
+### Seoul Cyber University AI Real Estate Big Data resource inclusion target
+Type: .ac.kr academic data-resource inclusion
+Status: VERIFIED_TARGET
+Target pages:
+https://redate.iscu.ac.kr/lab/lab04.asp
+https://redate.iscu.ac.kr/lab/lab01.asp
+https://redate.iscu.ac.kr/lab/lab02.asp
+Verified:
+2026-09-27
+Finding:
+- The AI Real Estate Big Data department actively maintains AI Lab resource, market-trend, and AI/PropTech platform pages.
+- The platform page curates public and private real-estate data sources such as Korea Real Estate Board R-One, HF housing-finance statistics, Seoul Open Data, public transaction data, court auction data, and major proptech services.
+- The department also operates its own real-estate data center and posts externally supplied market materials.
+- A stale legacy HousePalm real-estate platform link remains in the PropTech list, providing a possible replacement angle for AptToSell.
+Resource fit:
+- AptToSell offers structured South Korea housing reference data with CSV/JSON, methodology, and citation metadata suitable for education and analysis.
+Submission route:
+- No dedicated public external resource-submission form was verified.
+- Do not use admissions-only channels unless the department explicitly accepts resource-maintenance requests there.
+Next step:
+- Look for a department-managed public contact, research-lab contact, partner/contact form, or other non-email route suitable for data-resource suggestions.
+Priority: VERY HIGH
