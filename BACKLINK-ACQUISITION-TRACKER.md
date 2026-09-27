@@ -448,3 +448,22 @@ Why it matters:
 Next step:
 - Wait for maintainer review / CI feedback.
 Priority: VERY HIGH
+
+
+### Deal-Scale/awesome-real-estate-investing PR #17
+Type: Curated real-estate investing resource list
+Status: PR_OPEN
+PR:
+https://github.com/Deal-Scale/awesome-real-estate-investing/pull/17
+Opened:
+2026-09-27
+Changes:
+- Added AptToSell Korea Housing Subscription Data under Authoritative Research & Publications
+- Added Resimanor Korea Stress DSR Housing Finance Data in the same section
+Why it matters:
+- The repository explicitly welcomes PR contributions.
+- The list includes analytics, foundational data, and authoritative research resources.
+- Both submissions disclose maintainer affiliation and link directly to public data repositories.
+Next step:
+- Wait for maintainer review / CI feedback.
+Priority: HIGH
