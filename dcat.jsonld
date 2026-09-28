@@ -50,5 +50,7 @@
         }
       ]
     }
-  ]
+  ],
+  "foaf:homepage": "https://apttosell.com/housing-subscription-data/",
+  "foaf:page": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/apttosell-housing-subscription/"
 }
