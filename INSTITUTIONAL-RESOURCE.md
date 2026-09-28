@@ -16,6 +16,13 @@ AptToSell provides reusable housing-subscription reference data for education, r
 - 2026 민영주택 청약 예치금 데이터표  
   https://apttosell.com/private-housing-deposit-data/
 
+## Public documentation
+
+- GitBook documentation  
+  https://housing-data-korea.gitbook.io/housing-data-korea-docs/apttosell-housing-subscription/
+
+이 문서는 canonical AptToSell data center와 GitHub 원자료를 설명하는 공개 documentation layer입니다.
+
 ## Data access
 
 - 청약가점 CSV  
