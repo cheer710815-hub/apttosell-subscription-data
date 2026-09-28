@@ -38,6 +38,13 @@ Suitable for:
 - 청약·분양 데이터센터
 - 2026 주택청약 참고자료
 
+## Public documentation
+
+GitBook documentation:  
+https://housing-data-korea.gitbook.io/housing-data-korea-docs/apttosell-housing-subscription/
+
+The GitBook site is a public documentation layer for the canonical AptToSell data center and GitHub repository.
+
 ## Data access
 
 JSON:
