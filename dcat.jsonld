@@ -33,7 +33,11 @@
           "dct:format": "application/json",
           "dcat:downloadURL": "https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/housing_subscription_score_2026.json"
         }
-      ]
+      ],
+      "dct:issued": "2026-09-18",
+      "dct:modified": "2026-09-28",
+      "dcat:landingPage": "https://apttosell.com/cheongyak-score-data/",
+      "dct:identifier": "https://doi.org/10.5281/zenodo.22842058"
     },
     {
       "@type": "dcat:Dataset",
@@ -48,9 +52,16 @@
           "dct:format": "text/csv",
           "dcat:downloadURL": "https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/private_housing_deposit_2026.csv"
         }
-      ]
+      ],
+      "dct:issued": "2026-09-18",
+      "dct:modified": "2026-09-28",
+      "dcat:landingPage": "https://apttosell.com/private-housing-deposit-data/",
+      "dct:identifier": "https://doi.org/10.6084/m9.figshare.33948868"
     }
   ],
   "foaf:homepage": "https://apttosell.com/housing-subscription-data/",
-  "foaf:page": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/apttosell-housing-subscription/"
+  "foaf:page": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/apttosell-housing-subscription/",
+  "dct:issued": "2026-09-18",
+  "dct:modified": "2026-09-28",
+  "dcat:landingPage": "https://apttosell.com/housing-subscription-data/"
 }
