@@ -532,3 +532,85 @@ Submission route:
 Next step:
 - Look for a department-managed public contact, research-lab contact, partner/contact form, or other non-email route suitable for data-resource suggestions.
 Priority: VERY HIGH
+
+## 2026-09-29 profile, publishing, and dataset distribution
+
+These placements were created as public identity, documentation, editorial, or dataset-distribution surfaces. They are not treated as substitutes for editorial/institutional backlinks.
+
+### ORCID
+Status: LIVE
+Profile:
+https://orcid.org/0009-0006-9445-4768
+Notes:
+- Public profile created.
+- Resimanor and AptToSell website links added.
+- Housing-finance / real-estate biography and keywords added.
+
+### About.me
+Status: LIVE
+Profile:
+https://about.me/eunk
+Notes:
+- Public profile updated for housing-finance / real-estate publishing.
+- Resimanor and AptToSell links added.
+- Resimanor set as the primary blog CTA.
+
+### Gravatar
+Status: LIVE
+Profile:
+https://gravatar.com/vegadus2
+Notes:
+- Resimanor and AptToSell public links added.
+- GitHub, ORCID, LinkedIn, and Resimanor WordPress ownership connected/verified where supported.
+- Threads verification deferred after provider-side verification failure.
+
+### LinkedIn
+Status: LIVE
+Profile:
+https://www.linkedin.com/in/%EC%9D%80%EC%A0%95-%EA%B9%80-b2073843b/
+Notes:
+- Headline and About section aligned with housing-finance / real-estate publishing.
+- Contact info includes Resimanor, AptToSell, and Housing Data Korea.
+
+### Hashnode — Housing Data Korea
+Status: LIVE
+Publication:
+https://housingdatakorea.hashnode.dev/
+Notes:
+- Public Housing Data Korea publication created.
+- First housing-finance / housing-subscription reference article published.
+- Initial AutoMod archive was appealed and the article was restored to Published status.
+
+### Medium
+Status: LIVE
+Profile handle:
+@housingdatakorea
+Notes:
+- Profile cleaned to housing / real-estate focus.
+- Unrelated legacy posts removed.
+- Housing-finance / housing-subscription reference article published with contextual links to Resimanor and AptToSell.
+- Exact article URL should be captured separately for monitoring.
+
+### Substack — Housing Data Korea
+Status: LIVE
+Publication:
+https://housingdatakorea.substack.com/
+Published article:
+https://housingdatakorea.substack.com/p/south-korea-housing-finance-and-subscription
+Notes:
+- Public profile and article created.
+- Article links contextually to Resimanor and AptToSell.
+
+### Kaggle
+Status: LIVE
+Notes:
+- Public Resimanor housing-finance / Stress DSR dataset created from the GitHub repository.
+- Public AptToSell housing-subscription dataset created from the GitHub repository.
+- CC BY 4.0 selected.
+- Dataset descriptions link back to the canonical data centers and GitBook documentation.
+- Exact Kaggle dataset URLs should be captured separately for permanent monitoring.
+
+Tracking rule:
+- Keep these as supporting discovery/entity surfaces.
+- Continue prioritizing editorial adoption, dataset catalogs, academic resource pages, and open-source integrations over accumulating generic profile links.
+
