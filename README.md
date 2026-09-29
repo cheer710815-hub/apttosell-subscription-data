@@ -155,3 +155,15 @@ DCAT 3 JSON-LD:
 https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/dcat.jsonld
 
 This file describes the repository's public datasets and distributions using the W3C Data Catalog Vocabulary (DCAT), so data catalogs, research tools, and agents can discover the dataset metadata in a standard machine-readable form.
+
+## Related housing-finance resource
+
+- [Resimanor 2026 주택금융·DSR 데이터센터](https://resimanor.com/housing-finance-dsr-data/) — 스트레스 DSR, 주택담보대출 한도 예시와 주택금융 계산 기준을 정리한 관련 공개 데이터 문서입니다.
+
+## Publisher identity
+
+- ORCID: https://orcid.org/0009-0006-9445-4768
+- About.me: https://about.me/eunk
+- Gravatar: https://gravatar.com/vegadus2
+- GitHub: https://github.com/cheer710815-hub
+
