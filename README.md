@@ -12,6 +12,7 @@ South Korea's 2026 housing-subscription reference data for private housing appli
 - **Zenodo DOI:** https://doi.org/10.5281/zenodo.22842058
 - **Figshare DOI:** https://doi.org/10.6084/m9.figshare.33948556
 - **Harvard Dataverse DOI:** https://doi.org/10.7910/DVN/TSALWZ
+- **Mendeley Data DOI:** https://doi.org/10.17632/shdpkfbj3c.1
 - **License:** CC BY 4.0
 
 For versioned machine-readable files, methodology, source metadata, updates, and citation information, use the canonical GitHub repository and data center above.
@@ -29,6 +30,8 @@ For versioned machine-readable files, methodology, source metadata, updates, and
 - Zenodo Community: https://zenodo.org/communities/apttosell-housing-subscription-data/
 - Figshare DOI: https://doi.org/10.6084/m9.figshare.33948556
 - Harvard Dataverse DOI: https://doi.org/10.7910/DVN/TSALWZ
+- Mendeley Data DOI: https://doi.org/10.17632/shdpkfbj3c.1
+- Mendeley Data record: https://data.mendeley.com/datasets/shdpkfbj3c/1
 - Hugging Face dataset: https://huggingface.co/datasets/eunguneun/korea-housing-subscription-score-2026
 - Kaggle dataset: https://www.kaggle.com/datasets/resimanor/korea-housing-subscription-score-2026
 
