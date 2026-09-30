@@ -614,3 +614,41 @@ Tracking rule:
 - Keep these as supporting discovery/entity surfaces.
 - Continue prioritizing editorial adoption, dataset catalogs, academic resource pages, and open-source integrations over accumulating generic profile links.
 
+## 2026-09-30 monitoring update
+
+### Google dataset structured data
+Status: VALIDATED
+Evidence:
+- Google Search Console email confirmed the dataset structured-data fixes for description, license, and creator were validated for both resimanor.com and apttosell.com.
+Notes:
+- This supports discoverability of the canonical dataset pages in Google's dataset/search ecosystem.
+- No additional structured-data repair is required for these three fields at this time.
+
+### GitHub editorial/open-source proposals
+Checked: 2026-09-30
+Status:
+- tae0y/real-estate-mcp PR #41 — OPEN, no new review comments.
+- etewiah/awesome-real-estate PR #81 — OPEN, no new review comments.
+- Deal-Scale/awesome-real-estate-investing PR #17 — OPEN, no new review comments.
+- ssuksak/cheongyak-rag-mcp issue #1 — OPEN, no new maintainer response.
+- dougdevitre/access-to-housing issues #7/#8 — OPEN, no new maintainer response.
+- doorijaehyuk/korea-housing-mcp issue #1 — OPEN, no new maintainer response.
+- emceeKim/korea-finance-mcp issue #2 — OPEN, no new maintainer response.
+- sallim-app/korea-realty issue #1 — OPEN, no new maintainer response.
+- verisworks-ai/naejipgak-mcp issue #1 — OPEN, no new maintainer response.
+- happyendpointhq/awesome-real-estate-apis issue #2 — OPEN, no new maintainer response.
+
+Action:
+- Do not bump or add follow-up comments yet.
+- Respect maintainer review windows and wait for a substantive response.
+
+### Outreach monitoring
+Checked: 2026-09-30
+- MorFi: no new response after the 2026-09-26 review acknowledgment.
+- The Real Deal data-directory suggestion: no reply detected.
+- Data Is Plural dataset suggestion: no reply detected.
+- HOFINET submission: no reply detected in the monitored inbox.
+
+Action:
+- No follow-up yet. Avoid repeated outreach unless a reasonable review period passes or a recipient requests clarification.
+
