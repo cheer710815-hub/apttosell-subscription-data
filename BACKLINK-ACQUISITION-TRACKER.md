@@ -652,3 +652,17 @@ Checked: 2026-09-30
 Action:
 - No follow-up yet. Avoid repeated outreach unless a reasonable review period passes or a recipient requests clarification.
 
+### Mendeley Data
+Type: Research data repository / DOI citation
+Status: LIVE
+Dataset:
+https://data.mendeley.com/datasets/shdpkfbj3c/1
+DOI:
+https://doi.org/10.17632/shdpkfbj3c.1
+Verified:
+2026-09-30
+Why it matters:
+- Provides a citable research-data record with a persistent DOI.
+- The record links back to the canonical data/methodology page.
+- CC BY 4.0 licensing and reproducibility notes are publicly visible.
+Priority: VERY HIGH
