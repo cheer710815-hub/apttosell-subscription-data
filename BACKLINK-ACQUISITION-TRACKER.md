@@ -666,3 +666,35 @@ Why it matters:
 - The record links back to the canonical data/methodology page.
 - CC BY 4.0 licensing and reproducibility notes are publicly visible.
 Priority: VERY HIGH
+
+### Hugging Face dataset
+Type: Public dataset hub / machine-readable discovery
+Status: LIVE
+Dataset:
+https://huggingface.co/datasets/eunguneun/korea-housing-subscription-score-2026
+Verified:
+2026-09-30
+Observed downloads:
+46
+Why it matters:
+- Public CC BY 4.0 dataset record is live and machine-readable.
+- The dataset card links back to the canonical source/methodology.
+- The repository is discoverable in the Hugging Face datasets ecosystem used by data/ML workflows.
+Metadata note:
+- The current Hugging Face metadata includes `region:us`, which is not appropriate for a South Korea dataset and should be removed or corrected when write access is available.
+Priority: HIGH
+
+### GitLab mirror/import
+Type: Open-source repository mirror
+Status: IMPORT_COMPLETED_URL_UNVERIFIED
+Import:
+apttosell-subscription-data
+Verified:
+2026-09-30
+Evidence:
+- GitLab import-completion email confirms the GitHub repository import finished successfully on 2026-09-25.
+Constraint:
+- The public project URL/visibility was not exposed in the completion email and could not be verified from public search.
+Next step:
+- Capture the final GitLab project URL from the GitLab import-history/project page before treating it as a live public backlink surface.
+Priority: MEDIUM
