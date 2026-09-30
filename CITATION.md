@@ -12,9 +12,11 @@ AptToSell 주택청약 데이터를 인용할 때는 가능한 경우 **원문 �
 - Zenodo concept DOI: https://doi.org/10.5281/zenodo.22842057
 - Figshare DOI: https://doi.org/10.6084/m9.figshare.33948556
 - Harvard Dataverse DOI: https://doi.org/10.7910/DVN/TSALWZ
+- Mendeley Data DOI: https://doi.org/10.17632/shdpkfbj3c.1
 
 ## Related public records
 
+- Mendeley Data: https://data.mendeley.com/datasets/shdpkfbj3c/1
 - GitHub: https://github.com/cheer710815-hub/apttosell-subscription-data
 - GitBook documentation: https://housing-data-korea.gitbook.io/housing-data-korea-docs/apttosell-housing-subscription/
 - Hugging Face: https://huggingface.co/datasets/eunguneun/korea-housing-subscription-score-2026
