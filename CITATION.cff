@@ -19,3 +19,6 @@ identifiers:
   - type: doi
     value: "10.7910/DVN/TSALWZ"
     description: "Harvard Dataverse version 1.0"
+  - type: doi
+    value: "10.17632/shdpkfbj3c.1"
+    description: "Mendeley Data version 1"
