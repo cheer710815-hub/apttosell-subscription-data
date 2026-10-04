@@ -46,3 +46,8 @@ AptToSell이 2026년 1~9월 최초 모집공고 아파트를 기준으로 청약
 ## Citation
 
 AptToSell, “2026 아파트 청약 경쟁률과 후속공급 분석”, data cutoff 2026-10-04, derived from Korea Real Estate Board ApplyHome public API data.
+
+
+## Persistent identifier
+
+Figshare DOI: https://doi.org/10.6084/m9.figshare.34064439
