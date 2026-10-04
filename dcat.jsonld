@@ -81,7 +81,10 @@
       "dct:modified": "2026-10-04",
       "dcat:landingPage": "https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/",
       "dct:identifier": "https://doi.org/10.6084/m9.figshare.34064439",
-      "foaf:page": "https://huggingface.co/datasets/eunguneun/korea-apartment-subscription-followup-supply-2026"
+      "foaf:page": [
+        "https://huggingface.co/datasets/eunguneun/korea-apartment-subscription-followup-supply-2026",
+        "https://schemafinder.com/dataset/c-1791120376-dsjx89"
+      ]
     }
   ],
   "foaf:homepage": "https://apttosell.com/housing-subscription-data/",
