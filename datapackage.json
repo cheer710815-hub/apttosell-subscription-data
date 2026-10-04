@@ -2,9 +2,9 @@
   "profile": "data-package",
   "name": "apttosell-housing-subscription-data-2026",
   "title": "2026 Korea Housing Subscription and Presale Data",
-  "description": "Public reference data for Korean housing subscription scores, eligibility, deposits, presale schedules and official-notice based application rules maintained by AptToSell.",
+  "description": "Public reference and derived analysis data for Korean housing subscription scores, eligibility, deposits, presale schedules, competition rates, presale prices and follow-up supply maintained by AptToSell.",
   "homepage": "https://apttosell.com/housing-subscription-data/",
-  "version": "1.0",
+  "version": "1.1",
   "created": "2026-09-18",
   "licenses": [
     {
@@ -21,7 +21,11 @@
     "청약",
     "분양",
     "청약가점",
-    "청약 예치금"
+    "청약 예치금",
+    "competition rate",
+    "follow-up supply",
+    "무순위",
+    "임의공급"
   ],
   "sources": [
     {
@@ -43,6 +47,10 @@
     {
       "title": "Harvard Dataverse DOI",
       "path": "https://doi.org/10.7910/DVN/TSALWZ"
+    },
+    {
+      "title": "Figshare DOI — 2026 subscription competition and follow-up supply analysis",
+      "path": "https://doi.org/10.6084/m9.figshare.34064439"
     }
   ],
   "contributors": [
@@ -61,7 +69,10 @@
     "kaggle": "https://www.kaggle.com/datasets/resimanor/korea-housing-subscription-score-2026",
     "gitlab_repository": "https://gitlab.com/housing-data-korea-group/apttosell-subscription-data",
     "gitbook_documentation": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/apttosell-housing-subscription/",
-    "dagshub_repository": "https://dagshub.com/cheer710815-hub/apttosell-subscription-data"
+    "dagshub_repository": "https://dagshub.com/cheer710815-hub/apttosell-subscription-data",
+    "followup_analysis_report": "https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/",
+    "followup_analysis_figshare_doi": "https://doi.org/10.6084/m9.figshare.34064439",
+    "followup_analysis_huggingface": "https://huggingface.co/datasets/eunguneun/korea-apartment-subscription-followup-supply-2026"
   },
   "resources": [
     {
@@ -84,6 +95,20 @@
       "format": "csv",
       "mediatype": "text/csv",
       "title": "2026 Korea private housing subscription deposit table"
+    },
+    {
+      "name": "apttosell_subscription_followup_projects_2026_jan_sep_csv",
+      "path": "reports/apttosell-apartment-subscription-followup-projects-2026-jan-sep.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "2026 Korea apartment subscription competition and follow-up supply — project-level data"
+    },
+    {
+      "name": "apttosell_subscription_followup_summary_2026_jan_sep_csv",
+      "path": "reports/apttosell-followup-analysis-2026-jan-sep-summary.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "2026 Korea apartment subscription competition and follow-up supply — summary statistics"
     }
   ]
 }
