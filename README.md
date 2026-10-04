@@ -37,6 +37,33 @@ For versioned machine-readable files, methodology, source metadata, updates, and
 
 이 저장소는 위 원문 데이터 페이지의 배점 구조, 검수 원칙과 재사용 정보를 보조하기 위한 공개 저장소입니다. 법령 개정이나 설명 수정이 있는 경우 최신 canonical data source를 우선합니다.
 
+## Featured data report — 2026 청약 경쟁률 × 후속공급
+
+AptToSell이 2026년 1~9월 최초 모집공고 아파트를 기준으로 **청약 경쟁률, 분양가, 무순위·잔여세대·임의공급 후속공급**을 연결한 파생 데이터 분석입니다.
+
+- **Canonical article:** https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/
+- **Final cohort:** 196 projects
+- **Competition-rate coverage:** 193 projects
+- **First-priority competition ≥10:1:** 44 projects
+- **Follow-up supply observed among ≥10:1:** 19 projects
+- **Simple observed rate:** 43.2%
+- **60-day eligible cohort:** 36 projects
+- **Follow-up within 60 days:** 13 projects
+- **60-day rate:** 36.1%
+- **Observation cutoff:** 2026-10-04
+
+Public files:
+
+- [Summary CSV](./reports/apttosell-followup-analysis-2026-jan-sep-summary.csv)
+- [Methodology and citation guide](./reports/apttosell-followup-analysis-2026-jan-sep-methodology.md)
+- [Media brief](./MEDIA-BRIEF-2026-10-SUBSCRIPTION-FOLLOWUP.md)
+
+> Important: “follow-up supply” is not a contract failure rate or non-contract rate. It only means a later official residual/unsold or optional-supply announcement was identified and matched to the initial project.
+
+Suggested citation:
+
+> AptToSell, “2026 아파트 청약 경쟁률과 후속공급 분석”, data cutoff 2026-10-04, derived from Korea Real Estate Board ApplyHome public API data. https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/
+
 ## Educational & institutional resource
 
 - [INSTITUTIONAL-RESOURCE.md](./INSTITUTIONAL-RESOURCE.md) — 대학·연구기관·교육기관용 자료 안내
@@ -169,4 +196,3 @@ This file describes the repository's public datasets and distributions using the
 - About.me: https://about.me/eunk
 - Gravatar: https://gravatar.com/vegadus2
 - GitHub: https://github.com/cheer710815-hub
-
