@@ -18,8 +18,12 @@
   ],
   "resources": [
     {
+      "path": "apttosell-apartment-subscription-followup-projects-2026-jan-sep.csv",
+      "description": "Project-level dataset for 196 apartment presale projects, including competition rate, price bands, and matched follow-up supply indicators."
+    },
+    {
       "path": "apttosell-followup-analysis-2026-jan-sep-summary.csv",
-      "description": "Competition-band, price-band, and 60-day follow-up-supply summary statistics for 2026 Jan-Sep apartment presale announcements."
+      "description": "Summary statistics by competition band, price band, and 60-day follow-up-supply observation."
     }
   ]
 }
