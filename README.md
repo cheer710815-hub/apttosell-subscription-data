@@ -54,6 +54,7 @@ AptToSell이 2026년 1~9월 최초 모집공고 아파트를 기준으로 **청�
 - **Figshare DOI:** https://doi.org/10.6084/m9.figshare.34064439
 - **RePEc handle:** RePEc:gyv:aptsub:1
 - **RePEc archive:** https://cheer710815-hub.github.io/resimanor-housing-finance-data/RePEc/gyv/
+- **SchemaFinder:** https://schemafinder.com/dataset/c-1791120376-dsjx89
 
 Public files:
 
