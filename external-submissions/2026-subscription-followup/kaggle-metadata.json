@@ -1,0 +1,25 @@
+{
+  "title": "Korea Apartment Subscription Follow-up Supply 2026",
+  "id": "resimanor/korea-apartment-subscription-followup-supply-2026",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "korea",
+    "housing",
+    "real estate",
+    "apartment",
+    "subscription",
+    "presale",
+    "unsold",
+    "follow-up supply"
+  ],
+  "resources": [
+    {
+      "path": "apttosell-followup-analysis-2026-jan-sep-summary.csv",
+      "description": "Competition-band, price-band, and 60-day follow-up-supply summary statistics for 2026 Jan-Sep apartment presale announcements."
+    }
+  ]
+}
