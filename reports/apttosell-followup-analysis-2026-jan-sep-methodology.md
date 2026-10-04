@@ -50,6 +50,8 @@ Suggested citation:
 
 Canonical site: https://apttosell.com/
 
+Persistent identifier: https://doi.org/10.6084/m9.figshare.34064439
+
 ## Files
 
 - Summary CSV: `apttosell-followup-analysis-2026-jan-sep-summary.csv`
