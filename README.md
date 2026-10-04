@@ -51,6 +51,7 @@ AptToSell이 2026년 1~9월 최초 모집공고 아파트를 기준으로 **청�
 - **Follow-up within 60 days:** 13 projects
 - **60-day rate:** 36.1%
 - **Observation cutoff:** 2026-10-04
+- **Figshare DOI:** https://doi.org/10.6084/m9.figshare.34064439
 
 Public files:
 
