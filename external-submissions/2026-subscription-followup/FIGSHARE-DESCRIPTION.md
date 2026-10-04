@@ -47,3 +47,8 @@ https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/reports
 ## Suggested citation
 
 AptToSell (2026). Korea Apartment Subscription Competition and Follow-up Supply Analysis, 2026 Jan–Sep. Data cutoff: 2026-10-04.
+
+
+## Persistent identifier
+
+Figshare DOI: https://doi.org/10.6084/m9.figshare.34064439
