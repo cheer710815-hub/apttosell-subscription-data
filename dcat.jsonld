@@ -7,7 +7,7 @@
   "@type": "dcat:Catalog",
   "@id": "https://github.com/cheer710815-hub/apttosell-subscription-data",
   "dct:title": "AptToSell South Korea Housing Subscription Data Catalog",
-  "dct:description": "Public reference datasets for South Korea housing subscription scoring and private-housing deposit requirements.",
+  "dct:description": "Public reference and derived datasets for South Korea housing subscription scoring, deposit requirements, competition rates, presale prices and follow-up supply.",
   "dct:publisher": {
     "@type": "foaf:Agent",
     "foaf:name": "AptToSell"
@@ -57,11 +57,36 @@
       "dct:modified": "2026-09-28",
       "dcat:landingPage": "https://apttosell.com/private-housing-deposit-data/",
       "dct:identifier": "https://doi.org/10.6084/m9.figshare.33948868"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/",
+      "dct:title": "Korea Apartment Subscription Competition and Follow-up Supply Analysis, 2026 Jan–Sep",
+      "dct:description": "Derived project-level and summary data linking South Korean apartment initial presale announcements with first-priority competition rates, presale prices, and later residual/unsold or optional-supply announcements.",
+      "dct:spatial": "South Korea",
+      "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dct:format": "text/csv",
+          "dcat:downloadURL": "https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/reports/apttosell-apartment-subscription-followup-projects-2026-jan-sep.csv"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dct:format": "text/csv",
+          "dcat:downloadURL": "https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/reports/apttosell-followup-analysis-2026-jan-sep-summary.csv"
+        }
+      ],
+      "dct:issued": "2026-10-04",
+      "dct:modified": "2026-10-04",
+      "dcat:landingPage": "https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/",
+      "dct:identifier": "https://doi.org/10.6084/m9.figshare.34064439",
+      "foaf:page": "https://huggingface.co/datasets/eunguneun/korea-apartment-subscription-followup-supply-2026"
     }
   ],
   "foaf:homepage": "https://apttosell.com/housing-subscription-data/",
   "foaf:page": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/apttosell-housing-subscription/",
   "dct:issued": "2026-09-18",
-  "dct:modified": "2026-09-28",
+  "dct:modified": "2026-10-04",
   "dcat:landingPage": "https://apttosell.com/housing-subscription-data/"
 }
