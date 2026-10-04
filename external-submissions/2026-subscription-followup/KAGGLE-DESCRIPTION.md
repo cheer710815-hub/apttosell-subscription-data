@@ -29,3 +29,8 @@ https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/
 
 ### Methodology
 https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/reports/apttosell-followup-analysis-2026-jan-sep-methodology.md
+
+
+## Persistent identifier
+
+Figshare DOI: https://doi.org/10.6084/m9.figshare.34064439
