@@ -52,6 +52,8 @@ AptToSell이 2026년 1~9월 최초 모집공고 아파트를 기준으로 **청�
 - **60-day rate:** 36.1%
 - **Observation cutoff:** 2026-10-04
 - **Figshare DOI:** https://doi.org/10.6084/m9.figshare.34064439
+- **RePEc handle:** RePEc:gyv:aptsub:1
+- **RePEc archive:** https://cheer710815-hub.github.io/resimanor-housing-finance-data/RePEc/gyv/
 
 Public files:
 
