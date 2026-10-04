@@ -1,0 +1,12 @@
+metric_group,segment,projects,followup_projects,simple_followup_rate_pct,eligible_60d,followup_within_60d,followup_60d_rate_pct
+competition_band,<1:1,93,41,44.09,75,34,45.33
+competition_band,1-5:1,40,32,80.00,34,27,79.41
+competition_band,5-10:1,16,11,68.75,14,9,64.29
+competition_band,10-30:1,23,17,73.91,20,12,60.00
+competition_band,>=30:1,21,2,9.52,16,1,6.25
+price_band,<KRW 500m,11,4,36.36,10,2,20.00
+price_band,KRW 500m-700m,55,24,43.64,44,20,45.45
+price_band,KRW 700m-1b,52,32,61.54,42,26,61.90
+price_band,KRW 1b-1.5b,30,18,60.00,24,17,70.83
+price_band,>=KRW 1.5b,45,25,55.56,39,18,46.15
+headline,first_priority_rate>=10:1,44,19,43.18,36,13,36.11
