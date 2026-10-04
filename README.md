@@ -54,7 +54,9 @@ AptToSell이 2026년 1~9월 최초 모집공고 아파트를 기준으로 **청�
 
 Public files:
 
+- [Project-level CSV — 196 projects](./reports/apttosell-apartment-subscription-followup-projects-2026-jan-sep.csv)
 - [Summary CSV](./reports/apttosell-followup-analysis-2026-jan-sep-summary.csv)
+- [Data dictionary](./reports/apttosell-followup-analysis-data-dictionary.md)
 - [Methodology and citation guide](./reports/apttosell-followup-analysis-2026-jan-sep-methodology.md)
 - [Media brief](./MEDIA-BRIEF-2026-10-SUBSCRIPTION-FOLLOWUP.md)
 
