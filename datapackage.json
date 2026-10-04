@@ -72,7 +72,8 @@
     "dagshub_repository": "https://dagshub.com/cheer710815-hub/apttosell-subscription-data",
     "followup_analysis_report": "https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/",
     "followup_analysis_figshare_doi": "https://doi.org/10.6084/m9.figshare.34064439",
-    "followup_analysis_huggingface": "https://huggingface.co/datasets/eunguneun/korea-apartment-subscription-followup-supply-2026"
+    "followup_analysis_huggingface": "https://huggingface.co/datasets/eunguneun/korea-apartment-subscription-followup-supply-2026",
+    "schemafinder": "https://schemafinder.com/dataset/c-1791120376-dsjx89"
   },
   "resources": [
     {
