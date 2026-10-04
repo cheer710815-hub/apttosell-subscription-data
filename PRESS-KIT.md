@@ -73,6 +73,8 @@ AptToSell은 2026년 1~9월 최초 모집공고 아파트 196개 단지를 기�
 
 - Canonical report: https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/
 - Figshare DOI: https://doi.org/10.6084/m9.figshare.34064439
+- RePEc handle: RePEc:gyv:aptsub:1
+- RePEc archive: https://cheer710815-hub.github.io/resimanor-housing-finance-data/RePEc/gyv/
 - Hugging Face: https://huggingface.co/datasets/eunguneun/korea-apartment-subscription-followup-supply-2026
 - Project-level CSV: https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/reports/apttosell-apartment-subscription-followup-projects-2026-jan-sep.csv
 - Summary CSV: https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/reports/apttosell-followup-analysis-2026-jan-sep-summary.csv
