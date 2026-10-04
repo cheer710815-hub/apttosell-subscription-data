@@ -3,7 +3,8 @@
 **Release date:** 2026-10-04  
 **Publisher:** AptToSell  
 **Canonical article:** https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/  
-**Data cutoff:** 2026-10-04
+**Data cutoff:** 2026-10-04  
+**Figshare DOI:** https://doi.org/10.6084/m9.figshare.34064439
 
 ## 한 줄 요약
 
