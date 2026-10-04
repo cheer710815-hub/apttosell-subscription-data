@@ -65,3 +65,30 @@ AptToSell, "2026 청약가점 84점 데이터표", https://apttosell.com/cheongy
 ## Important limitation
 
 실제 청약 신청에서는 모집공고일 기준 자격, 무주택 인정범위, 부양가족 인정범위, 배우자 통장 가점 등 최신 규정과 해당 입주자모집공고를 우선 확인해야 합니다.
+
+
+## Featured 2026 data report — 청약 경쟁률 × 후속공급
+
+AptToSell은 2026년 1~9월 최초 모집공고 아파트 196개 단지를 기준으로 1순위 청약 경쟁률, 분양가, 이후 무순위·잔여세대·임의공급 공고를 연결한 파생 데이터를 공개합니다.
+
+- Canonical report: https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/
+- Figshare DOI: https://doi.org/10.6084/m9.figshare.34064439
+- Hugging Face: https://huggingface.co/datasets/eunguneun/korea-apartment-subscription-followup-supply-2026
+- Project-level CSV: https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/reports/apttosell-apartment-subscription-followup-projects-2026-jan-sep.csv
+- Summary CSV: https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/reports/apttosell-followup-analysis-2026-jan-sep-summary.csv
+- Methodology: https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/reports/apttosell-followup-analysis-2026-jan-sep-methodology.md
+
+### Headline figures
+
+- Final cohort: 196 projects
+- Competition-rate coverage: 193 projects
+- First-priority competition ≥10:1: 44 projects
+- Follow-up supply observed among them: 19 projects (43.2% simple observed rate)
+- 60-day eligible cohort: 36 projects
+- Follow-up within 60 days: 13 projects (36.1%)
+
+### Ready-to-use attribution
+
+AptToSell, "2026 아파트 청약 경쟁률과 후속공급 분석", data cutoff 2026-10-04, https://doi.org/10.6084/m9.figshare.34064439
+
+**Important:** 후속공급 발생은 미계약률 또는 계약 실패율을 뜻하지 않습니다.
