@@ -1,13 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite the canonical AptToSell data page and the archived dataset."
-title: "2026 Korea Private Housing Subscription Score Table"
+message: "If you use this repository or its datasets, please cite the relevant canonical AptToSell data page and persistent identifier."
+title: "AptToSell South Korea Housing Subscription Data 2026"
 type: dataset
 version: "1.0"
-date-released: 2026-09-18
+date-released: 2026-10-04
 license: CC-BY-4.0
 authors:
   - name: "AptToSell"
-url: "https://apttosell.com/cheongyak-score-data/"
+url: "https://apttosell.com/housing-subscription-data/"
 repository-code: "https://github.com/cheer710815-hub/apttosell-subscription-data"
 identifiers:
   - type: doi
@@ -22,3 +22,6 @@ identifiers:
   - type: doi
     value: "10.17632/shdpkfbj3c.1"
     description: "Mendeley Data version 1"
+  - type: doi
+    value: "10.6084/m9.figshare.34064439"
+    description: "2026 apartment subscription competition and follow-up supply analysis"
