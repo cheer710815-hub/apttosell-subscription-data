@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Korea Apartment Pre-Move-In Funding Dataset 2026",
+  "description": "A verified reference dataset for comparing apartment pre-move-in funding requirements in South Korea. It standardizes contract deposits, interim payments, balance structure, financing support, and explicitly self-paid interim payments using January-September 2026 initial housing recruitment notices.",
+  "url": "https://apttosell.com/%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc-%ec%a0%84-%ed%95%84%ec%9a%94%ec%9e%90%ea%b8%88/",
+  "identifier": [
+    "https://doi.org/10.5281/zenodo.23157055",
+    "10.5281/zenodo.23157055"
+  ],
+  "sameAs": [
+    "https://doi.org/10.5281/zenodo.23157055",
+    "https://doi.org/10.5281/zenodo.23157054",
+    "https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/initial-contract-cash-2026"
+  ],
+  "creator": {
+    "@type": "Person",
+    "name": "Eun Kim",
+    "sameAs": "https://orcid.org/0009-0006-9445-4768",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "AptToSell",
+      "url": "https://apttosell.com/"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AptToSell",
+    "url": "https://apttosell.com/"
+  },
+  "datePublished": "2026-10-05",
+  "dateModified": "2026-10-05",
+  "version": "1.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "keywords": [
+    "South Korea",
+    "apartment",
+    "housing subscription",
+    "housing finance",
+    "contract deposit",
+    "interim payment",
+    "pre-move-in funding"
+  ],
+  "spatialCoverage": "South Korea",
+  "temporalCoverage": "2026-01/2026-09",
+  "measurementTechnique": "Initial housing recruitment notices and project-owner financing conditions are verified and standardized to compare contract deposits and explicitly self-paid interim payments.",
+  "variableMeasured": [
+    "contract deposit rate",
+    "first contract payment",
+    "interim payment rate",
+    "financing-supported interim payment rate",
+    "explicitly self-paid interim payment rate",
+    "pre-move-in funding ratio"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/datasets/initial-contract-cash-2026/apttosell-initial-cash-publication-ready-2026-10-05.csv"
+    }
+  ]
+}
