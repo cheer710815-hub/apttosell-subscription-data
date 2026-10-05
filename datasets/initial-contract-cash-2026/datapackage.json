@@ -1,0 +1,51 @@
+{
+  "profile": "data-package",
+  "name": "korea-apartment-pre-move-in-funding-dataset-2026",
+  "title": "Korea Apartment Pre-Move-In Funding Dataset 2026",
+  "description": "Verified reference dataset for comparing apartment pre-move-in funding requirements in South Korea using 2026 January-September initial housing recruitment notices.",
+  "version": "1.0",
+  "homepage": "https://apttosell.com/%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc-%ec%a0%84-%ed%95%84%ec%9a%94%ec%9e%90%ea%b8%88/",
+  "id": "https://doi.org/10.5281/zenodo.23157055",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Eun Kim",
+      "role": "author",
+      "path": "https://orcid.org/0009-0006-9445-4768"
+    }
+  ],
+  "keywords": [
+    "South Korea",
+    "apartment",
+    "housing subscription",
+    "housing finance",
+    "contract deposit",
+    "interim payment",
+    "pre-move-in funding"
+  ],
+  "sources": [
+    {
+      "title": "AptToSell canonical analysis and dataset page",
+      "path": "https://apttosell.com/%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc-%ec%a0%84-%ed%95%84%ec%9a%94%ec%9e%90%ea%b8%88/"
+    },
+    {
+      "title": "Zenodo Version 1.0 record",
+      "path": "https://doi.org/10.5281/zenodo.23157055"
+    }
+  ],
+  "resources": [
+    {
+      "name": "publication-ready-2026-10-05",
+      "title": "Publication-ready public subset — 41 projects",
+      "path": "apttosell-initial-cash-publication-ready-2026-10-05.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}
