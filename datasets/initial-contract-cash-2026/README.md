@@ -15,6 +15,8 @@ AptToSell이 2026년 1월부터 9월까지의 아파트 최초 모집공고를 �
 - Conservative publication-ready subset: **41 projects**
 - Verification date: **2026-10-05**
 - License: **CC BY 4.0**
+- Zenodo DOI (Version 1.0): **10.5281/zenodo.23157055**
+- Zenodo DOI (all versions): **10.5281/zenodo.23157054**
 
 The 196-project registry is the validation universe. The repository currently exposes the conservative 41-project publication-ready subset for external reuse.
 
@@ -70,6 +72,6 @@ The next institution-ready edition should expand to **housing-type-level rows**,
 
 Suggested citation:
 
-> AptToSell. (2026). *Korea Apartment Pre-Move-In Funding Dataset 2026*. Version 2026-10-05. https://apttosell.com/%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc-%ec%a0%84-%ed%95%84%ec%9a%94%ec%9e%90%ea%b8%88/
+> Kim, Eun. (2026). *Korea Apartment Pre-Move-In Funding Dataset 2026* (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23157055
 
-When reusing the data, please cite **AptToSell** and the canonical source URL above.
+When reusing the data, please cite the **Version 1.0 DOI** above. For links intended to resolve to the latest dataset version, use the all-versions DOI: https://doi.org/10.5281/zenodo.23157054. The AptToSell page above remains the canonical methodology and analysis source.
