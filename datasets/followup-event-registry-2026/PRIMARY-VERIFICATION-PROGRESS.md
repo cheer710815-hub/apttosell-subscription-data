@@ -4,34 +4,25 @@
 
 - Total first-event rows: **103**
 - Evidence-reviewed rows: **103 / 103**
-- Remaining discovery `TODO_PRIMARY_SOURCE`: **0**
 - Numeric first follow-up notice IDs recovered: **103 / 103**
-- `PRIMARY_VERIFIED`: **1**
-- `ID_CORROBORATED_SECONDARY`: **102**
-- `SECONDARY_CORROBORATED`: **0**
+- `PRIMARY_VERIFIED`: **3**
+- `ID_CORROBORATED_SECONDARY`: **100**
 
-## Discovery milestone
+## Primary-verified events
 
-The first-pass notice-ID discovery is now **complete for all 103 first-event rows**.
+The direct-official-artifact subset currently includes **3** events.
 
-Every project in the first-event cohort now has a numeric first follow-up notice ID.
+Newly promoted in this pass:
 
-This does not mean every row is primary-source verified. Most IDs were recovered from reliable public reproductions of ApplyHome data, with official project-domain cross-checks where available.
+- **아크로 리버스카이** — official ACRO project-hosted no-priority notice PDF; notice ID `2026910194`.
+- **청주 푸르지오 씨엘리체** — official PRUGIO project-hosted no-priority notice PDF; notice ID `2026910133`.
 
-## Primary-source status
+Previously primary-verified:
 
-The direct ApplyHome detail endpoint is not accessible through the current web tool environment. Therefore the promotion layer remains intentionally conservative.
+- **포레나더샵 인천시청역** — official project-hosted no-priority recruitment notice PDF; notice ID `2026910063`.
 
-One event is already `PRIMARY_VERIFIED` through an official project-hosted recruitment notice artifact:
+## Promotion rule
 
-- **포레나더샵 인천시청역** — notice ID `2026910063`.
+A row is promoted only when an official ApplyHome/LH record or official project/public-agency notice artifact is directly inspectable and contains the event fields.
 
-## Next layer
-
-The discovery phase is finished. The remaining task is direct-official-artifact promotion:
-
-1. inspect original ApplyHome/LH or project-hosted official notice artifact;
-2. verify notice ID, announcement date, subtype and supply count directly;
-3. promote only directly supported rows to `PRIMARY_VERIFIED`.
-
-No new DOI should be minted until a clearly bounded primary-verified cohort is available.
+The remaining rows stay secondary/corroborated even when their numeric IDs are known.
