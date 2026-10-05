@@ -26,6 +26,8 @@ The 196-project registry is the validation universe. The repository currently ex
 - [Methodology](./METHODOLOGY.md)
 - [Data dictionary](./DATA-DICTIONARY.md)
 - [Media brief](./MEDIA-BRIEF.md)
+- [Frictionless Data Package metadata](./datapackage.json)
+- [BibTeX citation](./CITATION.bib)
 
 ## Core metric
 
