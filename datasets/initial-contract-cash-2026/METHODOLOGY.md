@@ -57,8 +57,17 @@
 
 공개된 분양 및 금융조건을 동일한 규칙으로 표준화하여 프로젝트 간 자금부담을 비교하기 위한 검증 데이터입니다.
 
-## 10. Canonical source
+## 10. Version 1.0 release
+- Public subset: 41 projects
+- Public CSV: `apttosell-initial-cash-publication-ready-2026-10-05.csv`
+- Zenodo Version 1.0 DOI: https://doi.org/10.5281/zenodo.23157055
+- Zenodo all-versions DOI: https://doi.org/10.5281/zenodo.23157054
+- License: CC BY 4.0
+
+Version 1.0은 재현 가능한 고정 공개본으로 유지하며, 데이터 의미를 바꾸는 수정이 필요한 경우 기존 DOI 버전을 덮어쓰지 않고 새 버전으로 공개합니다.
+
+## 11. Canonical source
 https://apttosell.com/%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc-%ec%a0%84-%ed%95%84%ec%9a%94%ec%9e%90%ea%b8%88/
 
-## 11. License
+## 12. License
 CC BY 4.0
