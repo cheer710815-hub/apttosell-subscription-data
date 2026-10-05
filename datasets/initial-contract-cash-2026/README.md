@@ -28,6 +28,8 @@ The 196-project registry is the validation universe. The repository currently ex
 - [Media brief](./MEDIA-BRIEF.md)
 - [Frictionless Data Package metadata](./datapackage.json)
 - [BibTeX citation](./CITATION.bib)
+- [Schema.org Dataset JSON-LD](./schemaorg-dataset.jsonld)
+- [External submission kit](./SUBMISSION-KIT.md)
 
 ## Core metric
 
