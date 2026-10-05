@@ -49,3 +49,15 @@ As of 2026-10-05:
 - 1 row is currently `PRIMARY_VERIFIED`.
 
 Completion of this screening gate does not imply primary-source completeness.
+
+
+## Complete notice-ID coverage
+
+As of 2026-10-05:
+
+- first-event rows: **103**
+- numeric first-event notice IDs: **103**
+- missing numeric first-event notice IDs: **0**
+- direct-primary verified events: **1**
+
+Numeric ID completeness does not equal primary-source completeness.
