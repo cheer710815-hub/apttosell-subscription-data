@@ -16,7 +16,7 @@ The project-level derived first-follow-up date is 2026-04-28.
 
 A same-project 58-unit no-priority/residual supply event dated 2026-04-28 is corroborated by multiple public sources. Later events remain 2026-06-08 and 2026-07-23.
 
-The 2026-04-28 row remains `SECONDARY_CORROBORATED` until the original official notice identifier is directly recovered.
+The 2026-04-28 row now carries corroborated numeric notice ID `2026910100`, but remains `SECONDARY_CORROBORATED` until the original ApplyHome record is directly accessible and verified.
 
 ## DOI decision
 
