@@ -92,7 +92,7 @@ The full 103-project first-event queue has now been screened.
 - Evidence-reviewed: **103 / 103**
 - Remaining discovery TODO: **0**
 - Numeric follow-up notice IDs recovered: **103 / 103**
-- Primary-verified events: **5**
+- Primary-verified events: **6**
 - Secondary/corroborated events: **102**
 
 A compact crosswalk is available at [FOLLOWUP-NOTICE-ID-CROSSWALK-v0.1.csv](./FOLLOWUP-NOTICE-ID-CROSSWALK-v0.1.csv).
@@ -118,7 +118,7 @@ See [PRIMARY-PROMOTION-ACCESS-AUDIT.md](./PRIMARY-PROMOTION-ACCESS-AUDIT.md) for
 A separate conservative subset now contains only events supported by directly inspected official artifacts.
 
 - File: [PRIMARY-VERIFIED-SUBSET-v0.1.csv](./PRIMARY-VERIFIED-SUBSET-v0.1.csv)
-- Current rows: **5**
-- Included: 포레나더샵 인천시청역, 아크로 리버스카이, 청주 푸르지오 씨엘리체, 두산위브 더센트럴 수원, 드파인 아르티아
+- Current rows: **6**
+- Included: 포레나더샵 인천시청역, 아크로 리버스카이, 청주 푸르지오 씨엘리체, 두산위브 더센트럴 수원, 드파인 아르티아, 쌍용 더 플래티넘 온수역
 
 This subset is intentionally small and should grow only through direct official-artifact verification.
