@@ -5,6 +5,7 @@ AptToSell이 2026년 1월부터 9월까지의 아파트 최초 모집공고를 �
 ## Canonical source
 
 - AptToSell analysis and dataset page: https://apttosell.com/%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc-%ec%a0%84-%ed%95%84%ec%9a%94%ec%9e%90%ea%b8%88/
+- English dataset page: https://apttosell.com/korea-apartment-pre-move-in-funding-dataset-2026/
 - AptToSell housing-subscription data center: https://apttosell.com/housing-subscription-data/
 
 ## Current release
