@@ -14,9 +14,9 @@ This quality-control check compares the newly generated first-follow-up event da
   - Existing seed UNSOLD event: 2026-06-08
   - Difference: 41 days
 
-The mismatch is not silently corrected.
+The mismatch has now been structurally reconciled without overwriting the historical seed.
 
-It indicates that the older event seed does not currently contain the earliest follow-up notice implied by the published project-level table. The June 8 event remains a valid historical seed candidate, but it must not be labeled as the project's first follow-up event until the missing earlier notice is reconstructed.
+The missing earlier event has been reconstructed as a 2026-04-28 58-unit no-priority/residual supply notice with corroborated numeric notice ID `2026910100`. The June 8 event remains a later historical follow-up event.
 
 The July 23 OPTIONAL event is retained as a later event and is not part of the first-event comparison.
 
@@ -28,3 +28,10 @@ When project-level `days_to_first_followup` and an event-level notice disagree:
 2. flag the project for reconciliation,
 3. do not overwrite either date,
 4. do not renumber later event sequences until official notice chronology is reconstructed.
+
+
+## Notice-ID recovery update
+
+The 2026-04-28 Harrington event is consistently reproduced under numeric notice ID `2026910100` across multiple independent public mirrors.
+
+The direct ApplyHome detail URL pattern was tested, but the current web environment could not access the page. Therefore the event remains `SECONDARY_CORROBORATED`, not `PRIMARY_VERIFIED`.
