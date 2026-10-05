@@ -46,7 +46,7 @@ The remaining limitation is not event identification; it is direct official-arti
 
 ## Primary-verified subset
 
-A conservative direct-official-artifact subset has been added with **6** events.
+A conservative direct-official-artifact subset has been added with **10** events.
 
 This subset is separate from the full 103-row notice-ID crosswalk and is suitable for higher-confidence reuse.
 
@@ -55,3 +55,5 @@ This subset is separate from the full 103-row notice-ID crosswalk and is suitabl
 - **드파인 아르티아** promoted from the official SK DEFINE no-priority notice PDF. The first-event ID was corrected from secondary-recovered `2026910233` (second no-priority notice) to official first-event ID `2026910214` dated 2026-08-07.
 
 - **쌍용 더 플래티넘 온수역** promoted from its official project-hosted no-priority notice PDF (2026-03-25, notice ID 2026910070, 3 residual units).
+
+- **더샵 송도그란테르 G5-11/G5-3/G5-4/G5-5** promoted from official POSCO E&C project-hosted no-priority notice PDFs dated 2026-07-30 (IDs 2026910207, 2026910204, 2026910205, 2026910206).
