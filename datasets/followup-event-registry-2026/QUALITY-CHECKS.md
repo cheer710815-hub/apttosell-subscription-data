@@ -20,7 +20,8 @@ Do not infer later event dates by dividing or extrapolating the project-level ev
 - Later residual/no-priority supply: 2026-06-08
 - Later optional/discretionary supply: 2026-07-23
 - Chronology mismatch: **resolved**
-- Primary-source gate for 2026-04-28: **still open**
+- Numeric notice-ID recovery for 2026-04-28: **complete (`2026910100`)**
+- Direct primary-source ApplyHome access for 2026-04-28: **still open**
 
 
 ## Official-ID retention gate
@@ -35,4 +36,4 @@ Current retained IDs:
 
 Open item:
 
-- Harrington 2026-04-28 first follow-up: official numeric notice ID not recovered
+- Harrington 2026-04-28 first follow-up: numeric notice ID `2026910100` corroborated; direct ApplyHome primary-source access still open
