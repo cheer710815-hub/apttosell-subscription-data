@@ -1,7 +1,7 @@
-# AptToSell 2026 Initial Contract Cash Dataset — Data Dictionary v1.0
+# AptToSell 2026 Pre-Move-In Funding Dataset — Data Dictionary v1.0
 
 ## Dataset scope
-2026년 1~9월 최초 모집공고 기준 아파트 프로젝트를 대상으로 계약금, 중도금, 잔금, 중도금 금융지원 방식과 표준화된 입주 전 직접자금 지표를 정리한 검증 레지스트리입니다.
+2026년 1월~9월 최초 모집공고 기준 아파트 프로젝트를 대상으로 계약금, 중도금, 잔금, 중도금 금융지원 방식과 표준화된 **입주 전 필요자금** 지표를 정리한 검증 레지스트리입니다.
 
 ## Core fields
 
@@ -19,12 +19,12 @@
 | days_to_second_contract_payment | 2차 계약금 납부까지의 일수 |
 | initial_interim_rate_pct | 중도금 총 비율 |
 | initial_financing_support_rate_pct | 사업주체가 알선/지원하는 중도금 비율 |
-| explicit_self_pay_interim_rate_pct | 공고상 명시적으로 자납해야 하는 중도금 비율 |
+| explicit_self_pay_interim_rate_pct | 공고상 명시적으로 직접 납부해야 하는 중도금 비율 |
 | initial_balance_rate_pct | 잔금 비율 |
 | financing_method | 무이자, 이자후불, 자납 등 금융조건 |
 | initial_cash_required_10k_krw | 계약 당일 표준 초기 필요자금 |
-| pre_movein_direct_cash_10k_krw | 입주 전 표준 직접자금 |
-| pre_movein_direct_cash_ratio_pct | 분양가 대비 입주 전 표준 직접자금 비율 |
+| pre_movein_funding_10k_krw | 표준화된 입주 전 필요자금 |
+| pre_movein_funding_ratio_pct | 분양가 대비 입주 전 필요자금 비율 |
 | later_promo_condition | 최초 공고 이후 잔여/선착순 판매조건 |
 | verification_status | 검증상태 |
 | source_quality | 출처 수준 |
@@ -35,12 +35,15 @@
 | verified_date | 검증일 |
 
 ## Derived metric
-`pre_movein_direct_cash_ratio_pct = initial_contract_rate_pct + explicit_self_pay_interim_rate_pct`
+`pre_movein_funding_ratio_pct = initial_contract_rate_pct + explicit_self_pay_interim_rate_pct`
 
 단, 납부구조와 금융조건이 모두 검증된 프로젝트에만 계산합니다.
 
 ## Important exclusions
-- 잔금은 입주 전 직접자금 지표에서 제외합니다.
+- 잔금은 입주 전 필요자금 지표에서 제외합니다.
 - 선택옵션 비용은 제외합니다.
 - 개인별 중도금 대출 승인 가능성은 계산하지 않습니다.
 - 후속 잔여세대/선착순 조건은 최초 모집공고 조건과 섞지 않습니다.
+
+## Compatibility note
+기존 공개 CSV에 `pre_movein_direct_cash_10k_krw`, `pre_movein_direct_cash_ratio_pct` 필드명이 존재하는 경우 의미는 각각 `pre_movein_funding_10k_krw`, `pre_movein_funding_ratio_pct`와 동일합니다. 다음 정식 버전에서 새 필드명으로 통일할 예정입니다.
