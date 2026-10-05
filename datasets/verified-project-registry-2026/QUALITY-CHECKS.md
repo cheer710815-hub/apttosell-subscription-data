@@ -17,3 +17,16 @@ A Version 1.0 public row should have:
 The current two-row pilot is structurally useful but not yet publication-ready because its source fields are not uniformly official.
 
 Do not mint a DOI from this pilot.
+
+
+## Competition-result gate
+
+A Version 1.0 row must not be marked fully publication-ready merely because the project identity is primary-verified.
+
+Applicant totals and competition rates require their own primary-result source check.
+
+Current pilot status:
+
+- Project identity: primary-verified for both rows
+- Competition totals/rates: secondary-verified for both rows
+- Version 1.0 gate: **not yet passed**
