@@ -1,0 +1,4 @@
+event_id,apttosell_project_id,event_type,event_sequence,house_manage_no,announcement_date,supply_count,applicant_count,competition_rate,event_reason_class,source_url,verification_note,verification_status
+EVT-2026-GG-000001-U1,ATS-2026-GG-000001,UNSOLD,1,2026910080,2026-04-13,341,,,FOLLOWUP_RESIDUAL,https://www.psust.com/abyg_main/apt_byg_type3_view?HOUSE_MANAGE_NO=2026910080&HSS=11943&PBLANC_NO=2026910080,무순위 341세대 공고 확인,SECONDARY_OR_REPRODUCED_SOURCE
+EVT-2026-SEOUL-000001-U1,ATS-2026-SEOUL-000001,UNSOLD,1,2026910147,2026-06-08,58,,,FOLLOWUP_MIXED_CAUSE,https://apttoyou.kr/harringtoncentral/notice,특별공급 미달·계약포기 등으로 58세대 후속공급,SECONDARY_OR_REPRODUCED_SOURCE
+EVT-2026-SEOUL-000001-O1,ATS-2026-SEOUL-000001,OPTIONAL,1,2026940157,2026-07-23,17,175,10.29,FOLLOWUP_OPTIONAL,https://missbun.kr/listing/2026940157,"임의공급 17세대, 신청 175건(타입별 합계)",SECONDARY_SOURCE
