@@ -202,3 +202,25 @@ This file describes the repository's public datasets and distributions using the
 - About.me: https://about.me/eunk
 - Gravatar: https://gravatar.com/vegadus2
 - GitHub: https://github.com/cheer710815-hub
+
+
+## New dataset — 2026 아파트 초기 계약자금·입주 전 직접자금
+
+AptToSell이 2026년 1~9월 최초 모집공고 196개 프로젝트를 대상으로 계약금, 중도금, 잔금, 중도금 금융지원 방식과 표준화된 입주 전 직접자금을 검증한 데이터 프로젝트입니다.
+
+- Full validation registry: 196 projects
+- Payment schedule + financing verified: 82 projects
+- Direct-cash calculable: 81 projects
+- Conservative publication-ready subset: 41 projects
+- Verification date: 2026-10-05
+- License: CC BY 4.0
+
+Public documentation:
+
+- [Dataset README](./datasets/initial-contract-cash-2026/README.md)
+- [Methodology](./datasets/initial-contract-cash-2026/METHODOLOGY.md)
+- [Data dictionary](./datasets/initial-contract-cash-2026/DATA-DICTIONARY.md)
+- [Media brief](./datasets/initial-contract-cash-2026/MEDIA-BRIEF.md)
+- [Publication-ready CSV](./datasets/initial-contract-cash-2026/apttosell-initial-cash-publication-ready-2026-10-05.csv)
+
+> Important: 이 데이터의 '입주 전 직접자금'은 개인별 대출 가능액을 의미하지 않습니다. 공식 계약조건을 비교 가능한 방식으로 표준화한 지표이며, 후속 잔여세대·선착순 판촉조건은 최초 모집공고와 분리합니다.
