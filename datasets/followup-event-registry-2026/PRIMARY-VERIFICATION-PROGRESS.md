@@ -5,8 +5,8 @@
 - Total first-event rows: **103**
 - Evidence-reviewed rows: **103 / 103**
 - Numeric first follow-up notice IDs recovered: **103 / 103**
-- `PRIMARY_VERIFIED`: **6**
-- `ID_CORROBORATED_SECONDARY`: **97**
+- `PRIMARY_VERIFIED`: **10**
+- `ID_CORROBORATED_SECONDARY`: **93**
 
 ## Primary-verified events
 
@@ -32,3 +32,11 @@ The remaining rows stay secondary/corroborated even when their numeric IDs are k
 - **드파인 아르티아** — official SK DEFINE project-hosted no-priority notice PDF; first-event notice ID corrected from `2026910233` to `2026910214`, notice date 2026-08-07, 15 residual units.
 
 - **쌍용 더 플래티넘 온수역** — official project-hosted no-priority notice PDF; notice ID `2026910070`, notice date 2026-03-25, 3 residual units.
+
+- **ATS-2026-ICN-000009** — official POSCO E&C Songdo Granterre no-priority notice PDF; notice ID `2026910207`.
+
+- **ATS-2026-ICN-000013** — official POSCO E&C Songdo Granterre no-priority notice PDF; notice ID `2026910204`.
+
+- **ATS-2026-ICN-000012** — official POSCO E&C Songdo Granterre no-priority notice PDF; notice ID `2026910205`.
+
+- **ATS-2026-ICN-000011** — official POSCO E&C Songdo Granterre no-priority notice PDF; notice ID `2026910206`.
