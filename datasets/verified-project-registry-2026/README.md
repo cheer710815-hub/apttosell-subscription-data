@@ -61,3 +61,21 @@ A future public release requires:
 - documented handling of renamed projects
 - clear rules for multiple housing-management numbers
 - coverage statement and denominator
+
+
+## Primary-source re-verification — 2026-10-05
+
+Both pilot projects now have a primary-source recruitment document or project-owner source linked for identity verification.
+
+- **구리역 하이니티 리버파크** — official DL E&C / eLife project materials and recruitment notice
+- **해링턴 플레이스 노원 센트럴** — official project-hosted recruitment notice PDF
+
+The registry now separates **project identity verification** from **competition-result verification**.
+
+For both pilot rows, project identity is `PRIMARY_VERIFIED`. The competition totals remain `SECONDARY_VERIFIED` until the corresponding official ApplyHome result record or equivalent primary result evidence is captured.
+
+## Current pilot file
+
+- [apttosell-verified-projects-pilot-v0.3.csv](./apttosell-verified-projects-pilot-v0.3.csv)
+
+The earlier v0.2 file is retained as a historical pilot snapshot and should not be treated as the latest registry draft.
