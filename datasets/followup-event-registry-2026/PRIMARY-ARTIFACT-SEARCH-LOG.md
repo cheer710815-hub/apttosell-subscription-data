@@ -4,7 +4,7 @@ This log records the direct-official-artifact promotion pass after completion of
 
 ## Promotion results
 
-Directly inspected official follow-up notice artifacts currently support **10 primary-verified events**:
+Directly inspected official follow-up notice artifacts currently support **11 primary-verified events**:
 
 1. **포레나더샵 인천시청역** — official project-hosted no-priority recruitment notice PDF, notice ID `2026910063`
 2. **아크로 리버스카이** — DL E&C ACRO official project-hosted no-priority recruitment notice PDF, notice ID `2026910194`
@@ -17,6 +17,8 @@ Directly inspected official follow-up notice artifacts currently support **10 pr
 6. **쌍용 더 플래티넘 온수역** — official project-hosted no-priority notice PDF, notice ID `2026910070`, notice date 2026-03-25, 3 residual units.
 
 7-10. **더샵 송도그란테르 G5-11/G5-3/G5-4/G5-5** — official POSCO E&C project-hosted no-priority notice PDFs, notice IDs `2026910207`, `2026910204`, `2026910205`, `2026910206`, all dated 2026-07-30.
+
+11. **의왕역 SK VIEW** — official SK VIEW project-hosted no-priority notice PDF, notice ID `2026910225`, notice date 2026-08-28, 17 residual units.
 
 ## Official-site evidence found but not promoted
 
@@ -36,7 +38,7 @@ These rows remain secondary/corroborated.
 The primary blocker is official-artifact accessibility, not event identification.
 
 - Numeric first-event notice IDs: **103 / 103**
-- Direct-primary events: **3**
-- Remaining promotion candidates: **93**
+- Direct-primary events: **11**
+- Remaining promotion candidates: **92**
 
 The remaining candidates must not be promoted using third-party mirrors alone.
