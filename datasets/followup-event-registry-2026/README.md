@@ -41,3 +41,18 @@ The published competition/follow-up study remains the citation target:
 https://doi.org/10.6084/m9.figshare.34064439
 
 This pilot is a structural extension for future event-level verification, not a replacement for the published study.
+
+
+## Reconciliation result — Harrington
+
+The earlier mismatch for **해링턴 플레이스 노원 센트럴** has been structurally resolved.
+
+Multiple public sources identify a same-project **58-unit residual/no-priority supply notice dated 2026-04-28**, matching the project-level derived first-follow-up date.
+
+The event chronology is therefore retained as:
+
+1. 2026-04-28 — 58-unit residual/no-priority supply, `SECONDARY_CORROBORATED`
+2. 2026-06-08 — 58-unit later residual/no-priority supply candidate
+3. 2026-07-23 — 17-unit discretionary/optional supply candidate
+
+The 2026-04-28 row is **not promoted to primary-verified status** because the official ApplyHome notice identifier has not yet been directly reconstructed. The chronology is corrected without overstating source quality.
