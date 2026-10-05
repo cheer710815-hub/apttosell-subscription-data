@@ -82,4 +82,4 @@ Current pilot IDs retained:
 - 해링턴 플레이스 노원 센트럴 2026-06-08: `2026910147`
 - 해링턴 플레이스 노원 센트럴 2026-07-23: `2026940157`
 
-The 2026-04-28 Harrington first follow-up remains without a recovered official numeric notice ID.
+The 2026-04-28 Harrington first follow-up now has corroborated numeric notice ID `2026910100`; direct ApplyHome primary-source access remains the final open verification gate.
