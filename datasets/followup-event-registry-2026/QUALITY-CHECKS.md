@@ -61,3 +61,12 @@ As of 2026-10-05:
 - direct-primary verified events: **1**
 
 Numeric ID completeness does not equal primary-source completeness.
+
+
+## Primary subset gate
+
+The primary subset may contain only rows where the official event artifact was directly inspected.
+
+Current primary subset: **3 events**.
+
+Secondary mirrors, API reproductions and news citations remain excluded from this subset.
