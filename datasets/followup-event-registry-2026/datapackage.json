@@ -1,0 +1,15 @@
+{
+  "profile":"data-package",
+  "name":"apttosell-followup-event-registry-2026-pilot",
+  "title":"AptToSell Follow-Up Event Registry 2026 — Pilot",
+  "description":"Pilot event-level structure for first and later observed follow-up apartment supply events linked to stable AptToSell project IDs.",
+  "version":"0.1-pilot",
+  "homepage":"https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/followup-event-registry-2026",
+  "licenses":[{"name":"CC-BY-4.0","path":"https://creativecommons.org/licenses/by/4.0/","title":"Creative Commons Attribution 4.0 International"}],
+  "contributors":[{"title":"Eun Kim","role":"author","path":"https://orcid.org/0009-0006-9445-4768"}],
+  "resources":[
+    {"name":"first-followup-events","path":"apttosell-first-followup-events-pilot-v0.1.csv","format":"csv","mediatype":"text/csv"},
+    {"name":"verified-event-seed","path":"verified-event-seed-import-v0.2.csv","format":"csv","mediatype":"text/csv"},
+    {"name":"reconciliation","path":"first-event-reconciliation-v0.1.csv","format":"csv","mediatype":"text/csv"}
+  ]
+}
