@@ -5,8 +5,8 @@
 - Total first-event rows: **103**
 - Evidence-reviewed rows: **103 / 103**
 - Numeric first follow-up notice IDs recovered: **103 / 103**
-- `PRIMARY_VERIFIED`: **4**
-- `ID_CORROBORATED_SECONDARY`: **99**
+- `PRIMARY_VERIFIED`: **5**
+- `ID_CORROBORATED_SECONDARY`: **98**
 
 ## Primary-verified events
 
@@ -28,3 +28,5 @@ A row is promoted only when an official ApplyHome/LH record or official project/
 The remaining rows stay secondary/corroborated even when their numeric IDs are known.
 
 - **두산위브 더센트럴 수원** — official project-hosted no-priority notice PDF; notice ID `2026910083`, notice date 2026-04-09, residual supply 25 units.
+
+- **드파인 아르티아** — official SK DEFINE project-hosted no-priority notice PDF; first-event notice ID corrected from `2026910233` to `2026910214`, notice date 2026-08-07, 15 residual units.
