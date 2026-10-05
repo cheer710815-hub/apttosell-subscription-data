@@ -35,3 +35,10 @@ The initial first-event verification queue is fully screened:
 - 1 primary-verified event
 
 The pilot remains non-DOI because primary-source coverage is not yet sufficient for a bounded event-level release.
+
+
+## Notice-ID discovery complete
+
+All **103 / 103** first-event rows now have a recovered numeric follow-up notice ID.
+
+The remaining limitation is not event identification; it is direct official-artifact access for primary-source promotion.
