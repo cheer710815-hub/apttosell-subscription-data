@@ -67,7 +67,7 @@ Numeric ID completeness does not equal primary-source completeness.
 
 The primary subset may contain only rows where the official event artifact was directly inspected.
 
-Current primary subset: **6 events**.
+Current primary subset: **10 events**.
 
 Secondary mirrors, API reproductions and news citations remain excluded from this subset.
 
