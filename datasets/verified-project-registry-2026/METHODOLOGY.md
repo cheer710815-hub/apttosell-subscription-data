@@ -62,3 +62,20 @@ Version 1.0 should be released only after:
 - duplicate cases are reviewed
 - coverage scope is defined
 - a machine-readable data dictionary is finalized
+
+
+## 8. Field-level verification states
+
+Project identity and competition-result facts are verified separately.
+
+Recommended states:
+
+- `PRIMARY_VERIFIED` — supported by an official recruitment notice, ApplyHome/LH/public-agency record, or project-owner primary document
+- `SECONDARY_VERIFIED` — supported by a reliable secondary reproduction or analysis but not yet captured from the primary result source
+- `UNRESOLVED` — conflicting or insufficient evidence
+
+A project may be identity-verified while its competition totals remain secondary-verified.
+
+## 9. Pilot primary-source check
+
+For the two current pilot rows, official recruitment documents now support the project identity and initial notice facts. Competition totals still require direct primary-result evidence before Version 1.0.
