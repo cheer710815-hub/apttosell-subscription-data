@@ -42,3 +42,10 @@ The pilot remains non-DOI because primary-source coverage is not yet sufficient 
 All **103 / 103** first-event rows now have a recovered numeric follow-up notice ID.
 
 The remaining limitation is not event identification; it is direct official-artifact access for primary-source promotion.
+
+
+## Primary-verified subset
+
+A conservative direct-official-artifact subset has been added with **3** events.
+
+This subset is separate from the full 103-row notice-ID crosswalk and is suitable for higher-confidence reuse.
