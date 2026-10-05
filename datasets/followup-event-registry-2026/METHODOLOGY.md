@@ -37,3 +37,10 @@ It does not mean the individual event notice has been independently re-opened an
 ## 7. Versioning
 
 No DOI is assigned to this pilot. A versioned event registry requires official notice-level event IDs, dates, and subtypes.
+
+
+## Secondary corroboration rule
+
+When the project-level derived first-event date is independently reproduced by multiple public sources but the original official notice identifier is not yet recovered, the event may be stored as `SECONDARY_CORROBORATED`.
+
+This status is sufficient to reconcile event chronology but not sufficient for a future primary-source public release.
