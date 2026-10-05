@@ -4,35 +4,34 @@
 
 - Total first-event rows: **103**
 - Evidence-reviewed rows: **103 / 103**
-- Remaining `TODO_PRIMARY_SOURCE`: **0**
-- Numeric follow-up notice IDs recovered: **95**
+- Remaining discovery `TODO_PRIMARY_SOURCE`: **0**
+- Numeric first follow-up notice IDs recovered: **103 / 103**
 - `PRIMARY_VERIFIED`: **1**
-- `ID_CORROBORATED_SECONDARY`: **94**
-- `SECONDARY_CORROBORATED`: **8**
+- `ID_CORROBORATED_SECONDARY`: **102**
+- `SECONDARY_CORROBORATED`: **0**
 
-## Milestone
+## Discovery milestone
 
-The initial 103-row evidence review queue is now **fully screened**. No row remains in `TODO_PRIMARY_SOURCE`.
+The first-pass notice-ID discovery is now **complete for all 103 first-event rows**.
 
-This does **not** mean all 103 events are primary-source verified. Most rows retain a secondary/corroborated status because the original ApplyHome detail page or an official notice artifact has not yet been directly preserved.
+Every project in the first-event cohort now has a numeric first follow-up notice ID.
 
-## Current primary-verified example
+This does not mean every row is primary-source verified. Most IDs were recovered from reliable public reproductions of ApplyHome data, with official project-domain cross-checks where available.
 
-- **포레나더샵 인천시청역** — official project-hosted no-priority recruitment notice PDF directly verified, notice ID `2026910063`.
+## Primary-source status
 
-## Notice-ID coverage
+The direct ApplyHome detail endpoint is not accessible through the current web tool environment. Therefore the promotion layer remains intentionally conservative.
 
-A numeric follow-up notice ID has been recovered for **95 of 103** first-event rows.
+One event is already `PRIMARY_VERIFIED` through an official project-hosted recruitment notice artifact:
 
-Rows without a recovered numeric ID remain evidence-corroborated only and must not be silently assigned an identifier.
+- **포레나더샵 인천시청역** — notice ID `2026910063`.
 
-## Next verification layer
+## Next layer
 
-The next pass is no longer a discovery queue. It is a **primary-source promotion queue**:
+The discovery phase is finished. The remaining task is direct-official-artifact promotion:
 
-1. recover official ApplyHome/LH notice artifacts where accessible;
-2. archive or link the official artifact;
-3. verify subtype, date and supply count directly;
-4. promote only those rows from secondary status to `PRIMARY_VERIFIED`.
+1. inspect original ApplyHome/LH or project-hosted official notice artifact;
+2. verify notice ID, announcement date, subtype and supply count directly;
+3. promote only directly supported rows to `PRIMARY_VERIFIED`.
 
 No new DOI should be minted until a clearly bounded primary-verified cohort is available.
