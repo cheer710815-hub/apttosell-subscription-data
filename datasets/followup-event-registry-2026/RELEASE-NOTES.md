@@ -23,3 +23,15 @@ The 2026-04-28 row now carries corroborated numeric notice ID `2026910100`, but 
 No DOI is assigned to this pilot.
 
 A versioned event-level DOI release requires official notice-level identifiers, dates and event subtypes for a clearly bounded cohort.
+
+
+## Full queue screening milestone
+
+The initial first-event verification queue is fully screened:
+
+- 103 / 103 evidence-reviewed
+- 95 numeric notice IDs recovered
+- 0 discovery TODO rows remaining
+- 1 primary-verified event
+
+The pilot remains non-DOI because primary-source coverage is not yet sufficient for a bounded event-level release.
