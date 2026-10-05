@@ -32,3 +32,15 @@
 - duplicate_review_note
 - verified_date
 - publication_ready
+
+
+## Pilot v0.3 verification fields
+
+| Field | Meaning |
+|---|---|
+| identity_verification_status | Verification level for project identity and initial notice facts |
+| competition_verification_status | Verification level for applicant / competition-result facts |
+| official_initial_source | Primary-source recruitment document or official project source |
+| source_initial_reference | Existing supporting source retained for traceability |
+| verification_note | Field-level verification caveat |
+| verified_date | Date of the latest source verification |
