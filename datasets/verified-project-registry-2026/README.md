@@ -96,3 +96,23 @@ The registry has now been expanded from the two-row identity pilot to the full *
 `REGISTRY_SEEDED` means a stable AptToSell ID has been assigned from the existing 196-project validation registry. It does **not** mean every field has independently passed the final Version 1.0 primary-source gate.
 
 This map is now the working join key for cross-dataset integration. Future datasets should reference `apttosell_project_id` rather than inventing a new project identifier.
+
+
+## Pilot package metadata
+
+- Version: **0.4-pilot**
+- 196-project ID map: [apttosell-project-id-map-196-pilot-v0.4.csv](./apttosell-project-id-map-196-pilot-v0.4.csv)
+- 41-project joined demonstration: [pre-movein-public-41-with-project-id-pilot-v0.4.csv](./pre-movein-public-41-with-project-id-pilot-v0.4.csv)
+- [Data Package metadata](./datapackage.json)
+- [Schema.org Dataset JSON-LD](./schemaorg-dataset.jsonld)
+- [Citation metadata](./CITATION.cff)
+- [Release notes](./RELEASE-NOTES.md)
+- [Integration guide](./INTEGRATION-GUIDE.md)
+
+### Cross-dataset validation
+
+The 41-project pre-move-in funding public subset was joined to the 196-project ID map using `house_manage_no`.
+
+Result: **41 / 41 matched, 0 unmatched**.
+
+The fixed Version 1.0 pre-move-in funding CSV itself was not modified; the joined file is a separate pilot crosswalk to preserve DOI reproducibility.
