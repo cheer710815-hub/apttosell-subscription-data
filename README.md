@@ -235,3 +235,13 @@ Public documentation:
 - DOI: **not assigned — identity verification is still being completed**
 
 The registry provides a stable internal project ID for joining competition, price, payment-condition, follow-up supply, and future AptToSell datasets without altering previously frozen DOI releases.
+
+
+## Follow-up event identity layer
+
+- [AptToSell Follow-Up Event Registry 2026 — Pilot](./datasets/followup-event-registry-2026/README.md)
+- First-event rows: **103**
+- Stable project-ID matches: **103/103**
+- DOI: **not assigned — event-level primary-source verification remains incomplete**
+
+The registry preserves project chronology and separates derived/corroborated dates from primary-verified notice-level events.
