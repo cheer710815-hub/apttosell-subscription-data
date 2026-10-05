@@ -56,3 +56,15 @@ The event chronology is therefore retained as:
 3. 2026-07-23 — 17-unit discretionary/optional supply candidate
 
 The 2026-04-28 row is **not promoted to primary-verified status** because the official ApplyHome notice identifier has not yet been directly reconstructed. The chronology is corrected without overstating source quality.
+
+
+## Pilot package metadata
+
+- Version: **0.1-pilot**
+- [Data Package metadata](./datapackage.json)
+- [Citation metadata](./CITATION.cff)
+- [Schema.org Dataset JSON-LD](./schemaorg-dataset.jsonld)
+- [Release notes](./RELEASE-NOTES.md)
+- [Reconciliation note](./PILOT-RECONCILIATION.md)
+
+This pilot is now structurally complete. Further work should focus on primary-source verification of individual follow-up notices rather than changing the frozen pilot schema.
