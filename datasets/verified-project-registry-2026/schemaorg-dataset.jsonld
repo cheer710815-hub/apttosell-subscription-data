@@ -1,0 +1,19 @@
+{
+  "@context":"https://schema.org",
+  "@type":"Dataset",
+  "name":"AptToSell Verified Project Registry 2026 — Pilot",
+  "description":"Pilot project-identity registry assigning stable AptToSell project IDs across a 196-project 2026 apartment validation universe.",
+  "url":"https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/verified-project-registry-2026",
+  "version":"0.4-pilot",
+  "dateModified":"2026-10-05",
+  "license":"https://creativecommons.org/licenses/by/4.0/",
+  "creator":{"@type":"Person","name":"Eun Kim","sameAs":"https://orcid.org/0009-0006-9445-4768"},
+  "publisher":{"@type":"Organization","name":"AptToSell","url":"https://apttosell.com/"},
+  "spatialCoverage":{"@type":"Place","name":"South Korea"},
+  "temporalCoverage":"2026",
+  "keywords":["South Korea","apartment","housing subscription","project registry","entity resolution","AptToSell project ID"],
+  "distribution":[
+    {"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/datasets/verified-project-registry-2026/apttosell-project-id-map-196-pilot-v0.4.csv"},
+    {"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/datasets/verified-project-registry-2026/pre-movein-public-41-with-project-id-pilot-v0.4.csv"}
+  ]
+}
