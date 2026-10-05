@@ -25,7 +25,21 @@ AptToSell은 2026년 1월~9월 최초 모집공고 196개 프로젝트를 검증
 Canonical source:
 https://apttosell.com/%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc-%ec%a0%84-%ed%95%84%ec%9a%94%ec%9e%90%ea%b8%88/
 
+Public CSV:
+https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/datasets/initial-contract-cash-2026/apttosell-initial-cash-publication-ready-2026-10-05.csv
+
+Zenodo Version 1.0 DOI:
+https://doi.org/10.5281/zenodo.23157055
+
+Zenodo all-versions DOI:
+https://doi.org/10.5281/zenodo.23157054
+
 License: CC BY 4.0
+
+## 권장 인용
+Kim, Eun. (2026). *Korea Apartment Pre-Move-In Funding Dataset 2026* (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23157055
+
+정적 재현·기사·연구에서 현재 공개본을 인용할 때는 Version 1.0 DOI를 사용하고, 향후 최신 버전을 추적하려면 all-versions DOI를 사용할 수 있습니다.
 
 ## 다음 정식판
 주택형별 공급금액과 납부조건으로 확장해 동일 단지 내부의 타입별 자금부담 차이까지 공개할 예정입니다.
