@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "AptToSell Follow-Up Event Registry 2026 — Pilot",
-  "description": "Pilot event-level registry for 103 observed first follow-up apartment supply events in South Korea, linked to stable AptToSell project IDs. Numeric first-event notice IDs are recovered for all 103 events; direct primary-source coverage remains incomplete.",
+  "description": "Pilot event-level registry for 103 observed first follow-up apartment supply events in South Korea. Numeric first-event notice IDs are recovered for all 103 events; three events are supported by directly inspected official artifacts.",
   "url": "https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/followup-event-registry-2026",
   "version": "0.1-pilot",
   "dateModified": "2026-10-05",
@@ -32,6 +32,11 @@
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/datasets/followup-event-registry-2026/FOLLOWUP-NOTICE-ID-CROSSWALK-v0.1.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/datasets/followup-event-registry-2026/PRIMARY-VERIFIED-SUBSET-v0.1.csv"
     }
   ],
   "variableMeasured": [
