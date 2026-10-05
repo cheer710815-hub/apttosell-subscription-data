@@ -68,3 +68,18 @@ The 2026-04-28 row is **not promoted to primary-verified status** because the of
 - [Reconciliation note](./PILOT-RECONCILIATION.md)
 
 This pilot is now structurally complete. Further work should focus on primary-source verification of individual follow-up notices rather than changing the frozen pilot schema.
+
+
+## Official notice-ID verification register
+
+A separate register now tracks whether each known follow-up event has a recovered numeric notice identifier and whether that identifier has been directly verified from an official source.
+
+- [OFFICIAL-NOTICE-VERIFICATION.md](./OFFICIAL-NOTICE-VERIFICATION.md)
+
+Current pilot IDs retained:
+
+- 구리역 하이니티 리버파크: `2026910080`
+- 해링턴 플레이스 노원 센트럴 2026-06-08: `2026910147`
+- 해링턴 플레이스 노원 센트럴 2026-07-23: `2026940157`
+
+The 2026-04-28 Harrington first follow-up remains without a recovered official numeric notice ID.
