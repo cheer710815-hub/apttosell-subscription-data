@@ -32,7 +32,7 @@ The initial first-event verification queue is fully screened:
 - 103 / 103 evidence-reviewed
 - 95 numeric notice IDs recovered
 - 0 discovery TODO rows remaining
-- 1 primary-verified event
+- 11 primary-verified events
 
 The pilot remains non-DOI because primary-source coverage is not yet sufficient for a bounded event-level release.
 
@@ -46,7 +46,7 @@ The remaining limitation is not event identification; it is direct official-arti
 
 ## Primary-verified subset
 
-A conservative direct-official-artifact subset has been added with **10** events.
+A conservative direct-official-artifact subset has been added with **11** events.
 
 This subset is separate from the full 103-row notice-ID crosswalk and is suitable for higher-confidence reuse.
 
@@ -57,3 +57,5 @@ This subset is separate from the full 103-row notice-ID crosswalk and is suitabl
 - **쌍용 더 플래티넘 온수역** promoted from its official project-hosted no-priority notice PDF (2026-03-25, notice ID 2026910070, 3 residual units).
 
 - **더샵 송도그란테르 G5-11/G5-3/G5-4/G5-5** promoted from official POSCO E&C project-hosted no-priority notice PDFs dated 2026-07-30 (IDs 2026910207, 2026910204, 2026910205, 2026910206).
+
+- **의왕역 SK VIEW** promoted from the official SK VIEW project-hosted no-priority notice PDF (2026-08-28, notice ID 2026910225, 17 residual units).
