@@ -37,3 +37,15 @@ Current retained IDs:
 Open item:
 
 - Harrington 2026-04-28 first follow-up: numeric notice ID `2026910100` corroborated; direct ApplyHome primary-source access still open
+
+
+## Full-queue screening gate
+
+As of 2026-10-05:
+
+- 103 / 103 first-event rows have been evidence-reviewed.
+- 0 rows remain `TODO_PRIMARY_SOURCE`.
+- 95 rows have a recovered numeric follow-up notice ID.
+- 1 row is currently `PRIMARY_VERIFIED`.
+
+Completion of this screening gate does not imply primary-source completeness.
