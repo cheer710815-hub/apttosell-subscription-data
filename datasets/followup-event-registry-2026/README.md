@@ -83,3 +83,18 @@ Current pilot IDs retained:
 - 해링턴 플레이스 노원 센트럴 2026-07-23: `2026940157`
 
 The 2026-04-28 Harrington first follow-up now has corroborated numeric notice ID `2026910100`; direct ApplyHome primary-source access remains the final open verification gate.
+
+
+## Evidence-review milestone — 2026-10-05
+
+The full 103-project first-event queue has now been screened.
+
+- Evidence-reviewed: **103 / 103**
+- Remaining discovery TODO: **0**
+- Numeric follow-up notice IDs recovered: **95**
+- Primary-verified events: **1**
+- Secondary/corroborated events: **102**
+
+A compact crosswalk is available at [FOLLOWUP-NOTICE-ID-CROSSWALK-v0.1.csv](./FOLLOWUP-NOTICE-ID-CROSSWALK-v0.1.csv).
+
+The next stage is primary-source promotion, not further ID guessing.
