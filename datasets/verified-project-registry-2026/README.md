@@ -79,3 +79,20 @@ For both pilot rows, project identity is `PRIMARY_VERIFIED`. The competition tot
 - [apttosell-verified-projects-pilot-v0.3.csv](./apttosell-verified-projects-pilot-v0.3.csv)
 
 The earlier v0.2 file is retained as a historical pilot snapshot and should not be treated as the latest registry draft.
+
+
+## 196-project ID map — pilot v0.4
+
+The registry has now been expanded from the two-row identity pilot to the full **196-project validation registry** used by the 2026 initial-cash project.
+
+- File: [apttosell-project-id-map-196-pilot-v0.4.csv](./apttosell-project-id-map-196-pilot-v0.4.csv)
+- Rows: **196**
+- Unique housing-management numbers: **196**
+- Unique project IDs: **196**
+- Existing pilot IDs for 구리역 하이니티 리버파크 and 해링턴 플레이스 노원 센트럴 are preserved.
+
+### Status meaning
+
+`REGISTRY_SEEDED` means a stable AptToSell ID has been assigned from the existing 196-project validation registry. It does **not** mean every field has independently passed the final Version 1.0 primary-source gate.
+
+This map is now the working join key for cross-dataset integration. Future datasets should reference `apttosell_project_id` rather than inventing a new project identifier.
