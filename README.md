@@ -224,3 +224,14 @@ Public documentation:
 - [Publication-ready CSV](./datasets/initial-contract-cash-2026/apttosell-initial-cash-publication-ready-2026-10-05.csv)
 
 > Important: 이 데이터의 '입주 전 직접자금'은 개인별 대출 가능액을 의미하지 않습니다. 공식 계약조건을 비교 가능한 방식으로 표준화한 지표이며, 후속 잔여세대·선착순 판촉조건은 최초 모집공고와 분리합니다.
+
+
+## Project identity layer
+
+- [AptToSell Verified Project Registry 2026 — Pilot](./datasets/verified-project-registry-2026/README.md)
+- Working version: **0.4-pilot**
+- Project IDs assigned: **196**
+- Pre-move-in public subset crosswalk: **41/41 matched**
+- DOI: **not assigned — identity verification is still being completed**
+
+The registry provides a stable internal project ID for joining competition, price, payment-condition, follow-up supply, and future AptToSell datasets without altering previously frozen DOI releases.
