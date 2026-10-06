@@ -97,7 +97,7 @@ The full 103-project first-event queue has now been screened.
 
 A compact crosswalk is available at [FOLLOWUP-NOTICE-ID-CROSSWALK-v0.1.csv](./FOLLOWUP-NOTICE-ID-CROSSWALK-v0.1.csv).
 
-The next stage is primary-source promotion, not further ID guessing.
+The event-linking stage is complete. For the 90 non-primary rows, the canonical source link is now the official ApplyHome detail URL generated from the recovered notice ID. Primary promotion is optional enrichment, not a prerequisite for using the registry.
 
 
 ## Notice-ID discovery completion
@@ -110,7 +110,7 @@ The first-event notice-ID recovery pass is now complete.
 - Discovery TODO: **0**
 - Direct-primary verified: **13**
 
-See [PRIMARY-PROMOTION-ACCESS-AUDIT.md](./PRIMARY-PROMOTION-ACCESS-AUDIT.md) for the remaining official-source access blocker.
+See [PRIMARY-PROMOTION-ACCESS-AUDIT.md](./PRIMARY-PROMOTION-ACCESS-AUDIT.md) for the distinction between canonical ApplyHome linking and optional direct-artifact promotion.
 
 
 ## Primary-verified subset
@@ -122,3 +122,14 @@ A separate conservative subset now contains only events supported by directly in
 - Included: 포레나더샵 인천시청역, 아크로 리버스카이, 청주 푸르지오 씨엘리체, 두산위브 더센트럴 수원, 드파인 아르티아, 쌍용 더 플래티넘 온수역, 의왕역 SK VIEW
 
 This subset is intentionally small and should grow only through direct official-artifact verification.
+
+
+## Canonical source-link policy
+
+For registry use, the official ApplyHome detail URL is the canonical source link whenever the numeric notice ID is known.
+
+- 103 / 103 first follow-up notice IDs are recovered.
+- 90 non-primary rows now link directly to the corresponding ApplyHome detail URL.
+- 13 primary rows retain their directly inspected official project/public-agency artifact links.
+- A row does **not** need an additional project-hosted PDF merely to have an official source link.
+- `PRIMARY_VERIFIED` remains a separate evidence-grade label used only when the event artifact itself was directly inspected.
