@@ -30,9 +30,9 @@ A versioned event-level DOI release requires official notice-level identifiers, 
 The initial first-event verification queue is fully screened:
 
 - 103 / 103 evidence-reviewed
-- 95 numeric notice IDs recovered
+- 103 numeric notice IDs recovered
 - 0 discovery TODO rows remaining
-- 11 primary-verified events
+- 13 primary-verified events
 
 The pilot remains non-DOI because primary-source coverage is not yet sufficient for a bounded event-level release.
 
@@ -61,3 +61,13 @@ This subset is separate from the full 103-row notice-ID crosswalk and is suitabl
 - **의왕역 SK VIEW** promoted from the official SK VIEW project-hosted no-priority notice PDF (2026-08-28, notice ID 2026910225, 17 residual units).
 
 - **천안 아이파크 시티 6단지 / 5단지** promoted from official project-hosted first no-priority recruitment notice PDFs (IDs 2026910074 / 2026910073).
+
+
+## Canonical ApplyHome link completion
+
+All **103 / 103** first-event rows now carry an official source link.
+
+- 13 primary rows retain directly inspected official-artifact links.
+- 90 secondary/corroborated rows point to the corresponding official ApplyHome detail URL generated from the recovered notice ID.
+
+Primary verification is now treated as an evidence-grade enhancement rather than a prerequisite for official source linking.
