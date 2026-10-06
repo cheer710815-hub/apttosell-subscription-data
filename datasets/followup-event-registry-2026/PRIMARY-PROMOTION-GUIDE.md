@@ -1,6 +1,6 @@
 # Optional Primary Promotion Guide — 2026-10-06
 
-The source-linking problem is already solved: all 103 first-event rows have a numeric notice ID and an official ApplyHome detail URL.
+The source-linking problem is already solved: all **103** first-event rows have a numeric notice ID and an official ApplyHome source link.
 
 Primary promotion is now an **optional evidence-quality layer**.
 
@@ -13,16 +13,16 @@ Primary promotion is now an **optional evidence-quality layer**.
 
 ## Promotion requirement
 
-Promote a row to `PRIMARY_VERIFIED` only when the specific first follow-up event is directly inspected in one of these official sources:
+Promote a row to `PRIMARY_VERIFIED` only when the specific first follow-up event is directly inspected in an official source, such as:
 
-- ApplyHome official event page/detail record;
-- LH or public-agency official notice;
-- official project/association/implementer recruitment notice PDF or page.
+- ApplyHome official event/detail record
+- LH or another public-agency notice
+- official project, association, implementer or builder recruitment notice
 
-Do not spend effort finding a project-hosted PDF merely to create an official source link. The ApplyHome link already fills that role.
+A project-hosted PDF is not required merely to create an official source link. The ApplyHome link already fills that role.
 
 ## Operational priority
 
-1. Keep the 103/103 ApplyHome link map stable.
+1. Keep the 103 / 103 ApplyHome link map stable.
 2. Promote only high-value or readily accessible official artifacts.
-3. Do not block publication or reuse of the registry on achieving 103/103 primary status.
+3. Do not block publication or reuse of the registry on achieving 103 / 103 primary status.
