@@ -1,0 +1,14 @@
+metric,value
+followup_projects,103
+mean_days,49.8
+median_days,42
+min_days,31
+max_days,143
+30일 이내_projects,0
+30일 이내_share_pct,0.0
+31~60일_projects,88
+31~60일_share_pct,85.4
+61~90일_projects,11
+61~90일_share_pct,10.7
+90일 초과_projects,4
+90일 초과_share_pct,3.9
