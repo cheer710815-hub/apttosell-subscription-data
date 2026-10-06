@@ -36,6 +36,7 @@
         "scheme": "url"
       }
     ],
-    "notes": "Public release file: apttosell-followup-event-registry-public-v0.2.csv. Records: 103. Verification: 13 PRIMARY_VERIFIED; 90 ID_CORROBORATED_SECONDARY. License: CC BY 4.0."
+    "notes": "Public release file: apttosell-followup-event-registry-public-v0.2.csv. Records: 103. Verification: 13 PRIMARY_VERIFIED; 90 ID_CORROBORATED_SECONDARY. License: CC BY 4.0. DOI: https://doi.org/10.5281/zenodo.23176906.",
+    "doi": "10.5281/zenodo.23176906"
   }
 }
