@@ -58,7 +58,7 @@ As of 2026-10-05:
 - first-event rows: **103**
 - numeric first-event notice IDs: **103**
 - missing numeric first-event notice IDs: **0**
-- direct-primary verified events: **11**
+- direct-primary verified events: **13**
 
 Numeric ID completeness does not equal primary-source completeness.
 
@@ -67,7 +67,7 @@ Numeric ID completeness does not equal primary-source completeness.
 
 The primary subset may contain only rows where the official event artifact was directly inspected.
 
-Current primary subset: **11 events**.
+Current primary subset: **13 events**.
 
 Secondary mirrors, API reproductions and news citations remain excluded from this subset.
 
