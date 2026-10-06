@@ -1,29 +1,28 @@
-# Primary-Source Verification Queue
+# Follow-Up Event Verification Guide
 
-Snapshot: **2026-10-05**
+Snapshot: **2026-10-06**
 
-This queue operationalizes the next stage of the event registry without changing the frozen pilot schema.
+## Current state
 
-## Queue size
+- First follow-up events: **103**
+- Numeric notice IDs recovered: **103 / 103**
+- Canonical official source links: **103 / 103**
+- `PRIMARY_VERIFIED`: **13**
+- `ID_CORROBORATED_SECONDARY`: **90**
 
-- Projects requiring notice-level primary-source verification: **103**
-- Current queue status: `TODO_PRIMARY_SOURCE`
-- Priority rule: projects with more recorded follow-up events first, then shorter time-to-first-follow-up
+## Canonical source rule
 
-## Verification target
+The recovered numeric notice ID is used to construct the official ApplyHome detail URL:
 
-For each project, recover and record:
+`https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo={ID}&pblancNo={ID}`
 
-1. official follow-up notice ID
-2. official announcement date
-3. official event subtype
-4. official source URL or archived official artifact
-5. supply count
-6. applicant / competition result when applicable
-7. primary-source verification date
+This ApplyHome URL is the default official source link for registry rows.
 
-## Promotion rule
+## Evidence grade is separate from source linking
 
-A queue row can move from `TODO_PRIMARY_SOURCE` to `PRIMARY_VERIFIED` only when the official source itself is directly recoverable or an official artifact containing the event fields is preserved.
+A working official ApplyHome link does not automatically change a row to `PRIMARY_VERIFIED`.
 
-Secondary mirrors can be used to locate or reconcile an event, but cannot by themselves complete this queue.
+- `ID_CORROBORATED_SECONDARY`: notice ID and event chronology are corroborated; canonical source points to ApplyHome.
+- `PRIMARY_VERIFIED`: the official event artifact/page was directly inspected and event fields were verified.
+
+Project-hosted PDFs are therefore useful for evidence-grade promotion, but are **not required** simply to connect a row to its official source.
