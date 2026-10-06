@@ -271,3 +271,27 @@ Public files:
 - [Public Data Portal submission text](./datasets/competition-band-followup-2026/PUBLIC-DATA-PORTAL-SUBMISSION.md)
 
 > Important: 이 분석의 후속공급 발생률은 미계약률 또는 계약포기율을 의미하지 않습니다.
+
+
+## Dataset — 2026 최초 모집공고 후 첫 후속공급까지 걸린 기간
+
+2026년 1~9월 최초 APT 모집공고 196개 중 관측 기준일까지 후속공급이 확인된 103개 프로젝트에서 최초 모집공고일부터 첫 후속공급 공고일까지의 달력일 수를 계산한 독립 파생 데이터셋입니다.
+
+- Follow-up projects: **103**
+- Mean: **49.8 days**
+- Median: **42 days**
+- 31~60 days: **88 projects (85.4%)**
+- 61~90 days: **11 projects (10.7%)**
+- Over 90 days: **4 projects (3.9%)**
+- Observation cutoff: **2026-10-04**
+- DOI: **not assigned** — scoped derivative analysis, kept under the existing repository.
+
+Public files:
+
+- [Dataset README](./datasets/first-followup-time-2026/README.md)
+- [Project-level CSV](./datasets/first-followup-time-2026/apttosell-first-followup-time-projects-2026-v1.0.csv)
+- [Summary CSV](./datasets/first-followup-time-2026/apttosell-first-followup-time-summary-2026-v1.0.csv)
+- [Methodology](./datasets/first-followup-time-2026/METHODOLOGY.md)
+- [Public Data Portal submission text](./datasets/first-followup-time-2026/PUBLIC-DATA-PORTAL-SUBMISSION.md)
+
+> Important: 이 분포는 후속공급이 확인된 103개 프로젝트만 대상으로 하며, 전체 196개 모집단의 미계약률 또는 계약포기율을 의미하지 않습니다.
