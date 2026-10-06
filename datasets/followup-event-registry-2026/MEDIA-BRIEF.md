@@ -31,4 +31,6 @@ License: **CC BY 4.0**
 
 Suggested attribution:
 
-> AptToSell, “AptToSell Follow-Up Event Registry 2026 — Pilot”, public v0.2, 2026-10-06.
+> AptToSell, “AptToSell Follow-Up Event Registry 2026”, public v0.2, 2026-10-06.
+
+DOI: https://doi.org/10.5281/zenodo.23176906
