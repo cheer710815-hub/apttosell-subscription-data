@@ -1,0 +1,7 @@
+competition_band,eligible_90d_projects,followup_within_30d,rate_within_30d_pct,followup_within_60d,rate_within_60d_pct,followup_within_90d,rate_within_90d_pct,median_days_to_followup_among_90d_hits
+1:1 미만,65,0,0.0,31,47.7,32,49.2,41.5
+1~5:1,31,0,0.0,24,77.4,27,87.1,41
+5~10:1,11,0,0.0,6,54.5,8,72.7,45
+10~30:1,18,0,0.0,11,61.1,15,83.3,47
+30:1 이상,15,0,0.0,1,6.7,1,6.7,46
+전체,140,0,0.0,73,52.1,83,59.3,42
