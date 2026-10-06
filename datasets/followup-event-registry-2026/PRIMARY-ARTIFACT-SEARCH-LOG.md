@@ -44,3 +44,23 @@ The primary blocker is official-artifact accessibility, not event identification
 - Remaining promotion candidates: **90**
 
 The remaining candidates must not be promoted using third-party mirrors alone.
+
+
+## 2026-10-06 continuation pass
+
+The next official-site promotion pass checked additional secondary/corroborated events. No row was promoted without a directly inspectable first-event artifact.
+
+### Official project pages confirmed, artifact still blocked or incomplete
+
+- **김해 신문 센트럴 아이파크** — the official IPARK project site visibly exposes a “무순위 모집공고” link. The linked CDN PDF returns HTTP 403 in the current tool environment, so notice ID `2026910193` remains `ID_CORROBORATED_SECONDARY`.
+- **중앙하이츠 원종역** — the official project site exposes “무순위 청약일정” / 모집공고 navigation, but the event fields are image/download based and the first-event official PDF was not directly inspectable. Notice ID `2026910157` remains secondary.
+- **풍무역세권 수자인 그라센트 2차** — the official project site and BS한양-branded recruitment page were found, but the directly inspectable page currently exposes the original recruitment notice, not the later first follow-up event `2026940155`. No promotion.
+- **야목역 서희스타힐스 그랜드힐** — the official project site exposes recruitment-notice navigation, but no directly inspectable first follow-up artifact for `2026910120` was recovered in this pass. No promotion.
+- **의정부역 센트럴 아이파크** — official IPARK project site confirmed. Its public navigation exposes the original apartment recruitment notice, but not a directly inspectable first no-priority notice artifact for `2026910114`. No promotion.
+- **e편한세상 여수 글렌츠** — official DL E&C/e편한세상 project page confirmed, but the visible official downloads correspond to the initial recruitment stage rather than the first no-priority event `2026910086`. No promotion.
+
+### Rule reaffirmed
+
+Finding an official project homepage is not sufficient for `PRIMARY_VERIFIED`.
+
+The specific first follow-up event must itself be directly supported by an official notice artifact or official page containing the relevant event fields.
