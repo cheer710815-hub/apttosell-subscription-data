@@ -1,30 +1,28 @@
-# Primary-Source Promotion Queue — 2026-10-05
+# Optional Primary Promotion Guide — 2026-10-06
 
-The discovery/evidence-review phase is complete. This queue contains the **102** events that are not yet `PRIMARY_VERIFIED`.
+The source-linking problem is already solved: all 103 first-event rows have a numeric notice ID and an official ApplyHome detail URL.
 
-## Priority
-
-1. Rows with a recovered numeric follow-up notice ID.
-2. Earlier evidence-review priority within that group.
-3. Rows without a recovered numeric ID follow afterward.
-
-## Promotion requirement
-
-A row moves to `PRIMARY_VERIFIED` only when at least one of the following is directly inspected:
-
-- original ApplyHome notice/detail record;
-- LH/public-agency official notice;
-- official project/association/implementer-hosted recruitment notice PDF;
-- archived official artifact that visibly contains the event identifier, date and supply details.
-
-A mirror, news article, API reproduction, or third-party copy remains useful evidence but does not by itself satisfy the promotion gate.
+Primary promotion is now an **optional evidence-quality layer**.
 
 ## Current baseline
 
 - Total first-event cohort: **103**
-- Already primary-verified: **1**
-- Promotion candidates: **102**
-- Candidates with recovered numeric notice ID: **94**
-- Candidates without numeric notice ID: **8**
+- Canonical official source links: **103 / 103**
+- Primary-verified: **13**
+- Secondary/corroborated with ApplyHome source links: **90**
 
-The queue is intentionally separate from the discovery queue so completed evidence work is not reopened or overwritten.
+## Promotion requirement
+
+Promote a row to `PRIMARY_VERIFIED` only when the specific first follow-up event is directly inspected in one of these official sources:
+
+- ApplyHome official event page/detail record;
+- LH or public-agency official notice;
+- official project/association/implementer recruitment notice PDF or page.
+
+Do not spend effort finding a project-hosted PDF merely to create an official source link. The ApplyHome link already fills that role.
+
+## Operational priority
+
+1. Keep the 103/103 ApplyHome link map stable.
+2. Promote only high-value or readily accessible official artifacts.
+3. Do not block publication or reuse of the registry on achieving 103/103 primary status.
