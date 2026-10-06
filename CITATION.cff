@@ -25,3 +25,6 @@ identifiers:
   - type: doi
     value: "10.6084/m9.figshare.34064439"
     description: "2026 apartment subscription competition and follow-up supply analysis"
+  - type: doi
+    value: "10.5281/zenodo.23176906"
+    description: "AptToSell Follow-Up Event Registry 2026, version 0.2"
