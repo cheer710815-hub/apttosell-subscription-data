@@ -11,7 +11,7 @@
 - `PRIMARY_VERIFIED`: **13**
 - `ID_CORROBORATED_SECONDARY`: **90**
 - License: **CC BY 4.0**
-- DOI: **pending assignment**
+- DOI: **https://doi.org/10.5281/zenodo.23176906**
 
 ## Field design
 
@@ -41,4 +41,4 @@ A follow-up supply event does **not** mean a contract-failure rate or unsold-rat
 
 AptToSell. *AptToSell Follow-Up Event Registry 2026*, version 0.2, 2026-10-06. CC BY 4.0. GitHub repository: https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/followup-event-registry-2026
 
-When a DOI is assigned, cite the DOI in preference to the repository URL for version-specific scholarly citation.
+For version-specific scholarly citation, use https://doi.org/10.5281/zenodo.23176906.
