@@ -1,6 +1,6 @@
-# AptToSell Follow-Up Event Registry 2026 — Pilot
+# AptToSell Follow-Up Event Registry 2026
 
-> Status: **derived first-event pilot**. This is not a new DOI release.
+> Status: **published public release v0.2**. Zenodo DOI: https://doi.org/10.5281/zenodo.23176906
 
 This pilot moves from project-level follow-up indicators to an event-shaped structure while preserving the limitations of the published 2026 competition/follow-up analysis.
 
@@ -11,7 +11,7 @@ This pilot moves from project-level follow-up indicators to an event-shaped stru
 - First-event rows generated: **103**
 - Stable AptToSell project-ID matches: **103 / 103**
 - Event subtype: **not assigned unless separately verified**
-- DOI: **not assigned**
+- DOI: **https://doi.org/10.5281/zenodo.23176906**
 
 ## What is derived
 
@@ -58,16 +58,16 @@ The event chronology is therefore retained as:
 The 2026-04-28 row is **not promoted to primary-verified status** because the official ApplyHome notice identifier has not yet been directly reconstructed. The chronology is corrected without overstating source quality.
 
 
-## Pilot package metadata
+## Package metadata
 
-- Version: **0.1-pilot**
+- Public version: **0.2**
 - [Data Package metadata](./datapackage.json)
 - [Citation metadata](./CITATION.cff)
 - [Schema.org Dataset JSON-LD](./schemaorg-dataset.jsonld)
 - [Release notes](./RELEASE-NOTES.md)
 - [Reconciliation note](./PILOT-RECONCILIATION.md)
 
-This pilot is now structurally complete. Further work should focus on primary-source verification of individual follow-up notices rather than changing the frozen pilot schema.
+The public v0.2 registry is DOI-backed. Further work should focus on optional primary-source promotion of corroborated rows while preserving the published v0.2 release.
 
 
 ## Official notice-ID verification register
