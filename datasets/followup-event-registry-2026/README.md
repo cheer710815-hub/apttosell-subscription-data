@@ -133,3 +133,20 @@ For registry use, the official ApplyHome detail URL is the canonical source link
 - 13 primary rows retain their directly inspected official project/public-agency artifact links.
 - A row does **not** need an additional project-hosted PDF merely to have an official source link.
 - `PRIMARY_VERIFIED` remains a separate evidence-grade label used only when the event artifact itself was directly inspected.
+
+
+## Publication-ready public file
+
+A compact citation-oriented public file is now available:
+
+- [apttosell-followup-event-registry-public-v0.2.csv](./apttosell-followup-event-registry-public-v0.2.csv)
+- Rows: **103**
+- Official source links: **103/103**
+- Primary verified: **13**
+- Corroborated with ApplyHome links: **90**
+
+Supporting reuse documents:
+
+- [Publication notes](./PUBLICATION-NOTES.md)
+- [Media brief](./MEDIA-BRIEF.md)
+- [Submission kit](./SUBMISSION-KIT.md)
