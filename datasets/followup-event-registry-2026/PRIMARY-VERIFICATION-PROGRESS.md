@@ -10,7 +10,7 @@
 
 ## Primary-verified events
 
-The direct-official-artifact subset currently includes **11** first events.
+The direct-official-artifact subset currently includes **13** first events.
 
 - **포레나더샵 인천시청역** — official project-hosted no-priority recruitment notice PDF; notice ID `2026910063`; 466 residual units.
 - **드파인 아르티아** — official SK DEFINE project-hosted no-priority notice PDF; first-event notice ID `2026910214`; notice date 2026-08-07; 15 residual units. The previously recovered `2026910233` is retained as a later second no-priority event.
@@ -35,7 +35,16 @@ Rows remain `ID_CORROBORATED_SECONDARY` when a numeric notice ID or event chrono
 
 The discovery problem is closed: **103 / 103** first-event notice IDs are known.
 
-The remaining work is source-grade promotion of the **92** non-primary rows by locating directly inspectable official artifacts without overstating secondary reproductions as primary evidence.
+All 103 rows now have canonical official ApplyHome links. The remaining 90 non-primary rows may be promoted selectively when a directly inspectable official artifact is available; this is no longer required for source-link completeness.
 
 - **천안 아이파크 시티 6단지** — official project-hosted no-priority notice PDF; notice ID `2026910074`, 385 residual units.
 - **천안 아이파크 시티 5단지** — official project-hosted no-priority notice PDF; notice ID `2026910073`, 334 residual units.
+
+
+## Source-link completion
+
+The registry now has official source links for **103 / 103** first-event rows.
+
+- Primary rows keep their directly inspected official artifact URL.
+- Non-primary rows use the official ApplyHome detail URL generated from the recovered notice ID.
+- Source-link completeness and evidence-grade completeness are tracked separately.
