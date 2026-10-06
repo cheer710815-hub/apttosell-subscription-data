@@ -45,8 +45,8 @@ As of 2026-10-05:
 
 - 103 / 103 first-event rows have been evidence-reviewed.
 - 0 rows remain `TODO_PRIMARY_SOURCE`.
-- 95 rows have a recovered numeric follow-up notice ID.
-- 1 row is currently `PRIMARY_VERIFIED`.
+- 103 rows have a recovered numeric follow-up notice ID.
+- 13 rows are currently `PRIMARY_VERIFIED`.
 
 Completion of this screening gate does not imply primary-source completeness.
 
@@ -74,3 +74,14 @@ Secondary mirrors, API reproductions and news citations remain excluded from thi
 ## First-event ID correction rule
 
 Direct official artifacts override a secondary-recovered notice ID when the latter is shown to represent a later event. The historical later-event ID is preserved in notes rather than used as the first-event key.
+
+
+## Source-link completeness gate
+
+- first-event rows: **103**
+- recovered notice IDs: **103**
+- official source links: **103**
+- primary evidence-grade rows: **13**
+- secondary/corroborated rows with ApplyHome links: **90**
+
+Official source-link completeness does not require direct inspection of every linked event page.
