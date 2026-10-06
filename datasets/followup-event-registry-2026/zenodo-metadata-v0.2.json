@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "title": "AptToSell Follow-Up Event Registry 2026",
+    "upload_type": "dataset",
+    "description": "Event-level registry covering 103 first observed follow-up apartment supply events in South Korea in 2026. Each row links an AptToSell project ID to the first follow-up date, official follow-up notice ID, canonical official source URL, and evidence grade. All 103 rows have numeric notice IDs and canonical official source links; 13 rows are PRIMARY_VERIFIED and 90 are ID_CORROBORATED_SECONDARY. Follow-up supply should not be interpreted as a contract-failure or unsold-rate estimate.",
+    "creators": [
+      {
+        "name": "Kim, Eun",
+        "orcid": "0009-0006-9445-4768",
+        "affiliation": "AptToSell"
+      }
+    ],
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "version": "0.2",
+    "publication_date": "2026-10-06",
+    "keywords": [
+      "South Korea",
+      "apartment subscription",
+      "housing supply",
+      "ApplyHome",
+      "residual supply",
+      "no-priority subscription",
+      "housing data",
+      "real estate data"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/followup-event-registry-2026",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://apttosell.com/housing-subscription-data/",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "notes": "Public release file: apttosell-followup-event-registry-public-v0.2.csv. Records: 103. Verification: 13 PRIMARY_VERIFIED; 90 ID_CORROBORATED_SECONDARY. License: CC BY 4.0."
+  }
+}
