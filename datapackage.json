@@ -4,7 +4,7 @@
   "title": "2026 Korea Housing Subscription and Presale Data",
   "description": "Public reference and derived analysis data for Korean housing subscription scores, eligibility, deposits, presale schedules, competition rates, presale prices and follow-up supply maintained by AptToSell.",
   "homepage": "https://apttosell.com/housing-subscription-data/",
-  "version": "1.1",
+  "version": "1.2",
   "created": "2026-09-18",
   "licenses": [
     {
@@ -51,6 +51,10 @@
     {
       "title": "Figshare DOI — 2026 subscription competition and follow-up supply analysis",
       "path": "https://doi.org/10.6084/m9.figshare.34064439"
+    },
+    {
+      "title": "Zenodo DOI — AptToSell Follow-Up Event Registry 2026 v0.2",
+      "path": "https://doi.org/10.5281/zenodo.23176906"
     }
   ],
   "contributors": [
@@ -73,6 +77,8 @@
     "followup_analysis_report": "https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/",
     "followup_analysis_figshare_doi": "https://doi.org/10.6084/m9.figshare.34064439",
     "followup_analysis_huggingface": "https://huggingface.co/datasets/eunguneun/korea-apartment-subscription-followup-supply-2026",
+    "followup_event_registry_doi": "https://doi.org/10.5281/zenodo.23176906",
+    "followup_event_registry_path": "datasets/followup-event-registry-2026/",
     "schemafinder": "https://schemafinder.com/dataset/c-1791120376-dsjx89"
   },
   "resources": [
@@ -110,6 +116,13 @@
       "format": "csv",
       "mediatype": "text/csv",
       "title": "2026 Korea apartment subscription competition and follow-up supply — summary statistics"
+    },
+    {
+      "name": "apttosell_followup_event_registry_public_v0_2_csv",
+      "path": "datasets/followup-event-registry-2026/apttosell-followup-event-registry-public-v0.2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "AptToSell Follow-Up Event Registry 2026 — public v0.2"
     }
   ]
 }
