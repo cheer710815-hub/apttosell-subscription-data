@@ -17,6 +17,9 @@ South Korea
 ## Dataset URL
 https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/followup-event-registry-2026
 
+## DOI
+https://doi.org/10.5281/zenodo.23176906
+
 ## Direct CSV
 https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/datasets/followup-event-registry-2026/apttosell-followup-event-registry-public-v0.2.csv
 
