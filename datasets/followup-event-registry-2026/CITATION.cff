@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this dataset, cite AptToSell Follow-Up Event Registry 2026, public v0.2, and the persistent identifier when assigned."
+message: "If you use this dataset, cite AptToSell Follow-Up Event Registry 2026, public v0.2, and DOI 10.5281/zenodo.23176906."
 title: "AptToSell Follow-Up Event Registry 2026"
 type: dataset
 authors:
@@ -21,3 +21,5 @@ keywords:
   - residual supply
   - no-priority subscription
   - housing data
+
+doi: "10.5281/zenodo.23176906"
