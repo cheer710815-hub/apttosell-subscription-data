@@ -3,13 +3,15 @@
 ## Public release file
 
 - File: `apttosell-followup-event-registry-public-v0.2.csv`
+- Version: **0.2**
+- Release date: **2026-10-06**
 - Rows: **103**
 - Numeric first follow-up notice IDs: **103 / 103**
 - Canonical official source links: **103 / 103**
 - `PRIMARY_VERIFIED`: **13**
 - `ID_CORROBORATED_SECONDARY`: **90**
 - License: **CC BY 4.0**
-- DOI: **not assigned**
+- DOI: **pending assignment**
 
 ## Field design
 
@@ -27,7 +29,7 @@ Long verification notes remain in the working crosswalk and are not duplicated i
 
 ## Source-link policy
 
-The canonical source for a non-primary row is the official ApplyHome detail page derived from the recovered follow-up notice ID.
+The canonical source for an ID-corroborated secondary row is the official ApplyHome detail page derived from the recovered follow-up notice ID.
 
 Rows already supported by a directly inspected official project/public-agency artifact retain that official artifact URL.
 
@@ -37,4 +39,6 @@ A follow-up supply event does **not** mean a contract-failure rate or unsold-rat
 
 ## Citation suggestion
 
-AptToSell. *AptToSell Follow-Up Event Registry 2026 — Pilot*, public v0.2, 2026-10-06. CC BY 4.0. GitHub repository: https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/followup-event-registry-2026
+AptToSell. *AptToSell Follow-Up Event Registry 2026*, version 0.2, 2026-10-06. CC BY 4.0. GitHub repository: https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/followup-event-registry-2026
+
+When a DOI is assigned, cite the DOI in preference to the repository URL for version-specific scholarly citation.
