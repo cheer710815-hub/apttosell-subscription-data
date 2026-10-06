@@ -5,8 +5,8 @@
 - Total first-event rows: **103**
 - Evidence-reviewed rows: **103 / 103**
 - Numeric first follow-up notice IDs recovered: **103 / 103**
-- `PRIMARY_VERIFIED`: **11**
-- `ID_CORROBORATED_SECONDARY`: **92**
+- `PRIMARY_VERIFIED`: **13**
+- `ID_CORROBORATED_SECONDARY`: **90**
 
 ## Primary-verified events
 
@@ -36,3 +36,6 @@ Rows remain `ID_CORROBORATED_SECONDARY` when a numeric notice ID or event chrono
 The discovery problem is closed: **103 / 103** first-event notice IDs are known.
 
 The remaining work is source-grade promotion of the **92** non-primary rows by locating directly inspectable official artifacts without overstating secondary reproductions as primary evidence.
+
+- **천안 아이파크 시티 6단지** — official project-hosted no-priority notice PDF; notice ID `2026910074`, 385 residual units.
+- **천안 아이파크 시티 5단지** — official project-hosted no-priority notice PDF; notice ID `2026910073`, 334 residual units.
