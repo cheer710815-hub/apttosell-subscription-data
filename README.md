@@ -246,3 +246,26 @@ The registry provides a stable internal project ID for joining competition, pric
 - Zenodo DOI: **https://doi.org/10.5281/zenodo.23176906**
 
 The registry preserves project chronology and separates derived/corroborated dates from primary-verified notice-level events.
+
+
+## Dataset — 2026 청약 경쟁률 구간별 후속공급 발생률
+
+2026년 1~9월 최초 APT 모집공고 196개를 경쟁률 5개 구간으로 나누고, 이후 무순위·잔여세대 또는 임의공급 공고 발생 여부를 연결한 독립 파생 데이터셋입니다.
+
+- Final cohort: **196**
+- Competition-rate coverage: **193**
+- Observation cutoff: **2026-10-04**
+- Simple follow-up rates: **44.1% / 80.0% / 68.8% / 73.9% / 9.5%**
+- Main finding: 경쟁률이 낮을수록 후속공급이 계속 증가하는 단순 선형 관계는 관측되지 않았으며, **30:1 이상 구간은 9.5%**로 크게 낮았습니다.
+- DOI: **not assigned** — this is a scoped derivative dataset and is intentionally kept under the existing repository rather than issuing a new DOI.
+
+Public files:
+
+- [Dataset README](./datasets/competition-band-followup-2026/README.md)
+- [Project-level CSV](./datasets/competition-band-followup-2026/apttosell-competition-band-followup-projects-2026-v1.0.csv)
+- [Band summary CSV](./datasets/competition-band-followup-2026/apttosell-competition-band-followup-summary-2026-v1.0.csv)
+- [Methodology](./datasets/competition-band-followup-2026/METHODOLOGY.md)
+- [Data dictionary](./datasets/competition-band-followup-2026/DATA-DICTIONARY.md)
+- [Public Data Portal submission text](./datasets/competition-band-followup-2026/PUBLIC-DATA-PORTAL-SUBMISSION.md)
+
+> Important: 이 분석의 후속공급 발생률은 미계약률 또는 계약포기율을 의미하지 않습니다.
