@@ -36,4 +36,4 @@ CC BY 4.0
 
 AptToSell. *AptToSell Follow-Up Event Registry 2026*, version 0.2, 2026-10-06.
 
-A DOI should be added here after repository publication.
+DOI: https://doi.org/10.5281/zenodo.23176906
