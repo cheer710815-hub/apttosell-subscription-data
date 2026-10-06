@@ -46,7 +46,7 @@ The remaining limitation is not event identification; it is direct official-arti
 
 ## Primary-verified subset
 
-A conservative direct-official-artifact subset has been added with **11** events.
+A conservative direct-official-artifact subset has been added with **13** events.
 
 This subset is separate from the full 103-row notice-ID crosswalk and is suitable for higher-confidence reuse.
 
@@ -59,3 +59,5 @@ This subset is separate from the full 103-row notice-ID crosswalk and is suitabl
 - **더샵 송도그란테르 G5-11/G5-3/G5-4/G5-5** promoted from official POSCO E&C project-hosted no-priority notice PDFs dated 2026-07-30 (IDs 2026910207, 2026910204, 2026910205, 2026910206).
 
 - **의왕역 SK VIEW** promoted from the official SK VIEW project-hosted no-priority notice PDF (2026-08-28, notice ID 2026910225, 17 residual units).
+
+- **천안 아이파크 시티 6단지 / 5단지** promoted from official project-hosted first no-priority recruitment notice PDFs (IDs 2026910074 / 2026910073).
