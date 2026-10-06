@@ -1,0 +1,11 @@
+group,priority,target_type,organization,name_or_team,email,draft_status,send_stage,planned_order,status,reply_status,citation_result,followup_action,notes
+MEDIA_A,1,Journalist,연합뉴스,서미숙,sms@yna.co.kr,DRAFT_READY,STAGE_1,1,READY,,,,"개인화 완료; 중복 초안 1건 별도 존재하므로 최신 초안만 발송"
+MEDIA_A,2,Journalist,한국경제,정의진,justjin@hankyung.com,DRAFT_READY,STAGE_1,2,READY,,,,"개인화 완료; CSV·방법론 링크 포함"
+MEDIA_A,3,Journalist,조선비즈,정민하,min@chosunbiz.com,DRAFT_READY,STAGE_1,3,READY,,,,"개인화 완료; CSV·방법론 링크 포함"
+INSTITUTION_A,4,Research Institute,대한건설정책연구원,고하희,ghh1003@ricon.re.kr,DRAFT_READY,STAGE_2,4,HOLD,,,,"주택시장동향 적합도 높음"
+INSTITUTION_A,5,Research Institute,한국건설산업연구원,허윤경,ykhur@cerik.re.kr,DRAFT_READY,STAGE_2,5,HOLD,,,,"청약제도 연구 적합도 높음"
+INSTITUTION_A,6,Research Institute,한국건설산업연구원,김성환,shkim@cerik.re.kr,DRAFT_READY,STAGE_2,6,HOLD,,,,"분양·주택공급 분석 적합"
+INSTITUTION_A,7,Research Institute,주택산업연구원,연구지원실,lib@khi.re.kr,DRAFT_READY,STAGE_2,7,HOLD,,,,"아파트분양전망지수 연계 가능"
+PLATFORM_B,8,Policy Research,국토연구원,부동산시장정책연구센터,krihs@krihs.re.kr,DRAFT_READY,STAGE_3,8,HOLD,,,,"센터 전달용"
+PLATFORM_B,9,PropTech,직방,서비스제휴,partnership@zigbang.com,DRAFT_READY,STAGE_3,9,HOLD,,,,"청약진단 리포트와 연결"
+PLATFORM_B,10,PropTech,부동산R114,리서치 전달 요청,helper@r114.com,DRAFT_READY,STAGE_3,10,HOLD,,,,"분양·청약 리서치 연계"
