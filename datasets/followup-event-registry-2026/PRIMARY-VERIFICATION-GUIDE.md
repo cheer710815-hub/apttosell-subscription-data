@@ -12,17 +12,15 @@ Snapshot: **2026-10-06**
 
 ## Canonical source rule
 
-The recovered numeric notice ID is used to construct the official ApplyHome detail URL:
+For registry use, the recovered numeric notice ID is linked to its official ApplyHome detail page.
 
-`https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo={ID}&pblancNo={ID}`
-
-This ApplyHome URL is the default official source link for registry rows.
+This ApplyHome page is the default official source link for each event row.
 
 ## Evidence grade is separate from source linking
 
-A working official ApplyHome link does not automatically change a row to `PRIMARY_VERIFIED`.
+A row does not need a separate project-hosted PDF merely to have an official source link.
 
-- `ID_CORROBORATED_SECONDARY`: notice ID and event chronology are corroborated; canonical source points to ApplyHome.
-- `PRIMARY_VERIFIED`: the official event artifact/page was directly inspected and event fields were verified.
+- `ID_CORROBORATED_SECONDARY`: notice ID and chronology are corroborated; canonical source points to ApplyHome.
+- `PRIMARY_VERIFIED`: the official event artifact/page itself was directly inspected and key fields were verified.
 
-Project-hosted PDFs are therefore useful for evidence-grade promotion, but are **not required** simply to connect a row to its official source.
+Project-hosted PDFs are therefore optional evidence-grade enrichment, not a prerequisite for official-source linking.
