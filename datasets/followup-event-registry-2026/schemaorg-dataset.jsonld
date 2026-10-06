@@ -51,6 +51,12 @@
       "name": "Primary-verified subset",
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/datasets/followup-event-registry-2026/PRIMARY-VERIFIED-SUBSET-v0.1.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Zenodo release v0.2",
+      "encodingFormat": "application/zip",
+      "contentUrl": "https://doi.org/10.5281/zenodo.23176906"
     }
   ],
   "variableMeasured": [
@@ -61,5 +67,7 @@
     "official_followup_notice_id",
     "canonical_official_source_url",
     "evidence_grade"
-  ]
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.23176906",
+  "sameAs": "https://doi.org/10.5281/zenodo.23176906"
 }
