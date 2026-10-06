@@ -4,6 +4,31 @@ Updated: 2026-09-26
 
 This tracker records only legitimate editorial, institutional, open-data, and open-source adoption opportunities for AptToSell and Resimanor.
 
+## 2026-10-06 backlink safety rule
+
+The program now prioritizes citation, reuse, indexing, and real data adoption over raw backlink count.
+
+Allowed / preferred:
+- scholarly and open-data repositories that host the actual dataset or metadata;
+- housing or finance data catalogs with a clear topical fit;
+- curated GitHub lists where the repository explicitly accepts relevant datasets or research resources;
+- open-source projects only when the dataset has a concrete implementation, fixture, documentation, benchmark, or reference-data use case;
+- DOI, citation metadata, machine-readable schemas, and institutional resource pages.
+
+Do not use:
+- repeated "please use this as reference data" issues across unrelated repositories;
+- duplicate issue/PR submissions to multiple unrelated projects merely for links;
+- generic profile, forum, comment, directory, or guest-post backlinks;
+- submissions whose primary value disappears if the backlink is removed;
+- automated or templated outreach at scale.
+
+Decision test:
+> Would this submission still be useful to the destination community if the backlink were nofollowed or removed?
+
+If the answer is no, do not submit.
+
+Existing GitHub issues/PRs should be retained only where there is strong topical and implementation fit; otherwise no follow-up or duplication should be created.
+
 ## Status legend
 
 - ACTIVE — submitted or live opportunity
