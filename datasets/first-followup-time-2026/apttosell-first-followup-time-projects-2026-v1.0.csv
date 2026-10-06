@@ -1,0 +1,104 @@
+project_id,house_manage_no,house_name,region,initial_announcement_date,first_followup_date,days_to_first_followup,time_band,initial_source_url
+ATS-2026-002,2025000656,사우역 지엔하임,경기,2026-01-09,2026-02-26,48,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000656&pblancNo=2025000656
+ATS-2026-003,2025000628,북오산자이 리버블시티,경기,2026-01-09,2026-02-20,42,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000628&pblancNo=2025000628
+ATS-2026-004,2025000639,서귀포시 서홍동 형남아파트6차,제주,2026-01-16,2026-03-05,48,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000639&pblancNo=2025000639
+ATS-2026-005,2025000652,안양역 센트럴 아이파크 수자인,경기,2026-01-23,2026-03-11,47,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000652&pblancNo=2025000652
+ATS-2026-006,2026000002,e편한세상 센텀 하이베뉴,부산,2026-01-30,2026-03-11,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000002&pblancNo=2026000002
+ATS-2026-007,2025000572,포레나더샵 인천시청역,인천,2026-01-30,2026-03-12,41,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000572&pblancNo=2025000572
+ATS-2026-008,2026000019,구리역 하이니티 리버파크,경기,2026-02-11,2026-04-13,61,61~90일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000019&pblancNo=2026000019
+ATS-2026-011,2026000020,금정산 하늘채 루미엘,부산,2026-02-13,2026-03-25,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000020&pblancNo=2026000020
+ATS-2026-012,2026000017,쌍용 더 플래티넘 온수역,경기,2026-02-13,2026-03-25,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000017&pblancNo=2026000017
+ATS-2026-013,2026000028,해링턴플레이스 노원 센트럴,서울,2026-02-20,2026-04-28,67,61~90일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000028&pblancNo=2026000028
+ATS-2026-014,2026000015,천안 아이파크 시티 6단지,충남,2026-02-20,2026-04-01,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000015&pblancNo=2026000015
+ATS-2026-015,2026000014,천안 아이파크 시티 5단지,충남,2026-02-20,2026-04-01,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000014&pblancNo=2026000014
+ATS-2026-017,2025000510,두산위브 더센트럴 수원,경기,2026-02-27,2026-04-09,41,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2025000510&pblancNo=2025000510
+ATS-2026-018,2026000035,연수 월드메르디앙 어반포레,인천,2026-03-03,2026-04-28,56,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000035&pblancNo=2026000035
+ATS-2026-019,2026000043,부천역 에피트 어바닉,경기,2026-03-06,2026-04-15,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000043&pblancNo=2026000043
+ATS-2026-020,2026000039,래미안 엘라비네,서울,2026-03-06,2026-04-21,46,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000039&pblancNo=2026000039
+ATS-2026-021,2026000036,e편한세상 여수 글렌츠,전남,2026-03-06,2026-04-15,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000036&pblancNo=2026000036
+ATS-2026-023,2026000038,상주자이르네,경북,2026-03-09,2026-04-09,31,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000038&pblancNo=2026000038
+ATS-2026-026,2026000044,용인 플랫폼시티 라온프라이빗 아르디에,경기,2026-03-13,2026-04-22,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000044&pblancNo=2026000044
+ATS-2026-027,2026000033,해링턴플레이스 오룡역,대전,2026-03-13,2026-07-10,119,90일 초과,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000033&pblancNo=2026000033
+ATS-2026-029,2026000063,오션포레베네스트하우스(미단시티 공동8BL),인천,2026-03-18,2026-07-01,105,90일 초과,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000063&pblancNo=2026000063
+ATS-2026-030,2026000075,창원자이 더 스카이,경남,2026-03-20,2026-04-29,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000075&pblancNo=2026000075
+ATS-2026-031,2026000066,한화포레나 부산당리,부산,2026-03-20,2026-04-29,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000066&pblancNo=2026000066
+ATS-2026-033,2026000051,아산탕정자이 메트로시티(A3BL),충남,2026-03-20,2026-04-29,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000051&pblancNo=2026000051
+ATS-2026-035,2026000055,의정부역 센트럴 아이파크,경기,2026-03-26,2026-05-13,48,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000055&pblancNo=2026000055
+ATS-2026-037,2026000074,엄궁역 트라비스 하늘채,부산,2026-03-27,2026-05-07,41,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000074&pblancNo=2026000074
+ATS-2026-038,2026000070,힐스테이트 안양펠루스,경기,2026-03-27,2026-05-29,63,61~90일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000070&pblancNo=2026000070
+ATS-2026-040,2026000062,중앙하이츠 갈산역 센트럴,인천,2026-03-27,2026-05-14,48,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000062&pblancNo=2026000062
+ATS-2026-042,2026000012,경성대부경대역 비스타동원 더 프리미엄,부산,2026-03-27,2026-05-06,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000012&pblancNo=2026000012
+ATS-2026-047,2026000094,라클라체자이드파인,서울,2026-04-03,2026-05-19,46,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000094&pblancNo=2026000094
+ATS-2026-048,2026000086,업성 푸르지오 레이크시티,충남,2026-04-03,2026-05-13,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000086&pblancNo=2026000086
+ATS-2026-049,2026000077,북전주 광신프로그레스,전북,2026-04-03,2026-05-13,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000077&pblancNo=2026000077
+ATS-2026-050,2026000073,풍무역세권 수자인 그라센트 2차,경기,2026-04-03,2026-07-22,110,90일 초과,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000073&pblancNo=2026000073
+ATS-2026-051,2026000071,르네오션 고성 퍼스트뷰,강원,2026-04-03,2026-05-12,39,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000071&pblancNo=2026000071
+ATS-2026-052,2026000069,야목역 서희스타힐스 그랜드힐,경기,2026-04-06,2026-05-18,42,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000069&pblancNo=2026000069
+ATS-2026-053,2026000093,더샵 안동더퍼스트,경북,2026-04-09,2026-05-21,42,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000093&pblancNo=2026000093
+ATS-2026-054,2026000049,"옥정중앙역 대방 디에트르(중상1, 복합1BL)",경기,2026-04-09,2026-05-18,39,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000049&pblancNo=2026000049
+ATS-2026-055,2026000121,문수로 라티에르 673,울산,2026-04-10,2026-05-21,41,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000121&pblancNo=2026000121
+ATS-2026-056,2026000112,용인 고림 동문 디 이스트,경기,2026-04-10,2026-05-22,42,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000112&pblancNo=2026000112
+ATS-2026-059,2026000105,도안자이 센텀리체 2단지,대전,2026-04-10,2026-05-20,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000105&pblancNo=2026000105
+ATS-2026-060,2026000104,도안자이 센텀리체 1단지,대전,2026-04-10,2026-05-20,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000104&pblancNo=2026000104
+ATS-2026-061,2026000087,청주 푸르지오 씨엘리체,충북,2026-04-10,2026-06-01,52,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000087&pblancNo=2026000087
+ATS-2026-062,2026000085,힐스테이트 평거 센트럴,경남,2026-04-10,2026-05-28,48,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000085&pblancNo=2026000085
+ATS-2026-066,2026000124,고덕신도시 아테라 A-63블록 공공분양주택,경기,2026-04-17,2026-09-07,143,90일 초과,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000124&pblancNo=2026000124
+ATS-2026-068,2026000107,경기광주역 롯데캐슬 시그니처 1단지,경기,2026-04-17,2026-06-02,46,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000107&pblancNo=2026000107
+ATS-2026-069,2026000089,강릉 우미 린 더 프리미어,강원,2026-04-17,2026-06-05,49,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000089&pblancNo=2026000089
+ATS-2026-072,2026000152,e편한세상 부천 어반스퀘어,경기,2026-04-23,2026-06-09,47,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000152&pblancNo=2026000152
+ATS-2026-073,2026000150,엘리프 성성호수공원 2BL,충남,2026-04-23,2026-06-04,42,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000150&pblancNo=2026000150
+ATS-2026-074,2026000149,엘리프 성성호수공원 1BL,충남,2026-04-23,2026-06-04,42,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000149&pblancNo=2026000149
+ATS-2026-076,2026000129,더샵 관저아르테,대전,2026-04-24,2026-06-29,66,61~90일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000129&pblancNo=2026000129
+ATS-2026-079,2026000091,소제지구 A4BL 중흥S-클래스 우미린,전남,2026-04-24,2026-06-02,39,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000091&pblancNo=2026000091
+ATS-2026-080,2026000090,소제지구 A3BL 중흥S-클래스 우미린,전남,2026-04-24,2026-06-02,39,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000090&pblancNo=2026000090
+ATS-2026-081,2026000156,더 리치먼드 미아,서울,2026-04-27,2026-06-18,52,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000156&pblancNo=2026000156
+ATS-2026-082,2026000155,고덕국제신도시 수자인풍경채 2단지,경기,2026-04-29,2026-06-10,42,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000155&pblancNo=2026000155
+ATS-2026-083,2026000154,고덕국제신도시 수자인풍경채 1단지,경기,2026-04-29,2026-06-10,42,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000154&pblancNo=2026000154
+ATS-2026-085,2026000170,상주북천 하늘채 파크원,경북,2026-04-30,2026-06-09,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000170&pblancNo=2026000170
+ATS-2026-086,2026000163,메트로시티 자산 데시앙,경남,2026-04-30,2026-06-29,60,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000163&pblancNo=2026000163
+ATS-2026-089,2026000053,공주월송 진아레히,충남,2026-04-30,2026-06-10,41,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000053&pblancNo=2026000053
+ATS-2026-092,2026000169,더샵 송도그란테르 G5-11블록,인천,2026-05-07,2026-07-30,84,61~90일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000169&pblancNo=2026000169
+ATS-2026-094,2026000167,더샵 송도그란테르 G5-5블록,인천,2026-05-07,2026-07-30,84,61~90일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000167&pblancNo=2026000167
+ATS-2026-095,2026000166,더샵 송도그란테르 G5-4블록,인천,2026-05-07,2026-07-30,84,61~90일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000166&pblancNo=2026000166
+ATS-2026-096,2026000165,더샵 송도그란테르 G5-3블록,인천,2026-05-07,2026-07-30,84,61~90일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000165&pblancNo=2026000165
+ATS-2026-098,2026000178,중앙하이츠 원종역,경기,2026-05-08,2026-06-19,42,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000178&pblancNo=2026000178
+ATS-2026-099,2026000172,두산위브 트리니뷰 구명역,부산,2026-05-08,2026-06-19,42,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000172&pblancNo=2026000172
+ATS-2026-101,2026000116,아크로 리버스카이,서울,2026-05-13,2026-07-23,71,61~90일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000116&pblancNo=2026000116
+ATS-2026-103,2026000188,해운대 마티안 디 에디션,부산,2026-05-14,2026-07-01,48,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000188&pblancNo=2026000188
+ATS-2026-104,2026000187,엘리프 역곡,경기,2026-05-14,2026-06-24,41,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000187&pblancNo=2026000187
+ATS-2026-105,2026000217,동래사적공원 오네뜨,부산,2026-05-15,2026-06-24,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000217&pblancNo=2026000217
+ATS-2026-106,2026000162,검암역자이르네,인천,2026-05-15,2026-06-25,41,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000162&pblancNo=2026000162
+ATS-2026-107,2026000138,힐스테이트 시흥더클래스,경기,2026-05-15,2026-07-07,53,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000138&pblancNo=2026000138
+ATS-2026-108,2026000120,써밋 더힐,서울,2026-05-15,2026-06-30,46,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000120&pblancNo=2026000120
+ATS-2026-109,2026000219,호반써밋 풍무Ⅱ,경기,2026-05-22,2026-07-09,48,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000219&pblancNo=2026000219
+ATS-2026-110,2026000205,수원역 아너스빌 타임원,경기,2026-05-22,2026-07-06,45,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000205&pblancNo=2026000205
+ATS-2026-111,2026000173,더 리치먼드 리버센트 소양,강원,2026-05-22,2026-07-03,42,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000173&pblancNo=2026000173
+ATS-2026-117,2026000237,평택 고덕 우미 린 프레스티지(Abc-36BL),경기,2026-06-05,2026-07-16,41,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000237&pblancNo=2026000237
+ATS-2026-118,2026000226,백석시그니처자이 2단지,충남,2026-06-05,2026-07-14,39,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000226&pblancNo=2026000226
+ATS-2026-119,2026000225,백석시그니처자이 1단지,충남,2026-06-05,2026-07-14,39,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000225&pblancNo=2026000225
+ATS-2026-120,2026000148,알티에로 광안,부산,2026-06-05,2026-07-16,41,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000148&pblancNo=2026000148
+ATS-2026-122,2026000248,북오산자이 드포레,경기,2026-06-12,2026-07-29,47,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000248&pblancNo=2026000248
+ATS-2026-124,2026000224,힐스테이트 양산더스카이 2단지,경남,2026-06-12,2026-07-22,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000224&pblancNo=2026000224
+ATS-2026-125,2026000223,힐스테이트 양산더스카이 1단지,경남,2026-06-12,2026-07-22,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000223&pblancNo=2026000223
+ATS-2026-128,2026000275,장위 푸르지오 마크원,서울,2026-06-19,2026-08-05,47,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000275&pblancNo=2026000275
+ATS-2026-129,2026000273,펜타힐즈 더블유 1단지,경북,2026-06-19,2026-07-29,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000273&pblancNo=2026000273
+ATS-2026-130,2026000270,김해 신문 센트럴 아이파크,경남,2026-06-19,2026-07-28,39,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000270&pblancNo=2026000270
+ATS-2026-132,2026000261,밀양 수자인 더퍼스트 2단지 공공분양주택,경남,2026-06-19,2026-09-15,88,61~90일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000261&pblancNo=2026000261
+ATS-2026-134,2026000241,드파인 아르티아,서울,2026-06-19,2026-08-07,49,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000241&pblancNo=2026000241
+ATS-2026-140,2026000271,트리븐 김해,경남,2026-06-26,2026-08-20,55,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000271&pblancNo=2026000271
+ATS-2026-145,2026000329,호반써밋 풍무Ⅲ,경기,2026-07-09,2026-08-26,48,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000329&pblancNo=2026000329
+ATS-2026-146,2026000310,남양주 진접 서한이다음(S1BL),경기,2026-07-09,2026-09-03,56,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000310&pblancNo=2026000310
+ATS-2026-148,2026000315,오산헤리티지자이 1단지,경기,2026-07-10,2026-08-25,46,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000315&pblancNo=2026000315
+ATS-2026-149,2026000312,춘천 리버뷰 아이파크,강원,2026-07-10,2026-08-19,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000312&pblancNo=2026000312
+ATS-2026-150,2026000301,의왕역 SK VIEW,경기,2026-07-10,2026-08-28,49,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000301&pblancNo=2026000301
+ATS-2026-153,2026000291,이천 휴먼빌 클래스원,경기,2026-07-16,2026-09-11,57,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000291&pblancNo=2026000291
+ATS-2026-154,2026000282,창원 한신더휴 메가센텀,경남,2026-07-16,2026-08-27,42,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000282&pblancNo=2026000282
+ATS-2026-156,2026000318,더샵 트리센트,부산,2026-07-24,2026-09-10,48,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000318&pblancNo=2026000318
+ATS-2026-159,2026000367,한강 푸르지오 리버프론트,경기,2026-07-30,2026-09-09,41,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000367&pblancNo=2026000367
+ATS-2026-160,2026000356,두산위브더제니스 대연,부산,2026-07-30,2026-09-09,41,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000356&pblancNo=2026000356
+ATS-2026-161,2026000323,"세종 우미 린 센터파크(행정중심복합도시 5-2생활권 S1블록, 글미마을 9단지)",세종,2026-07-31,2026-10-01,62,61~90일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000323&pblancNo=2026000323
+ATS-2026-163,2026000371,용인반도체클러스터 동일하이빌 파크밸리(D1-1블록),경기,2026-08-07,2026-09-16,40,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000371&pblancNo=2026000371
+ATS-2026-165,2026000358,충정로역자이르네,서울,2026-08-07,2026-09-28,52,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000358&pblancNo=2026000358
+ATS-2026-166,2026000382,두산위브더제니스 부천,경기,2026-08-12,2026-09-16,35,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000382&pblancNo=2026000382
+ATS-2026-168,2026000365,오남역 서희스타힐스 여의재 1단지,경기,2026-08-13,2026-10-01,49,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000365&pblancNo=2026000365
+ATS-2026-173,2026000342,제일풍경채 첨단3지구(A6BL),광주,2026-08-14,2026-09-22,39,31~60일,https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000342&pblancNo=2026000342
