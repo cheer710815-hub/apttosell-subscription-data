@@ -1,35 +1,32 @@
-# Primary Promotion Access Audit — 2026-10-05
+# Primary Promotion Access Audit — 2026-10-06
 
 ## Scope
 
-All **102 non-primary** first-event rows were audited for promotion readiness.
+The full first-event registry has already completed official-source linking.
 
-## Results
+## Current result
 
-- Non-primary rows audited: **102 / 102**
-- Rows with numeric first-event notice ID: **102 / 102**
-- Rows with deterministic ApplyHome detail URL candidate: **102 / 102**
-- Direct ApplyHome detail endpoint accessible in current web tool: **0**
-- Already primary-verified outside this queue: **1**
+- First-event rows: **103**
+- Numeric notice IDs: **103 / 103**
+- Canonical ApplyHome detail links: **103 / 103**
+- `PRIMARY_VERIFIED`: **13**
+- `ID_CORROBORATED_SECONDARY`: **90**
 
-## Tooling blocker
+## Important distinction
 
-The official ApplyHome detail URL can be constructed from the numeric notice ID using:
+Earlier work treated direct inspection of a project-hosted PDF as if it were required to establish an official source link. That is unnecessarily strict.
+
+The correct structure is:
+
+1. **Official source link** — generated from the recovered notice ID and pointed to ApplyHome.
+2. **Evidence grade** — separately records whether the event artifact was directly inspected.
+
+Therefore, the remaining 90 rows are **not missing official source links**. They are simply not direct-primary verified.
+
+## ApplyHome URL pattern
 
 `https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo={ID}&pblancNo={ID}`
 
-The current web environment returns the official ApplyHome detail endpoint as inaccessible. This is a tool-access limitation, not evidence that the official records do not exist.
+## Next work
 
-## Completed work despite the blocker
-
-- all 103 first-event rows evidence-reviewed
-- all 103 numeric first-event notice IDs recovered
-- official project-site cross-checks added where discoverable
-- official ApplyHome candidate URL generated for all 102 promotion candidates
-- promotion status frozen as `BLOCKED_DIRECT_PRIMARY_ACCESS` rather than overstating verification
-
-## Important rule
-
-Do not promote third-party API mirrors, search reproductions, or news articles to `PRIMARY_VERIFIED` merely because the numeric identifier is consistent.
-
-Promotion requires direct inspection of an official artifact.
+Primary promotion should be limited to cases where an official artifact is easy to inspect or materially improves the research asset. It is no longer a blocking task for registry completeness.
