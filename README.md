@@ -237,11 +237,12 @@ Public documentation:
 The registry provides a stable internal project ID for joining competition, price, payment-condition, follow-up supply, and future AptToSell datasets without altering previously frozen DOI releases.
 
 
-## Follow-up event identity layer
+## Follow-up event registry
 
-- [AptToSell Follow-Up Event Registry 2026 — Pilot](./datasets/followup-event-registry-2026/README.md)
+- [AptToSell Follow-Up Event Registry 2026](./datasets/followup-event-registry-2026/README.md)
+- Published public version: **0.2**
 - First-event rows: **103**
 - Stable project-ID matches: **103/103**
-- DOI: **not assigned — event-level primary-source verification remains incomplete**
+- Zenodo DOI: **https://doi.org/10.5281/zenodo.23176906**
 
 The registry preserves project chronology and separates derived/corroborated dates from primary-verified notice-level events.
