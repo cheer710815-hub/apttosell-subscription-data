@@ -250,6 +250,8 @@ The registry preserves project chronology and separates derived/corroborated dat
 
 ## Dataset — 2026 청약 경쟁률 구간별 후속공급 발생률
 
+- **Canonical dataset page:** https://apttosell.com/subscription-followup-data-2026/
+
 2026년 1~9월 최초 APT 모집공고 196개를 경쟁률 5개 구간으로 나누고, 이후 무순위·잔여세대 또는 임의공급 공고 발생 여부를 연결한 독립 파생 데이터셋입니다.
 
 - Final cohort: **196**
