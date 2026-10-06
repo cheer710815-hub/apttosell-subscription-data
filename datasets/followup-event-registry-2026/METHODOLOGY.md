@@ -1,46 +1,74 @@
 # Methodology — Follow-Up Event Registry 2026
 
-## 1. Unit of observation
+## 1. Scope and unit of observation
 
-One row represents the first observed follow-up supply event for one project.
+Version 0.2 contains one public row for each project with an identified first observed follow-up supply event.
 
-## 2. Source
+One row represents the first observed follow-up event for one project. Later follow-up events are not materialized as separate rows in this release.
 
-The source is the existing project-level AptToSell 2026 competition/follow-up analysis table.
+## 2. Source framework
 
-## 3. Date derivation
+The registry was constructed from AptToSell's 2026 project-level subscription and follow-up analysis, which is based on official Korea Real Estate Board ApplyHome recruitment and follow-up notices.
 
-`derived_first_followup_date = initial_announcement_date + days_to_first_followup`
+The public release preserves the initial housing-management number and an identified official follow-up notice ID so that the relationship can be checked against the official notice system.
 
-The derived date is reproducible from existing published fields but is not treated as an independently re-verified official event date.
+## 3. Public fields
 
-## 4. Event subtype
+The public v0.2 file contains exactly these seven fields:
 
-The project-level table does not preserve a subtype for each follow-up event. Therefore the pilot uses:
+- `apttosell_project_id`
+- `project_name`
+- `initial_house_manage_no`
+- `first_followup_date`
+- `official_followup_notice_id`
+- `canonical_official_source_url`
+- `evidence_grade`
 
-`followup_supply_observed_unspecified`
+## 4. First follow-up event rule
 
-No residual-unit / no-priority / discretionary-supply subtype is guessed.
+For each project, AptToSell records the earliest follow-up supply event identified after the initial recruitment notice.
 
-## 5. Multiple events
+`first_followup_date` is the date associated with that first identified follow-up event.
 
-`project_followup_event_count` is retained, but only the first event is materialized in this pilot.
+The registry does not claim that later follow-up notices are absent; v0.2 is intentionally a first-event registry.
 
-Later event dates must be reconstructed from underlying official notices before separate event rows are created.
+## 5. Evidence grades
 
-## 6. Verification status
+### PRIMARY_VERIFIED
 
-`DERIVED_FIRST_EVENT_DATE` means the date is deterministically reconstructed from published project-level fields.
+The first follow-up event was verified against a primary official notice and its identifying information.
 
-It does not mean the individual event notice has been independently re-opened and primary-source verified.
+### ID_CORROBORATED_SECONDARY
 
-## 7. Versioning
+The event's official notice identifier and canonical official notice URL were recovered and corroborated, while the full event record was not reclassified as primary-verified during the v0.2 verification pass.
 
-No DOI is assigned to this pilot. A versioned event registry requires official notice-level event IDs, dates, and subtypes.
+These grades describe evidence strength for the registry entry. They are not measures of project quality, sales performance, cancellation, or unsold inventory.
 
+## 6. v0.2 verification summary
 
-## Secondary corroboration rule
+Public v0.2 contains 103 project rows.
 
-When the project-level derived first-event date is independently reproduced by multiple public sources but the original official notice identifier is not yet recovered, the event may be stored as `SECONDARY_CORROBORATED`.
+- Official follow-up notice IDs present: 103 / 103
+- Canonical official source URLs present: 103 / 103
+- `PRIMARY_VERIFIED`: 13
+- `ID_CORROBORATED_SECONDARY`: 90
 
-This status is sufficient to reconcile event chronology but not sufficient for a future primary-source public release.
+## 7. Interpretation limits
+
+An observed follow-up supply event does **not** equal a contract-failure rate, cancellation rate, or unsold-housing rate.
+
+A later notice can arise from different supply circumstances and should be interpreted only as an observed later official supply event unless a separate analysis verifies the underlying cause.
+
+## 8. Versioning and citation
+
+Current public release: **v0.2**
+
+Persistent identifier:
+
+https://doi.org/10.5281/zenodo.23176906
+
+License: **CC BY 4.0**
+
+Recommended citation:
+
+Kim, Eun. *AptToSell Follow-Up Event Registry 2026*, version 0.2, 2026-10-06. AptToSell. CC BY 4.0. https://doi.org/10.5281/zenodo.23176906
