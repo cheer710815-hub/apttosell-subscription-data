@@ -1,0 +1,17 @@
+metric,group,n,reappeared,reappearance_rate_pct
+initial_rate_band,6-<10x,47,29,61.70
+initial_rate_band,10-<20x,67,35,52.24
+initial_rate_band,20-<50x,40,9,22.50
+initial_rate_band,50x+,30,5,16.67
+initial_price_band,<6억원,31,15,48.39
+initial_price_band,6-<10억원,57,36,63.16
+initial_price_band,10-<15억원,35,9,25.71
+initial_price_band,15-<25억원,42,13,30.95
+initial_price_band,25억원+,19,5,26.32
+region,서울,65,17,26.15
+region,경기·인천,58,26,44.83
+region,비수도권,61,35,57.38
+supply_quartile,Q1_smallest,48,13,27.08
+supply_quartile,Q2,44,17,38.64
+supply_quartile,Q3,46,22,47.83
+supply_quartile,Q4_largest,46,26,56.52
