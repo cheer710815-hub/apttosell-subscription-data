@@ -1,0 +1,25 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: DATA_DICTIONARY(1).csv>index,field,description,unit_or_type
+0,project_group_name,Project or deduplicated project-group name,text
+1,region,Top-level region label,text
+2,target_dong,Legal dong used for transaction matching,text
+3,announcement_date,Presale announcement date,YYYY-MM-DD
+4,presale_10k,Research-level 84㎡-class presale price,"KRW 10,000"
+5,all_trade_count,"Comparable transactions, all apartment ages",count
+6,all_gap_pct,Presale price gap versus all-age comparison median,percent
+7,build_10y_trade_count,"Comparable transactions, apartments completed within 10 years",count
+8,build_10y_gap_pct,Presale price gap versus 10-year comparison median,percent
+9,gap_change_pp,all_gap_pct minus build_10y_gap_pct,percentage points
+10,publication_grade,A/B quality flag based on comparison-transaction counts,category
+11,note,Recommended publication usage note,text
+12,research_id,Internal research observation identifier,text
+13,member_count,Number of original project rows in the research observation,count
+14,member_names,Original project names included in a grouped observation,text
+15,presale_block_max_min_10k,Minimum component maximum presale price,"KRW 10,000"
+16,presale_block_max_median_10k,Median component maximum presale price,"KRW 10,000"
+17,presale_block_max_max_10k,Maximum component maximum presale price,"KRW 10,000"
+18,all_median_10k,Median transaction price for all-age group,"KRW 10,000"
+19,build_20y_trade_count,Comparable transactions completed within 20 years,count
+20,build_20y_median_10k,Median transaction price for 20-year group,"KRW 10,000"
+21,build_20y_gap_pct,Presale price gap versus 20-year comparison median,percent
+22,build_10y_median_10k,Median transaction price for 10-year group,"KRW 10,000"
