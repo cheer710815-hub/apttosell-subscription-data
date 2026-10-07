@@ -1,0 +1,15 @@
+project_name,house_type,initial_first_priority_rate,first_unsold_units,contract_deposit_pct,high_comp_6x,deposit_group,source_status
+해링턴플레이스 노원 센트럴,59B,8.6,25,10,true,10pct,verified
+해링턴플레이스 노원 센트럴,59C,6.9,16,10,true,10pct,verified
+해링턴플레이스 노원 센트럴,59D,7.3,17,10,true,10pct,verified
+엘리프 성성호수공원 1BL,84B,37.2,11,10,true,10pct,verified
+엘리프 성성호수공원 1BL,111,13.7,115,10,true,10pct,verified
+아산탕정자이 메트로시티(A3BL),84A,8.1,384,10,true,10pct,verified
+힐스테이트 평거 센트럴,84A,27.2,55,5,true,5pct,verified
+힐스테이트 평거 센트럴,105C,14.2,3,5,true,5pct,verified
+더샵 안동더퍼스트,84B,10.5,23,5,true,5pct,verified
+더샵 안동더퍼스트,84C,12.8,8,5,true,5pct,verified
+청주 푸르지오 씨엘리체,84A,17.3,47,10,true,10pct,verified
+더샵 관저아르테,84A,14.79,34,10,true,10pct,verified
+e편한세상 부천 어반스퀘어,84A,6.53,45,5,true,5pct,verified
+천안 아이파크 시티 6단지,84C,40.8,17,5,true,5pct,verified
