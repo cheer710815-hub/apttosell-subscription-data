@@ -1,0 +1,6 @@
+metric,A_type_n,A_type_median,A_type_mean,D_type_n,D_type_median,D_type_mean,test,p_value,interpretation
+avg_first_priority_rate,13,1.3791,2.2095,13,6.4749,8.2189,Mann-Whitney U,0.000858,"D형의 초기 청약경쟁이 유의하게 높음"
+first_unsold_share_initial,13,35.25%,41.73%,13,49.43%,53.59%,Mann-Whitney U,0.4418,"D형이 수치상 높지만 유의차 없음"
+first_unsold_share_general,13,50.45%,55.30%,13,70.11%,89.54%,Mann-Whitney U,0.2183,"D형이 수치상 높지만 유의차 없음"
+days_to_first_unsold,13,40,42.62,13,42,47.62,Mann-Whitney U,0.0249,"D형이 약간 늦게 나타나는 경향; 보조지표로만 사용"
+repeat_unsold,13,30.8%,,13,23.1%,,Fisher exact,1.0000,"반복 여부는 두 유형을 구분하지 못함"
