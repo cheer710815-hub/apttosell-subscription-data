@@ -7,8 +7,8 @@ project_name,first_unsold_units,unsold_units_from_initial_6x_plus_types,DDFS_pct
 청주 푸르지오 씨엘리체,270,47,17.4,0-50%,existing
 더샵 관저아르테,223,34,15.2,0-50%,existing
 e편한세상 부천 어반스퀘어,485,0,0.0,0%,"84A=176/34=5.1765x; strict 6x excluded"
-천안 아이파크 시티 6단지,385,59,15.32,0-50%,"re-audit: 84C 17 + 120 42 from initial >=6x types"
-두산위브 더센트럴 수원,25,18,72.0,50-100%,existing-expanded
+천안 아이파크 시티 6단지,385,59,15.32,0-50%,"84C 17 + 120 42 from initial >=6x types"
+두산위브 더센트럴 수원,25,25,100.0,100%,"59A16 + 59B7 + 84B1 + 84C1; all initial aggregate >=6x"
 래미안 엘라비네,56,47,83.9,50-100%,existing-expanded
 드파인 아르티아,15,10,66.7,50-100%,existing-expanded
 더샵 트리센트,28,28,100.0,100%,existing-expanded
