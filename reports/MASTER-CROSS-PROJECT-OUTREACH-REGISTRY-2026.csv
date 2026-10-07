@@ -28,3 +28,4 @@ REPOSITORY,AptToSell subscription data,Repository,GitHub,,,ACTIVE,ONGOING,CAN_UP
 REPOSITORY,AptToSell subscription docs,Docs,GitBook,,,ACTIVE,HOLD_EXPANSION,"1~3호 반응 확인 후 묶어서 문서화"
 REPOSITORY,AptToSell data,Repository,Hugging Face/Kaggle,,,EXISTING,HOLD_EXPANSION,"새 1~3호 즉시 중복 미러링 금지"
 REPOSITORY,Research indexing,Index,EconPapers/IDEAS,,,EXISTING_FOR_RESIMANOR,HOLD_FOR_APTTOSELL,"리서치노트 형태 완성 전 신규 중복 제출 금지"
+CITATION_4,공급규모별 90일 후속공급,Asset,GitHub,파생분석,,ASSET_READY,2026-10-07,NO_OUTREACH_YET,"1000세대 이상 14/18=77.8%; 300~499세대 15/33=45.5%; 인과 해석 금지; 신규 DOI/중복등재 금지"
