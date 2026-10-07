@@ -1,0 +1,7 @@
+project_name,DDFS_pct,initial_contract_deposit_pct,first_contract_payment,second_contract_payment_due,first_midterm_due,midterm_interest,midterm_loan_coverage_pct,mandatory_self_funded_midterm_pct,move_in,post_sale,nearby_same_area_price_signal,preliminary_path
+두산위브 더센트럴 수원,72.0,10,"1000만원","2026-04-29","2026-07-10","이자후불",40,20,"2028-09",NO,"84㎡ 분양 9.48~9.56억; 인근 기축 대비 큰 격차","CONTRACT_FRICTION_PLUS_PRICE"
+더샵 트리센트,100.0,5,"1000만원","계약일+30일","2027-01-11","이자후불",60,0,"2029-12",NO,"84㎡ 최고 약 8.49억; 남구 84㎡ 시장 범위와 중첩","CONVERSION_GAP_CANDIDATE"
+라클라체자이드파인,100.0,10,"5000만원","2026-06-04","2026-08-14","이자후불",40,20,"2028-12",NO,"59㎡ 21.5~22.1억 / 84㎡ 25.1~25.9억; 인근 기축 대비 큰 격차","CONTRACT_FRICTION_PLUS_PRICE"
+래미안 엘라비네,83.9,10,"계약시 10% 일괄","없음","2026-07-15","이자후불",40,20,"2028-08",NO,"84㎡ 약 17.3~18.3억; 반경권 최근 평균 약 14.6억","CONTRACT_FRICTION"
+드파인 아르티아,66.7,10,"5000만원","2026-08-20","2026-12-15","이자후불",40,20,"2029-11",NO,"84㎡ 최고 약 27.6억; 동작구 준공5년 이내 비교 약 17.1억","CONTRACT_FRICTION_PLUS_PRICE"
+쌍용 더 플래티넘 온수역,100.0,5,"1000만원","계약일+30일","2026-10-22","이자후불",60,0,"2028-10",NO,"84㎡ 평균 약 11.16억; 반경300m 최근 평균 약 9.56억(+약16.7%)","PRICE_PLUS_CONVERSION_GAP"
