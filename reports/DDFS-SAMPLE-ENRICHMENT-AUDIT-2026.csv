@@ -1,4 +1,4 @@
 sample,n,zero_share_pct,nonzero_share_pct,median_DDFS_pct,mean_DDFS_pct,ge50_share_pct,eq100_share_pct
-development_original20,20,25.0,75.0,44.65,47.551,45.0,25.0
+development_original20,20,25.0,75.0,44.65,48.951,45.0,30.0
 holdout1,10,60.0,40.0,0.00,11.164,0.0,0.0
 holdout2_chronological,20,85.0,15.0,0.00,1.683,0.0,0.0
