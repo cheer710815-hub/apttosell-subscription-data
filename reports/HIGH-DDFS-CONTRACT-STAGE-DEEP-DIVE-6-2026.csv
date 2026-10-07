@@ -1,0 +1,7 @@
+project_name,DDFS_pct,contract_deposit_pct,mid_payment_pct,balance_pct,first_mid_date,move_in,mid_loan_gap_status,current_cause_read
+두산위브 더센트럴 수원,72.0,10,60,30,2026-07-10,2028-09,"possible_20pct_gap","financing_friction_plausible"
+더샵 트리센트,100.0,5,60,35,2027-01-11,2029-12,"unknown","strong_counterexample_to_deposit_only"
+라클라체자이드파인,100.0,10,60,30,,2028-12,"possible_gap","high_price_plus_financing_friction"
+래미안 엘라비네,83.9,10,60,30,2026-07-15,2028-08,"possible_20pct_gap","high_price_plus_financing_friction"
+드파인 아르티아,66.7,10,60,30,2026-12-15,,"unknown","unresolved"
+쌍용 더 플래티넘 온수역,100.0,5,60,35,,,"unknown","strong_counterexample_to_deposit_only"
