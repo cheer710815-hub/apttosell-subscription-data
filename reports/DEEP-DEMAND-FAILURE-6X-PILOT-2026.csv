@@ -1,0 +1,13 @@
+project_name,initial_type,initial_first_priority_rate,first_unsold_units,type_meets_6x,source_status
+해링턴플레이스 노원 센트럴,59B,8.6,25,true,verified
+해링턴플레이스 노원 센트럴,59C,6.9,16,true,verified
+해링턴플레이스 노원 센트럴,59D,7.3,17,true,verified
+엘리프 성성호수공원 1BL,84B,37.2,11,true,verified
+엘리프 성성호수공원 1BL,111,13.7,115,true,verified
+힐스테이트 평거 센트럴,84A,27.2,55,true,verified
+힐스테이트 평거 센트럴,105A,3.0,59,false,verified
+힐스테이트 평거 센트럴,105B,4.1,12,false,verified
+힐스테이트 평거 센트럴,105C,14.2,3,true,verified
+더샵 안동더퍼스트,84A,2.8,39,false,verified
+더샵 안동더퍼스트,84B,10.5,23,true,verified
+더샵 안동더퍼스트,84C,12.8,8,true,verified
