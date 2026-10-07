@@ -1,0 +1,30 @@
+{
+  "name": "apttosell-ddfs-national-type-riskset-2026",
+  "title": "2026 National DDFS Type-level Risk-set",
+  "version": "1.0",
+  "description": "184 housing types from 52 South Korean apartment projects with initial first-priority aggregate competition >=6x and a verified first follow-up supply event.",
+  "license": "CC-BY-4.0",
+  "homepage": "https://apttosell.com/housing-subscription-data/",
+  "resources": [
+    {
+      "path": "apttosell-ddfs-national-type-riskset-2026-v1.0.csv",
+      "name": "riskset",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "apttosell-ddfs-national-type-model-results-2026-v1.0.csv",
+      "name": "model-results",
+      "mediatype": "text/csv"
+    },
+    {
+      "path": "DATA-DICTIONARY.md",
+      "name": "data-dictionary",
+      "mediatype": "text/markdown"
+    },
+    {
+      "path": "METHODOLOGY-AND-FINDINGS.md",
+      "name": "methodology",
+      "mediatype": "text/markdown"
+    }
+  ]
+}
