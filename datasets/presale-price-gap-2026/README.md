@@ -13,7 +13,7 @@ The dataset is intended for reproducible use by journalists, researchers, public
 ## Files
 
 - `apttosell_84sqm_presale_price_gap_2026_public.csv`  
-  Conservative publication-ready sample: 66 projects.
+  Conservative publication-ready sample: 62 projects.
 
 - `apttosell_84sqm_presale_price_gap_2026_research_sample.csv`  
   Deduplicated research sample: 155 projects.
@@ -28,10 +28,12 @@ The dataset is intended for reproducible use by journalists, researchers, public
 
 For the conservative publication-ready sample:
 
-- 66 projects met the stricter publication / institutional criteria.
-- The median difference between the full-age comparison gap and the 10-year comparison gap was 16.54 percentage points.
-- 28 projects showed a difference of at least 20 percentage points.
+- 62 projects met the stricter publication / institutional criteria after excluding four atypical supply cases.
+- The median difference between the full-age comparison gap and the 10-year comparison gap was 14.08 percentage points.
+- 27 projects showed a difference of at least 20 percentage points.
 - 16 projects showed a difference of at least 40 percentage points.
+
+The four excluded publication-sample cases were a reserved-unit case, a post-conversion vacant-unit case, a cancelled-member unit case, and a follow-up public-sale case. They remain in the broader 155-project research sample for transparency.
 
 These are descriptive statistics, not causal estimates.
 
@@ -70,4 +72,4 @@ CC BY 4.0. See `LICENSE.txt`.
 ## Version
 
 Release date: 2026-10-07  
-Version: 1.0
+Version: 1.1
