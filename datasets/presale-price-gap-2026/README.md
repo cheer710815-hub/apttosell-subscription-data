@@ -65,6 +65,10 @@ English:
 
 > Source: AptToSell, “2026 Korea Apartment Presale Price Gap by Comparison-Stock Age”
 
+## DOI
+
+https://doi.org/10.5281/zenodo.23207987
+
 ## License
 
 CC BY 4.0. See `LICENSE.txt`.
