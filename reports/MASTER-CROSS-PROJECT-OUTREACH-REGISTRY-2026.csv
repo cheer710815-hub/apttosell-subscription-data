@@ -29,3 +29,6 @@ REPOSITORY,AptToSell subscription docs,Docs,GitBook,,,ACTIVE,HOLD_EXPANSION,"1~3
 REPOSITORY,AptToSell data,Repository,Hugging Face/Kaggle,,,EXISTING,HOLD_EXPANSION,"새 1~3호 즉시 중복 미러링 금지"
 REPOSITORY,Research indexing,Index,EconPapers/IDEAS,,,EXISTING_FOR_RESIMANOR,HOLD_FOR_APTTOSELL,"리서치노트 형태 완성 전 신규 중복 제출 금지"
 CITATION_4,공급규모별 90일 후속공급,Asset,GitHub,파생분석,,ASSET_READY,2026-10-07,NO_OUTREACH_YET,"1000세대 이상 14/18=77.8%; 300~499세대 15/33=45.5%; 인과 해석 금지; 신규 DOI/중복등재 금지"
+CITATION_4,공급규모별 90일 후속공급,Journalist,한국금융신문,조범형,chobh06@fntimes.com,DRAFT_READY,STAGE_1,NO_DUPLICATE,"1000세대 이상 대단지 분양·청약 취재 적합; 기존 발송 이력 없음"
+CITATION_4,공급규모별 90일 후속공급,Journalist,이투데이,이세령,iselyeong@etoday.co.kr,DRAFT_READY,STAGE_1,NO_DUPLICATE,"대단지·주택공급 취재 적합; 기존 발송 이력 없음"
+CITATION_4,공급규모별 90일 후속공급,Journalist,이투데이,조유정,youjung@etoday.co.kr,DRAFT_BLOCKED,STAGE_1,HOLD,"초안 생성 안전 검사 차단; 반복 시도 금지"
