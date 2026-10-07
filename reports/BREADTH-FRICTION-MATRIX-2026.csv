@@ -1,0 +1,10 @@
+project_name,DDFS_pct,demand_breadth_pct,breadth_group,friction_group,friction_evidence,quadrant
+해링턴플레이스 노원 센트럴,100.0,60.8,HIGH,HIGH,"계약금 10%; 후분양/준공형; 잔금 90%; 가격저항 정황","HIGH_BREADTH_HIGH_FRICTION"
+엘리프 성성호수공원 1BL,100.0,6.5,LOW,HIGH,"계약금 10%; 중도금 60% 이자후불","LOW_BREADTH_HIGH_FRICTION"
+아산탕정자이 메트로시티(A3BL),63.4,25.0,LOW,HIGH,"계약금 10%; 중도금 60% 이자후불; 가격은 중립~우호","LOW_BREADTH_HIGH_FRICTION"
+힐스테이트 평거 센트럴,45.0,73.7,HIGH,LOW,"계약금 5%; 현재 추가 고마찰 근거 없음","HIGH_BREADTH_LOW_FRICTION"
+더샵 안동더퍼스트,44.3,56.5,LOW,LOW,"계약금 5%; 현재 추가 고마찰 근거 없음","LOW_BREADTH_LOW_FRICTION"
+청주 푸르지오 씨엘리체,17.4,50.0,LOW,HIGH,"계약금 10%; 중도금 60% 이자후불","LOW_BREADTH_HIGH_FRICTION"
+더샵 관저아르테,15.2,100.0,HIGH,HIGH,"DDFS 핵심 84A 계약금 10%; 중도금 60% 이자후불; 가격저항 정황","HIGH_BREADTH_HIGH_FRICTION"
+e편한세상 부천 어반스퀘어,9.3,75.0,HIGH,LOW,"계약금 5%; 가격저항 정황은 있으나 초기 현금부담은 낮음","HIGH_BREADTH_LOW_FRICTION"
+천안 아이파크 시티 6단지,4.4,75.0,HIGH,LOW,"계약금 5%; 중도금 60% 이자후불; 가격 중립","HIGH_BREADTH_LOW_FRICTION"
