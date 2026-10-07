@@ -1,0 +1,16 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This dataset and accompanying documentation are made available under the
+Creative Commons Attribution 4.0 International License.
+
+You are free to share and adapt the material, including commercially, provided
+appropriate attribution is given and changes are indicated.
+
+Recommended attribution:
+AptToSell, “2026 Korea Apartment Presale Price Gap by Comparison-Stock Age”
+
+License:
+https://creativecommons.org/licenses/by/4.0/
+
+This notice does not grant rights to third-party source data beyond the rights
+already provided by the original data providers.
