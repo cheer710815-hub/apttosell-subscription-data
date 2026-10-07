@@ -40,6 +40,8 @@ The conservative publication-ready sample requires:
 - at least 20 transactions in the all-age group; and
 - at least 10 transactions in the 10-year group.
 
+For the publication-ready sample, four atypical supply cases were additionally excluded so that the published headline statistics better represent ordinary new-apartment presale comparisons. The excluded cases were: one reserved-unit case, one post-conversion vacant-unit case, one cancelled-member unit case, and one follow-up public-sale case. These observations remain in the broader deduplicated research sample.
+
 ## 6. Presale price gap
 
 `(presale price - median comparable transaction price) / median comparable transaction price × 100`
