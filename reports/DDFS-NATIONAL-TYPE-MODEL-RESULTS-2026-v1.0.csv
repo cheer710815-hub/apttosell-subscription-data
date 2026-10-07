@@ -1,0 +1,15 @@
+model,term,odds_ratio,ci95_low,ci95_high,p_value,unit
+PRIMARY_STRUCTURE,initial_competition,0.538,0.360,0.804,0.0025,per doubling
+PRIMARY_STRUCTURE,type_supply_share,1.249,1.038,1.503,0.0184,per doubling
+PRIMARY_STRUCTURE,project_general_supply,0.720,0.488,1.061,0.0971,per doubling
+PRIMARY_STRUCTURE,initial_type_price,0.786,0.416,1.486,0.4593,per doubling
+PRIMARY_STRUCTURE,regulated_flag,0.838,0.258,2.718,0.7688,binary
+FINANCING,initial_competition,0.536,0.356,0.807,0.0028,per doubling
+FINANCING,type_supply_share,1.251,1.054,1.486,0.0106,per doubling
+FINANCING,project_general_supply,0.717,0.498,1.032,0.0734,per doubling
+FINANCING,equity_floor,0.843,0.602,1.180,0.3205,per doubling
+FINANCING,capital_region_flag,0.340,0.097,1.198,0.0931,binary
+RPG_NONWARNING,initial_competition,0.477,,,0.0058,per doubling
+RPG_NONWARNING,type_supply_share,1.089,,,0.4701,per doubling
+RPG_NONWARNING,rpg_pct,1.097,,,0.5002,per +10 percentage points
+RPG_NONWARNING,equity_floor,0.994,,,0.9837,per doubling
