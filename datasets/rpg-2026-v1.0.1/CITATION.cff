@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+title: "2026 Korean Apartment Subscription Demand and Relative Price Gap (RPG) Dataset"
+type: dataset
+version: "1.0.1"
+date-released: "2026-10-07"
+authors:
+  - family-names: "Kim"
+license: CC-BY-4.0
+keywords:
+  - Korea
+  - apartment
+  - housing subscription
+  - real estate
+  - relative price gap
+  - RPG
+abstract: >-
+  A reproducible project-, housing-type-, comparable-apartment-, and regression-level
+  dataset for analysis of Korean apartment subscription demand and relative price gaps.
