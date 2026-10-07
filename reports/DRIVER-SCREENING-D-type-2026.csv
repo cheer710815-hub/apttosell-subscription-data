@@ -1,0 +1,6 @@
+variable,A_n,A_median_or_share,D_n,D_median_or_share,test,p_value,result
+region_relative_price_ratio,13,1.007,13,1.000,Mann-Whitney U,0.7583,"유의한 차이 없음"
+total_supply_households,13,743,13,560,Mann-Whitney U,0.6444,"유의한 차이 없음"
+capital_region_share,13,53.8%,13,30.8%,Fisher exact,0.4283,"유의한 차이 없음"
+repeat_unsold_share,13,30.8%,13,23.1%,Fisher exact,1.0000,"유의한 차이 없음"
+avg_first_priority_rate,13,1.38,13,6.47,Mann-Whitney U,0.00086,"D형이 유의하게 높음; 원인이라기보다 분류 특성"
