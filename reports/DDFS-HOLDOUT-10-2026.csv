@@ -1,0 +1,11 @@
+project_name,first_unsold_units,unsold_from_initial_6x_plus,DDFS_pct,holdout_path,confidence,key_reason
+창원자이 더 스카이,431,196,45.48,CONTRACT_FRICTION,HIGH,"84A initial 10.04x and 196 unsold; strong price burden and contract-term easing evidence"
+김해 신문 센트럴 아이파크,865,0,0.00,TYPE_STRUCTURE,HIGH,"No initial type reached 6x; 84A 4.9x max"
+천안 아이파크 시티 5단지,334,21,6.29,TYPE_STRUCTURE,HIGH,"Only 84C exceeded 6x; first unsold had 21 units of 84C"
+도안자이 센텀리체 2단지,657,0,0.00,TYPE_STRUCTURE,HIGH,"Initial 134 type exceeded 6x but first unsold contained only 84A and 115A"
+구리역 하이니티 리버파크,341,0,0.00,TYPE_STRUCTURE,HIGH,"Initial 1st-priority types all below 6x"
+힐스테이트 양산더스카이 1단지,239,56,23.43,TYPE_STRUCTURE,HIGH,"68A initial 10x reappeared 56 units; most unsold units were lower-demand 84A/B; 159P did not reappear"
+검암역자이르네,150,0,0.00,TYPE_STRUCTURE,HIGH,"Initial maximum 5.51x; no 6x type exists"
+더 리치먼드 미아,98,14,14.29,TYPE_STRUCTURE,HIGH,"59A initial 12.6x reappeared 14 units; 84 of 98 unsold were 49A below 6x"
+의정부역 센트럴 아이파크,141,0,0.00,TYPE_STRUCTURE,HIGH,"Initial max 3.0x; no 6x type"
+백석시그니처자이 2단지,261,0,0.00,TYPE_STRUCTURE,HIGH,"Initial max 2.33x; no 6x type"
