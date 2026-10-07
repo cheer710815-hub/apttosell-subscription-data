@@ -295,3 +295,30 @@ Public files:
 - [Public Data Portal submission text](./datasets/first-followup-time-2026/PUBLIC-DATA-PORTAL-SUBMISSION.md)
 
 > Important: 이 분포는 후속공급이 확인된 103개 프로젝트만 대상으로 하며, 전체 196개 모집단의 미계약률 또는 계약포기율을 의미하지 않습니다.
+
+
+## Dataset — 2026 고경쟁 주택형 첫 후속공급 재등장(DDFS) 전국 타입단위 연구
+
+AptToSell이 2026년 첫 후속공급이 확인된 프로젝트를 대상으로, 최초 일반공급 1순위 aggregate 경쟁률이 **6대1 이상**이었던 주택형이 첫 후속공급에 동일 타입으로 다시 등장했는지를 타입 단위로 검증한 전국 risk-set 데이터셋입니다.
+
+- First-follow-up registry projects: **103**
+- Eligible projects with at least one 6x+ type: **52**
+- Eligible housing types: **184**
+- Reappeared types: **78**
+- Non-reappeared types: **106**
+- Type-level reappearance rate: **42.39%**
+
+핵심 결과:
+- 초기 경쟁률이 2배 높아질 때 재등장 odds: **OR 0.538**, p=0.0025
+- 타입 공급비중이 2배 커질 때 재등장 odds: **OR 1.249**, p=0.0184
+- 분양가·규제지역 여부·표준화 자기자금 부담·RPG는 보정 후 핵심 독립변수로 남지 않음
+
+Public files:
+
+- [Dataset README](./datasets/ddfs-national-type-riskset-2026/README.md)
+- [Canonical 184-row CSV](./datasets/ddfs-national-type-riskset-2026/apttosell-ddfs-national-type-riskset-2026-v1.0.csv)
+- [Model results CSV](./datasets/ddfs-national-type-riskset-2026/apttosell-ddfs-national-type-model-results-2026-v1.0.csv)
+- [Methodology and findings](./datasets/ddfs-national-type-riskset-2026/METHODOLOGY-AND-FINDINGS.md)
+- [Data dictionary](./datasets/ddfs-national-type-riskset-2026/DATA-DICTIONARY.md)
+
+> Important: 이 연구의 재등장은 미계약률·계약포기율을 의미하지 않습니다. 동일 공식 주택형이 첫 후속공급에 다시 포함됐는지만 측정합니다.
