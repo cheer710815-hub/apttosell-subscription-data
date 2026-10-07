@@ -4,8 +4,9 @@ title: "2026 Korea Apartment Presale Price Gap by Comparison-Stock Age"
 type: dataset
 authors:
   - name: "AptToSell"
-publisher: "AptToSell"
+publisher: "Zenodo"
 version: "1.1"
+doi: "10.5281/zenodo.23207987"
 date-released: "2026-10-07"
 license: "CC-BY-4.0"
 abstract: >
