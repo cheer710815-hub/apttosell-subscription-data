@@ -1,0 +1,6 @@
+supply_size_band,eligible_90d_projects,followup_within_60d,rate_within_60d_pct,followup_within_90d,rate_within_90d_pct,median_first_priority_competition_rate
+300세대 미만,60,28,46.7,35,58.3,1.17
+300~499세대,33,14,42.4,15,45.5,0.60
+500~999세대,29,18,62.1,19,65.5,1.40
+1000세대 이상,18,13,72.2,14,77.8,1.65
+전체,140,73,52.1,83,59.3,
