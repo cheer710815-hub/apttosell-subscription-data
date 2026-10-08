@@ -67,7 +67,13 @@ CC BY 4.0.
 
 ## Recommended citation
 
-> AptToSell. (2026). *2026 National DDFS Type-level Risk-set: Apartment Subscription Demand and First Follow-up Reappearance, v1.0*. GitHub repository dataset. https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/ddfs-national-type-riskset-2026
+> Kim, Eun. (2026). *2026 National DDFS Type-level Risk-set: Apartment Subscription Demand and First Follow-up Reappearance, v1.0*. AptToSell. https://apttosell.com/ddfs-type-reappearance-2026/
+
+- ORCID: https://orcid.org/0009-0006-9445-4768
+- Canonical article: https://apttosell.com/ddfs-type-reappearance-2026/
+- Repository dataset: https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/ddfs-national-type-riskset-2026
+- License: CC BY 4.0
+- DOI: pending Zenodo registration
 
 ## Versioning
 
