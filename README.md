@@ -317,6 +317,32 @@ Public files:
 > Important: 11개 중첩 표본은 전국 상관관계·인과관계 분석에 사용하지 않습니다. 현재 파일의 목적은 가격 비교 데이터와 자금부담 데이터의 프로젝트 단위 결합 가능성을 검증하는 것입니다.
 
 
+## Dataset — 2026 분양가 괴리율 × 1순위 청약 경쟁률
+
+AptToSell의 84㎡ 분양가 괴리율 공개표본 62개 프로젝트를 프로젝트 단위 1순위 청약 경쟁률 데이터와 연결한 파생 분석입니다.
+
+- Linked projects: **62 / 62**
+- Median first-priority competition: **1.10:1**
+- Median all-age presale-price gap: **46.42%**
+- Median <=10-year comparison gap: **31.21%**
+- Spearman correlation (all-age gap vs competition): **-0.037**
+- Spearman correlation (<=10-year gap vs competition): **0.103**
+- Status: **derived v0.1 / no new DOI / observational association only**
+- Underlying price-gap DOI: **10.5281/zenodo.23207987**
+
+Public files:
+
+- [Dataset README](./datasets/price-gap-competition-2026/README.md)
+- [62-project CSV](./datasets/price-gap-competition-2026/apttosell-price-gap-competition-2026-v0.1.csv)
+- [Methodology](./datasets/price-gap-competition-2026/METHODOLOGY.md)
+- [Data dictionary](./datasets/price-gap-competition-2026/DATA-DICTIONARY.md)
+- [Citation metadata](./datasets/price-gap-competition-2026/CITATION.cff)
+- [Release notes](./datasets/price-gap-competition-2026/RELEASE_NOTES.md)
+- [WordPress posting kit](./datasets/price-gap-competition-2026/WORDPRESS-POSTING-KIT-KR.md)
+
+> Important: 이 분석은 관측자료 기반 상관분석입니다. 분양가와 주변 시세 차이가 청약 경쟁률에 미치는 인과효과를 입증하지 않습니다.
+
+
 ## Dataset — 2026 고경쟁 주택형 첫 후속공급 재등장(DDFS) 전국 타입단위 연구
 
 - **Canonical article:** https://apttosell.com/ddfs-type-reappearance-2026/
