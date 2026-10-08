@@ -35,6 +35,9 @@ Therefore, this dataset should not be used to claim that price gap alone determi
 - `apttosell-price-gap-competition-2026-v0.1.csv`
 - `METHODOLOGY.md`
 - `DATA-DICTIONARY.md`
+- `CITATION.cff`
+- `RELEASE_NOTES.md`
+- `WORDPRESS-POSTING-KIT-KR.md`
 
 ## Source datasets
 
