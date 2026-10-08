@@ -250,7 +250,7 @@ The registry preserves project chronology and separates derived/corroborated dat
 
 ## Dataset — 2026 청약 경쟁률 구간별 후속공급 발생률
 
-- **Canonical dataset page:** https://apttosell.com/subscription-followup-data-2026/
+- **Canonical dataset page:** https://apttosell.com/2026-%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/
 
 2026년 1~9월 최초 APT 모집공고 196개를 경쟁률 5개 구간으로 나누고, 이후 무순위·잔여세대 또는 임의공급 공고 발생 여부를 연결한 독립 파생 데이터셋입니다.
 
@@ -299,6 +299,13 @@ Public files:
 
 ## Dataset — 2026 고경쟁 주택형 첫 후속공급 재등장(DDFS) 전국 타입단위 연구
 
+- **Canonical article:** https://apttosell.com/ddfs-type-reappearance-2026/
+- **Dataset version:** 1.0
+- **Creator:** Kim, Eun (AptToSell)
+- **ORCID:** https://orcid.org/0009-0006-9445-4768
+- **License:** CC BY 4.0
+- **DOI:** pending Zenodo registration
+
 AptToSell이 2026년 첫 후속공급이 확인된 프로젝트를 대상으로, 최초 일반공급 1순위 aggregate 경쟁률이 **6대1 이상**이었던 주택형이 첫 후속공급에 동일 타입으로 다시 등장했는지를 타입 단위로 검증한 전국 risk-set 데이터셋입니다.
 
 - First-follow-up registry projects: **103**
@@ -320,5 +327,12 @@ Public files:
 - [Model results CSV](./datasets/ddfs-national-type-riskset-2026/apttosell-ddfs-national-type-model-results-2026-v1.0.csv)
 - [Methodology and findings](./datasets/ddfs-national-type-riskset-2026/METHODOLOGY-AND-FINDINGS.md)
 - [Data dictionary](./datasets/ddfs-national-type-riskset-2026/DATA-DICTIONARY.md)
+- [Citation metadata](./datasets/ddfs-national-type-riskset-2026/CITATION.cff)
+- [Release notes](./datasets/ddfs-national-type-riskset-2026/RELEASE_NOTES.md)
+- [Zenodo submission sheet](./datasets/ddfs-national-type-riskset-2026/ZENODO_SUBMISSION.md)
+
+Suggested citation:
+
+> Kim, Eun. (2026). *2026 National DDFS Type-level Risk-set: Apartment Subscription Demand and First Follow-up Reappearance, v1.0*. AptToSell. https://apttosell.com/ddfs-type-reappearance-2026/
 
 > Important: 이 연구의 재등장은 미계약률·계약포기율을 의미하지 않습니다. 동일 공식 주택형이 첫 후속공급에 다시 포함됐는지만 측정합니다.
