@@ -4,7 +4,20 @@
   "version": "1.0",
   "description": "184 housing types from 52 South Korean apartment projects with initial first-priority aggregate competition >=6x and a verified first follow-up supply event.",
   "license": "CC-BY-4.0",
-  "homepage": "https://apttosell.com/housing-subscription-data/",
+  "homepage": "https://apttosell.com/ddfs-type-reappearance-2026/",
+  "contributors": [
+    {
+      "title": "Eun Kim",
+      "role": "author",
+      "path": "https://orcid.org/0009-0006-9445-4768",
+      "organization": "AptToSell"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Korea Real Estate Board ApplyHome public data"
+    }
+  ],
   "resources": [
     {
       "path": "apttosell-ddfs-national-type-riskset-2026-v1.0.csv",
