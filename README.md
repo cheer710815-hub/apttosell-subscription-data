@@ -297,6 +297,26 @@ Public files:
 > Important: 이 분포는 후속공급이 확인된 103개 프로젝트만 대상으로 하며, 전체 196개 모집단의 미계약률 또는 계약포기율을 의미하지 않습니다.
 
 
+## Pilot linkage — 분양가 괴리율 × 입주 전 필요자금
+
+두 공개 데이터셋을 AptToSell 프로젝트 ID로 연결한 교차 데이터 파일을 공개합니다.
+
+- Pre-move-in cash public cohort: **41 projects**
+- Presale-price-gap public cohort: **62 projects**
+- Reliable overlap: **11 projects**
+- Median pre-move-in direct cash in overlap: **5,839만원**
+- Status: **pilot / no DOI / no national inference**
+
+Public files:
+
+- [Pilot README](./datasets/price-gap-cash-linkage-2026/README.md)
+- [11-project linked CSV](./datasets/price-gap-cash-linkage-2026/apttosell-price-gap-cash-linkage-public-pilot-v0.1.csv)
+- [Methodology](./datasets/price-gap-cash-linkage-2026/METHODOLOGY.md)
+- [Data dictionary](./datasets/price-gap-cash-linkage-2026/DATA-DICTIONARY.md)
+
+> Important: 11개 중첩 표본은 전국 상관관계·인과관계 분석에 사용하지 않습니다. 현재 파일의 목적은 가격 비교 데이터와 자금부담 데이터의 프로젝트 단위 결합 가능성을 검증하는 것입니다.
+
+
 ## Dataset — 2026 고경쟁 주택형 첫 후속공급 재등장(DDFS) 전국 타입단위 연구
 
 - **Canonical article:** https://apttosell.com/ddfs-type-reappearance-2026/
