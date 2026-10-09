@@ -73,3 +73,23 @@ No outreach has been sent or backlinks claimed by this document.
 - Priority 3: KAHPS society administrative contact confirmation.
 - No email sent, no call placed, no external listing submitted, no backlink earned as of this update.
 - When contacting, request **consideration for research reuse**, not paid link insertion or guaranteed backlink placement.
+
+
+## Official intake routes — verified 2026-10-09
+
+1. **한국부동산원 고객상담**: https://www.reb.or.kr/reb/na/ntt/selectNttList.do?bbsId=1175&mi=9666 — official online inquiry channel; published response target 7 days excluding holidays. First ask to route an external, CC BY 4.0 research dataset to the appropriate housing-market research or data officer; do not assume this channel publishes outside datasets. Source: official customer consultation page.
+2. **국토연구원 연구성과 문의**: https://www.krihs.re.kr/publica/buyJoin.es?mid=a10108020000&pop_yn=Y — research-publication subscription contact **044-960-0426**; first confirm who handles external housing research datasets. This number is not itself a dataset submission endpoint. Source: official KRIHS publication service page.
+3. **한국부동산원 부동산연구원 학술지**: https://www.reb.or.kr/research/cm/cntnts/cntntsView.do?cntntsId=1589&mi=10354 — **rea@reb.or.kr** and **053-663-8737 / 8734** are verified **journal submission inquiries only**; not a verified general research-dataset submission address. Do not send unsolicited backlink requests or misrepresent the dataset as a manuscript.
+
+### First official inquiry — Korean Real Estate Board customer consultation (not submitted)
+**Subject:** 외부 공개 주택시장 연구데이터 담당 부서 문의 (Zenodo DOI)
+
+안녕하세요. 2026년 아파트 분양가 상대격차(RPG)와 1순위 청약수요의 관계를 분석한 공개 데이터셋을 연구·교육 목적으로 공유하고자 합니다. 전국 183개 분양 프로젝트를 대상으로 하며, 데이터·방법론·재현 코드를 CC BY 4.0으로 공개했습니다.
+
+DOI: https://doi.org/10.5281/zenodo.23251654
+
+한국부동산원 부동산연구원 또는 주택시장 분석 담당 부서 중 외부 공개 연구데이터의 참고자료 접수·검토가 가능한 공식 창구가 있는지 안내 부탁드립니다. 해당 업무가 아니라면 적절한 부서나 공식 절차를 알려주시면 감사하겠습니다.
+
+AptToSell
+
+**Status:** Draft prepared; not submitted. Awaiting user interaction with official consultation website or confirmed institutional mailbox. No institutional endorsement or backlink claimed.
