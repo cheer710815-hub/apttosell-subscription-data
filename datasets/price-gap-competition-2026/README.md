@@ -38,6 +38,14 @@ The regression models show a positive association between price merit and log fi
 
 The earlier `apttosell-price-gap-competition-2026-v0.1.csv` is preserved as the historical 2026-only release.
 
+## DOI and citation
+
+- Version 1.0 DOI: **10.5281/zenodo.23258478**
+- Concept DOI (all versions): **10.5281/zenodo.23258477**
+- Zenodo record: https://doi.org/10.5281/zenodo.23258478
+
+When citing this exact v1.0 release, use the version DOI above.
+
 ## Interpretation limits
 
 This is an observational dataset. It must not be used to claim a causal effect of price merit on subscription demand. School district, transport, brand, price-cap rules, mortgage rates, unsold inventory and supply conditions are not yet populated as a full external-control model.
