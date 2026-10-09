@@ -723,3 +723,24 @@ Constraint:
 Next step:
 - Capture the final GitLab project URL from the GitLab import-history/project page before treating it as a live public backlink surface.
 Priority: MEDIUM
+
+
+### Mendeley Data — 2025–2026 competition determinants v1.0
+Type: Research data repository / DOI mirror
+Status: PREPARED
+Checked: 2026-10-09
+Dataset:
+AptToSell Presale Price Merit and First-Priority Competition Dataset, Korea, 2025–2026
+Canonical Zenodo DOI:
+https://doi.org/10.5281/zenodo.23258478
+Dedupe finding:
+- No matching Mendeley Data record for this exact 2025–2026 competition-determinants research object was found.
+- Existing Mendeley record 10.17632/shdpkfbj3c.1 is for the separate housing-subscription score/deposit dataset and is not a duplicate.
+Prepared package:
+- apttosell_competition_determinants_MENDELEY_v1_0.zip
+Guardrail:
+- Treat Mendeley as an additional repository mirror of the same research object, not as a new analysis.
+- Cross-link the Zenodo DOI and keep title, creator, ORCID, license and version aligned.
+Next step:
+- Create a new Mendeley Data dataset only for this distinct research object, upload the prepared package, choose CC BY 4.0, and publish after metadata review.
+Priority: HIGH
