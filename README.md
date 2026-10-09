@@ -382,3 +382,28 @@ Suggested citation:
 > Kim, Eun. (2026). *2026 National DDFS Type-level Risk-set: Apartment Subscription Demand and First Follow-up Reappearance, v1.0*. AptToSell. https://apttosell.com/ddfs-type-reappearance-2026/
 
 > Important: 이 연구의 재등장은 미계약률·계약포기율을 의미하지 않습니다. 동일 공식 주택형이 첫 후속공급에 다시 포함됐는지만 측정합니다.
+
+
+## Published dataset — 2026 Korean Apartment Subscription Demand and Relative Price Gap (RPG), v1.0.1
+
+- **Creator:** AptToSell
+- **Resource type:** Dataset
+- **Version:** 1.0.1
+- **License:** CC BY 4.0
+- **Version DOI:** https://doi.org/10.5281/zenodo.23251654
+- **All-versions DOI:** https://doi.org/10.5281/zenodo.23251653
+- **Zenodo record:** https://zenodo.org/records/23251654
+- **Frozen release files:** [RPG v1.0.1 dataset directory](./datasets/rpg-2026-v1.0.1/)
+- **Methodology:** [RPG methodology](./datasets/rpg-2026-v1.0.1/METHODOLOGY_RPG_2026_v1.0.1.md)
+- **Results:** [Regression results and interpretation](./datasets/rpg-2026-v1.0.1/RESULTS_RPG_2026_v1.0.1.md)
+- **Reproduction code:** [Python script](./datasets/rpg-2026-v1.0.1/reproduce_rpg_regression_v1.0.1.py)
+
+**Coverage:** 183 apartment presale projects; 857 housing types; 15,502 comparable-apartment audit records; 163 quality-focused projects.
+
+**RPG definition:** (Comparable housing price − Presale price) / Presale price × 100. Positive RPG means the comparable existing-apartment price is higher than the presale price. RPG is not expected profit or a guaranteed return.
+
+**Results:** HC3 OLS, full sample N=183: RPG coefficient 0.027407 (p=0.000397783); quality-focused sample N=163: 0.027898 (p=0.009803703). These are observational associations, **not causal effects**.
+
+**Suggested citation:** AptToSell. (2026). *2026 Korean Apartment Subscription Demand and Relative Price Gap (RPG) Dataset* (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23251654
+
+**Preservation note:** The 12 files in the frozen release directory are kept unchanged to preserve correspondence with the published Zenodo files and their SHA-256 checksums. This repository-level landing section adds the DOI without modifying the release payload.
