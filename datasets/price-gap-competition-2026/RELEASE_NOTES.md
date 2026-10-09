@@ -21,6 +21,10 @@ Major expansion of the existing 2026-only analytical layer.
 - M2 prime-Seoul incremental beta=1.4040, p=0.05102.
 - M2 R²=0.341.
 
+### DOI
+- Version 1.0 DOI: **10.5281/zenodo.23258478**
+- Concept DOI: **10.5281/zenodo.23258477**
+
 ### Interpretation
 Regression results show a positive association between price merit and log first-priority competition, but the simple rank correlation is not statistically significant. The prime-Seoul subgroup remains too small for a strong general claim. No causal effect is claimed.
 
