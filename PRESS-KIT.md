@@ -95,3 +95,22 @@ AptToSell은 2026년 1~9월 최초 모집공고 아파트 196개 단지를 기�
 AptToSell, "2026 아파트 청약 경쟁률과 후속공급 분석", data cutoff 2026-10-04, https://doi.org/10.6084/m9.figshare.34064439
 
 **Important:** 후속공급 발생은 미계약률 또는 계약 실패율을 뜻하지 않습니다.
+
+
+## Featured research dataset — Relative Price Gap (RPG) and first-priority subscription demand, 2026
+
+**Publication:** AptToSell (2026), *2026 Korean Apartment Subscription Demand and Relative Price Gap (RPG) Dataset*, version 1.0.1. Zenodo: https://doi.org/10.5281/zenodo.23251654
+
+- All-version DOI: https://doi.org/10.5281/zenodo.23251653
+- Source files and methodology: https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/rpg-2026-v1.0.1
+- License: CC BY 4.0 (attribution required)
+- Coverage: 183 presale projects; 857 housing types; 15,502 comparable-apartment audit records; 163 quality-focused projects
+- Definition: RPG (%) = (comparable existing-housing price − presale price) / presale price × 100
+- Full sample, HC3 OLS (N=183): RPG coefficient 0.027407; p=0.000397783
+- Quality-focused sample (N=163): RPG coefficient 0.027898; p=0.009803703
+
+**Editorial interpretation:** Higher RPG is associated with greater first-priority subscription demand under the reported model controls. This is observational evidence, **not a causal estimate**. RPG is **not** a guaranteed margin, investment return, or forecast profit.
+
+**Ready-to-use citation:** AptToSell. (2026). *2026 Korean Apartment Subscription Demand and Relative Price Gap (RPG) Dataset* (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23251654
+
+**Suggested headline (accurate):** “2026년 아파트 183개 단지 분석: 분양가 상대격차와 1순위 청약 수요 사이 유의한 연관성.” Avoid claims that the gap causes subscription competition or guarantees a financial gain.
