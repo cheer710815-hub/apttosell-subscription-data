@@ -71,3 +71,18 @@ AptToSell은 특정 분양현장 광고 페이지가 아니라 공식 법령·�
 AptToSell, "2026 청약가점 84점 데이터표", https://apttosell.com/cheongyak-score-data/
 
 See also: https://apttosell.com/citation-policy/
+
+
+## Research-ready dataset — 2026 Relative Price Gap (RPG) and subscription demand
+
+- **Creator:** AptToSell; **Version:** 1.0.1; **License:** CC BY 4.0
+- **Citable Zenodo DOI:** https://doi.org/10.5281/zenodo.23251654
+- **All-versions DOI:** https://doi.org/10.5281/zenodo.23251653
+- **GitHub source and methodology:** https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/rpg-2026-v1.0.1
+- **Coverage:** 183 projects, 857 housing types, 15,502 comparable-apartment audit rows; 163 projects in quality-focused analysis
+- **Method:** Relative Price Gap between comparable existing apartment prices and presale prices; HC3-robust OLS association with first-priority subscription demand, with price, supply and broad-region controls
+- **Important limitation:** Observational association, not causal evidence; RPG is not an expected return or guaranteed profit
+
+**Citation:** AptToSell. (2026). *2026 Korean Apartment Subscription Demand and Relative Price Gap (RPG) Dataset* (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23251654
+
+Potential applications: housing economics seminars, replication exercises, real-estate reporting, methodological comparison of presale-to-comparable pricing, and critical analysis of non-causal regression findings.
