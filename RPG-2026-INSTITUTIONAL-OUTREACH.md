@@ -49,3 +49,27 @@ AptToSell
 | University housing research labs | Not yet verified | Yes | No | — | — |
 
 No outreach has been sent or backlinks claimed by this document.
+
+
+## Verified contact-route review — 2026-10-09
+
+### 국토연구원 (KRIHS)
+- Official FAQ: https://www.krihs.re.kr/menu.es?mid=a10405020000
+- Verified main phone: **044-960-0114**; library / knowledge-information team: **044-960-0426**, library **044-960-0427**.
+- These are **telephone inquiry channels**, not verified unsolicited research-data submission or backlink request endpoints.
+- Next action: ask the main switchboard which department accepts external research dataset references. Do not contact library with a promotional backlink request.
+
+### 한국부동산원 (REB)
+- Official customer service: https://www.reb.or.kr/reb/cm/cntnts/cntntsView.do?cntntsId=1156&mi=9757 ; **1644-2828**.
+- A historic 2024 research paper competition listed **k26321@reb.or.kr** and **053-663-8708 / 8720** for that competition (https://kdiss.or.kr/homepage/boardMedia/73671). **Do not assume this email currently accepts unrelated datasets**; confirm via official channel first.
+- This is an additional candidate because its research institute has engaged in empirical real-estate-data research. Do not imply collaboration or endorsement.
+
+### 한국주택학회
+- Existing identified **editor@kahps.org** is a journal editorial contact, **not** a verified general research-data submission address. Hold outreach pending confirmation of the appropriate administrative channel.
+
+## Submission decision and guardrails
+- Priority 1: KRIHS telephone inquiry for research/data reference routing.
+- Priority 2: REB main customer service to identify the current housing-market research data contact.
+- Priority 3: KAHPS society administrative contact confirmation.
+- No email sent, no call placed, no external listing submitted, no backlink earned as of this update.
+- When contacting, request **consideration for research reuse**, not paid link insertion or guaranteed backlink placement.
