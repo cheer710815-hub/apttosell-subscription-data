@@ -1,30 +1,29 @@
 # Release Notes
 
-## v0.1 — 2026-10-08
+## v1.0 — 2026-10-09
 
-Initial derived release linking the AptToSell publication-ready 84㎡ presale-price-gap sample to project-level first-priority subscription competition.
+Major expansion of the existing 2026-only analytical layer.
 
-### Coverage
-- Price-gap projects: **62**
-- Successfully linked competition records: **62 / 62**
-- Median first-priority competition: **1.10:1**
-- Median all-age presale-price gap: **46.42%**
-- Median <=10-year comparison gap: **31.21%**
+### Changes
+- Extended coverage from 2026-only to **2025–2026**.
+- Main analytical sample increased from 62 to **153 projects**.
+- Added a **168-project sensitivity sample**.
+- Standardized the main comparator rule to **>=10 same-legal-dong 82–86㎡ transactions from stock completed within 10 years**.
+- Re-ran 2025 address/legal-dong recovery before rebuilding the integrated dataset.
+- Added HC3-robust regression models with Seoul, prime-Seoul and year controls.
+- Preserved the prior v0.1 CSV as historical material.
 
-### Descriptive association
-- Spearman, all-age gap vs competition: **-0.037**
-- Spearman, <=10-year gap vs competition: **0.103**
-- Excluding >100:1 competition: **0.158**
-- Excluding Seoul: **0.178**
-- Non-capital-area only: **0.152**
+### v1.0 headline results
+- Spearman rho=0.113, p=0.166.
+- M1 price-merit beta=1.3992, p=0.002937.
+- M2 price-merit beta=0.8555, p=0.0177.
+- M2 Seoul beta=2.5982, p=2.32e-11.
+- M2 prime-Seoul incremental beta=1.4040, p=0.05102.
+- M2 R²=0.341.
 
 ### Interpretation
-The analysis does not support a simple monotonic claim that a larger presale-price gap by itself corresponds to lower first-priority competition.
+Regression results show a positive association between price merit and log first-priority competition, but the simple rank correlation is not statistically significant. The prime-Seoul subgroup remains too small for a strong general claim. No causal effect is claimed.
 
-This is an observational derived dataset. No causal effect is claimed.
+## v0.1 — 2026-10-08
 
-### DOI policy
-No new DOI is assigned to this derived v0.1 layer. The underlying price-gap dataset DOI is **10.5281/zenodo.23207987**.
-
-### License
-CC BY 4.0.
+Initial 62-project 2026-only derived release.
