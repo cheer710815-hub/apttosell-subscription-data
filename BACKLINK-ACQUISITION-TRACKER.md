@@ -727,7 +727,7 @@ Priority: MEDIUM
 
 ### Mendeley Data — 2025–2026 competition determinants v1.0
 Type: Research data repository / DOI mirror
-Status: PREPARED
+Status: SUBMITTED_UNDER_REVIEW
 Checked: 2026-10-09
 Dataset:
 AptToSell Presale Price Merit and First-Priority Competition Dataset, Korea, 2025–2026
@@ -741,6 +741,34 @@ Prepared package:
 Guardrail:
 - Treat Mendeley as an additional repository mirror of the same research object, not as a new analysis.
 - Cross-link the Zenodo DOI and keep title, creator, ORCID, license and version aligned.
+Reserved DOI:
+https://doi.org/10.17632/ch8nxtnckc.1
+Submitted:
+2026-10-09
+Current state:
+- Dataset submitted successfully and is in Mendeley Data moderation.
+- Platform states moderation is targeted within 2 business days.
+Guardrail:
+- Do not resubmit, create a duplicate record, or create a new version while moderation is pending.
 Next step:
-- Create a new Mendeley Data dataset only for this distinct research object, upload the prepared package, choose CC BY 4.0, and publish after metadata review.
+- Wait for Mendeley approval/rejection email. On approval, verify the live DOI and then add it to GitHub and AptToSell.
 Priority: HIGH
+
+
+### Data in Brief — competition determinants data article
+Type: Peer-reviewed data article
+Status: PREPARED_HOLD
+Prepared: 2026-10-09
+Research object:
+- AptToSell Presale Price Merit and First-Priority Competition Dataset, Korea, 2025–2026
+Canonical Zenodo DOI:
+https://doi.org/10.5281/zenodo.23258478
+Prepared assets:
+- English data-article draft
+- Cover letter
+- Pre-submission checklist
+Hold rule:
+- Do not submit yet.
+- Resume only after a relevant Mendeley Data approval/moderation email or related submission email is received and reviewed.
+- Before any actual submission, re-check the current Data in Brief author guide and APC/open-access charge.
+Priority: MEDIUM
