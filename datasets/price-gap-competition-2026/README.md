@@ -1,54 +1,47 @@
-# AptToSell Presale Price Gap × First-Priority Competition 2026 — v0.1
+# AptToSell Presale Price Merit × First-Priority Competition 2025–2026 — v1.0
 
 ## Overview
 
-This derived dataset links AptToSell's conservative 62-project 84㎡ presale-price-gap sample to the 2026 first-priority apartment subscription competition dataset.
+This release expands the earlier 2026-only v0.1 analytical layer into a 2025–2026 baseline study linking 84㎡-class presale prices, nearby apartment transaction medians and first-priority subscription competition.
 
-All **62 / 62** price-gap projects were linked to a competition record through the AptToSell project identity layer.
+The existing `price-gap-competition-2026` asset is versioned forward rather than duplicated.
 
-## Core descriptive result
+## Main sample
 
-The sample does not show a simple monotonic relationship in which a larger presale-price gap automatically corresponds to weaker first-priority competition.
+- Main analytical sample: **153 projects**
+- Sensitivity sample: **168 projects**
+- 2025: **89 projects**
+- 2026: **64 projects**
+- Main-sample comparator rule: at least **10 transactions** in the same legal dong, 82–86㎡, stock completed within 10 years, during the six months before the subscription announcement
 
-- Projects: **62**
-- Median first-priority competition: **1.10:1**
-- Median all-age comparison gap: **46.42%**
-- Median 10-year comparison gap: **31.21%**
-- Spearman correlation, all-age gap vs competition: **-0.037**
-- Spearman correlation, 10-year gap vs competition: **0.103**
+## Core results
 
-Sensitivity checks remain weak:
-- excluding competition above 100:1, 10-year-gap Spearman **0.158**
-- excluding Seoul, 10-year-gap Spearman **0.178**
-- non-capital-area sample, 10-year-gap Spearman **0.152**
+- Spearman rho: **0.113**, p=**0.166**
+- M1 price-merit coefficient: **1.3992**, p=**0.002937**, R²=**0.087**
+- M2 price-merit coefficient: **0.8555**, p=**0.0177**
+- M2 Seoul coefficient: **2.5982**, p=**2.32e-11**
+- M2 prime-Seoul incremental coefficient: **1.4040**, p=**0.05102**
+- M2 R²=**0.341**
 
-These are descriptive associations, not causal estimates.
-
-## Interpretation
-
-A presale-price gap measures the difference between the presale price and a specified nearby transaction-price comparison group. Subscription competition reflects demand under many simultaneous factors such as location, supply volume, unit mix, eligibility rules, brand, financing conditions and local market expectations.
-
-Therefore, this dataset should not be used to claim that price gap alone determines subscription demand.
+The regression models show a positive association between price merit and log first-priority competition, while the simple rank correlation is not statistically significant. The prime-Seoul estimate is exploratory because the subgroup is very small.
 
 ## Files
 
-- `apttosell-price-gap-competition-2026-v0.1.csv`
-- `METHODOLOGY.md`
-- `DATA-DICTIONARY.md`
-- `CITATION.cff`
-- `RELEASE_NOTES.md`
-- `WORDPRESS-POSTING-KIT-KR.md`
+- `apttosell-price-gap-competition-2025-2026-v1.0.csv` — main analytical sample
+- `apttosell-price-gap-competition-2025-2026-v1.0-sensitivity.csv` — broader sensitivity sample
+- `RESULTS-v1.0.md` — model outputs and interpretation rules
+- `METHODOLOGY.md` — construction and analysis method
+- `DATA-DICTIONARY.md` — column definitions
+- `FINAL-QA-v1.0.txt` — baseline QA summary
+- `CITATION.cff` — citation metadata
+- `RELEASE_NOTES.md` — version history
 
-## Source datasets
+The earlier `apttosell-price-gap-competition-2026-v0.1.csv` is preserved as the historical 2026-only release.
 
-- Presale-price gap: `datasets/presale-price-gap-2026/apttosell_84sqm_presale_price_gap_2026_public.csv`
-- Competition/follow-up project table: `reports/apttosell-apartment-subscription-followup-projects-2026-jan-sep.csv`
-- Project identity map: `datasets/verified-project-registry-2026/apttosell-project-id-map-196-pilot-v0.4.csv`
+## Interpretation limits
 
-## Release decision
-
-Version **v0.1** is a derived analytical layer. No new DOI is assigned at this stage. Cite the underlying presale-price-gap DOI where appropriate: **10.5281/zenodo.23207987**.
+This is an observational dataset. It must not be used to claim a causal effect of price merit on subscription demand. School district, transport, brand, price-cap rules, mortgage rates, unsold inventory and supply conditions are not yet populated as a full external-control model.
 
 ## License
 
-CC BY 4.0 for the AptToSell-derived file.
+CC BY 4.0 for AptToSell-derived files.
