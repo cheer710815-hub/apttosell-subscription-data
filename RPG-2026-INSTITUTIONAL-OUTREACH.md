@@ -93,3 +93,15 @@ DOI: https://doi.org/10.5281/zenodo.23251654
 AptToSell
 
 **Status:** Draft prepared; not submitted. Awaiting user interaction with official consultation website or confirmed institutional mailbox. No institutional endorsement or backlink claimed.
+
+
+## 2026-10-09 correction: customer consultation is NOT dataset intake
+
+**Do not submit the RPG dataset to the REB general customer consultation board as a research review or publication request.** That channel is for inquiries; no formal dataset review/acceptance process has been verified. Earlier customer-consultation instructions are superseded by this correction. No inquiry was submitted.
+
+### Next qualified distribution route
+
+- Existing canonical dataset DOI: https://doi.org/10.5281/zenodo.23251654 — retain as source of record, no duplicate deposits merely to create backlinks.
+- Research communities: identify specific scholars or editorial desks with an established interest in Korean housing subscription, market-price comparisons or housing-market data. Share a short methodological brief with clear licensing and limitations, without soliciting a link as a condition.
+- Academic submissions: require a genuine manuscript/conference abstract and verified submission requirements; a dataset link is not a journal manuscript.
+- Track **verified submission route / eligible artifact / submitted date / response / public citation URL** separately. All targets remain **not submitted** until confirmed.
