@@ -1,0 +1,25 @@
+FINAL QA SUMMARY — v1.0
+Main sample: 153
+Sensitivity sample: 168
+2025 main sample: 89
+2026 main sample: 64
+All main-sample rows meet trade_10y_count >= 10.
+house_manage_no duplicates in main sample: 0
+
+Spearman rho: 0.113
+Spearman p: 0.166
+M1 price-merit beta: 1.3992
+M1 p: 0.002937
+M1 R2: 0.087
+M2 price-merit beta: 0.8555
+M2 p price merit: 0.0177
+M2 Seoul beta: 2.5982
+M2 p Seoul: 2.32e-11
+M2 prime-Seoul incremental beta: 1.4040
+M2 p prime-Seoul: 0.05102
+M2 year-2026 beta: -0.2212
+M2 p year-2026: 0.2678
+M2 R2: 0.341
+
+Status: baseline analytical release ready.
+Expanded external-control model: not yet included.
