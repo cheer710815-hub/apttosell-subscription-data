@@ -835,3 +835,14 @@ Canonical citation Version DOI: https://doi.org/10.5281/zenodo.23258478 (unchang
 - RePEc Resimanor first paper: LIVE per prior production confirmation. Second distinct research note: PREPARATION/RESEARCH only, no duplicate or external submission.
 
 Operational statuses for new entries: 신규 / 준비 / 발송완료 / 제출완료 / 심사중 / 거절 / 보류 / 종료. Record internal preparation separately from external submission. Check complete submission history, research object, platform, DOI and recipient/channel before each external action. Observational correlations/regressions must not be described as causal.
+
+
+### 2026-10-10 second RePEc research-note overlap audit
+
+- Existing first RePEc note `RePEc:gyv:resfin:1` addresses Stress DSR borrowing-capacity reference scenarios with income and existing credit obligations. Verified public IDEAS abstract.
+- A separate Resimanor dataset already exists: **2026 Korea Mortgage DSR Scenarios: Impact of Monthly Car Installments on Loan Capacity (64 Cases)**. Released 2026-10-10; version DOI https://doi.org/10.5281/zenodo.23274478; concept DOI https://doi.org/10.5281/zenodo.23274477; source `datasets/auto-installment-mortgage-dsr-2026/`.
+- Its 64 rows are the full product of 4 annual incomes (KRW 40/50/60/80m), 4 monthly installment levels (0/300k/600k/900k), and 4 interest-rate assumptions (4/5/6/7%). Repo validation reports 64/64 internal formula checks passed; this does not certify legal underwriting accuracy.
+- The formula deducts all car installments from an illustrative 40% DSR budget. Real regulatory treatment, stress DSR, LTV and other obligations are outside its model.
+- **DUPLICATE RISK — HOLD**: Do not create a *new* RePEc note by simply repackaging the existing 64-scenario Zenodo dataset or the first Stress DSR paper. Independent economic hypothesis, extra data, distinct empirical contribution and verification required before considering a second paper. Existing Zenodo object and DOI must remain unchanged.
+- Hugging Face 321 displayed rows equal 153 main + 168 sensitivity arithmetically; this equality alone does not verify split mapping, distinct projects, or whether any rows appear in both samples. Treat as provisional until row-level CSV comparison.
+- No new external submission, email or DOI registration was performed in this audit.
