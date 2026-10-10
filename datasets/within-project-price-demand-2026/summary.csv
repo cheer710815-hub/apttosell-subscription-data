@@ -1,0 +1,15 @@
+metric,value
+projects,140
+reconciled_types,898
+api_competition_rows,3678
+comparison_groups,205
+higher_price_higher_ratio,145
+lower_price_higher_ratio,56
+ties,4
+non_ties,201
+higher_price_win_share_non_ties_percent,72.14
+cluster_bootstrap_replicates,5000
+cluster_bootstrap_95pct_low_percent,64.9
+cluster_bootstrap_95pct_high_percent,78.9
+api_reconciled_price_supply_applicants_count,898
+retrieval_date,2026-10-09
