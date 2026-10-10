@@ -772,3 +772,51 @@ Hold rule:
 - Resume only after a relevant Mendeley Data approval/moderation email or related submission email is received and reviewed.
 - Before any actual submission, re-check the current Data in Brief author guide and APC/open-access charge.
 Priority: MEDIUM
+
+
+### RePEc — Resimanor Housing Finance Research Notes
+Type: Economics research index / institutional series
+Status: LIVE
+Verified: 2026-10-10
+Archive handle:
+RePEc:gyv
+Series handle:
+RePEc:gyv:resfin
+Series page:
+https://ideas.repec.org/s/gyv/resfin.html
+First item:
+https://ideas.repec.org/p/gyv/resfin/1.html
+Author profile:
+https://ideas.repec.org/f/pki717.html
+Evidence:
+- RePEc archive owner confirmed the archive was placed in production.
+- IDEAS/RePEc now publicly lists the Resimanor series and the first research note.
+- The first item is indexed under housing-finance-related JEL classes including G21, G28, R21 and R31.
+Why it matters:
+- This is an editorial/economics-index inclusion, not a generic profile backlink.
+- RePEc links the author, series, publisher site and research note in a recognized economics discovery system.
+Next step:
+- Maintain the RePEc templates and add only substantive future Resimanor research notes.
+- Do not create duplicate RePEc items for the same research object.
+Priority: VERY HIGH
+
+
+### Hugging Face — 2025–2026 competition determinants v1.0
+Type: Public machine-readable dataset hub
+Status: LIVE_VIEWER_PENDING
+Verified: 2026-10-10
+Dataset:
+https://huggingface.co/datasets/eunguneun/korea-presale-price-competition-2025-2026
+Canonical DOI:
+https://doi.org/10.5281/zenodo.23258478
+Notes:
+- Public dataset repository is live.
+- README dataset card, 7 release files, CC BY 4.0, English and South Korea tags are present.
+- Dataset Viewer is still processing.
+- GitHub README and AptToSell article now link to this mirror.
+Guardrail:
+- Zenodo remains the canonical citation identifier for v1.0.
+- Do not duplicate this exact dataset under another Hugging Face repository.
+Next step:
+- Recheck Dataset Viewer after processing completes.
+Priority: HIGH
