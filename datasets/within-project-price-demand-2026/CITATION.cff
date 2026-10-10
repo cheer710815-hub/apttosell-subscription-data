@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the AptToSell article and study dataset when using the derived comparisons."
+title: "Within-project apartment unit price and first-priority application-to-supply comparisons in South Korea, 2026"
+type: dataset
+authors:
+  - name: AptToSell Research
+date-released: "2026-10-10"
+version: "1.0"
+url: "https://apttosell.com/apartment-type-price-subscription-demand-2026/"
+repository-code: "https://github.com/cheer710815-hub/apttosell-subscription-data"
+abstract: "Derived comparison dataset of 205 pairs from 140 South Korean apartment projects; 898 officially reconciled housing-type records and first-priority application-to-supply counts."
+keywords:
+  - housing subscription
+  - apartment presale
+  - first-priority applications
+  - South Korea
