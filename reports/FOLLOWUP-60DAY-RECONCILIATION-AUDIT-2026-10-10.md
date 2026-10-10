@@ -30,3 +30,12 @@ print(len(df), len(eligible), eligible['followup_within_60d'].astype(str).str.lo
 ## Citation discipline
 
 Do not call a follow-up notice a non-contract rate. Do not present raw 60-day proportions as causal, or as the probability a subscription applicant will fail to contract. Mark results as provisional until cohort reconciliation is completed.
+
+
+## FINAL RESOLUTION — 2026-10-10
+
+**Verified against properly parsed, quoted CSV:** 196 project rows; first-priority competition >=10:1: **44**; high-competition and eligible for 60-day observation: **36**; high-competition eligible with follow-up within 60 days: **13**; rate **36.11%**. All-competition eligible: **161**; all-competition eligible with 60-day follow-up: **83**. Both are distinct cohorts. The earlier 45/35 result was an **invalid naive comma split** of quoted CSV fields containing commas in project names; it is withdrawn. The README and summary headline 44/36/13 need **no correction**.
+
+Validation code must use an RFC 4180-compliant CSV parser (e.g. Python pandas.read_csv or csv.DictReader), not `line.split(',')`.
+
+**Scope:** Internal consistency of the published project CSV, summary CSV and methodology has been reconciled. Independent upstream ApplyHome event matching/source verification remains a separate validation step. Follow-up supply is not a non-contract rate.
