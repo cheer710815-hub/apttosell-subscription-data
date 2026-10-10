@@ -70,6 +70,15 @@ Suggested citation:
 
 > AptToSell, “2026 아파트 청약 경쟁률과 후속공급 분석”, data cutoff 2026-10-04, derived from Korea Real Estate Board ApplyHome public API data. https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/
 
+## New derived report — 60-day follow-up by region and competition (2026-10-10)
+
+- [Regional competition cross-tab CSV (11 groups)](./reports/apttosell-followup-60day-region-competition-2026-jan-sep.csv)
+- [Methodology, cohort definitions and limitations](./reports/apttosell-followup-60day-region-competition-2026-jan-sep-methodology.md)
+- Based on the same 196-project dataset, with 161 projects eligible for 60-day observation and 83 observed 60-day follow-up notices (all competition bands).
+- The separate high-competition (first-priority >=10:1) cohort remains 13/36 (36.11%); **do not confuse these denominators**.
+- A follow-up announcement does not establish a cancellation, contract failure, unsold-household count, or causal effect.
+- **No new DOI is claimed for this derivative.** Underlying analysis DOI: https://doi.org/10.6084/m9.figshare.34064439
+
 ## Educational & institutional resource
 
 - [INSTITUTIONAL-RESOURCE.md](./INSTITUTIONAL-RESOURCE.md) — 대학·연구기관·교육기관용 자료 안내
