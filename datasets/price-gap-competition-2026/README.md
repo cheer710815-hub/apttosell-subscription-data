@@ -46,6 +46,14 @@ The earlier `apttosell-price-gap-competition-2026-v0.1.csv` is preserved as the 
 
 When citing this exact v1.0 release, use the version DOI above.
 
+## Distribution mirrors
+
+- Hugging Face: https://huggingface.co/datasets/eunguneun/korea-presale-price-competition-2025-2026
+- SchemaFinder: community-indexed dataset entry for this v1.0 release
+- Mendeley Data: submitted and currently under moderation; do not cite until the DOI becomes active
+
+The Zenodo version DOI remains the canonical citation identifier for v1.0.
+
 ## Interpretation limits
 
 This is an observational dataset. It must not be used to claim a causal effect of price merit on subscription demand. School district, transport, brand, price-cap rules, mortgage rates, unsold inventory and supply conditions are not yet populated as a full external-control model.
