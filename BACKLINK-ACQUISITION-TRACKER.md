@@ -820,3 +820,18 @@ Guardrail:
 Next step:
 - Recheck Dataset Viewer after processing completes.
 Priority: HIGH
+
+
+## 2026-10-10 verification — competition dataset viewer and moderation
+
+Research object: AptToSell Presale Price Merit and First-Priority Competition Dataset, Korea, 2025–2026.
+Canonical citation Version DOI: https://doi.org/10.5281/zenodo.23258478 (unchanged).
+
+- Hugging Face dataset: LIVE; Dataset Viewer now ACTIVE, confirmed on the public dataset page 2026-10-10. The displayed automatically combined `train` split has 321 rows and contains columns beyond the release's primary regression variables. **QA pending**: reconcile this displayed row count and configuration against MAIN=153 and SENSITIVITY=168 to prevent readers interpreting the 321 rows as a third, unique analytical sample. Do not create a duplicate repo or edit underlying data without verifying current release files.
+- Hugging Face repository metadata API still returns `region:us` as of 2026-10-10 although README/YAML had been cleaned. **Metadata consistency review pending**; don't claim the repository-level tag is removed yet.
+- Mendeley Data competition dataset: SUBMITTED_UNDER_REVIEW. Gmail searches in both cheer710815@gmail.com and vegadus2@gmail.com on 2026-10-10 for messages after 2026-10-08 related to Mendeley / ch8nxtnckc / Data in Brief returned no matches. No approval evidence; DOI 10.17632/ch8nxtnckc.1 remains reserved/unverified as live. No duplicate or resubmission.
+- Data in Brief: PREPARED_HOLD. No submission until relevant Mendeley moderation/approval/submission email has been received and reviewed; recheck author guidelines and APC first.
+- SchemaFinder: LIVE per project handoff; do not resubmit.
+- RePEc Resimanor first paper: LIVE per prior production confirmation. Second distinct research note: PREPARATION/RESEARCH only, no duplicate or external submission.
+
+Operational statuses for new entries: 신규 / 준비 / 발송완료 / 제출완료 / 심사중 / 거절 / 보류 / 종료. Record internal preparation separately from external submission. Check complete submission history, research object, platform, DOI and recipient/channel before each external action. Observational correlations/regressions must not be described as causal.
