@@ -23,6 +23,19 @@ Source repository: https://github.com/cheer710815-hub/apttosell-subscription-dat
 - This is a conditional comparison of a selected dataset, not a nationally representative population estimate.
 - No causal inference about price increasing demand; applicant-to-supply ratio is not a signed contract rate.
 
+## Prior-work overlap assessment (2026-10-13)
+
+The central publication ledger was checked before this submission sheet was updated.
+
+| Prior work | Existing record | Relationship to this dataset | Deposit decision |
+|---|---|---|---|
+| A01, price merit versus first-priority competition, 2025–2026 | Zenodo DOI 10.5281/zenodo.23258478 | Similar topic; project-level price merit versus competition, while this study compares similarly sized housing types *within* each project | Do not assert a new independent contribution until project-ID/sample and variable overlap are measured |
+| A20, relative price gap (RPG) and subscription demand | Zenodo DOI 10.5281/zenodo.23251654 | Similar price–demand framing; RPG study records 183 projects in ledger versus 140 projects here; unit of analysis and model differ | Compare project identifiers, cohort dates, variable definitions and output tables before assigning another DOI |
+| A17, this 140-project / 898-type / 205-group study | GitHub and AptToSell article already published | This is the **same** study, not a new release merely because a deposit sheet exists | Do not create duplicate records or present it as newly discovered |
+| Q07, DDFS type-level first follow-up | Zenodo DOI 10.5281/zenodo.23328833 | Different outcome (type reappearance in follow-up supply); may share underlying ApplyHome projects | Keep DOI separate; cite as related research only where appropriate |
+
+**Current determination:** distinct *research question*, but **raw project-ID overlap and original dataset reuse percentages have not yet been independently computed**. Therefore an additional DOI/deposit is **on hold pending measured overlap and an existing-record search**. This sheet is documentation, not an authorization or evidence of repository acceptance.
+
 ## Deposit checklist
 
 1. Inspect all files in this directory and upload **the frozen CSV data, README.md, METHODOLOGY.md, CODEBOOK.md, CITATION.cff**, and any reproducibility scripts actually present. Do not invent filenames.
