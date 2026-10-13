@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite the AptToSell DDFS National Type Risk-set 2026 v1.0."
 title: "2026 National DDFS Type-level Risk-set: Apartment Subscription Demand and First Follow-up Reappearance"
 type: dataset
+doi: 10.5281/zenodo.23328833
 version: "1.0"
 date-released: 2026-10-08
 license: CC-BY-4.0
