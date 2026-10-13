@@ -73,7 +73,9 @@ CC BY 4.0.
 - Canonical article: https://apttosell.com/ddfs-type-reappearance-2026/
 - Repository dataset: https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/ddfs-national-type-riskset-2026
 - License: CC BY 4.0
-- DOI: pending Zenodo registration
+- Version DOI: https://doi.org/10.5281/zenodo.23328833
+- All-versions DOI: https://doi.org/10.5281/zenodo.23328832
+- Zenodo record: https://zenodo.org/records/23328833
 
 ## Versioning
 
