@@ -77,6 +77,8 @@ CC BY 4.0.
 - All-versions DOI: https://doi.org/10.5281/zenodo.23328832
 - Zenodo record: https://zenodo.org/records/23328833
 - Figshare (same v1.0 dataset): https://doi.org/10.6084/m9.figshare.34536966
+- Figshare latest metadata-correction release (Version 2, sole author Eun Kim): https://doi.org/10.6084/m9.figshare.34536966.v2
+  - Figshare Version 2 corrects duplicate author metadata; it does not change the underlying DDFS v1.0 research data. Use the unversioned DOI above for the Figshare dataset as a whole.
 - Mendeley Data (same v1.0 dataset): https://doi.org/10.17632/kvyb2bvhp3.1
 
 These three repository records redistribute the same research version, not three independent studies. The 42.39% measure is not verified as a no-rank-only (무순위) resupply rate.
