@@ -37,6 +37,20 @@ For versioned machine-readable files, methodology, source metadata, updates, and
 
 이 저장소는 위 원문 데이터 페이지의 배점 구조, 검수 원칙과 재사용 정보를 보조하기 위한 공개 저장소입니다. 법령 개정이나 설명 수정이 있는 경우 최신 canonical data source를 우선합니다.
 
+## Dataset versions and official notice types
+
+The repository-level `datapackage.json` catalog is version **1.2**. The `CITATION.cff` version **1.0** refers to the cited reference release. These are different version scopes, not conflicting revisions of a single archived DOI.
+
+For reproducible research, cite the specific dataset DOI and its recorded version.
+
+### 공급 유형 구분
+
+통계에서 사용하는 '후속공급'은 최초 공고 이후 확인된 공급 공고를 묶는 분석상 표현입니다.
+
+실제 공급 유형은 공식 입주자모집공고에 따라 **무순위**, **임의공급** 등으로 구분합니다.
+
+후속 공고가 확인됐다는 사실만으로 미계약, 계약취소 또는 잔여세대 수를 확정할 수 없습니다.
+
 ## Featured data report — 2026 청약 경쟁률 × 후속공급
 
 AptToSell이 2026년 1~9월 최초 모집공고 아파트를 기준으로 **청약 경쟁률, 분양가, 무순위·잔여세대·임의공급 후속공급**을 연결한 파생 데이터 분석입니다.
