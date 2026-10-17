@@ -2,7 +2,7 @@
   "profile": "data-package",
   "name": "apttosell-housing-subscription-data-2026",
   "title": "2026 Korea Housing Subscription and Presale Data",
-  "description": "Public reference and derived analysis data for Korean housing subscription scores, eligibility, deposits, presale schedules, competition rates, presale prices and follow-up supply maintained by AptToSell.",
+  "description": "Public reference and derived analysis data for Korean housing subscription scores, eligibility, deposits, presale schedules, competition rates, presale prices, and subsequent notices classified by their official supply type (including 무순위 and 임의공급), maintained by AptToSell.",
   "homepage": "https://apttosell.com/housing-subscription-data/",
   "version": "1.2",
   "created": "2026-09-18",
@@ -79,7 +79,9 @@
     "followup_analysis_huggingface": "https://huggingface.co/datasets/eunguneun/korea-apartment-subscription-followup-supply-2026",
     "followup_event_registry_doi": "https://doi.org/10.5281/zenodo.23176906",
     "followup_event_registry_path": "datasets/followup-event-registry-2026/",
-    "schemafinder": "https://schemafinder.com/dataset/c-1791120376-dsjx89"
+    "schemafinder": "https://schemafinder.com/dataset/c-1791120376-dsjx89",
+    "version_scope_note": "The data package version (1.2) describes this evolving repository-level metadata and resource catalog. Individual archived datasets and DOI releases retain their own separately cited immutable version identifiers.",
+    "supply_type_note": "무순위 and 임의공급 are distinct official notice types. Aggregate follow-up observations do not establish cancellations, contract failures, or counts of remaining units."
   },
   "resources": [
     {
