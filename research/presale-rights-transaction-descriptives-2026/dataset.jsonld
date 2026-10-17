@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "South Korea Apartment Presale Rights Transactions: Regional and Size-Based Descriptive Statistics, September-October 2026",
+  "identifier": "https://doi.org/10.5281/zenodo.23432291",
+  "url": "https://zenodo.org/records/23432291",
+  "description": "Aggregated descriptive statistics covering 980 broker-mediated, person-to-person apartment presale-rights transactions in South Korea in September and October 2026. Not estimates of resale premiums.",
+  "creator": {
+    "@type": "Organization",
+    "name": "AptToSell"
+  },
+  "datePublished": "2026-10-17",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "temporalCoverage": "2026-09/2026-10"
+}
