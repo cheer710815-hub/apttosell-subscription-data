@@ -1,9 +1,13 @@
-# High-competition cohort count mismatch — 2026-10-18
+# CSV parsing discrepancy resolved — 2026-10-18
 
-The published band summary reports 10–<30:1: 23 projects / 17 followup; >=30:1: 21 / 2 followup, combined 44 / 19.
+The previous 43-project / 18-followup recount was **incorrect**. It split CSV rows on literal commas without respecting quoted fields. Two project names contain embedded commas: ATS-2026-054 and ATS-2026-161. The latter was wrongly excluded from the high-competition cohort.
 
-Recounting the 196-row project CSV with numeric `avg_first_priority_rate >= 10` yields **43 projects / 18 broad-followup projects**, or 41.9% (18/43). The reason for the one-project discrepancy is not yet determined.
+Using a quote-aware CSV parser on all 196 rows restores the published summary counts:
 
-Do **not** report 19/44 as a verified result; do **not** call either measure an official 무순위-only incidence rate. The followup flag includes broader supply categories. Official notice and type-level audits remain pending.
+- 10–<30:1: 23 projects / 17 broad-followup projects.
+- >=30:1: 21 projects / 2 broad-followup projects.
+- **Combined >=10:1: 44 projects / 19 broad-followup projects (43.2% crude rate).**
 
-Candidate list: [18 project rows](./high-competition-followup-candidates-2026-audit.csv).
+The [candidate audit CSV](./high-competition-followup-candidates-2026-audit.csv) now includes 19 candidates, including ATS-2026-161 (세종 우미 린 센터파크). All official followup category and type-level fields remain **pending verification**.
+
+**Scope limitation:** `has_followup` is broader than official 무순위(사후) and may include 임의공급 and other categories. 43.2% must not be described as a verified 무순위 incidence rate, contract-cancellation rate, or national population estimate. Observation periods differ by initial notice date.
