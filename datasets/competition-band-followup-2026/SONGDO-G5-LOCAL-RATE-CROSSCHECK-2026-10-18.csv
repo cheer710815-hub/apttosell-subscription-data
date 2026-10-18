@@ -1,0 +1,6 @@
+initial_house_manage_no,project,type_code,reported_local_rate,local_applications,displayed_supply,naive_applications_per_supply,linked_followup_units,threshold_from_reported_rate,evidence_grade,source_url,denominator_warning
+2026000165,더샵 송도그란테르 G5-3블록,084.2300K,23.86,167,13,12.84615385,8,YES,SECONDARY_RESULT_TABLE,https://apt25.co.kr/subscription/2026000165,Reported rate differs from naive quotient
+2026000165,더샵 송도그란테르 G5-3블록,118.2300K,11.59,255,43,5.93023256,14,YES,SECONDARY_RESULT_TABLE,https://apt25.co.kr/subscription/2026000165,Reported rate differs from naive quotient
+2026000169,더샵 송도그란테르 G5-11블록,084.5600J,50.88,407,15,27.13333333,13,YES,SECONDARY_RESULT_TABLE,https://apt25.co.kr/subscription/2026000169,Reported rate differs from naive quotient
+2026000169,더샵 송도그란테르 G5-11블록,084.8600H,23.29,163,14,11.64285714,15,YES,SECONDARY_RESULT_TABLE,https://apt25.co.kr/subscription/2026000169,Reported rate differs from naive quotient
+2026000169,더샵 송도그란테르 G5-11블록,124.7300H,,,,10,UNRESOLVED,NOT_CROSSCHECKED,https://apt25.co.kr/subscription/2026000169,Original official result needed
