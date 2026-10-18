@@ -31,3 +31,12 @@ Updated: 2026-10-18. Research state: **NOT READY FOR PRICE-GAP PUBLICATION**.
 5. Publish a gap estimate only for exact verified matched rows with clearly stated denominator, coverage and selection bias; never label a gross price difference seller profit.
 
 **Operational hold:** Do not assign a new DOI, announce premiums or mark any of 56 or 115 rows as validated until these evidence gates pass.
+
+## Additional library search (2026-10-18, later check)
+
+Two **related but non-equivalent** CSV sources were located in the user's file library:
+
+1. `apttosell-initial-cash-type-level-candidate-2026-10-08.csv`: original offering **type-level** prices and contract-cash planning. It includes project 2026000383, Forena Hillstate Jinju, with 6 housing types and a secondary-source ApplyHome notice link. It is **not** an original-priced floor/unit schedule and does not contain the resale transactions needed for N01.
+2. `apttosell_rpg_type_level_2026_v1.0.csv`: relative price gaps between new offering prices and **nearby existing apartment comparable prices** (with same-sgg or same-dong comparison scopes), including Jinju type rows. The comparable prices here are **not individual resale prices of presale rights** and cannot substitute for the missing 115 candidate transaction joins.
+
+The prior statement that original-offering candidate data could not be located is thus **narrowed**: type-level offering candidates exist in the user's library, but the specific transaction-to-original-offering candidate file (115 rows) and 56 Jinju resale records remain unlocated. Do not conflate the two price-gap research designs. Publication hold remains in effect.
