@@ -1,0 +1,5 @@
+initial_house_manage_no,project,type_code,local_applicants,initial_general_supply,reported_local_rate,naive_local_applicants_per_general_supply,followup_notice_id,followup_type_units,local_ge10,evidence_grade,source_initial,source_followup,warning
+2026000323,세종 우미 린 센터파크,084.9165A,1213,78,25.81,15.55128205,2026910249,2,YES,SECONDARY_RESULT_TABLE,https://daboda.it/chungyak/apt%3A2026000323,https://daboda.it/chungyak/remndr%3A2026910249,Displayed rate denominator differs from initial general supply
+2026000323,세종 우미 린 센터파크,084.9418D,480,65,12.31,7.38461538,2026910249,2,YES,SECONDARY_RESULT_TABLE,https://daboda.it/chungyak/apt%3A2026000323,https://daboda.it/chungyak/remndr%3A2026910249,Displayed rate denominator differs from initial general supply
+2026000323,세종 우미 린 센터파크,084.9942E,44,1,44,44,2026910249,1,YES,SECONDARY_RESULT_TABLE,https://daboda.it/chungyak/apt%3A2026000323,https://daboda.it/chungyak/remndr%3A2026910249,Official original result still needed
+2026000163,메트로시티 자산 데시앙,072.7669A,,115,14.1,,2026910171,2,UNRESOLVED,SECONDARY_COMBINED_RATE_ONLY,https://www.jipgap.com/supply/2026000163,,Local applications and official rate denominator not verified
