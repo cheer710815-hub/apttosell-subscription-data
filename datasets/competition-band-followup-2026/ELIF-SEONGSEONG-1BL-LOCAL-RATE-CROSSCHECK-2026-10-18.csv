@@ -1,0 +1,3 @@
+initial_house_manage_no,project,type_code,initial_local_supply_result,initial_local_applicants,initial_local_rate,initial_official_notice_general_supply,followup_notice_id,followup_type_units,local_ge10,evidence_grade,notes
+2026000149,엘리프 성성호수공원 1BL,084.9527B,39,1270,32.56,39,2026910144,11,YES,SECONDARY_RESULT_AND_PRIMARY_INITIAL_NOTICE,Official initial PDF supply matches reported rate denominator
+2026000149,엘리프 성성호수공원 1BL,111.1359,244,3056,12.52,228,2026910144,115,YES,SECONDARY_RESULT_AND_PRIMARY_INITIAL_NOTICE,Initial PDF lists 228 general units but secondary competition result lists 244; reconcile original official competition result before publication
