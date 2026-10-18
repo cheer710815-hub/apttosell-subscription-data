@@ -25,3 +25,24 @@
 
 ## Publication rule
 First publish reproducible validated data on GitHub. Submit a frozen dataset to one primary scholarly repository and report its exact DOI; link secondary repositories to primary DOI. No press outreach until data are independently reviewable. Do not claim external approval or peer review merely from repository publication.
+
+## Jinju pilot: offering-price source triage (2026-10-18)
+
+**Verification stage:** Secondary-source discovery only; *not* official notice verification and *not* transaction-level matching.
+
+Candidate project: **Forena Hillstate Jinju**; initial offering notice reportedly dated 2026-08-14, ApplyHome project identifier **2026000383**. Third-party notice summaries report the following original price ranges (KRW). These are pointers for official-document checking, **not validated inputs** for premiums or resale-price gap statistics.
+
+| Housing type | Secondary-source reported price range (KRW) |
+| --- | ---: |
+| 59A | 367,000,000–420,000,000 |
+| 59B | 363,000,000–413,000,000 |
+| 72A | 429,000,000–490,000,000 |
+| 72B | 424,000,000–486,000,000 |
+| 84A | 509,000,000–577,000,000 |
+| 84B | 502,000,000–571,000,000 |
+
+Discovery references, **non-authoritative**:
+- https://zipgebu.com/explore/2026000383
+- https://apttoyou.kr/forenahillstate/price
+
+Before any transaction-level comparison, retrieve and archive the official initial notice PDF and every applicable correction, capture the explicit A/B type and floor-band or unit-level supply price, and verify the MOLIT reported sale amount definition. If a resale transaction has only a rounded exclusive area and cannot be resolved to an A/B type and floor, mark **AMBIGUOUS_TYPE_OR_FLOOR** instead of selecting an arbitrary single price. The previously noted Jinju pilot cohort of 56 is a candidate set, not 56 validated price joins. No gap, resale premium, return, or profit findings have been released.
