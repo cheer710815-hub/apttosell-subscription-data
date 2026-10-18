@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """Rebuild raw MOLIT presale-rights transactions without publishing personal data.
 API: https://www.data.go.kr/data/15126471/openapi.do
-Configure endpoint from the current official API spec; no guessed URL embedded.
+Official service: RTMSDataSvcSilvTrade/getRTMSDataSvcSilvTrade.
 """
 import argparse, csv, hashlib, json, os, pathlib, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
-def collect(endpoint, key, region, month, outdir):
+DEFAULT_ENDPOINT = "https://apis.data.go.kr/1613000/RTMSDataSvcSilvTrade/getRTMSDataSvcSilvTrade"
+\ndef collect(endpoint, key, region, month, outdir):
     params = {"serviceKey": key, "LAWD_CD": region, "DEAL_YMD": month, "numOfRows": "1000", "pageNo": "1"}
     rows = []
     page = 1
@@ -22,8 +23,8 @@ def collect(endpoint, key, region, month, outdir):
         if code not in (None, "00", "000"):
             raise RuntimeError(f"API resultCode={code}: {root.findtext('.//resultMsg')}")
         items = root.findall(".//items/item")
-        if not items and page == 1:
-            raise RuntimeError("No item nodes found on first page; verify service response and field schema")
+        if not items and page == 1 and (root.findtext(".//totalCount") not in ("0",)):
+            raise RuntimeError("No item nodes found on first page despite nonzero/unknown totalCount")
         for node in items:
             row = {child.tag: (child.text or "").strip() for child in node}
             row["request_region"] = region
@@ -53,7 +54,7 @@ def collect(endpoint, key, region, month, outdir):
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
-    p.add_argument("--endpoint", required=True, help="Current full API endpoint from official specification")
+    p.add_argument("--endpoint", default=DEFAULT_ENDPOINT, help="Official full API endpoint")
     p.add_argument("--region", required=True, help="5-digit law-dong region code")
     p.add_argument("--month", required=True, help="YYYYMM")
     p.add_argument("--outdir", default="private_raw")
