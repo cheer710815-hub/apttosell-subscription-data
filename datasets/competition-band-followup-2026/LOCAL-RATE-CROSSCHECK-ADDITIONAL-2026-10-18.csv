@@ -1,0 +1,4 @@
+initial_house_manage_no,project,type_code,existing_combined_rate,local_applicants,local_general_supply,local_rate,followup_units,local_threshold_ge10,evidence_grade,source_url
+2026000017,쌍용 더 플래티넘 온수역,084.9174B,24,32,4,8,3,NO,SECONDARY_CROSSCHECK,https://kkigit.com/realty/apply/2026000017
+2026000241,드파인 아르티아,084.0000B,12.0416666667,232,24,9.6666666667,9,NO,SECONDARY_CROSSCHECK,https://www.salzip.co.kr/c/2026000241/
+2026000241,드파인 아르티아,084.8554A,16.2,81,5,16.2,1,YES,SECONDARY_CROSSCHECK,https://www.salzip.co.kr/c/2026000241/
