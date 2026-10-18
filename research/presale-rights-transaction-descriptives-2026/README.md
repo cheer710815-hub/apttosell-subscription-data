@@ -26,3 +26,14 @@ Please cite the Zenodo dataset rather than assigning a new DOI to this GitHub ov
 **Primary public data origin:** Ministry of Land, Infrastructure and Transport (MOLIT), Republic of Korea, apartment presale-rights transaction records.
 
 **Related but separate ongoing research:** [N01 presale-rights vs original offering-price linkage protocol](../presale-rights-original-price-gap-2026/RESEARCH-PROTOCOL.md). That protocol is not claimed as complete by publication of this aggregate dataset.
+
+## Discovery and reuse links
+
+- **Primary citable record:** https://doi.org/10.5281/zenodo.23432291
+- **Version family:** https://doi.org/10.5281/zenodo.23432290
+- **AptToSell data catalog:** https://apttosell.com/housing-subscription-data/
+- **Citation and reuse policy:** https://apttosell.com/citation-policy/
+- **Machine-readable Schema.org metadata:** [dataset.jsonld](dataset.jsonld)
+- **Citation File Format metadata:** [CITATION.cff](CITATION.cff)
+
+Discovery note: Zenodo registers published record metadata with DataCite; this does not in itself establish that a third party has cited this dataset or that Google has indexed its landing page. Use the version-specific DOI when citing version 2.0. Do not assign a second DOI to this GitHub documentation.
