@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 DEFAULT_ENDPOINT = "https://apis.data.go.kr/1613000/RTMSDataSvcSilvTrade/getRTMSDataSvcSilvTrade"
-\ndef collect(endpoint, key, region, month, outdir):
+def collect(endpoint, key, region, month, outdir):
     params = {"serviceKey": key, "LAWD_CD": region, "DEAL_YMD": month, "numOfRows": "1000", "pageNo": "1"}
     rows = []
     page = 1
