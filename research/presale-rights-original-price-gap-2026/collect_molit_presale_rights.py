@@ -12,6 +12,7 @@ def collect(endpoint, key, region, month, outdir):
     params = {"serviceKey": key, "LAWD_CD": region, "DEAL_YMD": month, "numOfRows": "1000", "pageNo": "1"}
     rows = []
     page = 1
+    expected_total = None
     while True:
         params["pageNo"] = str(page)
         url = endpoint + ("&" if "?" in endpoint else "?") + urllib.parse.urlencode(params)
@@ -23,6 +24,14 @@ def collect(endpoint, key, region, month, outdir):
         if code not in (None, "00", "000"):
             raise RuntimeError(f"API resultCode={code}: {root.findtext('.//resultMsg')}")
         items = root.findall(".//items/item")
+        total_text = root.findtext(".//totalCount")
+        if total_text is None or not total_text.isdigit():
+            raise RuntimeError("Invalid or missing totalCount")
+        total = int(total_text)
+        if expected_total is None:
+            expected_total = total
+        elif total != expected_total:
+            raise RuntimeError("totalCount changed across pages")
         if not items and page == 1 and (root.findtext(".//totalCount") not in ("0",)):
             raise RuntimeError("No item nodes found on first page despite nonzero/unknown totalCount")
         for node in items:
@@ -30,12 +39,16 @@ def collect(endpoint, key, region, month, outdir):
             row["request_region"] = region
             row["request_month"] = month
             rows.append(row)
-        total = root.findtext(".//totalCount")
-        if not items or (total is not None and len(rows) >= int(total)):
+        if len(rows) > expected_total:
+            raise RuntimeError("More rows than totalCount")
+        if not items and len(rows) != expected_total:
+            raise RuntimeError("Premature empty page")
+        if len(rows) == expected_total:
             break
         if page >= 100:
             raise RuntimeError("Pagination guard reached (100 pages)")
         page += 1
+    # Preserve duplicates in raw data until source transaction IDs are validated.
     fields = sorted(set().union(*(r.keys() for r in rows))) if rows else ["request_region", "request_month"]
     dest = pathlib.Path(outdir)
     dest.mkdir(parents=True, exist_ok=True)
@@ -48,7 +61,7 @@ def collect(endpoint, key, region, month, outdir):
     manifest = {"region":region, "month":month, "records":len(rows), "pages":page,
                 "retrieved_utc":datetime.now(timezone.utc).isoformat(),
                 "sha256":digest, "source":"https://www.data.go.kr/data/15126471/openapi.do",
-                "status":"RAW_UNVERIFIED_NOT_MATCHED", "local_file":output.name}
+                "status":"RAW_UNVERIFIED_NOT_MATCHED", "expected_total":expected_total, "local_file":output.name}
     (dest / (output.stem + "_manifest.json")).write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding="utf-8")
     print(json.dumps(manifest,ensure_ascii=False,indent=2))
 
