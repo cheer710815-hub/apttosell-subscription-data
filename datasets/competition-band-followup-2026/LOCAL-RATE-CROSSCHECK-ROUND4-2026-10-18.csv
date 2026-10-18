@@ -1,0 +1,4 @@
+initial_house_manage_no,project,type_code,local_supply,local_applicants,local_rate,linked_followup_type_units,threshold_ge10,evidence_grade,source_url,notes
+2026000085,힐스테이트 평거 센트럴,084.3746A,48,1307,27.2291666667,55,YES,SECONDARY_RESULT_TABLE,https://housing.kimgoon.kr/apply/hillstate-pyeonggeo-central-2026000085,Official initial notice supply 48 independently corroborated
+2026000085,힐스테이트 평거 센트럴,105.5065C,24,341,14.2083333333,3,YES,SECONDARY_RESULT_TABLE,https://housing.kimgoon.kr/apply/hillstate-pyeonggeo-central-2026000085,Official initial notice supply 24 independently corroborated
+2026000163,메트로시티 자산 데시앙,072.7669A,115,,,2,UNRESOLVED,SECONDARY_INCOMPLETE,https://www.jipgap.com/supply/2026000163,Reported 14.1 to 1 may use combined applications 1723; local breakdown requires checking
