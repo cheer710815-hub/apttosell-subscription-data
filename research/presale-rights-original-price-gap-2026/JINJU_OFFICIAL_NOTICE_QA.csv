@@ -1,0 +1,7 @@
+project_id,type_code,model_no,reported_max_price_krw,source_class,official_initial_pdf,official_corrected_pdf,price_change_checked,transaction_join_verified,status,source_url
+2026000383,059.6771A,01,420000000,secondary_API_mirror,NOT_RETRIEVED,NOT_RETRIEVED,NO,0,PENDING_OFFICIAL_PDF,https://www.psust.com/abyg_main/apt_byg_type1_view?HOUSE_MANAGE_NO=2026000383
+2026000383,059.7292B,02,413000000,secondary_API_mirror,NOT_RETRIEVED,NOT_RETRIEVED,NO,0,PENDING_OFFICIAL_PDF,https://www.psust.com/abyg_main/apt_byg_type1_view?HOUSE_MANAGE_NO=2026000383
+2026000383,072.8120A,03,490000000,secondary_API_mirror,NOT_RETRIEVED,NOT_RETRIEVED,NO,0,PENDING_OFFICIAL_PDF,https://www.psust.com/abyg_main/apt_byg_type1_view?HOUSE_MANAGE_NO=2026000383
+2026000383,072.9569B,04,486000000,secondary_API_mirror,NOT_RETRIEVED,NOT_RETRIEVED,NO,0,PENDING_OFFICIAL_PDF,https://www.psust.com/abyg_main/apt_byg_type1_view?HOUSE_MANAGE_NO=2026000383
+2026000383,084.9944A,05,577000000,secondary_API_mirror,NOT_RETRIEVED,NOT_RETRIEVED,NO,0,PENDING_OFFICIAL_PDF,https://www.psust.com/abyg_main/apt_byg_type1_view?HOUSE_MANAGE_NO=2026000383
+2026000383,084.9331B,06,571000000,secondary_API_mirror,NOT_RETRIEVED,NOT_RETRIEVED,NO,0,PENDING_OFFICIAL_PDF,https://www.psust.com/abyg_main/apt_byg_type1_view?HOUSE_MANAGE_NO=2026000383
