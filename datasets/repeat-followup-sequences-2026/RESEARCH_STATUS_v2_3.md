@@ -1,6 +1,6 @@
 # RFSEQ 2026 — Repeat Follow-up Notice Sequences: verified research status (v2.3)
 
-**Updated:** 2026-10-15 | **Status:** Research verified with one irreducible source limitation. **Not a Zenodo DOI deposit.**
+**Historical research snapshot:** 2026-10-15 (v2.3). **Publication update:** 2026-10-18 — a narrower RFSEQ v2.6 notice-interval dataset has been published on Zenodo. The dwelling-level research below is historical work, not a validated claim of the v2.6 release.
 
 ## Cohort and methodology
 - Existing AptToSell *Competition vs Followup 2026 v1.0* workbook: 103 matched projects, 141 follow-up notice events.
@@ -19,10 +19,10 @@
 
 ## Release controls
 - Related but distinct existing registry: [AptToSell Follow-Up Event Registry 2026](https://doi.org/10.5281/zenodo.23176906).
-- **RFSEQ does not yet have its own DOI.** Do not cite the registry DOI as the RFSEQ DOI.
+- **RFSEQ v2.6 published DOI:** [10.5281/zenodo.23433246](https://doi.org/10.5281/zenodo.23433246). **All-versions DOI:** [10.5281/zenodo.23433245](https://doi.org/10.5281/zenodo.23433245). The registry DOI above belongs to a separate dataset.
 - The research ledger has a dedicated RFSEQ row and a reservation entry; the GitHub preliminary note was corrected in commit `34d5d5bae03d79a284ec1ef1e1e07b36dee1bb65`.
 - Source labels `UNSOLD` and `OPTIONAL` are workbook classifications; legally precise `무순위(사후)` vs `임의공급` should be taken from each official PDF.
 - The original ApplyHome PDFs remain copyrighted third-party sources; cite their URLs, do not redistribute the PDFs without checking permissions.
 - A reproducible public dataset release requires complete machine-readable event records, unit-audit evidence, a validation matrix, a dictionary, and a license review.
 
-**Publication status:** This GitHub document records the completed verification work. It is not evidence of an RFSEQ Zenodo, Figshare, Mendeley, or RePEc submission.
+**Publication status (updated 2026-10-18):** RFSEQ v2.6 is published on Zenodo at https://zenodo.org/records/23433246. The released dataset is limited to notice chronology and interval statistics (22 projects, 60 notice events, 59 distinct project-date observations, 37 positive consecutive intervals, median 40 days, range 6–130). Workbook labels `UNSOLD` and `OPTIONAL` are not independently verified legal categories; dwelling-level reappearance and contract/unsold outcomes are not established by v2.6. This GitHub document does not evidence Figshare, Mendeley, or RePEc submission.
