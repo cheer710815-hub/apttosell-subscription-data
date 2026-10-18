@@ -17,6 +17,15 @@ South Korea's 2026 housing-subscription reference data for private housing appli
 
 For versioned machine-readable files, methodology, source metadata, updates, and citation information, use the canonical GitHub repository and data center above.
 
+## Published presale-rights transaction statistics (N01-AGG)
+
+AptToSell's descriptive analysis of **980 person-to-person, broker-mediated apartment presale-rights transactions** reported in September–October 2026 is available as four aggregated CSV tables on Zenodo. It is **not** a study of resale premiums or seller profits.
+
+- **Published dataset (version 2.0):** https://doi.org/10.5281/zenodo.23432291
+- **All-versions DOI:** https://doi.org/10.5281/zenodo.23432290
+- **Methods and citation:** [N01 research README](research/presale-rights-transaction-descriptives-2026/README.md)
+- **Data citation:** AptToSell (2026), *South Korea Apartment Presale Rights Transactions: Regional and Size-Based Descriptive Statistics, September–October 2026*, Zenodo, version 2.0.
+
 ## Website
 
 - https://apttosell.com/
