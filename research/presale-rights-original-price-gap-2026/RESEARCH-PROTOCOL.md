@@ -56,3 +56,24 @@ Before any transaction-level comparison, retrieve and archive the official initi
 - **Secondary housing-type and highest-price register (not authoritative):** https://www.psust.com/abyg_main/apt_byg_type1_view?HOUSE_MANAGE_NO=2026000383&PBLANC_NO=2026000383&SUBSCRPT_AREA_CODE=621&page=1&type=
 
 **QA gate:** archive both official notice editions; diff the housing-type/floor/unit price schedules, supply scope, effective dates, exclusions and additions. If only max prices are obtainable, use them for cross-checking, **not** as transaction-specific comparison baselines. The 56 candidate transactions remain unvalidated until each has a defensible exact type/floor match and resale amount definition.
+
+## Model-code crosswalk and 59A price-band candidate (2026-10-18)
+
+The following **secondary-transcription candidate table** is for matching design only; no official initial/corrected notice PDF was recovered or compared in this pass. Cross-check all rows against the original and 2026-08-20 correction before promoting any figure to a verified input.
+
+| Notice housing-type code | Short label | ApplyHome model no. | Published max KRW (secondary) |
+| --- | --- | --- | ---: |
+| 059.6771A | 59A | 01 | 420000000 |
+| 059.7292B | 59B | 02 | 413000000 |
+| 072.8120A | 72A | 03 | 490000000 |
+| 072.9569B | 72B | 04 | 486000000 |
+| 084.9944A | 84A | 05 | 577000000 |
+| 084.9331B | 84B | 06 | 571000000 |
+
+### 59A provisional price bands (unverified transcription)
+
+The publicly reproduced 59A schedule lists: 1F KRW 367m, 2F 377m, 3F 387m, 4F 397m, 5–9F 408m, 10–19F 412m, 20–29F 416m, 35F 420m. **This is not a continuous floor table**: omitted floors and qualifying building/unit columns must be reconciled against the actual notice. Do not interpolate omitted floors or apply this schedule to other types.
+
+Secondary sources: https://www.psust.com/abyg_main/apt_byg_type1_view?HOUSE_MANAGE_NO=2026000383&PBLANC_NO=2026000383&SUBSCRPT_AREA_CODE=621&page=1&type= ; https://zipgebu.com/explore/2026000383 ; https://www.salzip.co.kr/c/2026000383/ .
+
+**Mandatory next evidence:** acquire both source PDFs (or an official full-text table), store provenance and document hashes, identify the corrected paragraphs and effective version, and compare the MOLIT transaction date against eligibility. Candidate count (56) is not validation count (0 confirmed). No premium/gap outputs are authorized.
