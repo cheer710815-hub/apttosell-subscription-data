@@ -46,3 +46,13 @@ Discovery references, **non-authoritative**:
 - https://apttoyou.kr/forenahillstate/price
 
 Before any transaction-level comparison, retrieve and archive the official initial notice PDF and every applicable correction, capture the explicit A/B type and floor-band or unit-level supply price, and verify the MOLIT reported sale amount definition. If a resale transaction has only a rounded exclusive area and cannot be resolved to an A/B type and floor, mark **AMBIGUOUS_TYPE_OR_FLOOR** instead of selecting an arbitrary single price. The previously noted Jinju pilot cohort of 56 is a candidate set, not 56 validated price joins. No gap, resale premium, return, or profit findings have been released.
+
+## Correction-notice verification checkpoint (2026-10-18)
+
+- **Project identifier:** ApplyHome 2026000383 (Forena Hillstate Jinju).
+- **Initial announcement:** 2026-08-14. A public secondary research index reports a **corrected notice dated 2026-08-20 (79 pages)**. Correction status and its impact on price schedules require direct verification against the official revised PDF; do not presume prices changed.
+- **Official government corroboration:** Gyeongnam Regional SMEs and Startups Office's institutional-allocation notice anticipated the 2026-08-14 launch, but its attachment is *not* a replacement for the initial/revised general offering-price schedule: https://www.mss.go.kr/site/gyeongnam/ex/bbs/View.do?bcIdx=1069781&cbIdx=255
+- **Secondary correction reference (not authoritative):** https://www.salzip.co.kr/c/2026000383/
+- **Secondary housing-type and highest-price register (not authoritative):** https://www.psust.com/abyg_main/apt_byg_type1_view?HOUSE_MANAGE_NO=2026000383&PBLANC_NO=2026000383&SUBSCRPT_AREA_CODE=621&page=1&type=
+
+**QA gate:** archive both official notice editions; diff the housing-type/floor/unit price schedules, supply scope, effective dates, exclusions and additions. If only max prices are obtainable, use them for cross-checking, **not** as transaction-specific comparison baselines. The 56 candidate transactions remain unvalidated until each has a defensible exact type/floor match and resale amount definition.
