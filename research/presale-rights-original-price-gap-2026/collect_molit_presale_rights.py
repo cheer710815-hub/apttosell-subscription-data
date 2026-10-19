@@ -72,7 +72,13 @@ def collect(endpoint, key, region, month, outdir):
     }
     schema_presence = {group: [n for n in candidates if n in fields]
                        for group, candidates in required_groups.items()}
-    schema_complete_for_candidate_filter = all(schema_presence.values())
+    # Presence alone is insufficient: a field can exist but be empty in every row.
+    # This is only a preliminary schema/data-availability check, NOT an
+    # authorization to classify individual transactions.
+    schema_complete_for_candidate_filter = bool(rows) and all(
+        any(field_inventory.get(name, 0) > 0 for name in matches)
+        for matches in schema_presence.values()
+    )
     digest = hashlib.sha256(output.read_bytes()).hexdigest()
     manifest = {"region":region, "month":month, "records":len(rows), "pages":page,
                 "retrieved_utc":datetime.now(timezone.utc).isoformat(),
