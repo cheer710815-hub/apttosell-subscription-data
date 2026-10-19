@@ -57,11 +57,27 @@ def collect(endpoint, key, region, month, outdir):
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(rows)
+    # Inventory fields before applying any scientific inclusion/exclusion rules.
+    # In particular, transaction cancellation and parties cannot be inferred
+    # from fields documented for a DIFFERENT MOLIT service.
+    field_inventory = {name: sum(1 for row in rows if row.get(name, "").strip())
+                       for name in fields if name not in ("request_region", "request_month")}
+    required_groups = {
+        "reported_amount": ("dealAmount", "거래금액"),
+        "exclusive_area": ("excluUseAr", "전용면적"),
+        "cancellation_status": ("cdealType", "해제여부"),
+        "deal_type": ("dealingGbn", "거래유형"),
+        "seller_class": ("slerGbn", "매도자"),
+        "buyer_class": ("buyerGbn", "매수자"),
+    }
+    schema_presence = {group: [n for n in candidates if n in fields]
+                       for group, candidates in required_groups.items()}
+    schema_complete_for_candidate_filter = all(schema_presence.values())
     digest = hashlib.sha256(output.read_bytes()).hexdigest()
     manifest = {"region":region, "month":month, "records":len(rows), "pages":page,
                 "retrieved_utc":datetime.now(timezone.utc).isoformat(),
                 "sha256":digest, "source":"https://www.data.go.kr/data/15126471/openapi.do",
-                "status":"RAW_UNVERIFIED_NOT_MATCHED", "expected_total":expected_total, "local_file":output.name}
+                "status":"RAW_UNVERIFIED_NOT_MATCHED", "expected_total":expected_total, "local_file":output.name, "field_inventory_nonblank":field_inventory, "filter_field_presence":schema_presence, "candidate_filter_schema_complete":schema_complete_for_candidate_filter}
     (dest / (output.stem + "_manifest.json")).write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding="utf-8")
     print(json.dumps(manifest,ensure_ascii=False,indent=2))
 
