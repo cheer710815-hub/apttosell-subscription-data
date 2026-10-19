@@ -1,0 +1,4 @@
+initial_house_manage_no,project,type_code,initial_local_supply,initial_local_applicants,initial_local_rate,followup_notice_id,linked_followup_type_units,local_ge10,initial_rate_evidence,followup_type_evidence,initial_source
+2026000163,메트로시티 자산 데시앙,072.7669A,115,1626,14.14,2026910171,2,YES,SECONDARY_CROSSCHECK,EXISTING_LINK_NOT_PRIMARY_VERIFIED,https://housing.kimgoon.kr/apply/metrocity-jasan-desian-2026000163
+2026000120,써밋 더힐,084.9000A,8,482,60.25,2026910169,3,YES,SECONDARY_CROSSCHECK,EXISTING_LINK_NOT_PRIMARY_VERIFIED,https://house-subscription.vercel.app/apt/2026000120
+2026000318,더샵 트리센트,084.4817,18,252,14.00,2026910239,21,YES,SECONDARY_CROSSCHECK,EXISTING_LINK_NOT_PRIMARY_VERIFIED,https://deundeunjip.com/sale-listings/applyhome-apt-2026000318-2026000318
