@@ -1,0 +1,8 @@
+priority,project,initial_notice_id,followup_notice_id,type_code,secondary_local_rate,secondary_other_region_rate,linked_first_no_priority_units,provisional_decision,official_initial_rate,official_rate_status,official_followup_pdf_status,action
+1,더샵 송도그란테르 G5-5블록,2026000167,2026910206,118.2300K,9.37,11.65,12,EXCLUDED,,,NOT_DIRECTLY_CHECKED,Retrieve official initial APT competition API and inspect corresponding type and region
+2,더샵 송도그란테르 G5-3블록,2026000165,2026910204,084.2300K,23.86,,8,INCLUDED,,,NOT_DIRECTLY_CHECKED,Retrieve official initial APT competition API and July no-priority PDF
+3,더샵 송도그란테르 G5-3블록,2026000165,2026910204,118.2300K,11.59,,14,INCLUDED,,,NOT_DIRECTLY_CHECKED,Retrieve official initial APT competition API and July no-priority PDF
+4,래미안 엘라비네,2026000039,2026910097,84A,,,25,INCLUDED,,,PRIMARY_PDF_TYPE_SUPPLY_CHECKED,Retrieve official initial type-level 1st-priority local competition
+5,래미안 엘라비네,2026000039,2026910097,84C,,,9,INCLUDED,,,PRIMARY_PDF_TYPE_SUPPLY_CHECKED,Retrieve official initial type-level 1st-priority local competition
+6,힐스테이트 평거 센트럴,2026000085,2026910125,84A,,,55,INCLUDED,,,PRIMARY_PDF_TYPE_SUPPLY_CHECKED,Retrieve official initial type-level 1st-priority local competition
+7,힐스테이트 평거 센트럴,2026000085,2026910125,105C,,,3,INCLUDED,,,PRIMARY_PDF_TYPE_SUPPLY_CHECKED,Retrieve official initial type-level 1st-priority local competition
