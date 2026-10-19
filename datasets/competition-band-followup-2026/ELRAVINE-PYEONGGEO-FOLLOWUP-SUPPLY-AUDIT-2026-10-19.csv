@@ -1,0 +1,5 @@
+initial_house_manage_no,project,first_followup_notice_id,type_code,linked_first_followup_units,independently_crosschecked_units,secondary_notice_table_source,official_pdf_located,official_pdf_url,official_pdf_supply_table_directly_checked,evidence_status,warning
+2026000039,래미안 엘라비네,2026910097,084.5300A,25,25,https://chungyakalji.com/apt/uC4tNzFbv,NO,,NO,SECONDARY_TYPE_CROSSCHECK,Do not merge first notice with later second round
+2026000039,래미안 엘라비네,2026910097,084.1000C,9,9,https://chungyakalji.com/apt/uC4tNzFbv,NO,,NO,SECONDARY_TYPE_CROSSCHECK,Do not merge first notice with later second round
+2026000085,힐스테이트 평거 센트럴,2026910125,084.3746A,55,55,https://apt-wise.com/sale/2026910125,YES,https://dev.bunyangi.com/assets/img/upload/by/DOC.58818379_1779961714250.pdf,NO,OFFICIAL_PDF_LOCATED_SECONDARY_TYPE_CROSSCHECK,Verify PDF supply page and notice ID directly before primary promotion
+2026000085,힐스테이트 평거 센트럴,2026910125,105.5065C,3,3,https://apt-wise.com/sale/2026910125,YES,https://dev.bunyangi.com/assets/img/upload/by/DOC.58818379_1779961714250.pdf,NO,OFFICIAL_PDF_LOCATED_SECONDARY_TYPE_CROSSCHECK,Verify PDF supply page and notice ID directly before primary promotion
