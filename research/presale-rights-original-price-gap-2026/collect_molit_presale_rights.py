@@ -57,7 +57,9 @@ def collect(endpoint, key, region, month, outdir):
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(rows)
-    # Fields below are confirmed in the uploaded official SilvTrade API guide.\n    # Optional fields may be blank; meaning of blank cancellation values must\n    # still be validated against live records and the original N01 rules.
+    # Fields below are confirmed in the uploaded official SilvTrade API guide.
+    # Optional fields may be blank; meaning of blank cancellation values must
+    # still be validated against live records and the original N01 rules.
     field_inventory = {name: sum(1 for row in rows if row.get(name, "").strip())
                        for name in fields if name not in ("request_region", "request_month")}
     required_groups = {
@@ -73,7 +75,8 @@ def collect(endpoint, key, region, month, outdir):
     schema_presence = {group: [n for n in candidates if n in fields]
                        for group, candidates in required_groups.items()}
     # Completeness is row-level, not just one non-empty value per column.
-    # Names confirmed by official guide (SilvTrade, v1.0); interpreting\n    # blank optionals and real cohort selection still requires live response.
+    # Names confirmed by official guide (SilvTrade, v1.0); interpreting
+    # blank optionals and real cohort selection still requires live response.
     schema_field_coverage = {
         group: {
             "present_names": matches,
