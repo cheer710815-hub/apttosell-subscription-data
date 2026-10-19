@@ -21,7 +21,7 @@ def collect(endpoint, key, region, month, outdir):
             raw = resp.read()
         root = ET.fromstring(raw)
         code = root.findtext(".//resultCode")
-        if code not in (None, "00", "000"):
+        if code not in ("00", "000"):
             raise RuntimeError(f"API resultCode={code}: {root.findtext('.//resultMsg')}")
         items = root.findall(".//items/item")
         total_text = root.findtext(".//totalCount")
@@ -57,9 +57,7 @@ def collect(endpoint, key, region, month, outdir):
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(rows)
-    # Inventory fields before applying any scientific inclusion/exclusion rules.
-    # In particular, transaction cancellation and parties cannot be inferred
-    # from fields documented for a DIFFERENT MOLIT service.
+    # Fields below are confirmed in the uploaded official SilvTrade API guide.\n    # Optional fields may be blank; meaning of blank cancellation values must\n    # still be validated against live records and the original N01 rules.
     field_inventory = {name: sum(1 for row in rows if row.get(name, "").strip())
                        for name in fields if name not in ("request_region", "request_month")}
     required_groups = {
@@ -69,13 +67,13 @@ def collect(endpoint, key, region, month, outdir):
         "deal_type": ("dealingGbn", "거래유형"),
         "seller_class": ("slerGbn", "매도자"),
         "buyer_class": ("buyerGbn", "매수자"),
+        "rights_kind": ("ownershipGbn",),
+        "floor": ("floor",),
     }
     schema_presence = {group: [n for n in candidates if n in fields]
                        for group, candidates in required_groups.items()}
     # Completeness is row-level, not just one non-empty value per column.
-    # Candidate names are unconfirmed aliases; even 100% populated data cannot
-    # justify interpreting transaction parties or cancellation without the
-    # actual service's published schema and a representative live response.
+    # Names confirmed by official guide (SilvTrade, v1.0); interpreting\n    # blank optionals and real cohort selection still requires live response.
     schema_field_coverage = {
         group: {
             "present_names": matches,
@@ -85,7 +83,7 @@ def collect(endpoint, key, region, month, outdir):
         for group, matches in schema_presence.items()
     }
     schema_complete_for_candidate_filter = False  # must be verified manually
-    classification_status = "BLOCKED_PENDING_LIVE_SCHEMA_AND_SEMANTICS"
+    classification_status = "BLOCKED_PENDING_LIVE_VALUES_AND_COHORT_RECONCILIATION"
     digest = hashlib.sha256(output.read_bytes()).hexdigest()
     manifest = {"region":region, "month":month, "records":len(rows), "pages":page,
                 "retrieved_utc":datetime.now(timezone.utc).isoformat(),
