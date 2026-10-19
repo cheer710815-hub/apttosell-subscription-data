@@ -2,7 +2,7 @@ initial_notice,project,target_types,provisional_units,verification_status,requir
 2026000015,"천안 아이파크 시티 6단지","084.9587C",17,PENDING_FIRST_ROUND_OFFICIAL_PDF,"Match first musunwi notice ID, round, type code and supplied units; exclude imui supply"
 2025000510,"두산위브 더센트럴 수원","084.4545B;084.8080C",2,PENDING_FIRST_ROUND_OFFICIAL_PDF,"Match first musunwi notice ID, round, type code and supplied units; exclude imui supply"
 2026000094,"라클라체자이드파인","059.8054B;084.9634A",2,PENDING_FIRST_ROUND_OFFICIAL_PDF,"Match first musunwi notice ID, round, type code and supplied units; exclude imui supply"
-2026000149,"엘리프 성성호수공원 1BL","084.9527B;111.1359",126,PENDING_FIRST_ROUND_OFFICIAL_PDF,"Match first musunwi notice ID, round, type code and supplied units; exclude imui supply"
+2026000149,"엘리프 성성호수공원 1BL","084.9527B;111.1359",126,ORIGINAL_PDF_LINK_LOCATED_BYTES_PENDING,"Match first musunwi notice ID, round, type code and supplied units; exclude imui supply"
 2026000163,"메트로시티 자산 데시앙","072.7669A",2,PENDING_FIRST_ROUND_OFFICIAL_PDF,"Match first musunwi notice ID, round, type code and supplied units; exclude imui supply"
 2026000169,"더샵 송도그란테르 G5-11블록","084.5600J;084.8600H;124.7300H",38,PENDING_FIRST_ROUND_OFFICIAL_PDF,"Match first musunwi notice ID, round, type code and supplied units; exclude imui supply"
 2026000165,"더샵 송도그란테르 G5-3블록","084.2300K;118.2300K",22,PENDING_FIRST_ROUND_OFFICIAL_PDF,"Match first musunwi notice ID, round, type code and supplied units; exclude imui supply"
