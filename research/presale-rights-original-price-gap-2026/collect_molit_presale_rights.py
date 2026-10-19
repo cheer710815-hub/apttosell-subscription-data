@@ -72,18 +72,25 @@ def collect(endpoint, key, region, month, outdir):
     }
     schema_presence = {group: [n for n in candidates if n in fields]
                        for group, candidates in required_groups.items()}
-    # Presence alone is insufficient: a field can exist but be empty in every row.
-    # This is only a preliminary schema/data-availability check, NOT an
-    # authorization to classify individual transactions.
-    schema_complete_for_candidate_filter = bool(rows) and all(
-        any(field_inventory.get(name, 0) > 0 for name in matches)
-        for matches in schema_presence.values()
-    )
+    # Completeness is row-level, not just one non-empty value per column.
+    # Candidate names are unconfirmed aliases; even 100% populated data cannot
+    # justify interpreting transaction parties or cancellation without the
+    # actual service's published schema and a representative live response.
+    schema_field_coverage = {
+        group: {
+            "present_names": matches,
+            "nonblank_rows": max((field_inventory.get(name, 0) for name in matches), default=0),
+            "total_rows": len(rows),
+        }
+        for group, matches in schema_presence.items()
+    }
+    schema_complete_for_candidate_filter = False  # must be verified manually
+    classification_status = "BLOCKED_PENDING_LIVE_SCHEMA_AND_SEMANTICS"
     digest = hashlib.sha256(output.read_bytes()).hexdigest()
     manifest = {"region":region, "month":month, "records":len(rows), "pages":page,
                 "retrieved_utc":datetime.now(timezone.utc).isoformat(),
                 "sha256":digest, "source":"https://www.data.go.kr/data/15126471/openapi.do",
-                "status":"RAW_UNVERIFIED_NOT_MATCHED", "expected_total":expected_total, "local_file":output.name, "field_inventory_nonblank":field_inventory, "filter_field_presence":schema_presence, "candidate_filter_schema_complete":schema_complete_for_candidate_filter}
+                "status":"RAW_UNVERIFIED_NOT_MATCHED", "expected_total":expected_total, "local_file":output.name, "field_inventory_nonblank":field_inventory, "filter_field_presence":schema_presence, "candidate_filter_schema_complete":schema_complete_for_candidate_filter, "schema_field_coverage":schema_field_coverage, "classification_status":classification_status}
     (dest / (output.stem + "_manifest.json")).write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding="utf-8")
     print(json.dumps(manifest,ensure_ascii=False,indent=2))
 
