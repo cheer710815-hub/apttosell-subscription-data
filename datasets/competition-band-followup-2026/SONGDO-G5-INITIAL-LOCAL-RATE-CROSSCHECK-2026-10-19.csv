@@ -1,0 +1,4 @@
+block,initial_notice_id,followup_notice_id,type_code,initial_local_applicants,reported_initial_local_rate,first_followup_units,local_rate_at_least_10,cohort_decision,evidence_tier,source
+G5-3,2026000165,2026910204,084.2300K,167,23.86,8,YES,RETAIN,SECONDARY_INITIAL_RESULTS_CROSSCHECK,https://www.salzip.co.kr/c/2026000165/
+G5-3,2026000165,2026910204,118.2300K,255,11.59,14,YES,RETAIN,SECONDARY_INITIAL_RESULTS_CROSSCHECK,https://cheongyak.com/listings/51976
+G5-5,2026000167,2026910206,118.2300K,253,9.37,12,NO,EXCLUDE,SECONDARY_INITIAL_RESULTS_CROSSCHECK,https://www.salzip.co.kr/c/2026000167/
