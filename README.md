@@ -17,6 +17,16 @@ South Korea's 2026 housing-subscription reference data for private housing appli
 
 For versioned machine-readable files, methodology, source metadata, updates, and citation information, use the canonical GitHub repository and data center above.
 
+## Published research: high competition followed by first-round no-priority supply (N09)
+
+AptToSell examined **25 selected housing types across 14 projects**, with **366 first-round no-priority offered units** following initial local-first-priority subscription competition of at least 10:1. This is a selected-case observational dataset, **not** a measured contract-cancellation rate or nationwide no-priority incidence estimate.
+
+- **Original research article (AptToSell):** https://apttosell.com/high-subscription-competition-first-musunwi-25-types-2026/
+- **Published dataset, Version 1.0 (Zenodo):** https://doi.org/10.5281/zenodo.23493356
+- **All-versions DOI:** https://doi.org/10.5281/zenodo.23493355
+- **Evidence master, methods and citation:** [research dataset folder](datasets/competition-band-followup-2026/README.md) / [dataset-specific citation](datasets/competition-band-followup-2026/CITATION.cff)
+- **Evidence limits:** 146 offered units had PDF supply tables reviewed before the DOI release; 220 were independently reconciled against 18 archived official API response JSONs and their submitted SHA-256 digests. Later GitHub v6 documents additional online PDF supply-table reviews but is **not** the published v1.0 dataset.
+
 ## Published presale-rights transaction statistics (N01-AGG)
 
 AptToSell's descriptive analysis of **980 person-to-person, broker-mediated apartment presale-rights transactions** reported in September–October 2026 is available as four aggregated CSV tables on Zenodo. It is **not** a study of resale premiums or seller profits.
