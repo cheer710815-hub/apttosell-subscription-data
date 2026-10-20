@@ -21,3 +21,11 @@ Preliminary linkage candidates: 3, among 5 BL-C2 lot-labelled source rows. By th
 - `PRICE_GAP_PUBLISHABLE`: forbidden until each relevant gate passes; any price difference then must be labeled by exactly comparable terms and expressly not equated with seller net profit.
 
 Privacy: keep transaction-level resale amounts and rows in private working data, not GitHub. No new DOI, no revision of historic N01 aggregate DOI. N01 internal collected 717 source rows and 557 preliminary candidates unchanged.
+
+## 2026-10-20 follow-up: explicit 2026 reporting form and fee-base distinction
+
+The official 2026-02-06-revised Real Estate Transaction Report form (Annex Form 1) has separate boxes for **supply price**, **balcony expansion/other options**, **additional payment**, and **total actual transaction price**. Primary official government form: https://law.go.kr/lbook/lbFileDownload.do?flExt=pdf&lbookConflSeq=85167&lbookSeq=91616 . A government's older form instructions explicitly describe positive/negative premium as part of additional payments: https://www.yeonggwang.kr/widget/get_download?name=%EB%B6%80%EB%8F%99%EC%82%B0%EA%B1%B0%EB%9E%98%EA%B3%84%EC%95%BD+%EC%8B%A0%EA%B3%A0%EC%84%9C.pdf&real_file=%2Fdata%2Fweb%2Fsample14.pdf .
+
+**Do not confuse the brokerage commission calculation base** (paid-to-date including loans plus premium) with the transaction price published in SilvTrade. The municipal brokerage guidance at https://www.busan.go.kr/depart/ahestateprice01 describes a commission fee basis, not the API `dealAmount` mapping. The official SilvTrade API guide labels `dealAmount` as amount (10,000 KRW), without disaggregating form boxes. Hence neither the reported total nor the commission base can be substituted for option-adjusted premium.
+
+**Precise gate**: Require a primary government data dictionary or competent-agency explanation of which report-form field populates `dealAmount`. If it is the *total actual transaction price*, the difference from original supply price may include option/additional-payment components. Do not label the difference premium or seller gain. Itemized matched reports would still be needed to isolate the premium. With no such evidence, preserve `AMOUNT_COMPONENTS_UNVERIFIED` and forbid numerical gap claims for the three C2 candidates.
