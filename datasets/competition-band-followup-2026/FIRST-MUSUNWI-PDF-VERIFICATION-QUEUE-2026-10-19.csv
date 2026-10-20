@@ -1,5 +1,5 @@
 initial_notice,project,target_types,provisional_units,verification_status,required_evidence
-2026000015,"천안 아이파크 시티 6단지","084.9587C",17,PENDING_FIRST_ROUND_OFFICIAL_PDF,"Match first musunwi notice ID, round, type code and supplied units; exclude imui supply"
+2026000015,"천안 아이파크 시티 6단지","084.9587C",17,PRIMARY_PDF_VERIFIED,"Match first musunwi notice ID, round, type code and supplied units; exclude imui supply"
 2025000510,"두산위브 더센트럴 수원","084.4545B;084.8080C",2,PENDING_FIRST_ROUND_OFFICIAL_PDF,"Match first musunwi notice ID, round, type code and supplied units; exclude imui supply"
 2026000094,"라클라체자이드파인","059.8054B;084.9634A",2,PENDING_FIRST_ROUND_OFFICIAL_PDF,"Match first musunwi notice ID, round, type code and supplied units; exclude imui supply"
 2026000149,"엘리프 성성호수공원 1BL","084.9527B;111.1359",126,ORIGINAL_PDF_LINK_LOCATED_BYTES_PENDING,"Match first musunwi notice ID, round, type code and supplied units; exclude imui supply"
