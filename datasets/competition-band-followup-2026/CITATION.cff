@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use the 25-housing-type first-round no-priority supply dataset, please cite this Zenodo version DOI."
+title: "First-Round No-Priority Apartment Supply After Initial Subscription Competition Above 10:1: Evidence from 25 Housing Types in South Korea"
+type: dataset
+authors:
+  - family-names: Kim
+    given-names: Eun
+    affiliation: AptToSell
+    orcid: "https://orcid.org/0009-0006-9445-4768"
+version: "1.0"
+date-released: 2026-10-20
+doi: "10.5281/zenodo.23493356"
+url: "https://zenodo.org/records/23493356"
+license: CC-BY-4.0
