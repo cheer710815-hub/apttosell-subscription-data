@@ -46,3 +46,17 @@ AptToSell이 생성한 파생 CSV, 방법론 및 설명문은 **CC BY 4.0**으�
 - Initial announcement period: 2026-01-01 ~ 2026-09-30
 - Observation cutoff: 2026-10-04
 - Release preparation: 2026-10-06
+
+## 별도 연구: 1순위 10대 1 이상 주택형의 1차 무순위 공급 (2026-10-20)
+
+**주의: 위의 196개 사업 경쟁률 구간별 연구와 다른 분석입니다.** 이 연구는 최초 **해당지역 1순위** 경쟁률이 10대 1 이상인 *선정된* 25개 주택형(14개 사업)을 1차 무순위 공고의 공급표와 연결한 관측자료이며, 관측된 공급 물량은 **366세대**입니다. 전국 무순위 발생 확률, 미계약률 또는 계약 포기율을 뜻하지 않습니다.
+
+- **공식 발행 데이터셋 (Zenodo Version 1.0):** [10.5281/zenodo.23493356](https://doi.org/10.5281/zenodo.23493356)
+- **전체 버전 DOI:** [10.5281/zenodo.23493355](https://doi.org/10.5281/zenodo.23493355)
+- **AptToSell 연구 원문:** https://apttosell.com/high-subscription-competition-first-musunwi-25-types-2026/
+- **발행 당시 28개 행의 선정·제외 검증대장 v5:** [CSV](./28-TYPE-EVIDENCE-MASTER-v5-RAW-JSON-VERIFIED-2026-10-20.csv)
+- **공식 API 원본 JSON 독립 재검증:** [보고서](./RAW-JSON-18-INDEPENDENT-RECHECK-2026-10-20.md)
+- **Zenodo 등록 후 PDF 온라인 확인을 반영한 연구대장 v6 (작업 중, 아직 DOI에 미반영):** [CSV](./28-TYPE-EVIDENCE-MASTER-v6-OFFICIAL-PDF-ONLINE-2026-10-20.csv)
+- **이 연구 전용 인용 메타데이터:** [CITATION.cff](./CITATION.cff)
+
+Zenodo Version 1.0 발행 당시 PDF 공급표 직접 확인은 146세대, 저장된 공식 API JSON의 해시·공급 수량 재검증은 220세대였습니다. 이후 개발사 공식 사이트에서 60세대의 PDF 공급표를 온라인 열람하여 확인했지만 PDF 바이너리 SHA-256까지는 확보하지 못했습니다. 이 후속 검증은 **기존 Zenodo v1.0을 수정하거나 별도 버전으로 발행한 것이 아닙니다**. GitHub 저장소 루트의 CITATION.cff는 여러 과거 연구를 포함하므로, 이 25개 주택형 분석을 인용할 때는 위 전용 DOI를 사용하세요.
