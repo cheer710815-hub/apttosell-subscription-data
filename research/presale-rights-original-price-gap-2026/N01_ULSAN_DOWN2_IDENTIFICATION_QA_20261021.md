@@ -13,3 +13,9 @@ Private candidate distribution:
 - Notice ID 2023000543 dated 2023-10-20, not a different 2024 Urbanpark project. Correction/amendments unverified. Official agency `dealAmount` composition response pending.
 
 This QA fixes the erroneous area-code conclusion explicitly, without modifying N01 live raw 824/preliminary screened 606, historic N01 published 980, or final price gap count 0. No DOI.
+
+## 2026-10-21 address link: construction-site evidence, cadastral inclusion still open
+
+Independent 2023 construction-site job adverts explicitly describe **울산다운2지구 우미린 아파트현장 / 우미린 더 시그니처** with worksite **범서읍 서사리 301-1 일원**. See https://www.theteams.kr/recruit/wanted/2577428 and https://kor.748job.com/en/job/524529 . Separately, Ulsan city 2022 B-2BL traffic impact review specifies project site **서사리 305일원**, owner **우미개발**: https://www.ulsan.go.kr/u/traffic/transfer/vmtc/view.ulsan?curPage=11&mId=001002001002000000&vmtcNo=1055 ; developer project webpage agrees: https://www.lynn.co.kr/ko/movein/construction-view.do?product_works_id=200 .
+
+This is new independent support that **301-1 was used as this project's construction worksite address** and helps explain raw transaction labeling. It is **not a cadastral parcel inclusion or lot-renumbering record**, nor a government assurance that 301-1 and 305 are interchangeable for any individual transaction. Status upgrade from `BLOCKED_PROJECT_LOT_ALIAS` to `WORKSITE_ALIAS_CORROBORATED_CADASTRAL_UNVERIFIED`, still **NOT price-join validated**. Keep 19 exact-area candidates and one area mismatch separate, final price comparisons 0. Seek land-division/land-register or developer's block parcel schedule for final cadastral equivalence; do not infer it from employment advertisements.
