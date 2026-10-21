@@ -18,3 +18,18 @@ The above six are **PROJECT_AND_AREA_MATCHED_FLOOR_PRICE_PENDING**, NOT independ
 
 ## Next source-acquisition requirement
 Acquire immutable publisher or government original/corrected 모집공고 PDF for `2023000621`; retain SHA256 and page references and extract price rows applicable to floors 6, 15, 17, 18, 22, 24 (with building-dependent grouping if specified). Until then the 6 records are eligible at *project/area* reference level only; final verified resale-price-to-original-price 0.
+
+## 2026-10-21 further evidence: indexed full notice's floor-specific supply-price table
+
+The search-indexed text of the 2023 original 모집공고 (no original PDF binary acquired; **not archive-verified**) has directly surfaced the floor-tier schedule for all six source type-and-floor candidates. The table is stated in KRW (not KRW 10,000). Reference full notice mirrors: https://eparajoo.com/ (indexed file-download notice for 2023000621) and https://byw.kr/wp-content/uploads/2023/11/ (public 2023-11 notice mirror). Search textual evidence, not document-binary checksum.
+
+| Raw exclusive area sqm | Candidate floor | Notice price KRW | Original schedule tier |
+|---|---:|---:|---|
+| 84.9967 | 17 | 433,000,000 | 10–19F |
+| 84.9967 | 24 | 437,000,000 | 20F+ |
+| 99.9745 | 22 | 504,000,000 | 20F+ |
+| 101.9926 | 6 | 510,000,000 | 5–9F |
+| 101.9926 | 18 | 515,000,000 | 10–19F |
+| 116.9892 | 15 | 588,000,000 | 10–19F |
+
+**Evidence update:** six of six type/floor original schedule tier prices identified by search-indexed notice text. This improves prior `FLOOR_PRICE_PENDING` to `FLOOR_PRICE_INDEXED_TEXT_VERIFIED_PDF_UNARCHIVED`; it does not imply final financial comparisons. Source notice says balcony expansion and additional choices excluded from basic supply prices; the three >85 sqm types have VAT included. Corrected/replaced notices and individual sale-price revisions have not been ruled out; API dealAmount official composition clarification remains pending. No premium/gain claimed, no new DOI; six original resale-to-sale-price joins remain **provisional, not validated**.
