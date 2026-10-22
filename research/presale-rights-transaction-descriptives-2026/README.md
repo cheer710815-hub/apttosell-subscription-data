@@ -27,6 +27,10 @@ Please cite the Zenodo dataset rather than assigning a new DOI to this GitHub ov
 
 **Related but separate ongoing research:** [N01 presale-rights vs original offering-price linkage protocol](../presale-rights-original-price-gap-2026/RESEARCH-PROTOCOL.md). That protocol is not claimed as complete by publication of this aggregate dataset.
 
+## Citation-ready factsheet
+
+- **Verified regional and area-band statistics:** [FACTSHEET.md](FACTSHEET.md) — 980-record aggregate QA, interpretation caveats, and source CSV checksums. This is accompanying documentation for the existing v2.0 DOI, not a separate dataset.
+
 ## Discovery and reuse links
 
 - **Primary citable record:** https://doi.org/10.5281/zenodo.23432291
