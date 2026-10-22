@@ -19,3 +19,7 @@ This report tracks *actual binary preservation*, separate from browsing indexed 
 - Source-price reference **21 candidates** (19 unique tier prices, 2 Namulsan price ranges) are unchanged; these are not monetary price-gap comparisons.
 - Raw live source **824**, preliminary screened **606**, final verified resale-minus-original-price gaps **0**.
 - `dealAmount` definition: official answer pending; premium or profit calculation forbidden. No new DOI.
+
+## 2026-10-22 download retry and signed-URL validity
+
+Retried the approved-number Doosan detailed notice CDN and developer-hosted 2025-10-17 newspaper version. Public search independently indexes approval number `공동주택과-37756호(2025.10.16.)` and the associated approved notice type/lot table; however the document URL yields web cache miss and the container's direct HTTPS request returns connection error. Search also surfaced a signed S3 PDF URL with timestamp `20260617` and expiration of 60 seconds, which is **expired by this research date** and is not a durable retrieval path. Thus **no official-final PDF binary successfully downloaded or hashed**. The older price tiers 74/8F 432m, 74/12-13F 437m, 84A/4F 467m KRW stay as provisional reference only, not promoted to archival validated final. Continue without repeated blind URL retries; next meaningful step is a new live link via publisher/municipal repository or user-provided PDF with approval identifier. No changes to sample counts or monetary-gap status.
