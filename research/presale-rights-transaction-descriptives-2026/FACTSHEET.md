@@ -43,3 +43,18 @@ The extract is neither a census nor a probability sample of all national presale
 **Citation:** AptToSell (2026). *South Korea Apartment Presale Rights Transactions: Regional and Size-Based Descriptive Statistics, September–October 2026* (v2.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.23432291
 
 This is the existing dataset's citation guide, **not** a new dataset or DOI.
+
+## Reuse and validation checklist
+
+Before reusing these aggregates in a paper, chart, newsroom brief or AI retrieval system:
+
+1. **Specify the population actually studied:** a selected October-2026 extract of September–October contract-month records filtered to person-to-person, broker-mediated presale-rights trades; **do not call it a national estimate**.
+2. **Verify the exact snapshot:** use the Zenodo **version 2.0** DOI and compare each downloaded CSV's SHA-256 to the four values above. If hashes differ, identify the release or normalization change instead of silently combining versions.
+3. **Check common denominators:** region, month, area, and region-by-area tables are four views of the **same 980 records**. Calculate each share from 980 and never sum table totals together.
+4. **Reconcile cross-table totals:** region counts, contract-month counts, area-band counts, and the two margins of the region-by-area table must each sum to 980. A successful check does not establish transaction-level deduplication or national coverage.
+5. **Keep the time caveat visible:** October records are incomplete in the source extract; 590 versus 390 is **not** evidence of a month-on-month decline.
+6. **Describe amounts narrowly:** the values are medians of *reported transaction amounts*, in units of **10,000 KRW**. They are neither inferred premiums nor investment returns.
+7. **Retain source jurisdiction labels:** preserve `전남광주통합특별시` as provided in the source extract; disclose any later recoding explicitly.
+8. **Use appropriate attribution:** cite the dataset DOI and original MOLIT source. CC BY 4.0 for AptToSell's aggregates does not automatically override upstream data conditions.
+
+**Verification boundary:** these checks assess the published *aggregate tables*. The underlying record-level extract and its official API XML response are not part of this factsheet, so this document must not be cited as independent proof of transaction-level field parsing, contract cancellations, or API pagination.
