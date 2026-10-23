@@ -51,3 +51,15 @@ python verify_archive_files.py /path/to/zenodo-v2-csvs
 ```
 
 The [verification script](verify_archive_files.py) compares each file's SHA-256 to the four published digests in [FACTSHEET.md](FACTSHEET.md). It exits with code `0` only if all four files match. **This is a byte-level release-integrity test**, not a recalculation of aggregate statistics or an audit of record-level transactions. A differing hash can result from CSV normalization as well as a genuinely different file version; do not overwrite the expected values without a versioned provenance review.
+
+## Aggregate reconciliation check
+
+After downloading the **four unmodified version 2.0 CSV files** from [Zenodo](https://doi.org/10.5281/zenodo.23432291), run:
+
+```bash
+python verify_aggregates.py /path/to/zenodo-v2-csvs
+```
+
+The [aggregate reconciliation tool](verify_aggregates.py) checks expected row counts (15, 2, 4, 43), that each table's count sums independently to 980, that region and area-band margins of the 43-row cross-tab match the stand-alone tables, and that group labels are unique. It fails closed when the CSV header naming is ambiguous. The four CSVs represent **the same records**, not 3,920 independent observations.
+
+**Verification boundary:** this check does not independently validate the 980 underlying transactions, the numerical medians, the official API XML, or source CSV file hashes (use [verify_archive_files.py](verify_archive_files.py) separately). The program has been tested with **synthetic fixtures**, not against the original Zenodo CSV files in this repository. It must not be described as a completed archival cross-tab audit until those files are actually processed.
