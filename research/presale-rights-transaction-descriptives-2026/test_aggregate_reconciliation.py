@@ -51,7 +51,7 @@ class AggregateTests(unittest.TestCase):
             make_fixtures(p)
             fn = p / "by_region_area_band.csv"
             lines = fn.read_text().splitlines()
-            lines[2] = lines[1]
+            lines[2] = ",".join(lines[1].split(",")[:2] + [lines[2].split(",")[2]])
             fn.write_text("\n".join(lines) + "\n")
             with self.assertRaisesRegex(ValueError, "Duplicate or empty cross key"):
                 qa.run(p)
