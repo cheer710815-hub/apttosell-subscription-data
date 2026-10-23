@@ -41,3 +41,13 @@ Please cite the Zenodo dataset rather than assigning a new DOI to this GitHub ov
 - **Citation File Format metadata:** [CITATION.cff](CITATION.cff)
 
 Discovery note: Zenodo registers published record metadata with DataCite; this does not in itself establish that a third party has cited this dataset or that Google has indexed its landing page. Use the version-specific DOI when citing version 2.0. Do not assign a second DOI to this GitHub documentation.
+
+## Archive file integrity check
+
+Download the original four CSV files from the [Zenodo version 2.0 record](https://doi.org/10.5281/zenodo.23432291) into a local directory without editing or resaving them, then run:
+
+```bash
+python verify_archive_files.py /path/to/zenodo-v2-csvs
+```
+
+The [verification script](verify_archive_files.py) compares each file's SHA-256 to the four published digests in [FACTSHEET.md](FACTSHEET.md). It exits with code `0` only if all four files match. **This is a byte-level release-integrity test**, not a recalculation of aggregate statistics or an audit of record-level transactions. A differing hash can result from CSV normalization as well as a genuinely different file version; do not overwrite the expected values without a versioned provenance review.
