@@ -39,10 +39,10 @@ class AggregateTests(unittest.TestCase):
             make_fixtures(p)
             fn = p / "by_region.csv"
             lines = fn.read_text().splitlines()
-            lines[1] = "R0,937"
-            lines[2] = "R1,4"
+            lines[1] = "R0,940"
+            lines[2] = "R1,5"
             fn.write_text("\n".join(lines) + "\n")
-            with self.assertRaises(ValueError):
+            with self.assertRaisesRegex(ValueError, "Region margin mismatch"):
                 qa.run(p)
 
     def test_duplicate_cross_key_rejected(self):
@@ -53,7 +53,7 @@ class AggregateTests(unittest.TestCase):
             lines = fn.read_text().splitlines()
             lines[2] = lines[1]
             fn.write_text("\n".join(lines) + "\n")
-            with self.assertRaises(ValueError):
+            with self.assertRaisesRegex(ValueError, "Duplicate or empty cross key"):
                 qa.run(p)
 
 if __name__ == "__main__":
