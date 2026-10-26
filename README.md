@@ -23,6 +23,7 @@ For versioned machine-readable files, methodology, source metadata, updates, and
 
 | 사용한 자료 | 우선 확인할 인용 정보 |
 | --- | --- |
+| N06 아파트 모집공고·당첨발표·계약 예정기간 249개 사업 및 30개 공식 일정 검증 | [N06 연구별 데이터 안내](research/n06-apartment-contract-schedule-249-2026/README.md) · [Zenodo v1.0](https://doi.org/10.5281/zenodo.23656772) |
 | 청약가점 84점·지역별 예치금 기준표 | [원문 데이터표](https://apttosell.com/cheongyak-score-data/) · [Zenodo 기록](https://doi.org/10.5281/zenodo.22842058) |
 | 고경쟁 주택형의 첫 무순위 공고 분석(N09) | [연구별 인용 파일](datasets/competition-band-followup-2026/CITATION.cff) · [Zenodo v1.0](https://doi.org/10.5281/zenodo.23493356) |
 | 분양권 거래 집계 통계(N01-AGG) | [연구 방법 및 인용](research/presale-rights-transaction-descriptives-2026/README.md) · [Zenodo v2.0](https://doi.org/10.5281/zenodo.23432291) |
