@@ -17,6 +17,12 @@ South Korea's 2026 housing-subscription reference data for private housing appli
 
 For versioned machine-readable files, methodology, source metadata, updates, and citation information, use the canonical GitHub repository and data center above.
 
+## Reproduce the reference tables / 참고표 검증하기
+
+- [Reproduction guide: 84-point score and deposit CSV checks](REPRODUCE-REFERENCE-TABLES.md) — verify the 32 + 35 + 17 score maxima, row counts, deposit units, and dataset metadata without an API key.
+- These checks verify **structural consistency**, not the current legal validity of rules or eligibility for a specific application. Consult current official rules and the relevant recruitment notice.
+- This guide applies to the reference CSVs only; N09, N01-AGG, and the follow-up event registry have distinct methods and citation records.
+
 ## Which dataset should I cite? / 연구자료별 인용 안내
 
 이 저장소에는 **서로 다른 연구와 버전**이 함께 있습니다. 최상위 [CITATION.cff](CITATION.cff)는 저장소 전체의 인용 메타데이터이며, 여기에 나열된 DOI를 하나의 연구에 모두 인용해서는 안 됩니다.
