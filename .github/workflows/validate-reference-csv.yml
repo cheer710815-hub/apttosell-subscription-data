@@ -1,0 +1,65 @@
+name: Validate reference CSV structure
+
+on:
+  push:
+    paths:
+      - 'housing_subscription_score_2026.csv'
+      - 'private_housing_deposit_2026.csv'
+      - '.github/workflows/validate-reference-csv.yml'
+  pull_request:
+    paths:
+      - 'housing_subscription_score_2026.csv'
+      - 'private_housing_deposit_2026.csv'
+      - '.github/workflows/validate-reference-csv.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate score and deposit tables
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv
+          from collections import defaultdict
+          from pathlib import Path
+
+          def read(name):
+              with Path(name).open(encoding="utf-8-sig", newline="") as f:
+                  return list(csv.DictReader(f))
+
+          scores = read("housing_subscription_score_2026.csv")
+          groups = defaultdict(list)
+          for row in scores:
+              assert row["condition"] and row["base_date"] and row["canonical_source"]
+              groups[row["category"]].append(row)
+          expected = {"homeless_period": (17, 32), "dependents": (7, 35),
+                      "subscription_account_period": (17, 17)}
+          assert set(groups) == set(expected), "Unexpected score categories"
+          assert len(scores) == 41, "Unexpected score row count"
+          for category, (count, maximum) in expected.items():
+              group = groups[category]
+              assert len(group) == count, f"Unexpected count: {category}"
+              assert len({r["condition"] for r in group}) == count, f"Duplicate condition: {category}"
+              assert max(int(r["score"]) for r in group) == maximum, f"Unexpected maximum: {category}"
+          assert sum(max(int(r["score"]) for r in group) for group in groups.values()) == 84
+
+          deposits = read("private_housing_deposit_2026.csv")
+          assert [r["housing_area"] for r in deposits] == [
+              "85sqm_or_less", "102sqm_or_less", "135sqm_or_less", "all_areas"]
+          for row in deposits:
+              assert row["unit"] == "KRW_10k"
+              assert row["source_basis"] and row["checked_date"]
+          for col in ("seoul_busan", "other_metropolitan", "other_city_county"):
+              amounts = [int(r[col]) for r in deposits]
+              assert amounts == sorted(amounts) and min(amounts) > 0
+          print(f"PASS: {len(scores)} score rows, {len(deposits)} deposit rows, max 84 points")
+          print("Structural consistency only; not a legal-currentness check.")
+          PY
