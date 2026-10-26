@@ -1,5 +1,7 @@
 # AptToSell Apartment Subscription Data
 
+[![Validate reference CSV structure](https://github.com/cheer710815-hub/apttosell-subscription-data/actions/workflows/validate-reference-csv.yml/badge.svg)](https://github.com/cheer710815-hub/apttosell-subscription-data/actions/workflows/validate-reference-csv.yml)
+
 South Korea's 2026 housing-subscription reference data for private housing applications, including the 84-point subscription score structure and region/area-specific required deposit amounts.
 
 아파트 청약과 분양에서 신청자가 확인해야 할 자격, 일정, 공급가격, 계약조건과 의무사항을 공식 공고문과 주택공급 관련 규정 기준으로 정리하는 공개 자료 저장소입니다. CSV·JSON, 방법론, 출처 정책과 인용 메타데이터를 함께 제공하여 연구·교육·분석 및 재사용이 가능하도록 구성합니다.
