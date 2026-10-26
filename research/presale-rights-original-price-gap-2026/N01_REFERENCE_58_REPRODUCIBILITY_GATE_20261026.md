@@ -33,3 +33,15 @@ Recomputed preserved `N01_824_schema_gate_audit_20261023.csv`: original 38 colle
 
 ## 2026-10-26 targeted 12 collection units for 58 reference rows
 Based on the 44-row saved N01 schema-gate inventory, localized all 58 historically named reference candidates into six government district codes: 청주 흥덕구 43113 (18 references, 202609+202610 snapshot 41 trades), 울산 울주군 31710 (7,63), 아산시 44200 (3,135), 세종시 36110 (1,3), 파주시 41480 (21,23), 대전 유성구 30200 (8,64). Total **58 reference candidates in 12 district/month collection units containing 329 source trade records**. These are regional upper-bound retrieval scopes, NOT reconstructed source-row links; reference totals are regional and must not be double-counted per month. Local CSV `N01_58_reference_targeted_12_source_units_20261026.csv` sha256 `bca812945a782ee5988b7246fa78c34e3db89f4b71e55595b4ed7104dde96422` (not committed). Priority by existing recorded source key/easier smaller groups: 30200, 36110, 41480, 43113, 31710, 44200. The original old snapshot CSV bytes remain missing and actual original trade source row restoration count is 0; no change 824/606/58/0. No new DOI/publication.
+
+## 2026-10-26 four historic source hashes and 50 derived row locators
+Cross-joined **three retained derived evidence CSVs**, not original raw input bytes: `N01_reference_50_plus_8_dedup_20261024.csv` (Doan 8, **inside** historical reference 58), `N01_Tangjeong_Riverpark_24_Original_Notice_Floor_QA_20261024.csv` (Riverpark 24, **outside** 58), `N01_AsanTangjeongXi_Metrocity_18_floor_price_ranges_20261024.csv` (Asan Xi 18, **outside** 58). All 50 referenced original CSV filename + source-row coordinates were unique and there were zero conflicts between SHA-256 strings recorded for the same source CSV.
+
+| Historic source filename | Previously recorded SHA256 | Derived row locators |
+|---|---|---:|
+| `molit_presale_rights_30200_202609_raw.csv` | `d6ad8c880f0992b84d7e0cc753db66853a2a6f68ec0d6f5f745667a8a827d268` | 6 |
+| `molit_presale_rights_30200_202610_raw.csv` | `8be13c98f24798fdce53cc70a5f2d420b7948351acc70c4bcf258737b1164d90` | 2 |
+| `molit_presale_rights_44200_202609_raw.csv` | `f2abe29e8109cc7343e231d5df7d16beecd34f9f3348def03da7dedc8594a24f` | 33 |
+| `molit_presale_rights_44200_202610_raw.csv` | `42e00bb6675f568d0c26d08ebb2c1d78c171992f5a9de91bc1f1f00584cf837d` | 9 |
+
+Generated `N01_derived_source_row_locator_20261026.csv` (local sha256 `04c3f2615bc53d0d15f71eaaee1503b25b4bf1fb532fce0b303dbc4c327aedb0`) and `N01_recovered_four_original_csv_hashes_20261026.csv` (local sha256 `fee41edc36c70314bd7b6f9c9ba6e37d946c9051df2d322a55935c3be29c505e`). THESE FILE HASHES ARE FOR GENERATED EVIDENCE CSVs, NOT THE LOST RAW FILES. Original raw CSV bytes still NOT recovered; no new direct cryptographic verification possible. No promotions, no change to 824/606/58/0 and no publication/DOI.
