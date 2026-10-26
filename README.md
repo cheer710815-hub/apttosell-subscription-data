@@ -17,6 +17,20 @@ South Korea's 2026 housing-subscription reference data for private housing appli
 
 For versioned machine-readable files, methodology, source metadata, updates, and citation information, use the canonical GitHub repository and data center above.
 
+## Which dataset should I cite? / 연구자료별 인용 안내
+
+이 저장소에는 **서로 다른 연구와 버전**이 함께 있습니다. 최상위 [CITATION.cff](CITATION.cff)는 저장소 전체의 인용 메타데이터이며, 여기에 나열된 DOI를 하나의 연구에 모두 인용해서는 안 됩니다.
+
+| 사용한 자료 | 우선 확인할 인용 정보 |
+| --- | --- |
+| 청약가점 84점·지역별 예치금 기준표 | [원문 데이터표](https://apttosell.com/cheongyak-score-data/) · [Zenodo 기록](https://doi.org/10.5281/zenodo.22842058) |
+| 고경쟁 주택형의 첫 무순위 공고 분석(N09) | [연구별 인용 파일](datasets/competition-band-followup-2026/CITATION.cff) · [Zenodo v1.0](https://doi.org/10.5281/zenodo.23493356) |
+| 분양권 거래 집계 통계(N01-AGG) | [연구 방법 및 인용](research/presale-rights-transaction-descriptives-2026/README.md) · [Zenodo v2.0](https://doi.org/10.5281/zenodo.23432291) |
+| 청약 경쟁률과 이후 공고 유형 분석 | [원문 연구](https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/) · [Figshare 기록](https://doi.org/10.6084/m9.figshare.34064439) |
+| 첫 공고 이후 공고 연결 이벤트 자료 | [연구 데이터 폴더](datasets/followup-event-registry-2026/) · [Zenodo 기록](https://doi.org/10.5281/zenodo.23176906) |
+
+**인용 원칙:** 실제 사용한 자료의 제목, 작성자(AptToSell), 해당 버전, 관측 기준일, 원문 URL 및 그 자료의 DOI를 함께 확인하세요. DOI의 현재 접근 가능 여부가 검증되지 않은 경우에는 정상 공개를 단정하지 않습니다. 데이터 패키지 버전(현재 `datapackage.json` 1.2)과 개별 연구 배포 버전은 서로 다른 범위입니다. 무순위·임의공급 등 공급 유형은 원래 공고에 적힌 명칭으로 구분합니다.
+
 ## Published research: high competition followed by first-round no-priority supply (N09)
 
 AptToSell examined **25 selected housing types across 14 projects**, with **366 first-round no-priority offered units** following initial local-first-priority subscription competition of at least 10:1. This is a selected-case observational dataset, **not** a measured contract-cancellation rate or nationwide no-priority incidence estimate.
