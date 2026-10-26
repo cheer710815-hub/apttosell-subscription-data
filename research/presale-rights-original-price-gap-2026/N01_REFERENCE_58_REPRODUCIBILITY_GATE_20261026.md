@@ -7,3 +7,17 @@ Recovered direct GitHub historical source `N01_CONSOLIDATED_PRICE_REFERENCE_QA_2
 
 ## 2026-10-26 remaining early 8: tier classification arithmetic
 Two independently preserved historical GitHub QA totals give early 29 candidates (25 unique floor-tier, 4 ambiguous) and their identified initial 21 (19 unique, 2 ambiguous across five named projects). Subtracting these **assuming the documented 21 is a subset of that 29** leaves eight earlier unidentified reference rows: **6 unique-tier and 2 line-ambiguous**. This is aggregate-only arithmetic: no row identities, trade source files, project identities or individually measured prices for those eight have been reconstructed. Source refs: `N01_UNJEONG_21_NOTICE_PRICE_QA_20261023.md` and `N01_CONSOLIDATED_PRICE_REFERENCE_QA_20261022.md`. GitHub code search and Library discovery returned no directly recoverable eight-row original CSV. Avoid claiming an observed breakdown by unconfirmed project. The historical 58 reference candidates, 824 raw, 606 prelim and zero finalized differences are unchanged.
+
+## 2026-10-26 full project identification of historical remaining eight
+Recovered the historical missing-eight **project/type/floor-reference breakdown** from pre-existing dated GitHub primary research QA documents, without acquiring raw transaction CSVs:
+
+| Initial-eight subcohort | Rows | Unique notice floor price | Building-line range | Historic QA |
+|---|---:|---:|---:|---|
+| 복대자이 더 스카이 | 2 | 2 | 0 | `N01_BOKDAE_ASPEN_3_FLOOR_TIERS_20261022.md` (103.9937 m2 floors 3 and 36; notice 2022000893) |
+| 세종 5-1 양우내안애 아스펜 | 1 | 1 | 0 | same (84.5013 m2 floor 10; notice 2024000725) |
+| 태화강 에피트 | 2 | 0 | 2 | `N01_TAEHWAGANG_SHINYOUNG_4_FLOOR_QA_20261022.md` (84.7646 m2 floors 3 and 8; notice 2025000107) |
+| 신영지웰 푸르지오 테크노폴리스 센트럴 | 2 | 2 | 0 | same (130.8820 m2 4F and 111.8417 m2 46-49F; notice 2023000178) |
+| 해링턴 플레이스 테크노폴리스 | 1 | 1 | 0 | `N01_HARRINGTON_84C1_FLOOR23_NOTICE_QA_20261023.md` (84.9707 m2 23F; notice 2023000141) |
+| **Total** | **8** | **6** | **2** | |
+
+The recovered historic chronology exactly explains 21 initial five-project refs → +3 Bokdae/Aspen (24) → +4 Taehwagang/ShinYoung (28) → +1 Harrington (29, 10 projects; 25 unique, 4 line-variable). Harrington carries an **unresolved third-party presale-right vs occupancy-right classification disagreement**, not a verified right type. These are **document-level reconstructed candidate references only**, not physical per-trade row/source-file recovery or actual contract amounts. Before this audit these five project names were listed as missing; this closes the project identity provenance gap but **not** the raw transaction lineage gap. Existing N01 824 raw/606 prelim/58 reference/0 final monetary differences unchanged; no DOI/publication.
