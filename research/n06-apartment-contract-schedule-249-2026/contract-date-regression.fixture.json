@@ -1,0 +1,27 @@
+{
+  "caseId": "N06-2026820004-contract-start",
+  "description": "Illustrative fixture from a preserved 2026 ApplyHome API snapshot and the final corrected notice; not a live API response",
+  "housingManagementId": "2026820004",
+  "projectName": "e편한세상 분당 퍼스트빌리지 (성남낙생 A-1)",
+  "apiSnapshot": {
+    "contractStart": "2026-11-07",
+    "contractEnd": "2026-11-13"
+  },
+  "finalCorrectedNotice": {
+    "contractStart": "2026-11-04",
+    "contractEnd": "2026-11-13",
+    "verificationStatus": "verified_final_corrected_notice"
+  },
+  "expected": {
+    "displayContractStartWhenVerified": "2026-11-04",
+    "displayContractEndWhenVerified": "2026-11-13",
+    "apiSnapshotPreserved": true,
+    "unverifiedProjectsMustNotBeMarkedVerified": true
+  },
+  "research": {
+    "versionDoi": "https://doi.org/10.5281/zenodo.23656772",
+    "projectsInApiSnapshot": 249,
+    "individuallyVerifiedProjects": 30,
+    "notIndividuallyVerifiedProjects": 219
+  }
+}
