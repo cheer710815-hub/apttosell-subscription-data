@@ -35,6 +35,8 @@ These are **scheduled** contract dates, not actual contract-execution or payment
 }
 ```
 
+**Machine-readable fixture:** [`contract-date-regression.fixture.json`](contract-date-regression.fixture.json) contains the same illustrative values and expected outcomes for use in automated tests. It is not a live API response or a replacement for checking the current final notice.
+
 ## Recommended regression assertions
 
 1. Preserve the API snapshot values and their provenance; never silently overwrite source fields.
