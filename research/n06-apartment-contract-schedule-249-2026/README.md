@@ -16,6 +16,13 @@ This is a reproducibility and comparison package based on **249 housing-project 
 - The other **219 projects were not individually verified** against final corrected official notices.
 - Scheduled contract dates are **not actual contract execution records**, contract completion rates, or legal guarantees.
 
+## Reuse in scheduling applications
+
+- **[Contract-date provenance regression test case](INTEGRATION-TEST-CASE.md):** an illustrative JSON fixture, expected assertions, and an optional TypeScript provenance model for services that display ApplyHome contract dates.
+- The example contrasts the **preserved API snapshot** with the **final corrected official notice** for housing management ID `2026820004`. It is not evidence that a third-party app currently displays an incorrect date.
+- **Verification coverage matters:** only 30 of the 249 projects were individually compared with official scheduled contract information; the other 219 should not be labeled final-notice-verified.
+- For attribution and reuse, cite the **version DOI** above and independently check any current schedule against the latest official notice.
+
 ## Citation
 
 Kim, Eun (2026). *Apartment Subscription Notice and Contract Schedule Intervals in South Korea: A 249-Project Dataset with 30 Official Notice Verifications (2026)* (Version 1.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.23656772
