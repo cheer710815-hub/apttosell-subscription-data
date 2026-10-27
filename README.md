@@ -19,6 +19,15 @@ South Korea's 2026 housing-subscription reference data for private housing appli
 
 For versioned machine-readable files, methodology, source metadata, updates, and citation information, use the canonical GitHub repository and data center above.
 
+## For developers: corrected contract-date regression case (N06)
+
+Building a Korean housing-subscription calendar, API client, or notice comparison tool? The [N06 contract-date integration test case](research/n06-apartment-contract-schedule-249-2026/INTEGRATION-TEST-CASE.md) provides a reusable illustrative JSON fixture, six regression assertions, and a TypeScript provenance model.
+
+- **Concrete case:** housing management ID `2026820004` — preserved ApplyHome API contract start `2026-11-07` versus final corrected official notice `2026-11-04`; contract end `2026-11-13` in both.
+- **Scope:** 249 API projects; 30 individually checked against official scheduled contract information, of which 1 differed. The other 219 were not individually final-notice-verified.
+- **Citation:** [N06 dataset, Zenodo v1.0](https://doi.org/10.5281/zenodo.23656772). Dates are scheduled, not proof of executed contracts.
+- **Use:** retain API provenance and label official-notice verification separately; independently check the latest notice before making a current scheduling claim.
+
 ## Reproduce the reference tables / 참고표 검증하기
 
 - [Reproduction guide: 84-point score and deposit CSV checks](REPRODUCE-REFERENCE-TABLES.md) — verify the 32 + 35 + 17 score maxima, row counts, deposit units, and dataset metadata without an API key.
