@@ -481,3 +481,15 @@ Suggested citation:
 **Suggested citation:** AptToSell. (2026). *2026 Korean Apartment Subscription Demand and Relative Price Gap (RPG) Dataset* (Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23251654
 
 **Preservation note:** The 12 files in the frozen release directory are kept unchanged to preserve correspondence with the published Zenodo files and their SHA-256 checksums. This repository-level landing section adds the DOI without modifying the release payload.
+
+
+## Published special supply applications and allocations dataset (N07)
+
+AptToSell analyzed special-supply application and allocation records for **471 projects and 2,591 housing types** from 603 ApplyHome apartment recruitment notices dated January 2025–October 20, 2026. The released derived dataset contains **20,728 housing-type-by-category records**; the 132 notices without special-supply API response rows are **not** classified as zero applications.
+
+- **Research article:** https://apttosell.com/apartment-special-supply-allocation-demand-2025-2026/
+- **Published version 1.0:** https://doi.org/10.5281/zenodo.23827229
+- **Archived CSV tables, dictionary, methods and integrity checks:** https://zenodo.org/records/23827229/files/N07_special_supply_release_candidate_v1.zip?download=1
+- **Source:** Korea Real Estate Board ApplyHome public API.
+- **Citation:** Kim, E. (2026). *South Korea Apartment Special Supply Applications and Allocations, 2025–2026: 471 Projects and 2,591 Housing Types* (Version 1.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.23827229
+- **Interpretation:** Application-to-allocation ratios are descriptive, not legal competition rates, individual winning probabilities, or contract completion rates. This release contains derived analysis, **not** the entire original API response archive. N07-ALL-471 differs from the separate N07-PRIVATE-91 pilot.
