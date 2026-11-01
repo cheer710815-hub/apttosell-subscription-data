@@ -493,3 +493,5 @@ AptToSell analyzed special-supply application and allocation records for **471 p
 - **Source:** Korea Real Estate Board ApplyHome public API.
 - **Citation:** Kim, E. (2026). *South Korea Apartment Special Supply Applications and Allocations, 2025–2026: 471 Projects and 2,591 Housing Types* (Version 1.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.23827229
 - **Interpretation:** Application-to-allocation ratios are descriptive, not legal competition rates, individual winning probabilities, or contract completion rates. This release contains derived analysis, **not** the entire original API response archive. N07-ALL-471 differs from the separate N07-PRIVATE-91 pilot.
+
+- **I03 N07-derived paired special-supply comparison (452 projects):** [methodology, checks and results](research/I03-paired-special-supply/README.md). This is a follow-up analysis, not a separately registered DOI.
