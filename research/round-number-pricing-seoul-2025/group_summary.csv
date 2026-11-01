@@ -1,0 +1,5 @@
+group,transaction_type,n,rounded_10m_count,rounded_10m_share,scope
+all_seller_buyer_types,brokered,73901,,0.6673252053422822,2025 Seoul active transactions
+all_seller_buyer_types,direct,3311,,0.47055270311084263,2025 Seoul active transactions
+individual_to_individual,brokered,73369,48965,0.6673799561122545,2025 Seoul active transactions
+individual_to_individual,direct,1845,1367,0.7409214092140921,2025 Seoul active transactions
