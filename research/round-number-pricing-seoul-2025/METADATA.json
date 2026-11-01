@@ -1,0 +1,27 @@
+{
+  "title": "Round-number price reporting and trade-composition reversal in Seoul apartment transactions, 2025",
+  "study_id": "ARHRN-Independent-04",
+  "version": "0.3",
+  "date": "2026-11-01",
+  "type": "Exploratory derived research dataset",
+  "publication_status": "GitHub published; DOI not assigned",
+  "country": "South Korea",
+  "area": "Seoul",
+  "period_start": "2025-01-01",
+  "period_end": "2025-12-30",
+  "raw_records": 83627,
+  "non_cancelled_records": 77212,
+  "source_name": "MOLIT real estate transaction public disclosure system",
+  "source_url": "https://rt.molit.go.kr/pt/xls/xls.do",
+  "source_sha256": "2700ee4b1b86e01c8829bbc575a76f18a5a1ad49300a3663fc200e314b5f14a1",
+  "doi": null,
+  "zenodo_status": "Pending account access",
+  "limitations": [
+    "Not official government transaction statistics",
+    "Single downloaded snapshot; subject to revisions",
+    "Noncausal observational comparison",
+    "No preregistration or multiplicity correction",
+    "Independent-year replication not completed",
+    "No raw transaction microdata redistributed"
+  ]
+}
