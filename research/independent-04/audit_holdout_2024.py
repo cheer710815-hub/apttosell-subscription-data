@@ -34,6 +34,10 @@ def audit(source, out):
     month = df['계약년월'].str.strip()
     if not month.str.fullmatch(r'2024(0[1-9]|1[0-2])').all():
         raise ValueError('Malformed or non-2024 contract year-month detected')
+    required_months = {f'2024{i:02d}' for i in range(1, 13)}
+    missing_months = sorted(required_months - set(month.unique()))
+    if missing_months:
+        raise ValueError('Missing contract months: ' + ', '.join(missing_months) + '. No output written.')
     if '시군구' not in df or not df['시군구'].str.strip().str.startswith('서울특별시').all():
         raise ValueError('Region not verifiably Seoul')
     not_cancelled = df['해제사유발생일'].str.strip().isin(('', '-'))
@@ -62,6 +66,9 @@ def audit(source, out):
       source_filename=source.name, source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
       source_bytes=source.stat().st_size, encoding=encoding, skipped_preamble_rows=skipped,
       source_rows=len(df), source_columns=list(df.columns), observed_months=sorted(month.unique().tolist()),
+      all_12_contract_months_present=True,
+      monthly_source_row_counts={m:int((month==m).sum()) for m in sorted(required_months)},
+      coverage_warning='Month presence does not prove full geographic/transaction coverage',
       cancelled_or_marked_rows=int((~not_cancelled).sum()),
       unknown_mode_rows=int((~validmode).sum()),
       invalid_price_rows=int((~validprice).sum()),
