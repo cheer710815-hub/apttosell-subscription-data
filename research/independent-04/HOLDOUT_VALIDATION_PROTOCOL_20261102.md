@@ -27,7 +27,7 @@ Does the brokered-versus-direct difference in price-ending concentration persist
 3. Convert reported price to integer KRW **only after validating original CSV units**. For values expressed in KRW 10,000, flag a round number if amount_in_10k_won % 1000 == 0.
 4. Primary metric: round-number proportion for every mode with numerator and denominator.
 5. Unadjusted contrast: direct minus brokerage in **percentage points**.
-6. For adjusted results, reproduce exactly the v3 complex/area/floor strata definitions, eligibility conditions, stratum weights, and cluster-resampling unit. Do not choose new rules to maximize agreement with 2025.
+6. For adjusted results, reproduce exactly the v0.3 complex × 10㎡ area-band strata definitions, eligibility conditions, stratum weights, and cluster-resampling unit. The v0.3 report specifies a minimum of 2 trades per mode within each stratum and complex-level cluster bootstrap; FLOOR was NOT part of the reported +16.98pp estimate. Do not choose new rules to maximize agreement with 2025.
 7. Recompute confidence intervals using v3 seeds and resampling specification if available; otherwise label results a distinct revised method.
 8. Separate analyses for buyer/seller composition if the original columns support it; never infer parties' identity from transaction mode.
 
@@ -50,3 +50,13 @@ Does the brokered-versus-direct difference in price-ending concentration persist
 
 ## Release decision
 HOLD until (a) final v3 file inspection, (b) holdout dataset retrieval, (c) independent execution, and (d) external publication permission checks. Zenodo deposit and DOI creation remain blocked while account access is restricted and until explicit release approval.
+
+
+## Source-method correction (2026-11-03)
+A previously retained summary incorrectly described the +16.98 percentage-point comparison as controlling for floor. The recovered `V03_REPORT.md` explicitly defines **complex × 10㎡ area interval**, with at least two transactions of each type in the same stratum, 230 eligible strata (566 direct and 5,557 brokered observations) and cluster bootstrap grouped into 213 complexes (5,000 replicates, seed 20261101).
+
+The v0.3 report further distinguishes:
+- Excluding public-institution buyers: 74,044 brokered (66.7360%) and 2,231 direct (65.9794%); difference **−0.7566pp**.
+- Personal buyer **and** personal seller only: 73,513 brokered (66.7406%) and 1,849 direct (74.0941%); difference **+7.3535pp**.
+- The +16.98pp comparison is a **matched-stratum descriptive contrast**, not a floor-controlled causal estimate.
+- The 2024 intake audit currently computes an **unadjusted** difference for all non-cancelled known transaction modes. It is not a reproduction of the v0.3 buyer/seller restriction and must not be compared numerically with the personal-to-personal +7.3535pp without matching that filter.
