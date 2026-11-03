@@ -19,6 +19,8 @@ South Korea's 2026 housing-subscription reference data for private housing appli
 
 For versioned machine-readable files, methodology, source metadata, updates, and citation information, use the canonical GitHub repository and data center above.
 
+**Field-level data dictionary:** [DATA-DICTIONARY.md](DATA-DICTIONARY.md) — column types, units, scenario definitions, and reuse limitations.
+
 ## For developers: corrected contract-date regression case (N06)
 
 Building a Korean housing-subscription calendar, API client, or notice comparison tool? The [N06 contract-date integration test case](research/n06-apartment-contract-schedule-249-2026/INTEGRATION-TEST-CASE.md) provides a reusable illustrative JSON fixture, six regression assertions, and a TypeScript provenance model.
