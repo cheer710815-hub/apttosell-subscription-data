@@ -50,7 +50,7 @@ When citing this exact v1.0 release, use the version DOI above.
 
 - Hugging Face: https://huggingface.co/datasets/eunguneun/korea-presale-price-competition-2025-2026
 - SchemaFinder: community-indexed dataset entry for this v1.0 release
-- Mendeley Data: submitted and currently under moderation; do not cite until the DOI becomes active
+- Mendeley Data: published on 12 October 2026 (Version 1); DOI: https://doi.org/10.17632/ch8nxtnckc.1. This is a distribution mirror of the v1.0 study, not a separate analytical result.
 
 The Zenodo version DOI remains the canonical citation identifier for v1.0.
 
