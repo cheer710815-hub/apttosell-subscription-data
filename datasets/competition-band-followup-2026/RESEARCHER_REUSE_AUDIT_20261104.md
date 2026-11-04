@@ -3,7 +3,7 @@
 Audit date: 2026-11-04. **Existing research documentation improvement**, not a new dataset or statistical publication.
 
 ## Source and version
-- Canonical explainer: https://apttosell.com/subscription-followup-data-2026/
+- Canonical explainer: https://apttosell.com/%EC%B2%AD%EC%95%BD-%EA%B2%BD%EC%9F%81%EB%A5%A0/
 - Dataset directory: https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/competition-band-followup-2026/
 - Published Figshare record: https://doi.org/10.6084/m9.figshare.34064439 (verify actual released file/version before direct citation).
 - Source services: Korea Real Estate Board ApplyHome notices https://www.data.go.kr/data/15098547/openapi.do ; competition https://www.data.go.kr/data/15098905/openapi.do .
@@ -41,3 +41,12 @@ Inappropriate without separate data: predicting initial sales-contract ratio or 
 
 ## Domain-authority outcome assessment
 This note provides a practical source-to-variable use map for researchers and links the canonical AptToSell study. It **does not prove** improved domain authority, backlinks, citation count, or search ranking. Monitor independent citations and references separately; do not issue a new DOI for this documentation audit.
+
+
+## External link/citation visibility audit (2026-11-04)
+- AptToSell article directly readable at the Korean-slug URL above, which supersedes the prior unverified `subscription-followup-data-2026/` link.
+- IDEAS/RePEc: https://ideas.repec.org/p/gyv/aptsub/1.html — handle `RePEc:gyv:aptsub:1`.
+- EconPapers: https://econpapers.repec.org/paper/gyvaptsub/1.htm — same RePEc record redistributed via an indexing service, **not** an independent academic citation.
+- Figshare DOI `10.6084/m9.figshare.34064439` appears in existing repository/article/RePEc metadata; direct landing retrieval returned 403 in this audit, so availability/checksum are **not independently confirmed**.
+- No verified third-party scholarly citing paper was established by targeted public searches in this audit. Separate cross-site mentions and the above RePEc mirrors do not establish incremental backlinks or domain-rating gains.
+- Site article currently links the “RePEc research record” label to the RePEc archive index hosted on GitHub Pages instead of the actual IDEAS item; recommend updating that target to the IDEAS link above, pending WordPress edit approval.
