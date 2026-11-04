@@ -20,7 +20,7 @@ AptToSell이 한국부동산원 청약홈 공공데이터를 이용해 2026년 1
 **결론:** 경쟁률이 낮아질수록 후속공급 발생률이 계속 높아지는 단순한 선형 관계는 관측되지 않았습니다. 특히 1~30:1 구간에서는 후속공급이 비교적 자주 확인됐지만, 30:1 이상 구간에서는 크게 낮았습니다.
 
 ## 원문
-- Canonical AptToSell dataset page: https://apttosell.com/subscription-followup-data-2026/
+- Canonical AptToSell dataset page: https://apttosell.com/%EC%B2%AD%EC%95%BD-%EA%B2%BD%EC%9F%81%EB%A5%A0/
 
 ## 공개 파일
 - [프로젝트별 재계산용 CSV](./apttosell-competition-band-followup-projects-2026-v1.0.csv)
