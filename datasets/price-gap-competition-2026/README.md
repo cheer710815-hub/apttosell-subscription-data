@@ -6,6 +6,16 @@ This release expands the earlier 2026-only v0.1 analytical layer into a 2025–2
 
 The existing `price-gap-competition-2026` asset is versioned forward rather than duplicated.
 
+## Original research article and reusable files
+
+- **Canonical research article (Korean):** https://apttosell.com/presale-price-gap-subscription-competition-2026/
+- **Main analytical CSV (153 projects):** [apttosell-price-gap-competition-2025-2026-v1.0.csv](./apttosell-price-gap-competition-2025-2026-v1.0.csv)
+- **Sensitivity CSV (168 projects):** [apttosell-price-gap-competition-2025-2026-v1.0-sensitivity.csv](./apttosell-price-gap-competition-2025-2026-v1.0-sensitivity.csv)
+- **Methodology and source limits:** [METHODOLOGY.md](./METHODOLOGY.md)
+- **Column definitions:** [DATA-DICTIONARY.md](./DATA-DICTIONARY.md)
+
+This is a cross-reference for an already published study, **not** a new version or new dataset. Preserve the existing release DOI and distinguish observational findings from causal claims.
+
 ## Main sample
 
 - Main analytical sample: **153 projects**
