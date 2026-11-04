@@ -42,6 +42,7 @@ Building a Korean housing-subscription calendar, API client, or notice compariso
 
 | 사용한 자료 | 우선 확인할 인용 정보 |
 | --- | --- |
+| N07 특별공급 신청·배정 471개 사업·2,591개 주택형 (2025–2026) | [AptToSell 연구 해설](https://apttosell.com/apartment-special-supply-allocation-demand-2025-2026/) · [Zenodo 데이터셋 DOI](https://doi.org/10.5281/zenodo.23827229) · [OpenAIRE 검색 결과](https://explore.openaire.eu/search/result?pid=10.5281/zenodo.23827229) |
 | N06 아파트 모집공고·당첨발표·계약 예정기간 249개 사업 및 30개 공식 일정 검증 | [N06 연구별 데이터 안내](research/n06-apartment-contract-schedule-249-2026/README.md) · [Zenodo v1.0](https://doi.org/10.5281/zenodo.23656772) |
 | 청약가점 84점·지역별 예치금 기준표 | [원문 데이터표](https://apttosell.com/cheongyak-score-data/) · [Zenodo 기록](https://doi.org/10.5281/zenodo.22842058) |
 | 고경쟁 주택형의 첫 무순위 공고 분석(N09) | [연구별 인용 파일](datasets/competition-band-followup-2026/CITATION.cff) · [Zenodo v1.0](https://doi.org/10.5281/zenodo.23493356) |
@@ -50,6 +51,16 @@ Building a Korean housing-subscription calendar, API client, or notice compariso
 | 첫 공고 이후 공고 연결 이벤트 자료 | [연구 데이터 폴더](datasets/followup-event-registry-2026/) · [Zenodo 기록](https://doi.org/10.5281/zenodo.23176906) |
 
 **인용 원칙:** 실제 사용한 자료의 제목, 작성자(AptToSell), 해당 버전, 관측 기준일, 원문 URL 및 그 자료의 DOI를 함께 확인하세요. DOI의 현재 접근 가능 여부가 검증되지 않은 경우에는 정상 공개를 단정하지 않습니다. 데이터 패키지 버전(현재 `datapackage.json` 1.2)과 개별 연구 배포 버전은 서로 다른 범위입니다. 무순위·임의공급 등 공급 유형은 원래 공고에 적힌 명칭으로 구분합니다.
+
+## N07 discoverability and citation status (checked 2026-11-04)
+
+- **Study:** *South Korea Apartment Special Supply Applications and Allocations, 2025–2026: 471 Projects and 2,591 Housing Types* (Kim, E., 2026, version 1.0).
+- **Dataset DOI supplied in the research citation:** https://doi.org/10.5281/zenodo.23827229
+- **Explanatory article:** https://apttosell.com/apartment-special-supply-allocation-demand-2025-2026/
+- **External discovery:** [OpenAIRE dataset result](https://explore.openaire.eu/search/result?pid=10.5281/zenodo.23827229) was accessible in a 2026-11-04 check, but its status included **Under curation**. Indexing is not proof of independent citation or peer review.
+- **Metadata correction needed:** the propagated abstract still contains the stale phrase `Dataset DOI (reserved, pending publication)`. The record metadata should be reconciled with the release state when Zenodo account access is restored; do not mint a replacement DOI for a wording correction.
+- **Verification limit:** a direct Zenodo record/API and DataCite DOI response were not independently validated in this check. OpenAIRE discoverability alone is not proof of live DOI resolution.
+- **Interpretation limit:** application/allocated-unit ratios are descriptive, not legal competition rates, housing-contract rates or individual odds of winning.
 
 ## Published research: high competition followed by first-round no-priority supply (N09)
 
