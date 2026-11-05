@@ -5,6 +5,10 @@
 **Final cohort:** 196 apartment projects  
 **Competition-rate coverage:** 193 projects
 
+**Public-summary cohort rule (verified 2026-11-05):** the published competition-band and price-band summary tables both use the **193 projects with a nonblank project-level first-priority competition rate**, not all 196 projects. Three rows are retained in the public project CSV but excluded from both grouped summary tables because their competition rate is unavailable (housing management numbers `2026000230`, `2026000135`, `2026000416`). They must not be counted as zeros or added to the published price-band denominators.
+
+**Derived-output consistency check (2026-11-05):** the public 196-row CSV and 11-row summary CSV were independently parsed and cross-counted: 196 unique IDs, 193 nonblank rates, 44 projects at >=10:1, 19 with follow-up announcements, and 13/36 within 60 days. All published competition-band and price-band subgroup counts match after the three unavailable-rate records are excluded. **This is an internal consistency check of published derived tables only; no original ApplyHome API response archive or end-to-end extraction/linkage program was reproduced.**
+
 ## Headline finding
 
 Among 44 projects with an aggregated first-priority subscription competition rate of at least 10:1, 19 later had a follow-up supply announcement identified in the official ApplyHome data. This is 43.18% on a simple observed basis.
