@@ -50,7 +50,18 @@ Suggested citation:
 
 Canonical site: https://apttosell.com/
 
-Persistent identifier: https://doi.org/10.6084/m9.figshare.34064439
+Persistent identifier (published dataset): https://doi.org/10.6084/m9.figshare.34064439
+
+### Research discovery and reuse routes
+
+- **RePEc study handle:** `RePEc:gyv:aptsub:1`
+- **IDEAS/RePEc bibliography:** https://ideas.repec.org/p/gyv/aptsub/1.html
+- **AptToSell canonical study article:** https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/
+- **Project-level observations:** [196-project CSV](apttosell-apartment-subscription-followup-projects-2026-jan-sep.csv)
+- **Variable definitions:** [data dictionary](apttosell-followup-analysis-data-dictionary.md)
+- **Aggregate results:** [summary CSV](apttosell-followup-analysis-2026-jan-sep-summary.csv)
+
+RePEc is a bibliographic discovery route for this same research, **not** a second underlying study or an independent citation. For reproducibility, the public derived tables and the transformation rules are provided; the presence of these materials alone does not demonstrate that an independent party has re-run the full extraction and linkage workflow. Confirm the preserved source snapshot and executable pipeline before claiming end-to-end independent reproduction.
 
 ## Files
 
