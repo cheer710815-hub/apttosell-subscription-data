@@ -1,0 +1,51 @@
+name: Verify DDFS published regression results
+
+on:
+  push:
+    paths:
+      - 'datasets/ddfs-national-type-riskset-2026/apttosell-ddfs-national-type-riskset-2026-v1.0.csv'
+      - 'datasets/ddfs-national-type-riskset-2026/reproduce_ddfs_logit_v1.py'
+      - 'datasets/ddfs-national-type-riskset-2026/requirements-reproduction.txt'
+      - '.github/workflows/verify-ddfs-regressions.yml'
+  pull_request:
+    paths:
+      - 'datasets/ddfs-national-type-riskset-2026/apttosell-ddfs-national-type-riskset-2026-v1.0.csv'
+      - 'datasets/ddfs-national-type-riskset-2026/reproduce_ddfs_logit_v1.py'
+      - 'datasets/ddfs-national-type-riskset-2026/requirements-reproduction.txt'
+      - '.github/workflows/verify-ddfs-regressions.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out public research dataset
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install pinned statistical dependencies
+        run: python -m pip install -r datasets/ddfs-national-type-riskset-2026/requirements-reproduction.txt
+
+      - name: Reproduce primary and financing clustered logistic models
+        run: |
+          cd datasets/ddfs-national-type-riskset-2026
+          python reproduce_ddfs_logit_v1.py \
+            --input apttosell-ddfs-national-type-riskset-2026-v1.0.csv \
+            --output ddfs_reproduction_results.json
+
+      - name: Upload SHA-256 and coefficient comparison report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ddfs-v1-reproduction-results
+          path: datasets/ddfs-national-type-riskset-2026/ddfs_reproduction_results.json
+          if-no-files-found: warn
+          retention-days: 30
