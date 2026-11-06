@@ -70,5 +70,6 @@ RePEc is a bibliographic discovery route for this same research, **not** a secon
 ## Files
 
 - Summary CSV: `apttosell-followup-analysis-2026-jan-sep-summary.csv`
+- [Provenance audit status and evidence checklist](FOLLOWUP-196-PROVENANCE-STATUS.md) — what is verified and why the original ApplyHome extraction cannot yet be independently reproduced.
 - Derived-output verification: [`verify_public_followup_196.py`](verify_public_followup_196.py). Download or clone the repository and run `python reports/verify_public_followup_196.py` from any working directory. The script reads both published CSVs, checks all 11 grouped/overall summary rows and their displayed percentages, and exits nonzero on inconsistencies. **Passing this checker does not validate the original ApplyHome API archive or end-to-end matching pipeline.**
 - This methodology: `apttosell-followup-analysis-2026-jan-sep-methodology.md`
