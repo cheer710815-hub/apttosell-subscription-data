@@ -2,11 +2,11 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "AptToSell Follow-Up Event Registry 2026",
-  "description": "Event-level registry for 103 first observed follow-up apartment supply events in South Korea in 2026. All 103 rows include numeric notice IDs and canonical official source links; 13 rows are directly primary-verified and 90 are ID-corroborated secondary records.",
+  "description": "Event-level registry for 103 first observed follow-up apartment supply events in South Korea in 2026. The current GitHub v0.2 CSV received a URL-only correction for 90 ApplyHome notice links on 2026-11-10; the previously deposited DOI archive is not asserted to contain those corrections. Of the 103 rows, 13 retain primary-verified evidence and 90 are ID-corroborated secondary records.",
   "url": "https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/followup-event-registry-2026",
   "version": "0.2",
   "datePublished": "2026-10-06",
-  "dateModified": "2026-10-06",
+  "dateModified": "2026-11-10",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": {
     "@type": "Person",
