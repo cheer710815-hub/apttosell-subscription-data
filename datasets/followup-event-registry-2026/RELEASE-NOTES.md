@@ -1,4 +1,18 @@
-# Release Notes — 0.1-pilot
+# Release Notes — Follow-Up Event Registry 2026
+
+> Historical pilot notes are retained below. The public v0.2 registry was published on 2026-10-06; the 2026-11-10 change affects only the live GitHub CSV.
+
+## 2026-11-10 — GitHub CSV URL-only correction (post-publication)
+
+The existing public CSV `apttosell-followup-event-registry-public-v0.2.csv` was corrected on GitHub to repair the official ApplyHome detail-page path in 90 `ID_CORROBORATED_SECONDARY` rows. The 13 `PRIMARY_VERIFIED` rows, event identifiers, project names, dates, field definitions, row order and 103-row total were unchanged. The 90 replacement pages were individually checked against the CSV project names and notice dates.
+
+- Correction commit: https://github.com/cheer710815-hub/apttosell-subscription-data/commit/b3d2c97770c7f36641769f078434149054185010
+- Original GitHub CSV SHA-256 (before correction): `954d224276d902701a5b3c0b13de69c8a05bdb9807c769a24fa3059e1c1cee73`
+- Corrected GitHub CSV SHA-256: `51282c326fd0f25ebdda645d8486653db462cf347ffd6eb63167541ed8466f52`
+- DOI `10.5281/zenodo.23176906` identifies an earlier deposited release; this correction was applied **only to the live GitHub file**, not to the Zenodo archive. Do not assume the archived CSV is byte-identical to the corrected GitHub CSV.
+- The existing citation, release date (2026-10-06), DOI and evidence-grade classifications are retained. No new DOI was issued.
+
+## Historical 0.1-pilot notes
 
 Release date: **2026-10-05**
 
@@ -18,7 +32,7 @@ A same-project 58-unit no-priority/residual supply event dated 2026-04-28 is cor
 
 The 2026-04-28 row now carries corroborated numeric notice ID `2026910100`, but remains `SECONDARY_CORROBORATED` until the original ApplyHome record is directly accessible and verified.
 
-## DOI decision
+## Historical DOI decision (0.1-pilot only)
 
 No DOI is assigned to this pilot.
 
