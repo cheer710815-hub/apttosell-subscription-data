@@ -1,0 +1,241 @@
+{
+  "status": "PASS",
+  "dataset_repository": "eunguneun/korea-apartment-subscription-followup-supply-2026",
+  "original_projects": 196,
+  "complete_case_projects": 193,
+  "summary_rows": 11,
+  "cohort_totals": {
+    "projects": 196,
+    "followup_projects": 103,
+    "eligible_60d": 161,
+    "followup_within_60d": 83
+  },
+  "high_competition_10plus": {
+    "projects": 44,
+    "followup_projects": 19,
+    "eligible_60d": 36,
+    "followup_within_60d": 13
+  },
+  "excluded_project_ids": [
+    "2026000230",
+    "2026000135",
+    "2026000416"
+  ],
+  "flag_issues": {
+    "no_followup_but_positive_events": 0,
+    "followup_but_zero_events": 0,
+    "within_60d_but_ineligible": 0,
+    "within_60d_but_no_followup": 0
+  },
+  "summary_comparison": [
+    {
+      "metric_group": "competition_band",
+      "segment": "<1:1",
+      "projects": 93,
+      "followup_projects": 41,
+      "eligible_60d": 75,
+      "followup_within_60d": 34,
+      "calculated_simple_pct": "44.09",
+      "calculated_60d_pct": "45.33",
+      "published_simple_pct": "44.09",
+      "published_60d_pct": "45.33"
+    },
+    {
+      "metric_group": "competition_band",
+      "segment": "1-5:1",
+      "projects": 40,
+      "followup_projects": 32,
+      "eligible_60d": 34,
+      "followup_within_60d": 27,
+      "calculated_simple_pct": "80.00",
+      "calculated_60d_pct": "79.41",
+      "published_simple_pct": "80.0",
+      "published_60d_pct": "79.41"
+    },
+    {
+      "metric_group": "competition_band",
+      "segment": "5-10:1",
+      "projects": 16,
+      "followup_projects": 11,
+      "eligible_60d": 14,
+      "followup_within_60d": 9,
+      "calculated_simple_pct": "68.75",
+      "calculated_60d_pct": "64.29",
+      "published_simple_pct": "68.75",
+      "published_60d_pct": "64.29"
+    },
+    {
+      "metric_group": "competition_band",
+      "segment": "10-30:1",
+      "projects": 23,
+      "followup_projects": 17,
+      "eligible_60d": 20,
+      "followup_within_60d": 12,
+      "calculated_simple_pct": "73.91",
+      "calculated_60d_pct": "60.00",
+      "published_simple_pct": "73.91",
+      "published_60d_pct": "60.0"
+    },
+    {
+      "metric_group": "competition_band",
+      "segment": ">=30:1",
+      "projects": 21,
+      "followup_projects": 2,
+      "eligible_60d": 16,
+      "followup_within_60d": 1,
+      "calculated_simple_pct": "9.52",
+      "calculated_60d_pct": "6.25",
+      "published_simple_pct": "9.52",
+      "published_60d_pct": "6.25"
+    },
+    {
+      "metric_group": "price_band",
+      "segment": "<KRW 500m",
+      "projects": 11,
+      "followup_projects": 4,
+      "eligible_60d": 10,
+      "followup_within_60d": 2,
+      "calculated_simple_pct": "36.36",
+      "calculated_60d_pct": "20.00",
+      "published_simple_pct": "36.36",
+      "published_60d_pct": "20.0"
+    },
+    {
+      "metric_group": "price_band",
+      "segment": "KRW 500m-700m",
+      "projects": 55,
+      "followup_projects": 24,
+      "eligible_60d": 44,
+      "followup_within_60d": 20,
+      "calculated_simple_pct": "43.64",
+      "calculated_60d_pct": "45.45",
+      "published_simple_pct": "43.64",
+      "published_60d_pct": "45.45"
+    },
+    {
+      "metric_group": "price_band",
+      "segment": "KRW 700m-1b",
+      "projects": 52,
+      "followup_projects": 32,
+      "eligible_60d": 42,
+      "followup_within_60d": 26,
+      "calculated_simple_pct": "61.54",
+      "calculated_60d_pct": "61.90",
+      "published_simple_pct": "61.54",
+      "published_60d_pct": "61.9"
+    },
+    {
+      "metric_group": "price_band",
+      "segment": "KRW 1b-1.5b",
+      "projects": 30,
+      "followup_projects": 18,
+      "eligible_60d": 24,
+      "followup_within_60d": 17,
+      "calculated_simple_pct": "60.00",
+      "calculated_60d_pct": "70.83",
+      "published_simple_pct": "60.0",
+      "published_60d_pct": "70.83"
+    },
+    {
+      "metric_group": "price_band",
+      "segment": ">=KRW 1.5b",
+      "projects": 45,
+      "followup_projects": 25,
+      "eligible_60d": 39,
+      "followup_within_60d": 18,
+      "calculated_simple_pct": "55.56",
+      "calculated_60d_pct": "46.15",
+      "published_simple_pct": "55.56",
+      "published_60d_pct": "46.15"
+    },
+    {
+      "metric_group": "headline",
+      "segment": "first_priority_rate>=10:1",
+      "projects": 44,
+      "followup_projects": 19,
+      "eligible_60d": 36,
+      "followup_within_60d": 13,
+      "calculated_simple_pct": "43.18",
+      "calculated_60d_pct": "36.11",
+      "published_simple_pct": "43.18",
+      "published_60d_pct": "36.11"
+    }
+  ],
+  "price_band_sensitivity": [
+    {
+      "segment": "<KRW 500m",
+      "price_band": "5억원 미만",
+      "published_subset_n": 11,
+      "full_cohort_n": 12,
+      "subset_simple_pct": "36.36",
+      "full_simple_pct": "33.33",
+      "subset_eligible_60d": 10,
+      "full_eligible_60d": 10,
+      "subset_60d_pct": "20.00",
+      "full_60d_pct": "20.00"
+    },
+    {
+      "segment": "KRW 500m-700m",
+      "price_band": "5~7억원",
+      "published_subset_n": 55,
+      "full_cohort_n": 57,
+      "subset_simple_pct": "43.64",
+      "full_simple_pct": "42.11",
+      "subset_eligible_60d": 44,
+      "full_eligible_60d": 46,
+      "subset_60d_pct": "45.45",
+      "full_60d_pct": "43.48"
+    },
+    {
+      "segment": "KRW 700m-1b",
+      "price_band": "7~10억원",
+      "published_subset_n": 52,
+      "full_cohort_n": 52,
+      "subset_simple_pct": "61.54",
+      "full_simple_pct": "61.54",
+      "subset_eligible_60d": 42,
+      "full_eligible_60d": 42,
+      "subset_60d_pct": "61.90",
+      "full_60d_pct": "61.90"
+    },
+    {
+      "segment": "KRW 1b-1.5b",
+      "price_band": "10~15억원",
+      "published_subset_n": 30,
+      "full_cohort_n": 30,
+      "subset_simple_pct": "60.00",
+      "full_simple_pct": "60.00",
+      "subset_eligible_60d": 24,
+      "full_eligible_60d": 24,
+      "subset_60d_pct": "70.83",
+      "full_60d_pct": "70.83"
+    },
+    {
+      "segment": ">=KRW 1.5b",
+      "price_band": "15억원 이상",
+      "published_subset_n": 45,
+      "full_cohort_n": 45,
+      "subset_simple_pct": "55.56",
+      "full_simple_pct": "55.56",
+      "subset_eligible_60d": 39,
+      "full_eligible_60d": 39,
+      "subset_60d_pct": "46.15",
+      "full_60d_pct": "46.15"
+    }
+  ],
+  "problems": [],
+  "files": {
+    "apttosell-apartment-subscription-followup-projects-2026-jan-sep.csv": {
+      "bytes": 55132,
+      "sha256": "034d2ae0ffb9ab9ee21abb24e6a74ae3ce130cbd44b20aaf06d53e634a212c52"
+    },
+    "apttosell-followup-analysis-2026-jan-sep-summary.csv": {
+      "bytes": 662,
+      "sha256": "6c344da81cb6315c9c715e46c4feeca5b340b1e310aff8c4aa4a401d54979002"
+    }
+  },
+  "schema": {
+    "project_columns": 18,
+    "summary_columns": 8
+  }
+}
