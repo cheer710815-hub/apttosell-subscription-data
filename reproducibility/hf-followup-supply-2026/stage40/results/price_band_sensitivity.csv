@@ -1,4 +1,4 @@
-segment,price_band,published_subset_n,full_cohort_n,subset_simple_pct,full_simple_pct,subset_eligible_60d,full_eligible_60d,subset_60d_pct,full_60d_pct
+﻿segment,price_band,published_subset_n,full_cohort_n,subset_simple_pct,full_simple_pct,subset_eligible_60d,full_eligible_60d,subset_60d_pct,full_60d_pct
 <KRW 500m,5억원 미만,11,12,36.36,33.33,10,10,20.00,20.00
 KRW 500m-700m,5~7억원,55,57,43.64,42.11,44,46,45.45,43.48
 KRW 700m-1b,7~10억원,52,52,61.54,61.54,42,42,61.90,61.90
