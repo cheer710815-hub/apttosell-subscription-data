@@ -30,6 +30,16 @@ Building a Korean housing-subscription calendar, API client, or notice compariso
 - **Citation:** [N06 dataset, Zenodo v1.0](https://doi.org/10.5281/zenodo.23656772). Dates are scheduled, not proof of executed contracts.
 - **Use:** retain API provenance and label official-notice verification separately; independently check the latest notice before making a current scheduling claim.
 
+## Reproducible 2026 subscription competition and follow-up study (196 projects)
+
+This study is **separate from** the 103-record first-event registry and other research datasets in this repository. It links 196 initial apartment subscription projects with subsequently observed supply notices (observation cutoff: 2026-10-04). Of these, 193 have known first-priority competition rates; the published summary uses those 193 complete cases. Follow-up notices are **not** proof of failed contracts or cancellation rates.
+
+- **Source dataset and viewer:** [Hugging Face — 196 project records and 11 summary rows](https://huggingface.co/datasets/eunguneun/korea-apartment-subscription-followup-supply-2026)
+- **Reproduce the calculations:** [Python code, tests, reported audit and sensitivity tables](reproducibility/hf-followup-supply-2026/stage40/README.md)
+- **Methodology, denominator clarification and limitations:** [Hugging Face METHODOLOGY.md](https://huggingface.co/datasets/eunguneun/korea-apartment-subscription-followup-supply-2026/blob/main/METHODOLOGY.md)
+- **Original research article:** https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/
+- **Provenance:** source CSV files remain hosted by Hugging Face; this GitHub companion does not redistribute or alter those originals and does not mint a new DOI.
+
 ## Reproduce the reference tables / 참고표 검증하기
 
 - [Reproduction guide: 84-point score and deposit CSV checks](REPRODUCE-REFERENCE-TABLES.md) — verify the 32 + 35 + 17 score maxima, row counts, deposit units, and dataset metadata without an API key.
