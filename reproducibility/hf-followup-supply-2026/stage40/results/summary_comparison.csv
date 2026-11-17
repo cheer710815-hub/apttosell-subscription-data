@@ -1,4 +1,4 @@
-metric_group,segment,projects,followup_projects,eligible_60d,followup_within_60d,calculated_simple_pct,calculated_60d_pct,published_simple_pct,published_60d_pct
+﻿metric_group,segment,projects,followup_projects,eligible_60d,followup_within_60d,calculated_simple_pct,calculated_60d_pct,published_simple_pct,published_60d_pct
 competition_band,<1:1,93,41,75,34,44.09,45.33,44.09,45.33
 competition_band,1-5:1,40,32,34,27,80.00,79.41,80.0,79.41
 competition_band,5-10:1,16,11,14,9,68.75,64.29,68.75,64.29
