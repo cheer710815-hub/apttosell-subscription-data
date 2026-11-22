@@ -5,11 +5,13 @@ on:
     paths:
       - 'housing_subscription_score_2026.csv'
       - 'private_housing_deposit_2026.csv'
+      - 'widgets/apttosell-score-widget.js'
       - '.github/workflows/validate-reference-csv.yml'
   pull_request:
     paths:
       - 'housing_subscription_score_2026.csv'
       - 'private_housing_deposit_2026.csv'
+      - 'widgets/apttosell-score-widget.js'
       - '.github/workflows/validate-reference-csv.yml'
   workflow_dispatch:
 
@@ -62,4 +64,41 @@ jobs:
               assert amounts == sorted(amounts) and min(amounts) > 0
           print(f"PASS: {len(scores)} score rows, {len(deposits)} deposit rows, max 84 points")
           print("Structural consistency only; not a legal-currentness check.")
+          PY
+      - name: Compare live score widget options with the reference CSV
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv
+          import re
+          from itertools import product
+          from pathlib import Path
+
+          js = Path("widgets/apttosell-score-widget.js").read_text(encoding="utf-8")
+          with Path("housing_subscription_score_2026.csv").open(encoding="utf-8-sig", newline="") as f:
+              rows = list(csv.DictReader(f))
+          categories = {
+              "homeless": "homeless_period",
+              "dependents": "dependents",
+              "account": "subscription_account_period",
+          }
+          options = {}
+          for name, category in categories.items():
+              match = re.search(r"const\s+" + name + r"\s*=\s*(\[[^\n]+\]);", js)
+              assert match, f"Missing widget array: {name}"
+              options[name] = [int(x) for x in re.findall(r"\['[^']+',\s*(\d+)\]", match.group(1))]
+              expected = [int(row["score"]) for row in rows if row["category"] == category]
+              assert options[name] == expected, f"Widget/CSV discrepancy: {name}"
+          spouse_match = re.search(r"const\s+spouse\s*=\s*(\[[^\n]+\]);", js)
+          assert spouse_match, "Missing spouse selection"
+          spouse = [int(x) for x in re.findall(r"\['[^']+',\s*(\d+)\]", spouse_match.group(1))]
+          assert spouse == [0, 1, 2, 3], "Unexpected spouse option scores"
+          assert "Math.min(17,a+s)" in js, "Account-points cap not found"
+          cases = 0
+          for h, d, a, s in product(options["homeless"], options["dependents"], options["account"], spouse):
+              assert h + d + min(17, a+s) <= 84, "Result exceeds 84 points"
+              cases += 1
+          assert cases == 8092, f"Unexpected widget input space: {cases}"
+          print(f"PASS: score widget matches 41 CSV rows; {cases} combinations obey 84-point cap")
+          print("These tests do not certify applicant eligibility or current legal rules.")
           PY
