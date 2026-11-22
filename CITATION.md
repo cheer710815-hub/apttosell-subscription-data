@@ -41,3 +41,12 @@ Scope:
 - License: CC BY 4.0
 
 Interpretation note: first-follow-up reappearance is not a cancellation rate, contract-failure rate, or proof of winner abandonment.
+
+
+## Dataset-level license and version boundaries (checked 2026-11-22)
+
+- **CC BY 4.0 scope:** reuse the publisher-created dataset tables, explanatory metadata, and derived reference materials that are explicitly marked CC BY 4.0, following attribution and change-notice requirements. A repository-level license declaration does **not** automatically relicense original government data, linked third-party materials, separately licensed subprojects, photographs, or entire website articles. Check the source and each dataset folder first.
+- **Where to start:** [canonical data center](https://apttosell.com/housing-subscription-data/) · [site reuse/citation policy](https://apttosell.com/citation-policy/) · [CC BY 4.0 text](https://creativecommons.org/licenses/by/4.0/).
+- **GitHub is mutable:** cite the exact file path, checked date, and preferably the commit SHA when reusing a changing `main` branch file. A revised README or a green CI workflow does not create a new dataset version or amend any previously archived DOI release.
+- **Citation identity:** cite the dataset actually used. DOI references elsewhere in this repository may point to *distinct* studies and archived versions. An untested DOI link must not be described as confirmed publicly accessible.
+- **Quality limitations:** the public checks validate structure, formula assumptions, and/or CSV-widget equality, not the current legal validity of housing eligibility, loan approvals, or a particular project notice.
