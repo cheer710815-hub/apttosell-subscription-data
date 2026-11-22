@@ -28,3 +28,25 @@ The checks above are *structural reproducibility checks*. They do not establish 
 ## Limitations
 
 The repository may evolve after this guide is written. GitHub blob hashes, row counts, and check dates should be verified anew for later revisions. A structural PASS is not a legal or policy certification.
+
+## Verified widget/CSV regression — 2026-11-22
+
+The educational score widget is pinned in the AptToSell data-center embed to commit
+`6330f9ef5acf85ef6510def8758ead38cdfcea65`. The reference CSV release remains
+dated **2026-09-18**. The following validation is about the published example scores
+and is **not** a change to that reference release:
+
+- CSV: `housing_subscription_score_2026.csv` (41 rows).
+- Widget: `widgets/apttosell-score-widget.js` (17 homelessness-duration, 7 dependent,
+  17 account-duration, and 4 spouse-score options).
+- Regression coverage: all **8,092** combinations, including a 17-point account cap
+  and an 84-point total maximum.
+- GitHub Actions workflow: [Validate reference CSV structure](.github/workflows/validate-reference-csv.yml).
+- Verified successful GitHub Actions run **#3**, 2026-11-22, for commit
+  [`370119ca9a9e658a5321be6d07abb8180dee5975`](https://github.com/cheer710815-hub/apttosell-subscription-data/commit/370119ca9a9e658a5321be6d07abb8180dee5975).
+- GitHub Actions may be rerun for later revisions; any future changes need new
+  recorded commit and result.
+
+**Scope limit:** structural and arithmetic consistency, not legal currentness,
+individual eligibility, or review of each site's copy of the embed. Existing DOI
+deposits are unchanged, and this verification does not imply a new research release.
