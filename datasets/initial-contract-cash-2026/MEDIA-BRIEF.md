@@ -1,5 +1,7 @@
 # Media Brief — 2026 아파트 입주 전 필요자금 데이터
 
+> **2026-11-24 correction / 정정 안내 (Pre-Move-In Funding Dataset v1.0 only):** [Erratum / 정오표](./ERRATA-2026-11-24.md). For project 2026000153, arranged interim financing is 40%, mandatory self-paid interim payments are 20%, and the standardized direct-payment ratio is 30% (previously 10%). The fixed CSV and DOI are preserved as historical records; apply the erratum before reuse. Other projects and historical aggregate statistics are not fully revalidated. This correction does not apply to unrelated datasets.
+
 ## 핵심
 분양가가 같아도 계약금 비율, 1차 계약금 정액제, 중도금 무이자·이자후불·자납 여부에 따라 입주 전 자금부담은 크게 달라집니다.
 
