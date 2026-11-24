@@ -1,5 +1,7 @@
 # Citation guide
 
+> **2026-11-24 correction / 정정 안내 (Pre-Move-In Funding Dataset v1.0 only):** [Erratum / 정오표](./datasets/initial-contract-cash-2026/ERRATA-2026-11-24.md). For project 2026000153, arranged interim financing is 40%, mandatory self-paid interim payments are 20%, and the standardized direct-payment ratio is 30% (previously 10%). The fixed CSV and DOI are preserved as historical records; apply the erratum before reuse. Other projects and historical aggregate statistics are not fully revalidated. This correction does not apply to unrelated datasets.
+
 AptToSell 주택청약 데이터를 인용할 때는 가능한 경우 **원문 데이터 페이지와 보존 DOI를 함께 표시**해 주세요.
 
 ## Recommended citation
