@@ -1,5 +1,7 @@
 # Korea Apartment Pre-Move-In Funding Dataset 2026
 
+> **2026-11-24 correction / 정정 안내 (Pre-Move-In Funding Dataset v1.0 only):** [Erratum / 정오표](./ERRATA-2026-11-24.md). For project 2026000153, arranged interim financing is 40%, mandatory self-paid interim payments are 20%, and the standardized direct-payment ratio is 30% (previously 10%). The fixed CSV and DOI are preserved as historical records; apply the erratum before reuse. Other projects and historical aggregate statistics are not fully revalidated. This correction does not apply to unrelated datasets.
+
 AptToSell이 2026년 1월부터 9월까지의 아파트 최초 모집공고를 기준으로 계약금, 중도금, 잔금, 금융지원 방식과 **입주 전 필요자금**을 표준화한 검증 데이터 프로젝트입니다.
 
 ## Canonical source
