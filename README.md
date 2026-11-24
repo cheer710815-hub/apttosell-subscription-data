@@ -320,6 +320,9 @@ Public documentation:
 - [Media brief](./datasets/initial-contract-cash-2026/MEDIA-BRIEF.md)
 - [Publication-ready CSV](./datasets/initial-contract-cash-2026/apttosell-initial-cash-publication-ready-2026-10-05.csv)
 
+> **2026-11-24 correction / 정정 안내 (Pre-Move-In Funding Dataset v1.0 only):** [Erratum / 정오표](./datasets/initial-contract-cash-2026/ERRATA-2026-11-24.md). For project 2026000153, arranged interim financing is 40%, mandatory self-paid interim payments are 20%, and the standardized direct-payment ratio is 30% (previously 10%). The fixed CSV and DOI are preserved as historical records; apply the erratum before reuse. Other projects and historical aggregate statistics are not fully revalidated. This correction does not apply to unrelated datasets.
+
+
 > Important: 이 데이터의 '입주 전 직접자금'은 개인별 대출 가능액을 의미하지 않습니다. 공식 계약조건을 비교 가능한 방식으로 표준화한 지표이며, 후속 잔여세대·선착순 판촉조건은 최초 모집공고와 분리합니다.
 
 
