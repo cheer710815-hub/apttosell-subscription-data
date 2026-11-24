@@ -1,5 +1,7 @@
 # AptToSell 2026 Pre-Move-In Funding Dataset — Methodology v1.0
 
+> **2026-11-24 correction / 정정 안내 (Pre-Move-In Funding Dataset v1.0 only):** [Erratum / 정오표](./ERRATA-2026-11-24.md). For project 2026000153, arranged interim financing is 40%, mandatory self-paid interim payments are 20%, and the standardized direct-payment ratio is 30% (previously 10%). The fixed CSV and DOI are preserved as historical records; apply the erratum before reuse. Other projects and historical aggregate statistics are not fully revalidated. This correction does not apply to unrelated datasets.
+
 ## 1. Purpose
 아파트 분양가만으로는 실제 계약 진입장벽과 입주 전 자금부담을 비교하기 어렵습니다. 이 데이터셋은 공식 모집공고와 사업주체가 공개한 금융조건을 기준으로 계약금, 중도금, 잔금 구조를 표준화하고 **입주 전 필요자금**을 비교할 수 있도록 설계했습니다.
 
