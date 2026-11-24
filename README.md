@@ -1,5 +1,8 @@
 # AptToSell Apartment Subscription Data
 
+> **Research integrity / DOI audit notice (2026-11-24):** Existing DOI links below are **historical identifiers, not confirmations of live availability or current deposit validity**. Figshare account access is disabled and Zenodo access restrictions remain unresolved. No new DOI deposits, cross-platform re-uploads or account workarounds are authorized. This repository contains **related datasets derived from the same 196-project cohort**, not separate independently sampled studies. See [research provenance](RESEARCH_INVENTORY.md), [DOI register](DOI_REGISTRY.md), and [publication safeguards](PUBLICATION_POLICY.md). Existing source data and frozen archives have not been changed by this audit.
+
+
 [![Validate reference CSV structure](https://github.com/cheer710815-hub/apttosell-subscription-data/actions/workflows/validate-reference-csv.yml/badge.svg)](https://github.com/cheer710815-hub/apttosell-subscription-data/actions/workflows/validate-reference-csv.yml)
 
 South Korea's 2026 housing-subscription reference data for private housing applications, including the 84-point subscription score structure and region/area-specific required deposit amounts.
