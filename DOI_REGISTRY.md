@@ -16,7 +16,6 @@
 | N06 contract schedules | Zenodo | 10.5281/zenodo.23656772 | Historical v1.0 |
 | N07 special supply | Zenodo | 10.5281/zenodo.23827229 | Historical v1.0; stale reserved-DOI wording reported |
 | DDFS | Figshare | article 34536966 | Account-disabled trigger; deposited content recovery pending |
-
 | Subscription reference | Zenodo | 10.5281/zenodo.22842057 | Historical concept identifier; current accessibility unverified |
 | Price merit / competition | Zenodo | 10.5281/zenodo.23258478 | Historical v1.0; overlap with related pricing studies unresolved; current accessibility unverified |
 | Price merit / competition | Mendeley Data | 10.17632/ch8nxtnckc.1 | Historical same-study distribution mirror; frozen-file identity not reverified; current accessibility unverified |
