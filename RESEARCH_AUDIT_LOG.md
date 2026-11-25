@@ -17,10 +17,12 @@
 - `README.md`: prominent audit status and documentation links.
 
 ## Still unresolved
-- Full Figshare deposited files and metadata (including disabled-account record `34536966` and private draft `34948234`).
+- Reconcile historical deposited files and metadata with the corresponding public research versions where access is available.
 - Zenodo/Dataverse/Mendeley actual record accessibility and version identity.
 - DDFS overlap/independence, external source rights and copied-text comparison.
 - Remaining GitHub branches, histories, supplementary unpublished files, and all repository file manifests.
 - Other accessible repositories (real-estate-mcp, awesome-real-estate, awesome-real-estate-investing, apd-core, awesome-public-data-sources, k-skill) require upstream license/fork checks before any modifications.
 
 **Release rule:** Do not merge the documentation proposal until reviewed. Never interpret this audit log as a provider-policy clearance or a claim of no account-restriction risk.
+
+2026-11-25 documentation review: clarified the scope of repository-level citation metadata, distinguished release identifiers from research families, and documented source-rights and reproducibility limitations. Existing data, analysis code, historical research versions, and frozen archived files are outside the scope of these proposed documentation changes. Current remote DOI accessibility and deposited-file identity remain unverified.
