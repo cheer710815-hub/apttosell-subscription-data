@@ -1,5 +1,8 @@
 # AptToSell Apartment Subscription Data
 
+> **Research integrity / DOI audit notice (2026-11-24):** Existing DOI links below are **historical identifiers, not confirmations of live availability or current deposit validity**. Figshare account access is disabled and Zenodo access restrictions remain unresolved. No new DOI deposits, cross-platform re-uploads or account workarounds are authorized. This repository contains **related datasets derived from the same 196-project cohort**, not separate independently sampled studies. See [research provenance](RESEARCH_INVENTORY.md), [DOI register](DOI_REGISTRY.md), and [publication safeguards](PUBLICATION_POLICY.md). Existing source data and frozen archives have not been changed by this audit.
+
+
 [![Validate reference CSV structure](https://github.com/cheer710815-hub/apttosell-subscription-data/actions/workflows/validate-reference-csv.yml/badge.svg)](https://github.com/cheer710815-hub/apttosell-subscription-data/actions/workflows/validate-reference-csv.yml)
 
 South Korea's 2026 housing-subscription reference data for private housing applications, including the 84-point subscription score structure and region/area-specific required deposit amounts.
@@ -48,7 +51,7 @@ This study is **separate from** the 103-record first-event registry and other re
 
 ## Which dataset should I cite? / 연구자료별 인용 안내
 
-이 저장소에는 **서로 다른 연구와 버전**이 함께 있습니다. 최상위 [CITATION.cff](CITATION.cff)는 저장소 전체의 인용 메타데이터이며, 여기에 나열된 DOI를 하나의 연구에 모두 인용해서는 안 됩니다.
+이 저장소에는 **서로 다른 연구와 버전**이 함께 있습니다. 최상위 [CITATION.cff](CITATION.cff)는 저장소 카탈로그의 인용 메타데이터입니다. 개별 연구는 [연구 목록](RESEARCH_INVENTORY.md)과 [DOI 등록 이력](DOI_REGISTRY.md), 해당 연구의 인용 파일에서 실제 사용한 자료의 제목·버전·식별자 및 검증 상태를 확인하여 인용하세요.
 
 | 사용한 자료 | 우선 확인할 인용 정보 |
 | --- | --- |
@@ -113,7 +116,7 @@ AptToSell's descriptive analysis of **980 person-to-person, broker-mediated apar
 
 ## Dataset versions and official notice types
 
-The repository-level `datapackage.json` catalog is version **1.2**. The `CITATION.cff` version **1.0** refers to the cited reference release. These are different version scopes, not conflicting revisions of a single archived DOI.
+The repository-level `datapackage.json` catalog and individual research releases have different version scopes. The root `CITATION.cff` describes the catalog; consult the study-specific citation metadata for the version and historical DOI actually used.
 
 For reproducible research, cite the specific dataset DOI and its recorded version.
 
